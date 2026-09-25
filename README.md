@@ -1,4 +1,5 @@
 # Useful Ores
+<img width="897" height="285" alt="image" src="https://github.com/user-attachments/assets/aa773b0a-19de-43cf-b489-ef22c0f18c99" />
 
 Useful Ores expands the normal ores-and-gear formula with custom resources, equipment, redstone systems, machines, magic, alchemy, world-generation features, and utility mechanics.
 
