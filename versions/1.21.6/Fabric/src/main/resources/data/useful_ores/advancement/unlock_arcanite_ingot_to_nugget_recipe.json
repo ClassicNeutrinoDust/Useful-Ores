@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "has_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:nuggets/arcanite"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "useful_ores:arcanite_ingot_to_nugget_recipe"
+    ]
+  }
+}

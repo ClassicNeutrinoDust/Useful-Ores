@@ -1,0 +1,4 @@
+{
+  "parent": "useful_ores:block/titanium_rail_flat",
+  "textures": { "rail": "useful_ores:block/titanium_rail_corner" }
+}

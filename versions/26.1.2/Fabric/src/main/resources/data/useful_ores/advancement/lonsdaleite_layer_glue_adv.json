@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "useful_ores:lonsdaleite_layer_glue"
+    },
+    "title": {
+      "translate": "advancements.lonsdaleite_layer_glue_adv.title"
+    },
+    "description": {
+      "translate": "advancements.lonsdaleite_layer_glue_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lonsdaleite_layer_glue_adv_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:lonsdaleite_layer_glue",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "useful_ores:lonsdaleite_ore_adv",
+  "rewards": {
+    "experience": 10
+  }
+}

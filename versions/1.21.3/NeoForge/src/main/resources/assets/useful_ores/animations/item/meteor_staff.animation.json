@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.meteor_staff.animation_move": {
+      "loop": true,
+      "animation_length": 2.04167,
+      "bones": {
+        "meteorite_core_bone": {
+          "rotation": {
+            "0.0": [0, 10, 0],
+            "0.5": [0, 100, 0],
+            "1.0": [0, 190, 0],
+            "1.5": [0, 280, 0],
+            "2.0": [0, 370, 0]
+          },
+          "position": {
+            "0.0": [0, 0, 0],
+            "1.0": [0, 0.3, 0],
+            "2.0": [0, 0, 0]
+          }
+        }
+      }
+    }
+  }
+}

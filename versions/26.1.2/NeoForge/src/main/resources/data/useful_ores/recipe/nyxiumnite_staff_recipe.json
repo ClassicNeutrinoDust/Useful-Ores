@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    " A ",
+    " A "
+  ],
+  "key": {
+    "C": "useful_ores:volatile_nyxiumnite_core",
+    "A": "useful_ores:argentite_ingot"
+  },
+  "result": { "id": "useful_ores:nyxiumnite_staff", "count": 1 }
+}

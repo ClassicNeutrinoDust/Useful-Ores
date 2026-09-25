@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "useful_ores",
+  "version": "${version}",
+  "name": "Useful Ores",
+  "description": "Adds 14 ores and recipes (Swords, Armors, Tools and Blocks)",
+  "authors": [
+    "NeutrinoDust"
+  ],
+  "license": "MIT",
+  "icon": "useful_ores.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.neutrinodust.useful_ores.UsefulOresMod"
+    ],
+    "client": [
+      "com.neutrinodust.useful_ores.client.UsefulOresModClient"
+    ]
+  },
+  "mixins": [
+    "useful_ores.mixins.json",
+    "useful_ores.fabric.mixins.json",
+    "useful_ores.sound.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric-api": "*",
+    "minecraft": ">=1.21.6 <1.21.7",
+    "java": ">=21",
+    "geckolib": ">=5.2.0 <5.3.0"
+  },
+  "suggests": {
+    "sodium": "*"
+  }
+}

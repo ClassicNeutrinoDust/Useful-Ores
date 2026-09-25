@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:minecart",
+    "useful_ores:solar_battery",
+    "useful_ores:solarite_ingot"
+  ],
+  "result": {
+    "id": "useful_ores:solarite_battery_minecart",
+    "count": 1
+  }
+}

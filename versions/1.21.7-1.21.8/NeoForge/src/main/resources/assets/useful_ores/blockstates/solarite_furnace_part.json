@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "high_x=false,high_y=false,high_z=false": { "model": "useful_ores:block/solarite_furnace_invisible" },
+    "high_x=true,high_y=false,high_z=false":  { "model": "useful_ores:block/solarite_furnace_invisible" },
+    "high_x=false,high_y=true,high_z=false":  { "model": "useful_ores:block/solarite_furnace_invisible" },
+    "high_x=false,high_y=false,high_z=true":  { "model": "useful_ores:block/solarite_furnace_invisible" },
+    "high_x=true,high_y=true,high_z=false":   { "model": "useful_ores:block/solarite_furnace_invisible" },
+    "high_x=true,high_y=false,high_z=true":   { "model": "useful_ores:block/solarite_furnace_invisible" },
+    "high_x=false,high_y=true,high_z=true":   { "model": "useful_ores:block/solarite_furnace_invisible" },
+    "high_x=true,high_y=true,high_z=true":    { "model": "useful_ores:block/solarite_furnace_invisible" }
+  }
+}

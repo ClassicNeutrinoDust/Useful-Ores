@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "TRT",
+    "CZC",
+    "SSS"
+  ],
+  "key": {
+    "T": "minecraft:redstone_torch",
+    "R": "minecraft:redstone",
+    "C": "minecraft:copper_ingot",
+    "Z": "useful_ores:raw_zephyrite",
+    "S": "minecraft:stone"
+  },
+  "result": { "id": "useful_ores:wireless_redstone_relay", "count": 1 }
+}

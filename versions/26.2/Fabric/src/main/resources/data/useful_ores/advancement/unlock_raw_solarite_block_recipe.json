@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "has_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials/solarite"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "useful_ores:raw_solarite_block_recipe"
+    ]
+  }
+}

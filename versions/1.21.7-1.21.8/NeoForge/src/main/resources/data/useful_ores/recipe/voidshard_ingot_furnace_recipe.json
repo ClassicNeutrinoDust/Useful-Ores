@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 8,
+  "cookingtime": 1800,
+  "group": "voidshard_ingot",
+  "ingredient": "#c:raw_materials/voidshard",
+  "result": {
+    "id": "useful_ores:voidshard_ingot"
+  }
+}

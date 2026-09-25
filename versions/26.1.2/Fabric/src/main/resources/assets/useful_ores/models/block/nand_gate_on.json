@@ -1,0 +1,40 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "useful_ores:block/nand_gate_top_on",
+		"top": "useful_ores:block/nand_gate_top_on",
+		"side": "useful_ores:block/wireless_redstone_relay_side",
+		"bottom": "useful_ores:block/wireless_redstone_relay_bottom",
+		"gem": "useful_ores:block/wireless_redstone_relay_gem_on"
+	},
+	"elements": [
+		{
+			"name": "plate",
+			"from": [0, 0, 0],
+			"to": [16, 2, 16],
+			"faces": {
+				"north": {"uv": [0, 14, 16, 16], "texture": "#side"},
+				"east": {"uv": [0, 14, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 14, 16, 16], "texture": "#side"},
+				"west": {"uv": [0, 14, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"name": "core",
+			"from": [6, 2, 5.05],
+			"to": [10, 4, 10.5],
+			"faces": {
+				"north": {"uv": [6, 12, 10, 14], "texture": "#gem"},
+				"east": {"uv": [5.5, 12, 10.95, 14], "texture": "#gem"},
+				"south": {"uv": [6, 12, 10, 14], "texture": "#gem"},
+				"west": {"uv": [5.05, 12, 10.5, 14], "texture": "#gem"},
+				"up": {"uv": [6, 5.05, 10, 10.5], "texture": "#gem"},
+				"down": {"uv": [6, 5.5, 10, 10.95], "texture": "#gem"}
+			}
+		}
+	]
+}

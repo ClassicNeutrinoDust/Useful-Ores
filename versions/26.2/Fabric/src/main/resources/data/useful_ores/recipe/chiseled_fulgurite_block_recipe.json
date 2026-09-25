@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "useful_ores:fulgurite_block",
+  "result": {
+    "id": "useful_ores:chiseled_fulgurite_block",
+    "count": 1
+  }
+}

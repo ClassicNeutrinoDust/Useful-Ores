@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "useful_ores:meteor_bomb"
+    },
+    "title": {
+      "translate": "advancements.meteor_bomb_adv.title"
+    },
+    "description": {
+      "translate": "advancements.meteor_bomb_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "meteor_bomb_adv_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:meteor_bomb",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "useful_ores:meteor_dust_adv",
+  "rewards": {
+    "experience": 10
+  }
+}

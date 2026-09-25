@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "#c:ingots/phosgene",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "useful_ores:phosgene_sword",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "useful_ores:block/chromite_sticky_piston"
+  }
+}

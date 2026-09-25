@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "has_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:redstone_torch"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "useful_ores:nor_gate_recipe"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ggg",
+    "gsg",
+    "ooo"
+  ],
+  "key": {
+    "g": "minecraft:glass",
+    "s": "useful_ores:extruding_nether_star",
+    "o": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "useful_ores:super_beacon",
+    "count": 1
+  }
+}

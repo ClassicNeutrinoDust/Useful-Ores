@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "#c:ingots/fulgurite"
+  },
+  "result": {
+    "id": "useful_ores:fulgurite_nugget",
+    "count": 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NTN",
+    "NNN"
+  ],
+  "key": {
+    "N": "#c:nuggets/zephyrite",
+    "T": "useful_ores:zephyrite_torch"
+  },
+  "result": {
+    "id": "useful_ores:zephyrite_lantern",
+    "count": 1
+  }
+}

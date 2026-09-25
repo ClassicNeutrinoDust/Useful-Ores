@@ -1,0 +1,5 @@
+V65 compile/API audit:
+- Minecraft 1.21.10 uses getDeltaTracker(), mapped to intermediary method_61966; DeltaTracker exposes getGameTimeDeltaPartialTick(boolean), mapped to method_60637(boolean).
+- Removed all getTimer()/getFrameTime() references from spear code.
+- No obsolete renderFirstPersonItem capture injection is present.
+- Verified spear first-person mixin source references method_3228 and method_3233 only.

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fire_floor",
+  "textures": {
+    "fire": "useful_ores:block/arcanite_fire_0"
+  }
+}

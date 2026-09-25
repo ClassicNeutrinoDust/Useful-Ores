@@ -1,0 +1,4 @@
+{ "type": "minecraft:crafting_shaped", "category": "equipment",
+  "pattern": [ "aaa", " b ", " b " ],
+  "key": { "a": "#c:ingots/subspace", "b": "minecraft:stick" },
+  "result": { "id": "useful_ores:subspace_pickaxe", "count": 1 } }

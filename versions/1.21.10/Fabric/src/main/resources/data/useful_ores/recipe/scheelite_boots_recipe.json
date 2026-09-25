@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "#c:ingots/scheelite"
+  },
+  "result": {
+    "id": "useful_ores:scheelite_boots",
+    "count": 1
+  }
+}

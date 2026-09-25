@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "useful_ores:extruding_nether_star"
+    },
+    "title": {
+      "translate": "advancements.extruding_nether_star_adv.title"
+    },
+    "description": {
+      "translate": "advancements.extruding_nether_star_adv.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "extruding_nether_star_adv_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:extruding_nether_star",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "useful_ores:extruding_crystal_adv",
+  "rewards": {
+    "experience": 10
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "useful_ores:nyxium_arcanite_core",
+    "minecraft:dragon_breath"
+  ],
+  "result": { "id": "useful_ores:volatile_nyxiumnite_core", "count": 1 }
+}

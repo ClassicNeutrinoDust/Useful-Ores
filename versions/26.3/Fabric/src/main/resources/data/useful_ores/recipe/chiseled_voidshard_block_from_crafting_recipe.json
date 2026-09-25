@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "useful_ores:voidshard_block"
+  },
+  "result": {
+    "id": "useful_ores:chiseled_voidshard_block",
+    "count": 4
+  }
+}

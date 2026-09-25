@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "useful_ores:phosgene_ore",
+    "useful_ores:deepslate_phosgene_ore"
+  ]
+}

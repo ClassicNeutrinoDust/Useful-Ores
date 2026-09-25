@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "useful_ores:block/osmium_block"
+  }
+}

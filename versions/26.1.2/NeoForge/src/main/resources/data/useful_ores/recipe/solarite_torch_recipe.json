@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "X"
+  ],
+  "key": {
+    "#": "#c:nuggets/solarite",
+    "X": "minecraft:stick"
+  },
+  "result": {
+    "id": "useful_ores:solarite_torch",
+    "count": 4
+  }
+}

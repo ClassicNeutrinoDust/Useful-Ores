@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "useful_ores:raw_phosgene_block"
+  },
+  "result": {
+    "id": "useful_ores:raw_phosgene",
+    "count": 9
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "X"
+  ],
+  "key": {
+    "#": "#c:nuggets/ilmenite",
+    "X": "minecraft:stick"
+  },
+  "result": {
+    "id": "useful_ores:ilmenite_torch",
+    "count": 4
+  }
+}

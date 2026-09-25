@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 5,
+  "cookingtime": 150,
+  "group": "solarite_ingot",
+  "ingredient": "#c:ores/solarite",
+  "result": {
+    "id": "useful_ores:solarite_ingot"
+  }
+}

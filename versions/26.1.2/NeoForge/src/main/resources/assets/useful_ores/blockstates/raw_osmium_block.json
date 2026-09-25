@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "useful_ores:block/raw_osmium_block"
+    }
+  }
+}

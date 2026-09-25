@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "has_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials/zephyrite"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "useful_ores:raw_zephyrite_block_recipe"
+    ]
+  }
+}

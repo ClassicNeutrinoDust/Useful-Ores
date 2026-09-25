@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "useful_ores:chromite_sword",
+    "useful_ores:nyxium_sword",
+    "useful_ores:phosgene_sword",
+    "useful_ores:arcanite_sword",
+    "useful_ores:fulgurite_sword",
+    "useful_ores:osmium_sword",
+    "useful_ores:solarite_sword",
+    "useful_ores:sperrylite_sword",
+    "useful_ores:argentite_sword",
+    "useful_ores:zephyrite_sword",
+    "useful_ores:ilmenite_sword",
+    "useful_ores:scheelite_sword",
+    "useful_ores:enderium_sword",
+    "useful_ores:voidshard_sword",
+    "useful_ores:subspace_sword",
+    "useful_ores:attributed_subspace_sword"
+  ]
+}

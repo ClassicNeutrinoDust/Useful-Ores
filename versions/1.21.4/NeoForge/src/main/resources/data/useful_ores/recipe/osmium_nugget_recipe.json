@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "#c:ingots/osmium"
+  },
+  "result": {
+    "id": "useful_ores:osmium_nugget",
+    "count": 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NTN",
+    "NNN"
+  ],
+  "key": {
+    "N": "#c:nuggets/osmium",
+    "T": "useful_ores:osmium_torch"
+  },
+  "result": {
+    "id": "useful_ores:osmium_lantern",
+    "count": 1
+  }
+}

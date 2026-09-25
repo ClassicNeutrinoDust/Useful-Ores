@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "useful_ores:item/painite_helmet_fury",
+    "layer1": "minecraft:trims/items/helmet_trim_iron"
+  }
+}

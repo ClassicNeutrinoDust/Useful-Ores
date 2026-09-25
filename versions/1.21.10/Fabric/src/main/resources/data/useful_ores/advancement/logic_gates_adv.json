@@ -1,0 +1,103 @@
+{
+  "display": {
+    "icon": {
+      "id": "useful_ores:and_gate"
+    },
+    "title": {
+      "translate": "advancements.logic_gates_adv.title"
+    },
+    "description": {
+      "translate": "advancements.logic_gates_adv.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "and_gate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:and_gate"
+          }
+        ]
+      }
+    },
+    "or_gate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:or_gate"
+          }
+        ]
+      }
+    },
+    "not_gate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:not_gate"
+          }
+        ]
+      }
+    },
+    "nand_gate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:nand_gate"
+          }
+        ]
+      }
+    },
+    "nor_gate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:nor_gate"
+          }
+        ]
+      }
+    },
+    "xor_gate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:xor_gate"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "and_gate"
+    ],
+    [
+      "or_gate"
+    ],
+    [
+      "not_gate"
+    ],
+    [
+      "nand_gate"
+    ],
+    [
+      "nor_gate"
+    ],
+    [
+      "xor_gate"
+    ]
+  ],
+  "parent": "useful_ores:mod_achievement",
+  "rewards": {
+    "experience": 30
+  }
+}

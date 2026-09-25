@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    "ab",
+    " b"
+  ],
+  "key": {
+    "a": "#c:ingots/osmium",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "useful_ores:osmium_axe",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 8,
+  "cookingtime": 1800,
+  "group": "painite_ingot",
+  "ingredient": "#c:raw_materials/painite",
+  "result": {
+    "id": "useful_ores:painite_ingot"
+  }
+}

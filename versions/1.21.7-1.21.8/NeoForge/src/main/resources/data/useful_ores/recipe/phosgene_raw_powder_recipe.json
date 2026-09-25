@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RDR",
+    "DSB",
+    "RDR"
+  ],
+  "key": {
+    "R": "useful_ores:raw_phosgene",
+    "D": "minecraft:redstone",
+    "S": "minecraft:slime_block",
+    "B": "minecraft:blaze_rod"
+  },
+  "result": {
+    "id": "useful_ores:phosgene_raw_powder",
+    "count": 16
+  }
+}

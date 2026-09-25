@@ -1,0 +1,4 @@
+{
+  "parent": "useful_ores:block/titanium_rail_raised_sw",
+  "textures": { "rail": "useful_ores:block/solarite_rail" }
+}

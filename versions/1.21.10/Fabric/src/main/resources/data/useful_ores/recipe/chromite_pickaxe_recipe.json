@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": "#c:ingots/chromite",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "useful_ores:chromite_pickaxe",
+    "count": 1
+  }
+}
