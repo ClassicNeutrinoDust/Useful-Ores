@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "#c:ingots/ilmenite"
+  },
+  "result": {
+    "id": "useful_ores:ilmenite_nugget",
+    "count": 9
+  }
+}

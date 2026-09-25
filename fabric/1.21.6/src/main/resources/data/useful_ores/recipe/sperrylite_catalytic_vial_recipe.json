@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NBN",
+    "NNN"
+  ],
+  "key": {
+    "N": "#c:nuggets/sperrylite",
+    "B": "minecraft:glass_bottle"
+  },
+  "result": {
+    "id": "useful_ores:sperrylite_catalytic_vial",
+    "count": 1
+  }
+}

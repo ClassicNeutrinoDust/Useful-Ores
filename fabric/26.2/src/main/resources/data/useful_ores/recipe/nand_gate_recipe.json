@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "QTQ",
+    "TCT",
+    "QTQ"
+  ],
+  "key": {
+    "Q": "minecraft:quartz",
+    "T": "minecraft:redstone_torch",
+    "C": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "useful_ores:nand_gate",
+    "count": 1
+  }
+}

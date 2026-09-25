@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/rail_flat",
+  "textures": {
+    "rail": "useful_ores:block/solarite_rail_night"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "SFS",
+    "TPT"
+  ],
+  "key": {
+    "S": "useful_ores:solarite_ingot",
+    "F": "minecraft:furnace",
+    "T": "minecraft:smooth_stone",
+    "P": "useful_ores:phosgene_block"
+  },
+  "result": {
+    "id": "useful_ores:solarite_furnace_component",
+    "count": 1
+  }
+}

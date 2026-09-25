@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": { "a": "#c:nuggets/subspace" },
+  "result": { "id": "useful_ores:subspace_ingot", "count": 1 }
+}

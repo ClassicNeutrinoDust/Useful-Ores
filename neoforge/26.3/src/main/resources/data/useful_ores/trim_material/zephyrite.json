@@ -1,0 +1,9 @@
+{
+  "palette_id": "zephyrite",
+  "description": {
+    "color": "#817D5D",
+    "translate": "trim_material.useful_ores.zephyrite"
+  },
+  "ingredient": "useful_ores:zephyrite_ingot",
+  "item_model_index": 0.0
+}

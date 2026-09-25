@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_voidshard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/voidshard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "useful_ores:voidshard_spear"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_voidshard"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "useful_ores:voidshard_spear"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:ore",
+  "discard_chance_on_air_exposure": 1.0,
+  "size": 3,
+  "targets": [
+    {
+      "state": {
+        "id": "useful_ores:solarite_ore"
+      },
+      "target": {
+        "predicate_type": "minecraft:tag_match",
+        "tag": "useful_ores:generates_in/netherrack"
+      }
+    }
+  ]
+}

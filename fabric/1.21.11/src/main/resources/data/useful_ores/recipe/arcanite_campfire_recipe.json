@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "SCS",
+    "LLL"
+  ],
+  "key": {
+    "C": "useful_ores:arcanite_infused_coal",
+    "L": "#minecraft:logs",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "useful_ores:arcanite_campfire",
+    "count": 1
+  }
+}

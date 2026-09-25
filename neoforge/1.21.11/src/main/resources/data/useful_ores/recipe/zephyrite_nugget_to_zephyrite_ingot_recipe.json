@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "#c:nuggets/zephyrite"
+  },
+  "result": {
+    "id": "useful_ores:zephyrite_ingot",
+    "count": 1
+  }
+}

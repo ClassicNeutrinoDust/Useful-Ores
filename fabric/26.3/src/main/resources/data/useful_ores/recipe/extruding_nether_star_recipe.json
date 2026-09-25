@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:nether_star",
+    "useful_ores:extruding_crystal"
+  ],
+  "result": {
+    "id": "useful_ores:extruding_nether_star",
+    "count": 1
+  }
+}

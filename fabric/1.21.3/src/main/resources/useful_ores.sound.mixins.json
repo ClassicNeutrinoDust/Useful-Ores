@@ -1,0 +1,17 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "refmap": "useful_ores.refmap.json",
+  "package": "com.neutrinodust.useful_ores.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "MixinMinecartSoundInstanceSolarite",
+    "MixinRidingMinecartSoundInstanceSolarite",
+    "MixinAbstractSoundInstanceAccessor"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

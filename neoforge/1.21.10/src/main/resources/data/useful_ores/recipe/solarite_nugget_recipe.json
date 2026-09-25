@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "#c:ingots/solarite"
+  },
+  "result": {
+    "id": "useful_ores:solarite_nugget",
+    "count": 9
+  }
+}

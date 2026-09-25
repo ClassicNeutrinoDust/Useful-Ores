@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "has_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/subspace"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "useful_ores:subspace_helmet_recipe"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 4,
+  "cookingtime": 200,
+  "group": "sperrylite_ingot",
+  "ingredient": "#c:raw_materials/sperrylite",
+  "result": {
+    "id": "useful_ores:sperrylite_ingot"
+  }
+}

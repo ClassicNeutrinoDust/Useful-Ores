@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "#c:ingots/argentite"
+  },
+  "result": {
+    "id": "useful_ores:argentite_nugget",
+    "count": 9
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "#c:ingots/chromite"
+  },
+  "result": {
+    "id": "useful_ores:chromite_nugget",
+    "count": 9
+  }
+}

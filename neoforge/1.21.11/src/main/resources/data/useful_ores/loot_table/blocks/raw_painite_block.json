@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "useful_ores:blocks/raw_painite_block",
+  "pools": [ { "rolls": 1.0, "conditions": [ { "condition": "minecraft:survives_explosion" } ],
+    "entries": [ { "type": "minecraft:item", "name": "useful_ores:raw_painite_block" } ] } ]
+}

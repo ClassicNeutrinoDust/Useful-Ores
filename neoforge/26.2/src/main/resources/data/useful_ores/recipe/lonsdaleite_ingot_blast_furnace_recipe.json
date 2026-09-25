@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 8,
+  "cookingtime": 900,
+  "group": "lonsdaleite_ingot",
+  "ingredient": "#c:raw_materials/lonsdaleite",
+  "result": {
+    "id": "useful_ores:lonsdaleite_ingot"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "get_sperrylite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/sperrylite"
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 1
+        }
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "useful_ores:sperrylite_sword_recipe",
+      "useful_ores:sperrylite_pickaxe_recipe",
+      "useful_ores:sperrylite_axe_recipe",
+      "useful_ores:sperrylite_hoe_recipe",
+      "useful_ores:sperrylite_shovel_recipe",
+      "useful_ores:sperrylite_helmet_recipe",
+      "useful_ores:sperrylite_chestplate_recipe",
+      "useful_ores:sperrylite_leggings_recipe",
+      "useful_ores:sperrylite_boots_recipe",
+      "useful_ores:sperrylite_nugget_recipe",
+      "useful_ores:sperrylite_block_recipe"
+    ]
+  }
+}

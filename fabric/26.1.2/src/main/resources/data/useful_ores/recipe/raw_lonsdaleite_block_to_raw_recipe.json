@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [ "a" ],
+  "key": { "a": "useful_ores:raw_lonsdaleite_block" },
+  "result": { "id": "useful_ores:raw_lonsdaleite", "count": 9 }
+}

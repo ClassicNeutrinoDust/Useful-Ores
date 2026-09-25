@@ -1,0 +1,92 @@
+package com.neutrinodust.useful_ores.mixin;
+
+import com.mojang.blaze3d.vertex.PoseStack;
+import com.neutrinodust.useful_ores.Constants;
+import com.neutrinodust.useful_ores.client.spear.SpearSuperLog;
+import com.neutrinodust.useful_ores.client.spear.VanillaSpearAnimations;
+import com.neutrinodust.useful_ores.init.SpearTags;
+import net.minecraft.client.renderer.ItemInHandRenderer;
+import net.minecraft.client.renderer.MultiBufferSource;
+import net.minecraft.client.player.AbstractClientPlayer;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.entity.HumanoidArm;
+import net.minecraft.world.item.ItemDisplayContext;
+import net.minecraft.world.item.ItemStack;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+
+
+@Mixin(ItemInHandRenderer.class)
+public abstract class MixinVanillaSpearFirstPerson {
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+    private static boolean usefulOres$lastBranchWasUse = false;
+    private static long usefulOres$lastLogTick = -1;
+
+    @Inject(method="method_3228", at=@At("HEAD"), cancellable=true, remap=false)
+    private void usefulOres$renderSpear(AbstractClientPlayer player,float tickProgress,float pitch,InteractionHand hand,float swingProgress,ItemStack item,float equipProgress,PoseStack pose,MultiBufferSource bufferSource,int light,CallbackInfo ci){
+        if(item.isEmpty() || !item.is(SpearTags.SPEARS)) return;
+        HumanoidArm arm=hand==InteractionHand.MAIN_HAND?player.getMainArm():player.getMainArm().getOpposite();
+        int sign=arm==HumanoidArm.RIGHT?1:-1;
+        ItemInHandRendererAccessor r=(ItemInHandRendererAccessor)(Object)this;
+        ItemDisplayContext ctx=arm==HumanoidArm.RIGHT?ItemDisplayContext.FIRST_PERSON_RIGHT_HAND:ItemDisplayContext.FIRST_PERSON_LEFT_HAND;
+        boolean useBranch = player.isUsingItem() && player.getUseItemRemainingTicks() > 0 && player.getUsedItemHand()==hand;
+
+        String currentHit = net.minecraft.client.Minecraft.getInstance().hitResult == null
+                ? "NULL" : net.minecraft.client.Minecraft.getInstance().hitResult.getType().name();
+        SpearSuperLog.renderBranch(
+                player.level().getGameTime(), hand.name(), useBranch,
+                player.isUsingItem(), player.getUseItemRemainingTicks(), swingProgress,
+                equipProgress, currentHit
+        );
+
+        if (useBranch != usefulOres$lastBranchWasUse) {
+            usefulOres$lastBranchWasUse = useBranch;
+            long t = player.level().getGameTime();
+            if (t != usefulOres$lastLogTick) {
+                usefulOres$lastLogTick = t;
+                Constants.LOG.info(
+                        "[spear-anim-debug] branch changed to {} | isUsingItem={} useRemaining={} usedHand={} hand={} swingProgress={}",
+                        useBranch ? "USE" : "ATTACK",
+                        player.isUsingItem(), player.getUseItemRemainingTicks(), player.getUsedItemHand(), hand, swingProgress
+                );
+            }
+        }
+
+        if(useBranch){
+            
+            
+            
+            pose.translate((float)sign * 0.56F, -0.52F, -0.72F);
+            float timeHeld=(float)item.getUseDuration(player)-((float)player.getUseItemRemainingTicks()-tickProgress+1.0F);
+            VanillaSpearAnimations.firstPersonUse(10.0F, pose, timeHeld, arm, item);
+        }else{
+            r.usefulOres$invokeApplyItemArmTransform(pose,arm,0.0F);
+            if(swingProgress>0.0F) {
+                
+                
+                
+                
+                
+                
+                
+                VanillaSpearAnimations.firstPersonAttack(swingProgress,pose,sign,arm);
+            }
+        }
+        r.usefulOres$invokeRenderItem(player,item,ctx,arm==HumanoidArm.LEFT,pose,bufferSource,light);
+        ci.cancel();
+    }
+}
+

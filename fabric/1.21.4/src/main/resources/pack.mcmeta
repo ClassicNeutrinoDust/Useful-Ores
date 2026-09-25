@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Useful Ores",
+    "pack_format": 46,
+    "supported_formats": [46, 61]
+  }
+}

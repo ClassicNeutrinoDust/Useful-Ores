@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "useful_ores:nyxium_block",
+  "result": {
+    "id": "useful_ores:chiseled_nyxium_block",
+    "count": 1
+  }
+}

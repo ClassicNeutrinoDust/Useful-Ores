@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "useful_ores:item/painite_boots_fury",
+    "layer1": "minecraft:trims/items/boots_trim_diamond"
+  }
+}

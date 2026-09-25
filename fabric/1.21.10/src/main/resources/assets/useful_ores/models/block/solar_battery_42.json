@@ -1,0 +1,6 @@
+{
+  "parent": "useful_ores:block/solar_battery_base",
+  "textures": {
+    "texture": "useful_ores:block/solar_battery_42"
+  }
+}

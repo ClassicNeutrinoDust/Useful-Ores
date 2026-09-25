@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 6,
+  "cookingtime": 300,
+  "group": "osmium_ingot",
+  "ingredient": "#c:ores/osmium",
+  "result": {
+    "id": "useful_ores:osmium_ingot"
+  }
+}

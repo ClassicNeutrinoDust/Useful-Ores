@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": "#c:ingots/chromite",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "useful_ores:chromite_shovel",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "useful_ores:voidshard_block",
+  "result": {
+    "id": "useful_ores:chiseled_voidshard_block",
+    "count": 1
+  }
+}

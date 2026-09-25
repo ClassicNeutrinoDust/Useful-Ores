@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "useful_ores:chromite_boots",
+    "useful_ores:nyxium_boots",
+    "useful_ores:phosgene_boots",
+    "useful_ores:arcanite_boots",
+    "useful_ores:fulgurite_boots",
+    "useful_ores:osmium_boots",
+    "useful_ores:solarite_boots",
+    "useful_ores:sperrylite_boots",
+    "useful_ores:argentite_boots",
+    "useful_ores:zephyrite_boots",
+    "useful_ores:ilmenite_boots",
+    "useful_ores:scheelite_boots",
+    "useful_ores:enderium_boots",
+    "useful_ores:voidshard_boots",
+    "useful_ores:subspace_boots",
+    "useful_ores:attributed_subspace_boots",
+    "useful_ores:painite_boots"
+  ]
+}

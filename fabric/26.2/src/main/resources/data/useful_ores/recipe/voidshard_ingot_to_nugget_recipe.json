@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [ "aaa", "aaa", "aaa" ],
+  "key": { "a": "#c:nuggets/voidshard" },
+  "result": { "id": "useful_ores:voidshard_ingot", "count": 1 }
+}

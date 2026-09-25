@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "useful_ores:block/extruding_crystal_ore"
+  }
+}

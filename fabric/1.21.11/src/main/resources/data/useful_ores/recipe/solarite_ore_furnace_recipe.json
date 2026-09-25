@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 5,
+  "cookingtime": 300,
+  "group": "solarite_ingot",
+  "ingredient": "#c:ores/solarite",
+  "result": {
+    "id": "useful_ores:solarite_ingot"
+  }
+}

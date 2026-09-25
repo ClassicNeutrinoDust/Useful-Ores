@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "mined_raw_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:raw_materials"
+          }
+        ]
+      }
+    },
+    "mined_ore_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ores"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mined_raw_ore"
+    ],
+    [
+      "mined_ore_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "useful_ores:useful_ores_compendium",
+      "useful_ores:useful_ores_compendium_painite"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "#c:ingots/scheelite"
+  },
+  "result": {
+    "id": "useful_ores:scheelite_leggings",
+    "count": 1
+  }
+}

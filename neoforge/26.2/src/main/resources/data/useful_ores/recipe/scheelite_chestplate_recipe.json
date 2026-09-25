@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "#c:ingots/scheelite"
+  },
+  "result": {
+    "id": "useful_ores:scheelite_chestplate",
+    "count": 1
+  }
+}

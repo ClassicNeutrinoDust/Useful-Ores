@@ -1,0 +1,9 @@
+Nyxium is a dark blue, rare ore charged with dark magic, capable of reversing the state of certain items and fuelling several of the mod's more sinister tools.
+
+Generation: Overworld, in stone and deepslate. Three separate placements are layered together: a main vein from Y -64 to Y 16 (7 veins/chunk), a large single-vein pocket from Y -64 to Y -48 (1 vein/chunk), and a small uniformly-distributed pocket from Y -64 to Y -4 (2 veins/chunk). Clusters are size 9, and ore has a 50% chance to vanish if exposed to air, making it fragile to mine carelessly.
+
+Drops: 1 Raw Nyxium per block, boosted by Fortune, or the ore block itself when mined with Silk Touch.
+
+Tool stats: 2200 durability, 8.0 mining speed, +10.0 attack damage bonus, enchantability 15. It is not correct for Netherite-tier-only blocks, the mod's top tier gate.
+
+Special ability: The Nyxium Sword inflicts Wither on every hit, and Nyxium Arrows steal up to a full heart of health from whatever they strike, handing it to the shooter as a golden absorption heart.

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "a a"
+  ],
+  "key": {
+    "a": "#c:ingots/nyxium",
+    "b": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "useful_ores:nyxium_helmet",
+    "count": 1
+  }
+}

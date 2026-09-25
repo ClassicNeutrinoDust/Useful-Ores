@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 7,
+  "cookingtime": 2400,
+  "group": "fulgurite_ingot",
+  "ingredient": "#c:ores/fulgurite",
+  "result": {
+    "id": "useful_ores:fulgurite_ingot"
+  }
+}

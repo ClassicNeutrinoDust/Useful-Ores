@@ -1,0 +1,17 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "useful_ores:painite_low_health"
+      },
+      {
+        "texture": "useful_ores:painite_fury_core_11"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "useful_ores:painite_low_health"
+      }
+    ]
+  }
+}

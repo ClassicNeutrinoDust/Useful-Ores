@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [ "a" ],
+  "key": { "a": "useful_ores:raw_painite_block" },
+  "result": { "id": "useful_ores:raw_painite", "count": 9 }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    "ab",
+    " b"
+  ],
+  "key": {
+    "a": "#c:ingots/ilmenite",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "useful_ores:ilmenite_axe",
+    "count": 1
+  }
+}

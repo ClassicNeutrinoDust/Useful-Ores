@@ -1,0 +1,8 @@
+{
+  "parent": "useful_ores:block/arcanite_xp_jar_base",
+  "textures": {
+    "jar": "useful_ores:block/arcanite_xp_jar_glass",
+    "fill": "useful_ores:block/arcanite_xp_jar_fill_3"
+  },
+  "render_type": "minecraft:translucent"
+}

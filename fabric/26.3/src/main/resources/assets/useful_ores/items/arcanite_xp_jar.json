@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": "ground",
+        "model": { "type": "minecraft:model", "model": "useful_ores:item/arcanite_xp_jar_ground" }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": { "type": "minecraft:model", "model": "useful_ores:item/arcanite_xp_jar_icon_0" },
+      "entries": [
+        { "threshold": 1, "model": { "type": "minecraft:model", "model": "useful_ores:item/arcanite_xp_jar_icon_1" } },
+        { "threshold": 2, "model": { "type": "minecraft:model", "model": "useful_ores:item/arcanite_xp_jar_icon_2" } },
+        { "threshold": 3, "model": { "type": "minecraft:model", "model": "useful_ores:item/arcanite_xp_jar_icon_3" } },
+        { "threshold": 4, "model": { "type": "minecraft:model", "model": "useful_ores:item/arcanite_xp_jar_icon_4" } },
+        { "threshold": 5, "model": { "type": "minecraft:model", "model": "useful_ores:item/arcanite_xp_jar_icon_5" } },
+        { "threshold": 6, "model": { "type": "minecraft:model", "model": "useful_ores:item/arcanite_xp_jar_icon_6" } },
+        { "threshold": 7, "model": { "type": "minecraft:model", "model": "useful_ores:item/arcanite_xp_jar_icon_7" } }
+      ]
+    }
+  }
+}

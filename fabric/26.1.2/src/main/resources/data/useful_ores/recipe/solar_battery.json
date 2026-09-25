@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NIN",
+    "NSN",
+    "NSN"
+  ],
+  "key": {
+    "N": "minecraft:iron_nugget",
+    "I": "useful_ores:phosgene_ingot",
+    "S": "useful_ores:solarite_ingot"
+  },
+  "result": {
+    "id": "useful_ores:solar_battery",
+    "count": 1
+  }
+}

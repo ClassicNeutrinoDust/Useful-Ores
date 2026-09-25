@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "#c:raw_materials/nyxium"
+  },
+  "result": {
+    "id": "useful_ores:raw_nyxium_block",
+    "count": 1
+  }
+}

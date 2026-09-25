@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "X"
+  ],
+  "key": {
+    "#": "#c:nuggets/sperrylite",
+    "X": "minecraft:stick"
+  },
+  "result": {
+    "id": "useful_ores:sperrylite_torch",
+    "count": 4
+  }
+}

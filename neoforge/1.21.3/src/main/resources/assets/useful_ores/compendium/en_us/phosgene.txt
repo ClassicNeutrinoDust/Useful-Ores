@@ -1,0 +1,19 @@
+Phosgene is a toxic, corrosive ore - a low-to-mid tier material that is fragile and comparatively weak, but extremely common and cheap to gather in bulk.
+
+Generation: Overworld, in stone and deepslate. It generates from Y -32 to Y 64, in clusters of 8, with 10 veins per chunk - one of the most common ores in the mod - and never disappears when exposed to air.
+
+Drops: 1 Raw Phosgene per block, boosted by Fortune, or the ore block itself when mined with Silk Touch.
+
+Tool stats: 650 durability, 6.5 mining speed, +6.0 attack damage bonus, enchantability 6. It is not correct for iron-tier-only blocks.
+
+Best used for: bulk crafting rather than combat or mining longevity. Raw Phosgene is a key ingredient of Luminous Phosgene Powder and the Solarite Furnace component, so it's worth stockpiling even after you outgrow Phosgene tools.
+
+Phosgene Potion Powder
+
+Raw Phosgene Powder: Craft it with 4 Raw Phosgene, 3 Redstone Dust, 1 Slime Block, and 1 Blaze Rod in the shaped 3x3 recipe. Each craft makes 16 Raw Phosgene Powder.
+
+Infusing a Potion: Place a normal Potion with effects in the center of a crafting grid and Raw Phosgene Powder in all eight surrounding slots. Each surrounding slot only needs at least 1 powder, so you can leave stacks of powder in the grid instead of splitting them into single items. One craft consumes one powder from each surrounding slot and produces 2 Phosgene Potion Powder carrying the potion's effects and color.
+
+Using it: Use the infused powder on a block to create a temporary potion field. Living entities standing directly above the treated block receive the stored potion effects. The treated block remains active for 1 Minecraft day (24,000 ticks).
+
+Recipe unlocking: The Raw Phosgene Powder recipe unlocks when you obtain Raw Phosgene. The Potion Powder recipe unlocks once you have both Raw Phosgene Powder and a Potion.

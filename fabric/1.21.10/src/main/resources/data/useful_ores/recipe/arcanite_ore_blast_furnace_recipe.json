@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 8,
+  "cookingtime": 200,
+  "group": "arcanite_ingot",
+  "ingredient": "#c:ores/arcanite",
+  "result": {
+    "id": "useful_ores:arcanite_ingot"
+  }
+}

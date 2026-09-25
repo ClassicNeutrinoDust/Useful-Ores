@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 8,
+  "cookingtime": 200,
+  "group": "ilmenite_ingot",
+  "ingredient": "#c:raw_materials/ilmenite",
+  "result": {
+    "id": "useful_ores:ilmenite_ingot"
+  }
+}

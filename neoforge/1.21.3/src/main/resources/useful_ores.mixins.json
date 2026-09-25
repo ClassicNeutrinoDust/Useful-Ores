@@ -1,0 +1,42 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.neutrinodust.useful_ores.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinLivingEntityPainite",
+    "MixinFireBlock",
+    "MixinBaseFireBlock",
+    "MixinBlockEntityType",
+    "MixinBrewingStandBlockEntity",
+    "MixinBrewingStandMenuPotionSlot",
+    "MixinBrewingStandMenuIngredientsSlot",
+    "MixinPistonBaseBlock",
+    "MixinPistonMovingBlockEntity",
+    "MixinPistonStructureResolver",
+    "MixinOldMinecartBehaviorSolariteHighSpeed",
+    "MixinMinecartBehaviorAccessor",
+    "MixinAbstractMinecartSolariteBehavior",
+    "MixinNewMinecartBehaviorSolariteBoost"
+  ],
+  "client": [
+    "MixinItemRendererContextModels",
+    "MixinPistonHeadRenderer",
+    "MixinAbstractMinecartRendererTexture",
+    "MixinLivingEntityRenderStatePainite",
+    "MixinLivingEntityRendererPainite",
+    "MixinHumanoidArmorLayerPainite",
+    "MixinItemInHandLayerSpear",
+    "MixinVanillaSpearFirstPerson",
+    "ItemInHandRendererAccessor",
+    "MixinHumanoidModelSpear",
+    "MixinLivingEntitySpearSwingDuration",
+    "MixinLocalPlayerSpearUseEffects",
+    "MixinMinecraftSpearSounds",
+    "MixinScheeliteChiselModelResolution"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "display": {
+    "icon": {
+      "id": "useful_ores:zephyrite_chestplate"
+    },
+    "title": {
+      "translate": "advancements.zephyrite_armor_achievement.title"
+    },
+    "description": {
+      "translate": "advancements.zephyrite_armor_achievement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "zephyrite_armor_achievement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "useful_ores:zephyrite_helmet"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    },
+    "zephyrite_armor_achievement_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "useful_ores:zephyrite_chestplate"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    },
+    "zephyrite_armor_achievement_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "useful_ores:zephyrite_leggings"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    },
+    "zephyrite_armor_achievement_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "useful_ores:zephyrite_boots"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "useful_ores:armors_achievement"
+}

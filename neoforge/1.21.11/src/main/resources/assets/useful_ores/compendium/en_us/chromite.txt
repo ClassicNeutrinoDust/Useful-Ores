@@ -1,0 +1,9 @@
+Chromite is a hard, corrosion-resistant metal that fills the gap between iron and diamond - a tanky defender's tier for players who want more staying power before they reach diamond gear.
+
+Generation: Overworld, in both the stone and deepslate variants. It generates from Y -32 to Y 0, in clusters of 4, with 4 veins per chunk, and never disappears when exposed to air.
+
+Drops: 1 Raw Chromite per ore block, boosted by Fortune, or the ore block itself when mined with Silk Touch.
+
+Tool stats: 1650 durability, 7.0 mining speed, +8.0 attack damage bonus, enchantability 12. It sits just below the diamond tier gate, so it cannot mine diamond-tier-only blocks.
+
+Best used for: an affordable, durable early defensive upgrade - full Chromite armor and tools bridge the iron-to-diamond gap without needing a rare material.

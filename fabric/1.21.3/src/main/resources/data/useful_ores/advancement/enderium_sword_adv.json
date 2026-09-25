@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "useful_ores:enderium_sword"
+    },
+    "title": {
+      "translate": "advancements.enderium_sword_adv.title"
+    },
+    "description": {
+      "translate": "advancements.enderium_sword_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": 14,
+    "hidden": false
+  },
+  "criteria": {
+    "enderium_sword_adv_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:enderium_sword",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "useful_ores:swords_achievement",
+  "rewards": {
+    "experience": 10
+  }
+}

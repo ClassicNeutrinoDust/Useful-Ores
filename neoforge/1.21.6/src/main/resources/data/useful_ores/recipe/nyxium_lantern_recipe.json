@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NTN",
+    "NNN"
+  ],
+  "key": {
+    "N": "#c:nuggets/nyxium",
+    "T": "useful_ores:nyxium_torch"
+  },
+  "result": {
+    "id": "useful_ores:nyxium_lantern",
+    "count": 1
+  }
+}

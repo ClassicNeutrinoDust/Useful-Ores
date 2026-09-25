@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "useful_ores:painite_block",
+  "result": {
+    "id": "useful_ores:chiseled_painite_block",
+    "count": 1
+  }
+}

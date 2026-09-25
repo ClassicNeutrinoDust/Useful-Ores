@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 8,
+  "cookingtime": 900,
+  "group": "enderium_ingot",
+  "ingredient": "#c:raw_materials/enderium",
+  "result": {
+    "id": "useful_ores:enderium_ingot"
+  }
+}

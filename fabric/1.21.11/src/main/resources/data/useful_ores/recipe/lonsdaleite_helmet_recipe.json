@@ -1,0 +1,4 @@
+{ "type": "minecraft:crafting_shaped", "category": "equipment",
+  "pattern": [ "aaa", "a a" ],
+  "key": { "a": "#c:ingots/lonsdaleite" },
+  "result": { "id": "useful_ores:lonsdaleite_helmet", "count": 1 } }

@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.neutrinodust.useful_ores.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinCauldronFluidContent"
+  ],
+  "client": [
+    "MixinTitleScreen",
+    "MixinLivingEntityRenderStatePainite",
+    "MixinLivingEntityRendererPainite",
+    "MixinHumanoidArmorLayerPainite"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

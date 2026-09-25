@@ -1,0 +1,14 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "useful_ores:item/painite_axe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0
+      },
+      "model": "useful_ores:item/painite_axe_fury"
+    }
+  ]
+}

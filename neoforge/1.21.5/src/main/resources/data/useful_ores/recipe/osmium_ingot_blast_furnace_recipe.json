@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 6,
+  "cookingtime": 150,
+  "group": "osmium_ingot",
+  "ingredient": "#c:raw_materials/osmium",
+  "result": {
+    "id": "useful_ores:osmium_ingot"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "useful_ores:arcanite"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "useful_ores:arcanite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "useful_ores:arcanite"
+      }
+    ]
+  }
+}

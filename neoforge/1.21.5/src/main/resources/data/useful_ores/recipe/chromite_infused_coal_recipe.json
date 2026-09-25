@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "CNC",
+    "CCC"
+  ],
+  "key": {
+    "C": "minecraft:coal",
+    "N": "#c:nuggets/chromite"
+  },
+  "result": {
+    "id": "useful_ores:chromite_infused_coal",
+    "count": 8
+  }
+}
