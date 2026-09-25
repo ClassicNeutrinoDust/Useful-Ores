@@ -93,38 +93,104 @@ Each version is an independent Gradle project. Loader-specific source is kept se
 
 ## Repository layout
 
+Every supported loader/version is kept as an independent Gradle project.
+
 ```text
 Useful-Ores/
 ├── build.gradle.kts
-├── gradle.properties
 ├── settings.gradle.kts
+├── gradle.properties
+│
 ├── fabric/
 │   ├── 1.21.3/
 │   ├── 1.21.4/
-│   ├── .../
+│   ├── 1.21.5/
+│   ├── 1.21.6/
+│   ├── 1.21.7-1.21.8/
+│   ├── 1.21.10/
+│   ├── 1.21.11/
+│   ├── 26.1.2/
+│   ├── 26.2/
 │   └── 26.3/
+│
 └── neoforge/
     ├── 1.21.3/
     ├── 1.21.4/
-    ├── .../
+    ├── 1.21.5/
+    ├── 1.21.6/
+    ├── 1.21.7-1.21.8/
+    ├── 1.21.10/
+    ├── 1.21.11/
+    ├── 26.1.2/
+    ├── 26.2/
     └── 26.3/
 ```
 
-The root Gradle files form a lightweight **Minecraft 26.3 workspace aggregator** for the two 26.3 projects. The real loader-specific build files remain in `fabric/26.3/` and `neoforge/26.3/`.
+Each loader/version directory is self-contained and contains its own Gradle project files, `src/`, and `libs/` when local libraries are required.
 
-## Building Minecraft 26.3
+## Root Gradle dispatcher
 
-The 26.3 projects use Java 25.
+The root Gradle project does not merge the Fabric and NeoForge projects. Instead, it dispatches the command to the selected version/loader project and runs that project's own Gradle build.
 
-From the repository root, with Gradle available:
+### List all available builds
 
 ```bash
-gradle buildAll26_3
-gradle buildFabric26_3
-gradle buildNeoForge26_3
+gradle listBuilds
 ```
 
-You can also run the loader-specific build directly from its project directory.
+### Build a specific target
+
+Generic form:
+
+```bash
+gradle build -Ploader=fabric -PmcVersion=26.3
+```
+
+```bash
+gradle build -Ploader=neoforge -PmcVersion=26.3
+```
+
+The dispatcher prints the exact Minecraft version, loader, project directory, and task being executed.
+
+### Convenience tasks
+
+Examples:
+
+```bash
+gradle buildFabric263
+gradle buildNeoForge263
+
+gradle buildFabric2612
+gradle buildNeoForge2612
+
+gradle buildFabric2111
+gradle buildNeoForge2111
+
+gradle buildFabric1213
+gradle buildNeoForge1213
+```
+
+The same pattern is available for every loader/version listed above.
+
+## Development
+
+To work on a particular target, enter that project's directory and use its own Gradle project directly.
+
+Example:
+
+```bash
+cd fabric/26.3
+gradle build
+```
+
+or:
+
+```bash
+cd neoforge/26.3
+gradle build
+```
+
+This keeps loader-specific dependencies and mappings isolated.
 
 ## Dependency note
 
