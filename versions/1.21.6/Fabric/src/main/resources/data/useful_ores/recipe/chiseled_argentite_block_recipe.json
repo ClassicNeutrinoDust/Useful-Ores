@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "useful_ores:argentite_block",
-  "result": {
-    "id": "useful_ores:chiseled_argentite_block",
-    "count": 1
-  }
-}

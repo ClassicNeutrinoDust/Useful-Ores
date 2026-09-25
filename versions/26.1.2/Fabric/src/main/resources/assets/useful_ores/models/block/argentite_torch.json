@@ -1,6 +1,0 @@
-{
-  "parent": "block/template_torch",
-  "textures": {
-    "torch": "useful_ores:block/argentite_torch"
-  }
-}

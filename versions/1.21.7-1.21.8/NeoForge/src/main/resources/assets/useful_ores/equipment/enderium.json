@@ -1,6 +1,0 @@
-{
-  "layers": {
-    "humanoid": [ { "texture": "useful_ores:enderium" } ],
-    "humanoid_leggings": [ { "texture": "useful_ores:enderium" } ]
-  }
-}

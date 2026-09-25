@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "useful_ores:item/phosgene_potion_powder_base",
-    "layer1": "useful_ores:item/phosgene_potion_powder_highlight"
-  }
-}

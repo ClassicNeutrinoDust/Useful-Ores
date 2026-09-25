@@ -1,3 +1,0 @@
-# Save this file at:
-# src/main/resources/META-INF/services/com.neutrinodust.useful_ores.platform.services.IPlatformHelper
-com.neutrinodust.useful_ores.platform.FabricPlatformHelper

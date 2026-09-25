@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/template_fire_up_alt",
-  "textures": {
-    "fire": "useful_ores:block/lonsdaleite_fire_1"
-  },
-  "render_type": "minecraft:cutout"
-}

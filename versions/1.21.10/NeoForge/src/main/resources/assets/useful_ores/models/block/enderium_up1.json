@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/template_fire_up",
-  "textures": {
-    "fire": "useful_ores:block/enderium_fire_1"
-  },
-  "render_type": "minecraft:cutout"
-}

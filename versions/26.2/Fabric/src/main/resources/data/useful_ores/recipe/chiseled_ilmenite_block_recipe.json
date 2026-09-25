@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "useful_ores:ilmenite_block",
-  "result": {
-    "id": "useful_ores:chiseled_ilmenite_block",
-    "count": 1
-  }
-}

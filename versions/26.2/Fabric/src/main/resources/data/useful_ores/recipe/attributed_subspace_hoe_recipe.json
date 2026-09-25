@@ -1,4 +1,0 @@
-{ "type": "useful_ores:attributed_gear", "category": "equipment",
-  "required_ingots": 2, "required_sticks": 2, "is_weapon": true,
-  "pattern": ["II", ".S", ".S"], "mirrored": true,
-  "result": "useful_ores:attributed_subspace_hoe" }

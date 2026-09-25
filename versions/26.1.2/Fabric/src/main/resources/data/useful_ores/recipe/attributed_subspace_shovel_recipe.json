@@ -1,4 +1,0 @@
-{ "type": "useful_ores:attributed_gear", "category": "equipment",
-  "required_ingots": 1, "required_sticks": 2, "is_weapon": true,
-  "pattern": ["I", "S", "S"],
-  "result": "useful_ores:attributed_subspace_shovel" }

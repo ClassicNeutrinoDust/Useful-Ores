@@ -1,9 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "#useful_ores:generates_in/end_biomes",
-  "features": [
-    "useful_ores:voidshard_ore_placed",
-    "useful_ores:voidshard_ore_extra_placed"
-  ],
-  "step": "underground_ores"
-}

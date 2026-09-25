@@ -1,7 +1,0 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "pattern": [ "aaa", "aaa", "aaa" ],
-  "key": { "a": "#c:ingots/painite" },
-  "result": { "id": "useful_ores:painite_block", "count": 1 }
-}

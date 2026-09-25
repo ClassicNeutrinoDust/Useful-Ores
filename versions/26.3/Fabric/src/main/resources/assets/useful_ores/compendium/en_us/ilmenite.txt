@@ -1,9 +1,0 @@
-Ilmenite is the mod's titanium ore - the toughest and most durable material of the upper-mid tier.
-
-Generation: Overworld, in stone and deepslate. It generates from Y -64 to Y 16, in clusters of 8, with 7 veins per chunk, and has a 50% chance to vanish if exposed to air.
-
-Drops: 1 Raw Ilmenite per block, boosted by Fortune, or the ore block itself when mined with Silk Touch.
-
-Tool stats: 2600 durability, 7.0 mining speed, +9.0 attack damage bonus, enchantability 10. It is not correct for diamond-tier-only blocks.
-
-Special ability: Ilmenite Ingots craft the [Titanium Rail](Utility/Titanium Rail) system - reinforced rail that supports safer high-speed travel, plus the Titanium Controller Rail, which switches a cart left, straight or right by hand, lever/button cycling, or redstone signal strength. Ilmenite is also used for the Titanium Lock and Titanium Key security system.

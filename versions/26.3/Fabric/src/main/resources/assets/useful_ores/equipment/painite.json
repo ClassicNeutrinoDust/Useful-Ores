@@ -1,6 +1,0 @@
-{
-  "layers": {
-    "humanoid": [ { "texture": "useful_ores:painite" } ],
-    "humanoid_leggings": [ { "texture": "useful_ores:painite" } ]
-  }
-}

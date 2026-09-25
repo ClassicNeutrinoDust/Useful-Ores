@@ -1,4 +1,0 @@
-{
-  "parent": "minecraft:block/rail_flat",
-  "textures": { "rail": "useful_ores:block/enderium_rail" }
-}

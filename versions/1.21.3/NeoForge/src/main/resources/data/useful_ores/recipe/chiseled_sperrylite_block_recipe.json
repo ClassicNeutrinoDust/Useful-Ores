@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "useful_ores:sperrylite_block",
-  "result": {
-    "id": "useful_ores:chiseled_sperrylite_block",
-    "count": 1
-  }
-}

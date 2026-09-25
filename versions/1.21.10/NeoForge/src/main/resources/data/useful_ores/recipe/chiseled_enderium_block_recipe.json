@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "useful_ores:enderium_block",
-  "result": {
-    "id": "useful_ores:chiseled_enderium_block",
-    "count": 1
-  }
-}

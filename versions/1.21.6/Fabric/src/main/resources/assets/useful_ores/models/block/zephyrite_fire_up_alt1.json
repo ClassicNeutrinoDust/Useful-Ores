@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/template_fire_up_alt",
-  "textures": {
-    "fire": "useful_ores:block/zephyrite_fire_1"
-  }
-}

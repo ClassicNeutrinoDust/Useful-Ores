@@ -1,7 +1,0 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [ "a" ],
-  "key": { "a": "#c:ingots/painite" },
-  "result": { "id": "useful_ores:painite_nugget", "count": 9 }
-}

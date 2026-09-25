@@ -1,8 +1,0 @@
-{
-  "type": "useful_ores:ancient_pedestal_chamber",
-  "biomes": "#minecraft:is_overworld",
-  "spawn_overrides": {},
-  "step": "underground_structures",
-  "terrain_adaptation": "none",
-  "sphere_radius": 8
-}

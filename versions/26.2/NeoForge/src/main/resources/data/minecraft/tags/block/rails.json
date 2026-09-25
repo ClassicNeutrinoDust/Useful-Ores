@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "useful_ores:titanium_rail",
-    "useful_ores:titanium_controller_rail",
-    "useful_ores:enderium_rail",
-    "useful_ores:solarite_rail"
-  ]
-}

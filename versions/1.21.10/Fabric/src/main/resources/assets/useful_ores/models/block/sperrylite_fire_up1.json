@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/template_fire_up",
-  "textures": {
-    "fire": "useful_ores:block/sperrylite_fire_1"
-  }
-}

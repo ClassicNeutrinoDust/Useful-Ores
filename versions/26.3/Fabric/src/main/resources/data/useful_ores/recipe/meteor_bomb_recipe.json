@@ -1,4 +1,0 @@
-{ "type": "minecraft:crafting_shaped", "category": "misc",
-  "pattern": [ "aaa", "aba", "aaa" ],
-  "key": { "a": "useful_ores:meteor_dust", "b": "minecraft:gunpowder" },
-  "result": { "id": "useful_ores:meteor_bomb", "count": 4 } }

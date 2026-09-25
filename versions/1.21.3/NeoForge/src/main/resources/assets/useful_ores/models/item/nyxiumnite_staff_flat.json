@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "useful_ores:item/nyxiumnite_staff"
-  },
-  "gui_light": "front"
-}

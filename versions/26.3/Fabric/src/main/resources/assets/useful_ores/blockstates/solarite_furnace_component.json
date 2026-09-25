@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "useful_ores:block/solarite_furnace_component" },
-    "facing=south": { "model": "useful_ores:block/solarite_furnace_component", "y": 180 },
-    "facing=west":  { "model": "useful_ores:block/solarite_furnace_component", "y": 270 },
-    "facing=east":  { "model": "useful_ores:block/solarite_furnace_component", "y": 90 }
-  }
-}

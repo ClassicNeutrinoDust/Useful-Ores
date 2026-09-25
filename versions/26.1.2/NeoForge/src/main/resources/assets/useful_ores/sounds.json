@@ -1,8 +1,0 @@
-{
-  "block.nyxium_dark_barrier.place": {
-    "sounds": [
-      "useful_ores:block/nyxium_dark_barrier_place"
-    ],
-    "subtitle": "subtitles.block.useful_ores.nyxium_dark_barrier.place"
-  }
-}

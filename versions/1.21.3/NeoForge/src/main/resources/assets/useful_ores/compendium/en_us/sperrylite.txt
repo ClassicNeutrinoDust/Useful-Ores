@@ -1,9 +1,0 @@
-Sperrylite is the mod's take on real-world platinum - a rare, soft precious metal with weak durability but superb enchantability.
-
-Generation: Overworld, in stone only (it has no deepslate variant). It generates from Y 0 to Y 64, in clusters of 6, with 6 veins per chunk, and never disappears when exposed to air.
-
-Drops: 1 Raw Sperrylite per block, boosted by Fortune, or the ore block itself when mined with Silk Touch.
-
-Tool stats: 700 durability, 6.5 mining speed, +7.0 attack damage bonus, enchantability 29 - among the highest in the mod. It is not correct for iron-tier-only blocks.
-
-Special ability: Sperrylite Nuggets craft the [Catalytic Vial](Utility/Catalytic Vial), a reusable brewing vessel that fuses two potions and a nugget into one combined-effect vial, which can then be upgraded to a splash or lingering vial with gunpowder and dragon's breath, exactly like vanilla potion brewing.

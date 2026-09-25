@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "useful_ores:solarite_block",
-  "result": {
-    "id": "useful_ores:chiseled_solarite_block",
-    "count": 1
-  }
-}

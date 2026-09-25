@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    "useful_ores:meteorite_core_shard",
-    "minecraft:dragon_breath"
-  ],
-  "result": { "id": "useful_ores:volatile_meteorite_core", "count": 1 }
-}

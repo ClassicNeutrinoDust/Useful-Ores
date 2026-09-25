@@ -1,7 +1,0 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [ "aaa", "aaa", "aaa" ],
-  "key": { "a": "#c:nuggets/enderium" },
-  "result": { "id": "useful_ores:enderium_ingot", "count": 1 }
-}

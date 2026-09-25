@@ -1,4 +1,0 @@
-{ "type": "minecraft:crafting_shaped", "category": "equipment",
-  "pattern": [ "a", "b", "b" ],
-  "key": { "a": "#c:ingots/lonsdaleite", "b": "minecraft:stick" },
-  "result": { "id": "useful_ores:lonsdaleite_shovel", "count": 1 } }

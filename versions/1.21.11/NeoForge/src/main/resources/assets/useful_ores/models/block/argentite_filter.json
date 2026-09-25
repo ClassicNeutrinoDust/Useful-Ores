@@ -1,9 +1,0 @@
-{
-  "parent": "minecraft:block/hopper",
-  "textures": {
-    "particle": "useful_ores:block/argentite_filter_outside",
-    "top": "useful_ores:block/argentite_filter_top",
-    "side": "useful_ores:block/argentite_filter_outside",
-    "inside": "useful_ores:block/argentite_filter_inside"
-  }
-}

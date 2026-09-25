@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/template_fire_up_alt",
-  "textures": {
-    "fire": "useful_ores:block/chromite_fire_0"
-  },
-  "render_type": "minecraft:cutout"
-}

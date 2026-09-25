@@ -1,4 +1,0 @@
-{ "type": "minecraft:crafting_shaped", "category": "equipment",
-  "pattern": [ "aa", "ab", " b" ],
-  "key": { "a": "#c:ingots/painite", "b": "minecraft:stick" },
-  "result": { "id": "useful_ores:painite_axe", "count": 1 } }

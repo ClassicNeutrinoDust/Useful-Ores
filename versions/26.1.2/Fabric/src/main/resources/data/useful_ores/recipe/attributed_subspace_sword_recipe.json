@@ -1,4 +1,0 @@
-{ "type": "useful_ores:attributed_gear", "category": "equipment",
-  "required_ingots": 2, "required_sticks": 1, "is_weapon": true,
-  "pattern": ["I", "I", "S"],
-  "result": "useful_ores:attributed_subspace_sword" }

@@ -1,6 +1,0 @@
-{
-  "parent": "block/template_torch_wall",
-  "textures": {
-    "torch": "useful_ores:block/chromite_torch"
-  }
-}

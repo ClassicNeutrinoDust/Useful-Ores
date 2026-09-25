@@ -1,9 +1,0 @@
-{ "type": "minecraft:crafting_shaped", "category": "misc",
-  "pattern": [ "aba", "cdc", "aba" ],
-  "key": {
-    "a": "#c:ingots/nyxium",
-    "b": "minecraft:ender_pearl",
-    "c": "#c:ingots/voidshard",
-    "d": "minecraft:ender_eye"
-  },
-  "result": { "id": "useful_ores:dark_core", "count": 1 } }
