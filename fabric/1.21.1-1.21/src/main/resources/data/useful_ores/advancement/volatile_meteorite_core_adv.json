@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "useful_ores:volatile_meteorite_core"
+    },
+    "title": {
+      "translate": "advancements.volatile_meteorite_core_adv.title"
+    },
+    "description": {
+      "translate": "advancements.volatile_meteorite_core_adv.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "volatile_meteorite_core_adv_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:volatile_meteorite_core",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "useful_ores:meteorite_core_shard_adv",
+  "rewards": {
+    "experience": 10
+  }
+}

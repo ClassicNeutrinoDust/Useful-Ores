@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "useful_ores:scheelite"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "useful_ores:scheelite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "useful_ores:scheelite"
+      }
+    ]
+  }
+}

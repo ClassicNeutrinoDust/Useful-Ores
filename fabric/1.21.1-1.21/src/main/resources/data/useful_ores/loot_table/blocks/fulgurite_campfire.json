@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "useful_ores:blocks/fulgurite_campfire_drop",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "useful_ores:fulgurite_campfire"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "useful_ores:arcanite_block"
+    }
+  },
+  "result": {
+    "id": "useful_ores:chiseled_arcanite_block",
+    "count": 4
+  }
+}

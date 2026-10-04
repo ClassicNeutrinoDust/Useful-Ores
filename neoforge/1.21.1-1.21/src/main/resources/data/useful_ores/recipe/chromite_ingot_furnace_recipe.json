@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 6,
+  "cookingtime": 300,
+  "group": "chromite_ingot",
+  "ingredient": {
+    "tag": "c:raw_materials/chromite"
+  },
+  "result": {
+    "id": "useful_ores:chromite_ingot"
+  }
+}

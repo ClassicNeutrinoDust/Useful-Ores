@@ -1,0 +1,9 @@
+Fulgurite is lightning-fused glass - fast and sharp, with the highest mining speed of any mid-tier material in the mod.
+
+Generation: Overworld, in stone and deepslate. It generates from Y -32 to Y 0, in clusters of 5, with 4 veins per chunk, and never disappears when exposed to air.
+
+Drops: 1 Raw Fulgurite per block, boosted by Fortune, or the ore block itself when mined with Silk Touch.
+
+Tool stats: 1750 durability, 7.5 mining speed, +8.5 attack damage bonus, enchantability 16. It is not correct for iron-tier-only blocks.
+
+Best used for: fast mining runs where speed matters more than raw damage. Fulgurite Ingots are also the material used to upgrade a Fulgurite Electric Trap's range once it has been struck awake by lightning.

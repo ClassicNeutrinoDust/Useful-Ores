@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "useful_ores:chromite_pickaxe",
+    "useful_ores:nyxium_pickaxe",
+    "useful_ores:phosgene_pickaxe",
+    "useful_ores:arcanite_pickaxe",
+    "useful_ores:fulgurite_pickaxe",
+    "useful_ores:osmium_pickaxe",
+    "useful_ores:solarite_pickaxe",
+    "useful_ores:sperrylite_pickaxe",
+    "useful_ores:argentite_pickaxe",
+    "useful_ores:zephyrite_pickaxe",
+    "useful_ores:ilmenite_pickaxe",
+    "useful_ores:scheelite_pickaxe",
+    "useful_ores:enderium_pickaxe",
+    "useful_ores:voidshard_pickaxe",
+    "useful_ores:subspace_pickaxe"
+  ]
+}

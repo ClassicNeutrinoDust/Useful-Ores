@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 8,
+  "cookingtime": 900,
+  "group": "nyxium_ingot",
+  "ingredient": {
+    "tag": "c:ores/nyxium"
+  },
+  "result": {
+    "id": "useful_ores:nyxium_ingot"
+  }
+}

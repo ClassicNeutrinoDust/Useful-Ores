@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "useful_ores:scheelite_ore",
+    "useful_ores:ilmenite_ore",
+    "useful_ores:zephyrite_ore",
+    "useful_ores:argentite_ore",
+    "useful_ores:sperrylite_ore",
+    "useful_ores:solarite_ore",
+    "useful_ores:osmium_ore",
+    "useful_ores:fulgurite_ore",
+    "useful_ores:arcanite_ore",
+    "useful_ores:phosgene_ore",
+    "useful_ores:nyxium_ore",
+    "useful_ores:chromite_ore",
+    "useful_ores:enderium_ore",
+    "useful_ores:voidshard_ore",
+    "useful_ores:extruding_crystal_ore"
+  ]
+}

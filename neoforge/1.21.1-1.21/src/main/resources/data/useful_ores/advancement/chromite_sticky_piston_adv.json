@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "useful_ores:chromite_sticky_piston"
+    },
+    "title": {
+      "translate": "advancements.chromite_sticky_piston_adv.title"
+    },
+    "description": {
+      "translate": "advancements.chromite_sticky_piston_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chromite_sticky_piston_adv_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:chromite_sticky_piston",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "useful_ores:chromite_piston_adv",
+  "rewards": {
+    "experience": 10
+  }
+}

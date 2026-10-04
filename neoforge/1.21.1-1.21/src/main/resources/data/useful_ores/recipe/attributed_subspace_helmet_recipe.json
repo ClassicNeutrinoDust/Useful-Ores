@@ -1,0 +1,13 @@
+{
+  "type": "useful_ores:attributed_gear",
+  "category": "equipment",
+  "required_ingots": 5,
+  "required_sticks": 0,
+  "is_weapon": false,
+  "result": "useful_ores:attributed_subspace_helmet",
+  "pattern": [
+    "III",
+    "I.I"
+  ],
+  "mirrored": false
+}

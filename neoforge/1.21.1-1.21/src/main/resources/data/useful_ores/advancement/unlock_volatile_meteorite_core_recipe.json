@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "get_meteorite_core_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:meteorite_core_shard"
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 1
+        }
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "useful_ores:volatile_meteorite_core_recipe"
+    ]
+  }
+}

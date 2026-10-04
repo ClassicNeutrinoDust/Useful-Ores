@@ -1,0 +1,9 @@
+Scheelite is the mod's tungsten ore - heavy and hard-hitting, with the highest raw sharpness of any material in this bracket.
+
+Generation: Overworld, in stone only (it has no deepslate variant). It generates from Y 0 to Y 64, in clusters of 6, with 8 veins per chunk, and never disappears when exposed to air.
+
+Drops: 1 Raw Scheelite per block, boosted by Fortune, or the ore block itself when mined with Silk Touch.
+
+Tool stats: 900 durability, 6.0 mining speed, +6.5 attack damage bonus, enchantability 10. It is not correct for iron-tier-only blocks.
+
+Special ability: The [Scheelite Arrow](Tools & Combat/Special Arrows) looks and fires just like a vanilla arrow, but deals 1.5x a normal unenchanted bow shot's damage. Scheelite Ingots also craft the Scheelite Chisel, a 200-durability tool that converts compatible full blocks into their slab form, and the Titanium Lock/Key pairing.

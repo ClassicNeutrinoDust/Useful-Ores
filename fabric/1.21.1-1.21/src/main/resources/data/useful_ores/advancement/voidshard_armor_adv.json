@@ -1,0 +1,75 @@
+{
+  "display": {
+    "icon": {
+      "id": "useful_ores:voidshard_chestplate"
+    },
+    "title": {
+      "translate": "advancements.voidshard_armor_adv.title"
+    },
+    "description": {
+      "translate": "advancements.voidshard_armor_adv.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "voidshard_armor_adv_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:voidshard_helmet",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    },
+    "voidshard_armor_adv_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:voidshard_chestplate",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    },
+    "voidshard_armor_adv_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:voidshard_leggings",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    },
+    "voidshard_armor_adv_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:voidshard_boots",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "useful_ores:armors_achievement",
+  "rewards": {
+    "experience": 20
+  }
+}

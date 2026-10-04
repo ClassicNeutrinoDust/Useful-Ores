@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NAN",
+    "AEA",
+    "VAV"
+  ],
+  "key": {
+    "N": {
+      "item": "useful_ores:nyxium_ingot"
+    },
+    "V": {
+      "item": "useful_ores:voidshard_ingot"
+    },
+    "A": {
+      "item": "useful_ores:arcanite_ingot"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "id": "useful_ores:nyxium_arcanite_core",
+    "count": 1
+  }
+}

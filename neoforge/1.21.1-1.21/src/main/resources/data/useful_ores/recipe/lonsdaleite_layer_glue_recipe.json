@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:slime_ball"
+    },
+    "b": {
+      "item": "useful_ores:raw_lonsdaleite"
+    }
+  },
+  "result": {
+    "id": "useful_ores:lonsdaleite_layer_glue",
+    "count": 1
+  }
+}

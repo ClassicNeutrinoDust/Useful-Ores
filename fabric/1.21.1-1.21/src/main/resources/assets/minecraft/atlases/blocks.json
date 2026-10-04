@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "type": "paletted_permutations",
+      "textures": [
+        "trims/items/leggings_trim",
+        "trims/items/chestplate_trim",
+        "trims/items/helmet_trim",
+        "trims/items/boots_trim"
+      ],
+      "palette_key": "trims/color_palettes/trim_palette",
+      "permutations": {
+        "chromite": "useful_ores:trims/color_palettes/chromite",
+        "nyxium": "useful_ores:trims/color_palettes/nyxium",
+        "phosgene": "useful_ores:trims/color_palettes/phosgene",
+        "arcanite": "useful_ores:trims/color_palettes/arcanite",
+        "fulgurite": "useful_ores:trims/color_palettes/fulgurite",
+        "osmium": "useful_ores:trims/color_palettes/osmium",
+        "solarite": "useful_ores:trims/color_palettes/solarite",
+        "sperrylite": "useful_ores:trims/color_palettes/sperrylite",
+        "argentite": "useful_ores:trims/color_palettes/argentite",
+        "zephyrite": "useful_ores:trims/color_palettes/zephyrite",
+        "ilmenite": "useful_ores:trims/color_palettes/ilmenite",
+        "scheelite": "useful_ores:trims/color_palettes/scheelite"
+      }
+    }
+  ]
+}

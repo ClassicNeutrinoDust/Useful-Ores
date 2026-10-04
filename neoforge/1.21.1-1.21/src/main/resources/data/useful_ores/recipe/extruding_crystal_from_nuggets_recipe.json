@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "nnn",
+    "nnn",
+    "nnn"
+  ],
+  "key": {
+    "n": {
+      "item": "useful_ores:extruding_crystal_nugget"
+    }
+  },
+  "result": {
+    "id": "useful_ores:extruding_crystal",
+    "count": 1
+  }
+}

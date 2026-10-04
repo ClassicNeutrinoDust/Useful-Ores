@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fire_up",
+  "textures": {
+    "fire": "useful_ores:block/voidshard_fire_1"
+  }
+}

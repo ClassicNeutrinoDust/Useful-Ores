@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "useful_ores:nyxium_ore"
+    },
+    "title": {
+      "translate": "advancements.nyxium_ore_adv.title"
+    },
+    "description": {
+      "translate": "advancements.nyxium_ore_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nyxium_ore_adv_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:nyxium_ore",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "useful_ores:mod_achievement",
+  "rewards": {
+    "experience": 10
+  }
+}

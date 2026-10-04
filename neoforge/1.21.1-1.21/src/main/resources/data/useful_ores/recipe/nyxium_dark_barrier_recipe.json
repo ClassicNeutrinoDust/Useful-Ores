@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/nyxium"
+    },
+    "b": {
+      "item": "minecraft:blackstone"
+    },
+    "c": {
+      "tag": "c:ingots/arcanite"
+    },
+    "d": {
+      "item": "useful_ores:dark_core"
+    }
+  },
+  "result": {
+    "id": "useful_ores:nyxium_dark_barrier",
+    "count": 1
+  }
+}

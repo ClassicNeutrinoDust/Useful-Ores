@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NTN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "tag": "c:nuggets/arcanite"
+    },
+    "T": {
+      "item": "useful_ores:arcanite_torch"
+    }
+  },
+  "result": {
+    "id": "useful_ores:arcanite_lantern",
+    "count": 1
+  }
+}

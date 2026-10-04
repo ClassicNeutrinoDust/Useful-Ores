@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "ZTZ",
+    "TCT",
+    "ZTZ"
+  ],
+  "key": {
+    "Z": {
+      "item": "useful_ores:raw_zephyrite"
+    },
+    "T": {
+      "item": "minecraft:redstone_torch"
+    },
+    "C": {
+      "item": "minecraft:clock"
+    }
+  },
+  "result": {
+    "id": "useful_ores:redstone_clock",
+    "count": 1
+  }
+}

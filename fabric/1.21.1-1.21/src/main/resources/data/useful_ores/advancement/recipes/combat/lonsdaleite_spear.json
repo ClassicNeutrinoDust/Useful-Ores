@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lonsdaleite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/lonsdaleite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "useful_ores:lonsdaleite_spear"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lonsdaleite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "useful_ores:lonsdaleite_spear"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/chromite"
+    }
+  },
+  "result": {
+    "id": "useful_ores:chromite_block",
+    "count": 1
+  }
+}

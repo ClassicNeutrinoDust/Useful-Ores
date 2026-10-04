@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "useful_ores:raw_zephyrite_block"
+    }
+  },
+  "result": {
+    "id": "useful_ores:raw_zephyrite",
+    "count": 9
+  }
+}

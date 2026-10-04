@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NN"
+  ],
+  "key": {
+    "N": {
+      "item": "useful_ores:ilmenite_nugget"
+    }
+  },
+  "result": {
+    "id": "useful_ores:titanium_key",
+    "count": 1
+  }
+}

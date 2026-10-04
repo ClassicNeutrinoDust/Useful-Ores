@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "useful_ores:chromite_block"
+  },
+  "result": {
+    "id": "useful_ores:chiseled_chromite_block",
+    "count": 1
+  }
+}

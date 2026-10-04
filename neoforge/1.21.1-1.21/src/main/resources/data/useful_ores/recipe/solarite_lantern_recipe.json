@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NTN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "tag": "c:nuggets/solarite"
+    },
+    "T": {
+      "item": "useful_ores:solarite_torch"
+    }
+  },
+  "result": {
+    "id": "useful_ores:solarite_lantern",
+    "count": 1
+  }
+}

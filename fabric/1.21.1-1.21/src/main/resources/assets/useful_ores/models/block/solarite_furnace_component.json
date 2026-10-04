@@ -1,0 +1,23 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "block/block",
+  "textures": {
+    "particle": "useful_ores:block/solarite_furnace_component",
+    "front": "useful_ores:block/solarite_furnace_off",
+    "side":  "useful_ores:block/solarite_furnace_component"
+  },
+  "elements": [
+    {
+      "from": [0.001, 0.001, 0.001],
+      "to":   [15.999, 15.999, 15.999],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#side",  "cullface": "north" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#front", "cullface": "south" },
+        "east":  { "uv": [0, 0, 16, 16], "texture": "#side",  "cullface": "east"  },
+        "west":  { "uv": [0, 0, 16, 16], "texture": "#side",  "cullface": "west"  },
+        "up":    { "uv": [0, 0, 16, 16], "texture": "#side",  "cullface": "up"    },
+        "down":  { "uv": [0, 0, 16, 16], "texture": "#side",  "cullface": "down"  }
+      }
+    }
+  ]
+}

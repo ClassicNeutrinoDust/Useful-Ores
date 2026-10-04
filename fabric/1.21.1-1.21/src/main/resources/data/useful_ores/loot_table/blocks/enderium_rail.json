@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [ { "condition": "minecraft:survives_explosion" } ],
+      "entries": [ { "type": "minecraft:item", "name": "useful_ores:enderium_rail" } ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "useful_ores:blocks/enderium_rail"
+}

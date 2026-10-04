@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_subspace": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/subspace"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "useful_ores:subspace_spear"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_subspace"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "useful_ores:subspace_spear"
+    ]
+  }
+}

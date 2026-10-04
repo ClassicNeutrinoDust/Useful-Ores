@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/sperrylite"
+    }
+  },
+  "result": {
+    "id": "useful_ores:sperrylite_nugget",
+    "count": 9
+  }
+}

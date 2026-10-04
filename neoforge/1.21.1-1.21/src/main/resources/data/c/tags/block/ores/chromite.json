@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "useful_ores:chromite_ore",
+    "useful_ores:deepslate_chromite_ore"
+  ]
+}

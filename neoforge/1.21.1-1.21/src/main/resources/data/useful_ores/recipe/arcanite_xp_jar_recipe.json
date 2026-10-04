@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " A ",
+    " S ",
+    "GGG"
+  ],
+  "key": {
+    "A": {
+      "item": "useful_ores:arcanite_ingot"
+    },
+    "S": {
+      "item": "useful_ores:silver_core_arcanite_shard"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "id": "useful_ores:arcanite_xp_jar",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_fire_side",
+  "textures": {
+    "fire": "useful_ores:block/chromite_fire_1"
+  },
+  "render_type": "minecraft:cutout"
+}

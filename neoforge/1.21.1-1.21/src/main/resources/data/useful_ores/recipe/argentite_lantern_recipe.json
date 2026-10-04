@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NTN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "tag": "c:nuggets/argentite"
+    },
+    "T": {
+      "item": "useful_ores:argentite_torch"
+    }
+  },
+  "result": {
+    "id": "useful_ores:argentite_lantern",
+    "count": 1
+  }
+}

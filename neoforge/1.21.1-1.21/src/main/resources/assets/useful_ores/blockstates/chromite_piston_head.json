@@ -1,0 +1,108 @@
+{
+  "variants": {
+    "facing=up,short=false,type=normal": {
+      "model": "useful_ores:block/chromite_piston_head"
+    },
+    "facing=up,short=false,type=sticky": {
+      "model": "useful_ores:block/chromite_piston_head_sticky"
+    },
+    "facing=up,short=true,type=normal": {
+      "model": "useful_ores:block/chromite_piston_head_short"
+    },
+    "facing=up,short=true,type=sticky": {
+      "model": "useful_ores:block/chromite_piston_head_short_sticky"
+    },
+    "facing=down,short=false,type=normal": {
+      "model": "useful_ores:block/chromite_piston_head",
+      "x": 180
+    },
+    "facing=down,short=false,type=sticky": {
+      "model": "useful_ores:block/chromite_piston_head_sticky",
+      "x": 180
+    },
+    "facing=down,short=true,type=normal": {
+      "model": "useful_ores:block/chromite_piston_head_short",
+      "x": 180
+    },
+    "facing=down,short=true,type=sticky": {
+      "model": "useful_ores:block/chromite_piston_head_short_sticky",
+      "x": 180
+    },
+    "facing=north,short=false,type=normal": {
+      "model": "useful_ores:block/chromite_piston_head",
+      "x": 90
+    },
+    "facing=north,short=false,type=sticky": {
+      "model": "useful_ores:block/chromite_piston_head_sticky",
+      "x": 90
+    },
+    "facing=north,short=true,type=normal": {
+      "model": "useful_ores:block/chromite_piston_head_short",
+      "x": 90
+    },
+    "facing=north,short=true,type=sticky": {
+      "model": "useful_ores:block/chromite_piston_head_short_sticky",
+      "x": 90
+    },
+    "facing=south,short=false,type=normal": {
+      "model": "useful_ores:block/chromite_piston_head",
+      "x": 90,
+      "y": 180
+    },
+    "facing=south,short=false,type=sticky": {
+      "model": "useful_ores:block/chromite_piston_head_sticky",
+      "x": 90,
+      "y": 180
+    },
+    "facing=south,short=true,type=normal": {
+      "model": "useful_ores:block/chromite_piston_head_short",
+      "x": 90,
+      "y": 180
+    },
+    "facing=south,short=true,type=sticky": {
+      "model": "useful_ores:block/chromite_piston_head_short_sticky",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,short=false,type=normal": {
+      "model": "useful_ores:block/chromite_piston_head",
+      "x": 90,
+      "y": 270
+    },
+    "facing=west,short=false,type=sticky": {
+      "model": "useful_ores:block/chromite_piston_head_sticky",
+      "x": 90,
+      "y": 270
+    },
+    "facing=west,short=true,type=normal": {
+      "model": "useful_ores:block/chromite_piston_head_short",
+      "x": 90,
+      "y": 270
+    },
+    "facing=west,short=true,type=sticky": {
+      "model": "useful_ores:block/chromite_piston_head_short_sticky",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east,short=false,type=normal": {
+      "model": "useful_ores:block/chromite_piston_head",
+      "x": 90,
+      "y": 90
+    },
+    "facing=east,short=false,type=sticky": {
+      "model": "useful_ores:block/chromite_piston_head_sticky",
+      "x": 90,
+      "y": 90
+    },
+    "facing=east,short=true,type=normal": {
+      "model": "useful_ores:block/chromite_piston_head_short",
+      "x": 90,
+      "y": 90
+    },
+    "facing=east,short=true,type=sticky": {
+      "model": "useful_ores:block/chromite_piston_head_short_sticky",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

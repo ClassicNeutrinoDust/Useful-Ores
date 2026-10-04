@@ -1,0 +1,4 @@
+{ "type": "useful_ores:attributed_gear", "category": "equipment",
+  "required_ingots": 3, "required_sticks": 2, "is_weapon": true,
+  "pattern": ["III", ".S.", ".S."],
+  "result": "useful_ores:attributed_subspace_pickaxe" }

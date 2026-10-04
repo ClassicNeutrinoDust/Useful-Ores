@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "useful_ores:heated_shard"
+    },
+    "title": {
+      "translate": "advancements.heated_shard_adv.title"
+    },
+    "description": {
+      "translate": "advancements.heated_shard_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "heated_shard_adv_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:heated_shard",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "useful_ores:mod_achievement",
+  "rewards": {
+    "experience": 10
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NTN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "tag": "c:nuggets/fulgurite"
+    },
+    "T": {
+      "item": "useful_ores:fulgurite_torch"
+    }
+  },
+  "result": {
+    "id": "useful_ores:fulgurite_lantern",
+    "count": 1
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "useful_ores:blocks/chromite_piston_head",
+  "pools": []
+}

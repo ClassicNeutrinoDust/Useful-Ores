@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "TTT",
+    "DRD",
+    "DCD"
+  ],
+  "key": {
+    "T": {
+      "tag": "minecraft:planks"
+    },
+    "D": {
+      "item": "minecraft:deepslate"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "C": {
+      "item": "useful_ores:chromite_ingot"
+    }
+  },
+  "result": {
+    "id": "useful_ores:chromite_piston",
+    "count": 1
+  }
+}

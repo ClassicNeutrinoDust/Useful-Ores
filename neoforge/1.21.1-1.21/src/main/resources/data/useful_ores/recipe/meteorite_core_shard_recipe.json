@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "B",
+    "C",
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "C": {
+      "item": "useful_ores:meteorite_core"
+    }
+  },
+  "result": {
+    "id": "useful_ores:meteorite_core_shard",
+    "count": 1
+  }
+}

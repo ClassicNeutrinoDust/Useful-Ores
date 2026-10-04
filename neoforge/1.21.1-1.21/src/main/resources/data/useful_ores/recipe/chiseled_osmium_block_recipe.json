@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "useful_ores:osmium_block"
+  },
+  "result": {
+    "id": "useful_ores:chiseled_osmium_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "useful_ores:block/zephyrite_lantern",
+    "all": "useful_ores:block/zephyrite_lantern",
+    "chain": "useful_ores:block/lantern_chain",
+    "chain_cap": "useful_ores:block/lantern_chain_cap"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        0,
+        5
+      ],
+      "to": [
+        11,
+        7,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#all",
+          "uv": [
+            0.0,
+            12.5,
+            3.0,
+            16.0
+          ]
+        },
+        "south": {
+          "texture": "#all",
+          "uv": [
+            0.0,
+            9.0,
+            3.0,
+            12.5
+          ]
+        },
+        "east": {
+          "texture": "#all",
+          "uv": [
+            3.0,
+            12.5,
+            6.0,
+            16.0
+          ]
+        },
+        "west": {
+          "texture": "#all",
+          "uv": [
+            3.0,
+            9.0,
+            6.0,
+            12.5
+          ]
+        },
+        "up": {
+          "texture": "#all",
+          "uv": [
+            6.0,
+            13.0,
+            9.0,
+            16.0
+          ]
+        },
+        "down": {
+          "texture": "#all",
+          "uv": [
+            6.0,
+            10.0,
+            9.0,
+            13.0
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        7,
+        6
+      ],
+      "to": [
+        10,
+        9,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#all",
+          "uv": [
+            2.0,
+            8.0,
+            4.0,
+            9.0
+          ]
+        },
+        "south": {
+          "texture": "#all",
+          "uv": [
+            2.0,
+            7.0,
+            4.0,
+            8.0
+          ]
+        },
+        "east": {
+          "texture": "#all",
+          "uv": [
+            4.0,
+            8.0,
+            6.0,
+            9.0
+          ]
+        },
+        "west": {
+          "texture": "#all",
+          "uv": [
+            4.0,
+            7.0,
+            6.0,
+            8.0
+          ]
+        },
+        "up": {
+          "texture": "#all",
+          "uv": [
+            6.0,
+            8.0,
+            8.0,
+            10.0
+          ]
+        },
+        "down": {
+          "texture": "#all",
+          "uv": [
+            0.0,
+            7.0,
+            2.0,
+            9.0
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        9,
+        7
+      ],
+      "to": [
+        9,
+        11,
+        9
+      ],
+      "shade": false,
+      "faces": {
+        "down": {
+          "texture": "#chain_cap",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#chain_cap",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ]
+        },
+        "north": {
+          "texture": "#all",
+          "uv": [
+            4,
+            8,
+            6,
+            10
+          ],
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "#all",
+          "uv": [
+            4,
+            8,
+            6,
+            10
+          ],
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "#all",
+          "uv": [
+            4,
+            8,
+            6,
+            10
+          ],
+          "cullface": "west"
+        },
+        "east": {
+          "texture": "#all",
+          "uv": [
+            4,
+            8,
+            6,
+            10
+          ],
+          "cullface": "east"
+        }
+      }
+    }
+  ]
+}

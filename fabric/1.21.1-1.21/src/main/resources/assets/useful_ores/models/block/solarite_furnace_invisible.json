@@ -1,0 +1,5 @@
+{
+  "parent": "block/cube_all",
+  "textures": { "all": "useful_ores:block/solarite_furnace_invisible", "particle": "useful_ores:block/solarite_furnace_invisible" },
+  "render_type": "minecraft:translucent"
+}

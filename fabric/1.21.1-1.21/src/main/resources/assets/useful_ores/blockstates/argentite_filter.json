@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "useful_ores:block/argentite_filter"
+    },
+    "facing=east": {
+      "model": "useful_ores:block/argentite_filter_side",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "useful_ores:block/argentite_filter_side"
+    },
+    "facing=south": {
+      "model": "useful_ores:block/argentite_filter_side",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "useful_ores:block/argentite_filter_side",
+      "y": 270
+    }
+  }
+}

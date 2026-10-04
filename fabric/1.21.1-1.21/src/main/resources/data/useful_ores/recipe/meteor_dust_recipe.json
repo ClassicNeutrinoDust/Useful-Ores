@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "useful_ores:meteorite_block"
+    }
+  ],
+  "result": {
+    "id": "useful_ores:meteor_dust",
+    "count": 4
+  }
+}

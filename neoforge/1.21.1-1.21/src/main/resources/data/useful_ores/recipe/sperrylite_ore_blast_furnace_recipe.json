@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 4,
+  "cookingtime": 100,
+  "group": "sperrylite_ingot",
+  "ingredient": {
+    "tag": "c:ores/sperrylite"
+  },
+  "result": {
+    "id": "useful_ores:sperrylite_ingot"
+  }
+}

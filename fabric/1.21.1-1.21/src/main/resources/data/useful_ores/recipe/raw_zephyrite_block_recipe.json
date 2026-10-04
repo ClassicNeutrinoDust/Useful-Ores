@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:raw_materials/zephyrite"
+    }
+  },
+  "result": {
+    "id": "useful_ores:raw_zephyrite_block",
+    "count": 1
+  }
+}

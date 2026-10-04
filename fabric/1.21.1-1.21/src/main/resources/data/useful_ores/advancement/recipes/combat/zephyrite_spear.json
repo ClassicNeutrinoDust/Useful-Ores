@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_zephyrite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/zephyrite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "useful_ores:zephyrite_spear"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_zephyrite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "useful_ores:zephyrite_spear"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NTN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "tag": "c:nuggets/chromite"
+    },
+    "T": {
+      "item": "useful_ores:chromite_torch"
+    }
+  },
+  "result": {
+    "id": "useful_ores:chromite_lantern",
+    "count": 1
+  }
+}

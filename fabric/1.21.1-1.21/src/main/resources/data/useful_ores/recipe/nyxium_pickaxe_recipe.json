@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aca",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/nyxium"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    },
+    "c": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "id": "useful_ores:nyxium_pickaxe",
+    "count": 1
+  }
+}

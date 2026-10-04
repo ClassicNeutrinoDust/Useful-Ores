@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "useful_ores:subspace_block"
+    }
+  ],
+  "result": {
+    "id": "useful_ores:subspace_ingot",
+    "count": 9
+  }
+}

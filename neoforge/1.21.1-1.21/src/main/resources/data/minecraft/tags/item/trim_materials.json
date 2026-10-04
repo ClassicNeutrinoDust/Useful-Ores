@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "useful_ores:chromite_ingot",
+    "useful_ores:nyxium_ingot",
+    "useful_ores:phosgene_ingot",
+    "useful_ores:arcanite_ingot",
+    "useful_ores:fulgurite_ingot",
+    "useful_ores:osmium_ingot",
+    "useful_ores:solarite_ingot",
+    "useful_ores:sperrylite_ingot",
+    "useful_ores:argentite_ingot",
+    "useful_ores:zephyrite_ingot",
+    "useful_ores:ilmenite_ingot",
+    "useful_ores:scheelite_ingot"
+  ]
+}

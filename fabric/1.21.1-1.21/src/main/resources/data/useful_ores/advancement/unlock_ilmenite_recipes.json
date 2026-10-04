@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "get_ilmenite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/ilmenite"
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 1
+        }
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "useful_ores:ilmenite_sword_recipe",
+      "useful_ores:ilmenite_pickaxe_recipe",
+      "useful_ores:ilmenite_axe_recipe",
+      "useful_ores:ilmenite_hoe_recipe",
+      "useful_ores:ilmenite_shovel_recipe",
+      "useful_ores:ilmenite_helmet_recipe",
+      "useful_ores:ilmenite_chestplate_recipe",
+      "useful_ores:ilmenite_leggings_recipe",
+      "useful_ores:ilmenite_boots_recipe",
+      "useful_ores:ilmenite_nugget_recipe",
+      "useful_ores:ilmenite_block_recipe"
+    ]
+  }
+}

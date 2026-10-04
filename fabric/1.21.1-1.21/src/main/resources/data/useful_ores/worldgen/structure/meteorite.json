@@ -1,0 +1,11 @@
+{
+  "type": "useful_ores:meteorite",
+  "biomes": "#minecraft:is_overworld",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "min_radius": 5,
+  "max_radius": 10,
+  "crater_multiplier": 2.0,
+  "ore_count": 6
+}

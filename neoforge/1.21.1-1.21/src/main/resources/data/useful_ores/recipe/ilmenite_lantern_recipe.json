@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NTN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "tag": "c:nuggets/ilmenite"
+    },
+    "T": {
+      "item": "useful_ores:ilmenite_torch"
+    }
+  },
+  "result": {
+    "id": "useful_ores:ilmenite_lantern",
+    "count": 1
+  }
+}

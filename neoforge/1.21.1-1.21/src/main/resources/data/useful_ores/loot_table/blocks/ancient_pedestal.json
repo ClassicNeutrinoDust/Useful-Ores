@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "useful_ores:blocks/ancient_pedestal",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": { "items": "useful_ores:voidshard_pickaxe" }
+        }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "useful_ores:ancient_pedestal" }
+      ]
+    }
+  ]
+}

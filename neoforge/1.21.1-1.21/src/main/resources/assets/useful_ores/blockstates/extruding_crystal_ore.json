@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "useful_ores:block/extruding_crystal_ore"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "has_raw_phosgene": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:raw_phosgene"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "useful_ores:phosgene_raw_powder_recipe"
+    ]
+  }
+}

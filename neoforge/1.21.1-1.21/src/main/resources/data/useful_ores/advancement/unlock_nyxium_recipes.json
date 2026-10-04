@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "get_nyxium_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/nyxium"
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 1
+        }
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "useful_ores:nyxium_sword_recipe",
+      "useful_ores:nyxium_pickaxe_recipe",
+      "useful_ores:nyxium_axe_recipe",
+      "useful_ores:nyxium_hoe_recipe",
+      "useful_ores:nyxium_shovel_recipe",
+      "useful_ores:nyxium_helmet_recipe",
+      "useful_ores:nyxium_chestplate_recipe",
+      "useful_ores:nyxium_leggings_recipe",
+      "useful_ores:nyxium_boots_recipe",
+      "useful_ores:nyxium_nugget_recipe",
+      "useful_ores:nyxium_block_recipe"
+    ]
+  }
+}

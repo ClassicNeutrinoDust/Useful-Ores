@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "useful_ores:scorched_dirt",
+    "useful_ores:meteorite_ash_block"
+  ]
+}

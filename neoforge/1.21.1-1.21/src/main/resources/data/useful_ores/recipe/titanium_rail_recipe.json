@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "X X",
+    "X#X",
+    "X X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "useful_ores:ilmenite_ingot"
+    }
+  },
+  "result": {
+    "id": "useful_ores:titanium_rail",
+    "count": 16
+  }
+}

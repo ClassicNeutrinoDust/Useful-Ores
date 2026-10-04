@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_fire_side_alt",
+  "textures": {
+    "fire": "useful_ores:block/zephyrite_fire_1"
+  },
+  "render_type": "minecraft:cutout"
+}

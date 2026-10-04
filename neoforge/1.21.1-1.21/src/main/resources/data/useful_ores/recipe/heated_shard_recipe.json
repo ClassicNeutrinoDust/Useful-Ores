@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "b b",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/voidshard"
+    },
+    "b": {
+      "tag": "c:ingots/solarite"
+    }
+  },
+  "result": {
+    "id": "useful_ores:heated_shard",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "useful_ores:item/useful_ores_spear_in_hand",
+  "textures": {
+    "layer0": "useful_ores:item/scheelite_spear_in_hand"
+  }
+}

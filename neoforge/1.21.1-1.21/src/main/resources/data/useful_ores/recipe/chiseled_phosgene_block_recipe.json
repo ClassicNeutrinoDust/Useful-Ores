@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "useful_ores:phosgene_block"
+  },
+  "result": {
+    "id": "useful_ores:chiseled_phosgene_block",
+    "count": 1
+  }
+}

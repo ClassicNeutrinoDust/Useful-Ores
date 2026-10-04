@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "useful_ores:super_beacon"
+    },
+    "title": {
+      "translate": "advancements.super_beacon_adv.title"
+    },
+    "description": {
+      "translate": "advancements.super_beacon_adv.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "super_beacon_adv_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "useful_ores:super_beacon",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "useful_ores:mod_achievement",
+  "rewards": {
+    "experience": 10
+  }
+}

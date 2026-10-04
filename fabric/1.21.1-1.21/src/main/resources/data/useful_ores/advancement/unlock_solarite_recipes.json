@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "get_solarite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/solarite"
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 1
+        }
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "useful_ores:solarite_sword_recipe",
+      "useful_ores:solarite_pickaxe_recipe",
+      "useful_ores:solarite_axe_recipe",
+      "useful_ores:solarite_hoe_recipe",
+      "useful_ores:solarite_shovel_recipe",
+      "useful_ores:solarite_helmet_recipe",
+      "useful_ores:solarite_chestplate_recipe",
+      "useful_ores:solarite_leggings_recipe",
+      "useful_ores:solarite_boots_recipe",
+      "useful_ores:solarite_nugget_recipe",
+      "useful_ores:solarite_block_recipe"
+    ]
+  }
+}

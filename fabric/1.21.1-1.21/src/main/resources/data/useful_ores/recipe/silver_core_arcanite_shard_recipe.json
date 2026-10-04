@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "AGA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "useful_ores:arcanite_nugget"
+    },
+    "G": {
+      "item": "useful_ores:argentite_nugget"
+    }
+  },
+  "result": {
+    "id": "useful_ores:silver_core_arcanite_shard",
+    "count": 1
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "useful_ores:item/subspace_chestplate"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.1
+      },
+      "model": "useful_ores:item/attributed_subspace_chestplate_quartz_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.2
+      },
+      "model": "useful_ores:item/attributed_subspace_chestplate_iron_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.3
+      },
+      "model": "useful_ores:item/attributed_subspace_chestplate_netherite_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.4
+      },
+      "model": "useful_ores:item/attributed_subspace_chestplate_redstone_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.5
+      },
+      "model": "useful_ores:item/attributed_subspace_chestplate_copper_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.6
+      },
+      "model": "useful_ores:item/attributed_subspace_chestplate_gold_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.7
+      },
+      "model": "useful_ores:item/attributed_subspace_chestplate_emerald_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.8
+      },
+      "model": "useful_ores:item/attributed_subspace_chestplate_diamond_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.9
+      },
+      "model": "useful_ores:item/attributed_subspace_chestplate_lapis_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 1.0
+      },
+      "model": "useful_ores:item/attributed_subspace_chestplate_amethyst_trim"
+    }
+  ]
+}

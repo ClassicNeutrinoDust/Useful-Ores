@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "useful_ores:extruding_crystal"
+    }
+  ],
+  "result": {
+    "id": "useful_ores:extruding_crystal_nugget",
+    "count": 9
+  }
+}

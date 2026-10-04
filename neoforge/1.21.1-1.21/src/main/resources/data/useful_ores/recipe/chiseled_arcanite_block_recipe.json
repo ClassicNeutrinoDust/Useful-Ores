@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "useful_ores:arcanite_block"
+  },
+  "result": {
+    "id": "useful_ores:chiseled_arcanite_block",
+    "count": 1
+  }
+}
