@@ -9,6 +9,7 @@ data class Target(
 )
 
 val targets = listOf(
+    Target("fabric", "1.21.1-1.21", file("fabric/1.21.1-1.21")),
     Target("fabric", "1.21.3", file("fabric/1.21.3")),
     Target("fabric", "1.21.4", file("fabric/1.21.4")),
     Target("fabric", "1.21.5", file("fabric/1.21.5")),
@@ -19,6 +20,7 @@ val targets = listOf(
     Target("fabric", "26.1.2", file("fabric/26.1.2")),
     Target("fabric", "26.2", file("fabric/26.2")),
     Target("fabric", "26.3", file("fabric/26.3")),
+    Target("neoforge", "1.21.1-1.21", file("neoforge/1.21.1-1.21")),
     Target("neoforge", "1.21.3", file("neoforge/1.21.3")),
     Target("neoforge", "1.21.4", file("neoforge/1.21.4")),
     Target("neoforge", "1.21.5", file("neoforge/1.21.5")),
@@ -112,6 +114,23 @@ tasks.register<GradleBuild>("build") {
         println("BUILD FINISHED")
         println("Minecraft version : ${selectedTarget!!.minecraft}")
         println("Loader            : ${loaderLabel(selectedTarget!!.loader)}")
+        println()
+    }
+}
+
+tasks.register<GradleBuild>("buildFabric12111To121") {
+    group = "Useful Ores"
+    description = "Build Useful Ores for Fabric Minecraft 1.21.1-1.21."
+    dir = file("fabric/1.21.1-1.21")
+    tasks = listOf("build")
+    doFirst {
+        printTarget(Target("fabric", "1.21.1-1.21", dir))
+    }
+    doLast {
+        println()
+        println("BUILD FINISHED")
+        println("Minecraft version : 1.21.1-1.21")
+        println("Loader            : Fabric")
         println()
     }
 }
@@ -282,6 +301,23 @@ tasks.register<GradleBuild>("buildFabric263") {
         println("BUILD FINISHED")
         println("Minecraft version : 26.3")
         println("Loader            : Fabric")
+        println()
+    }
+}
+
+tasks.register<GradleBuild>("buildNeoForge12111To121") {
+    group = "Useful Ores"
+    description = "Build Useful Ores for NeoForge Minecraft 1.21.1-1.21."
+    dir = file("neoforge/1.21.1-1.21")
+    tasks = listOf("build")
+    doFirst {
+        printTarget(Target("neoforge", "1.21.1-1.21", dir))
+    }
+    doLast {
+        println()
+        println("BUILD FINISHED")
+        println("Minecraft version : 1.21.1-1.21")
+        println("Loader            : NeoForge")
         println()
     }
 }
