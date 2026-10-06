@@ -86,8 +86,8 @@ The current public project description documents the following ore/material gene
 
 | Loader | Minecraft versions |
 | --- | --- |
-| Fabric | `1.21.3`, `1.21.4`, `1.21.5`, `1.21.6`, `1.21.7-1.21.8`, `1.21.10`, `1.21.11`, `26.1.2`, `26.2`, `26.3` |
-| NeoForge | `1.21.3`, `1.21.4`, `1.21.5`, `1.21.6`, `1.21.7-1.21.8`, `1.21.10`, `1.21.11`, `26.1.2`, `26.2`, `26.3` |
+| Fabric | `1.21`, `1.21.1`, `1.21.3`, `1.21.4`, `1.21.5`, `1.21.6`, `1.21.7-1.21.8`, `1.21.10`, `1.21.11`, `26.1.2`, `26.2`, `26.3` |
+| NeoForge | `1.21`, `1.21.1`, `1.21.3`, `1.21.4`, `1.21.5`, `1.21.6`, `1.21.7-1.21.8`, `1.21.10`, `1.21.11`, `26.1.2`, `26.2`, `26.3` |
 
 Each version is an independent Gradle project. Loader-specific source is kept separate so version-specific APIs, mappings, mixins, and dependencies can evolve independently.
 
@@ -102,6 +102,7 @@ Useful-Ores/
 ├── gradle.properties
 │
 ├── fabric/
+|   ├── 1.21.1-1.21/
 │   ├── 1.21.3/
 │   ├── 1.21.4/
 │   ├── 1.21.5/
@@ -114,6 +115,7 @@ Useful-Ores/
 │   └── 26.3/
 │
 └── neoforge/
+    ├── 1.21.1-1.21/
     ├── 1.21.3/
     ├── 1.21.4/
     ├── 1.21.5/
@@ -204,4 +206,4 @@ Useful Ores requires GeckoLib. Install the GeckoLib build matching your Minecraf
 
 ## Release line
 
-The public 2.1.7 files include builds for Minecraft 1.21.3 through 1.21.8, 1.21.10–1.21.11, 26.1.2, 26.2, and 26.3, across Fabric and NeoForge. The 26.3 release is available for both loaders. 
+The public 2.1.7 files include builds for Minecraft 1.21-1.21.1, 1.21.3-1.21.8, 1.21.10–1.21.11, 26.1.2, 26.2, and 26.3, across Fabric and NeoForge. The 26.3 release is available for both loaders. 
