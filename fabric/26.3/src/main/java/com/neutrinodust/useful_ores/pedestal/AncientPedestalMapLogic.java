@@ -18,14 +18,14 @@ import net.minecraft.world.level.levelgen.structure.placement.RandomSpreadStruct
 import net.minecraft.world.level.saveddata.maps.MapDecorationTypes;
 import net.minecraft.world.level.saveddata.maps.MapItemSavedData;
 
-
-
-
-
-
-
-
-
+/**
+ * Shared Ancient Pedestal map targeting and uniqueness logic.
+ *
+ * The target identity is the pedestal's deterministic X/Z center, not its Y
+ * coordinate. This matches the structure's own generation rule and prevents
+ * the same pedestal from being represented by multiple keys before/after
+ * generation.
+ */
 public final class AncientPedestalMapLogic {
     public static final ResourceKey<Structure> ANCIENT_PEDESTAL_STRUCTURE = ResourceKey.create(
             Registries.STRUCTURE,
@@ -37,7 +37,7 @@ public final class AncientPedestalMapLogic {
             Identifier.fromNamespaceAndPath("useful_ores", "ancient_pedestal_chamber")
     );
 
-    
+    /* Prevent pathological searches while still supporting thousands of claimed targets. */
     private static final int SEARCH_MAX_RING = 128;
     private static final int MAX_CANDIDATES = 16384;
 
@@ -86,11 +86,11 @@ public final class AncientPedestalMapLogic {
         long bestDistance = Long.MAX_VALUE;
         int candidateCount = 0;
 
-        
-
-
-
-
+        /*
+         * RandomSpreadStructurePlacement has exactly one deterministic candidate
+         * chunk per cell. We only need the candidate chunk and its middle block,
+         * so no StructureStart lookup or chunk loading is necessary.
+         */
         for (int ring = 0; ring <= SEARCH_MAX_RING; ring++) {
             for (int dx = -ring; dx <= ring; dx++) {
                 for (int dz = -ring; dz <= ring; dz++) {
@@ -119,11 +119,11 @@ public final class AncientPedestalMapLogic {
                 }
             }
 
-            
-
-
-
-
+            /*
+             * Every unsearched region begins outside the ring's region square.
+             * Once its minimum possible distance exceeds our best actual candidate,
+             * the nearest result is mathematically proven and the search can stop.
+             */
             if (best != null && bestDistance <= minimumPossibleSquaredDistanceToUnsearchedRing(
                     originX, originZ, baseRegionX, baseRegionZ, spacing, ring + 1)) {
                 return best;
@@ -134,7 +134,7 @@ public final class AncientPedestalMapLogic {
     }
 
     private static boolean isSamePedestal(BlockPos candidate, int originX, int originZ) {
-        
+        /* Chest/pedestal loot origin is only a few blocks from the structure center. */
         long dx = (long) candidate.getX() - originX;
         long dz = (long) candidate.getZ() - originZ;
         return dx * dx + dz * dz <= 16L * 16L;
@@ -185,7 +185,7 @@ public final class AncientPedestalMapLogic {
     }
 
     private static ItemStack makeFilledMap(ServerLevel level, BlockPos target) {
-        
+        /* Map data only uses X/Z for its world target; Y is intentionally ignored. */
         ItemStack map = MapItem.create(level, target.getX(), target.getZ(), (byte) 1, true, true);
         MapItem.renderBiomePreviewMap(level, map);
         MapItemSavedData.addTargetDecoration(map, target, "+", MapDecorationTypes.RED_X);

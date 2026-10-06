@@ -1,4 +1,17 @@
 {
   "format_version": "1.8.0",
-  "animations": {}
+  "animations": {
+    "animation.nyxiumnite_staff.idle": {
+      "loop": true,
+      "bones": {
+        "nyxiumnite_staff": {
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  }
 }

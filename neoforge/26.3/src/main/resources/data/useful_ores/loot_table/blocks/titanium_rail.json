@@ -3,9 +3,16 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
-      "conditions": [ { "condition": "minecraft:survives_explosion" } ],
-      "entries": [ { "type": "minecraft:item", "name": "useful_ores:titanium_rail" } ],
-      "rolls": 1.0
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "useful_ores:titanium_rail"
+        }
+      ],
+      "rolls": 1.0,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
     }
   ],
   "random_sequence": "useful_ores:blocks/titanium_rail"

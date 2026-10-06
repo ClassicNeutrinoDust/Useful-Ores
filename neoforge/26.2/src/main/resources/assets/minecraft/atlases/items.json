@@ -1,0 +1,49 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:directory",
+      "prefix": "item/",
+      "source": "item"
+    },
+    {
+      "type": "minecraft:paletted_permutations",
+      "palette_key": "minecraft:trims/color_palettes/trim_palette",
+      "permutations": {
+        "amethyst": "minecraft:trims/color_palettes/amethyst",
+        "copper": "minecraft:trims/color_palettes/copper",
+        "copper_darker": "minecraft:trims/color_palettes/copper_darker",
+        "diamond": "minecraft:trims/color_palettes/diamond",
+        "diamond_darker": "minecraft:trims/color_palettes/diamond_darker",
+        "emerald": "minecraft:trims/color_palettes/emerald",
+        "gold": "minecraft:trims/color_palettes/gold",
+        "gold_darker": "minecraft:trims/color_palettes/gold_darker",
+        "iron": "minecraft:trims/color_palettes/iron",
+        "iron_darker": "minecraft:trims/color_palettes/iron_darker",
+        "lapis": "minecraft:trims/color_palettes/lapis",
+        "netherite": "minecraft:trims/color_palettes/netherite",
+        "netherite_darker": "minecraft:trims/color_palettes/netherite_darker",
+        "quartz": "minecraft:trims/color_palettes/quartz",
+        "redstone": "minecraft:trims/color_palettes/redstone",
+        "resin": "minecraft:trims/color_palettes/resin",
+        "chromite": "useful_ores:trims/color_palettes/chromite",
+        "nyxium": "useful_ores:trims/color_palettes/nyxium",
+        "phosgene": "useful_ores:trims/color_palettes/phosgene",
+        "arcanite": "useful_ores:trims/color_palettes/arcanite",
+        "fulgurite": "useful_ores:trims/color_palettes/fulgurite",
+        "osmium": "useful_ores:trims/color_palettes/osmium",
+        "solarite": "useful_ores:trims/color_palettes/solarite",
+        "sperrylite": "useful_ores:trims/color_palettes/sperrylite",
+        "argentite": "useful_ores:trims/color_palettes/argentite",
+        "zephyrite": "useful_ores:trims/color_palettes/zephyrite",
+        "ilmenite": "useful_ores:trims/color_palettes/ilmenite",
+        "scheelite": "useful_ores:trims/color_palettes/scheelite"
+      },
+      "textures": [
+        "minecraft:trims/items/helmet_trim",
+        "minecraft:trims/items/chestplate_trim",
+        "minecraft:trims/items/leggings_trim",
+        "minecraft:trims/items/boots_trim"
+      ]
+    }
+  ]
+}

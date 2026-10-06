@@ -5,52 +5,164 @@
     {
       "rolls": 1.0,
       "bonus_rolls": 0.0,
-      "conditions": [
+      "entries": [
         {
-          "condition": "minecraft:match_tool",
-          "predicate": {
-            "items": "useful_ores:subspace_pickaxe"
-          }
+          "type": "minecraft:item",
+          "name": "useful_ores:raw_nyxium",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 6
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blackstone",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 2
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "useful_ores:raw_arcanite",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 2
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "useful_ores:raw_voidshard",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 2
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 2
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye"
         }
       ],
-      "entries": [
-        { "type": "minecraft:item", "name": "useful_ores:raw_nyxium",
-          "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:constant", "value": 6 } } ] },
-        { "type": "minecraft:item", "name": "minecraft:blackstone",
-          "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:constant", "value": 2 } } ] },
-        { "type": "minecraft:item", "name": "useful_ores:raw_arcanite",
-          "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:constant", "value": 2 } } ] },
-        { "type": "minecraft:item", "name": "useful_ores:raw_voidshard",
-          "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:constant", "value": 2 } } ] },
-        { "type": "minecraft:item", "name": "minecraft:ender_pearl",
-          "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:constant", "value": 2 } } ] },
-        { "type": "minecraft:item", "name": "minecraft:ender_eye" }
-      ]
+      "condition": {
+        "predicate": {
+          "items": "useful_ores:subspace_pickaxe"
+        },
+        "type": "minecraft:match_tool"
+      }
     },
     {
       "rolls": 1.0,
       "bonus_rolls": 0.0,
-      "conditions": [
+      "entries": [
         {
-          "condition": "minecraft:match_tool",
-          "predicate": {
-            "items": "useful_ores:attributed_subspace_pickaxe"
-          }
+          "type": "minecraft:item",
+          "name": "useful_ores:raw_nyxium",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 6
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blackstone",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 2
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "useful_ores:raw_arcanite",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 2
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "useful_ores:raw_voidshard",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 2
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "count": {
+                "type": "minecraft:constant",
+                "value": 2
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye"
         }
       ],
-      "entries": [
-        { "type": "minecraft:item", "name": "useful_ores:raw_nyxium",
-          "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:constant", "value": 6 } } ] },
-        { "type": "minecraft:item", "name": "minecraft:blackstone",
-          "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:constant", "value": 2 } } ] },
-        { "type": "minecraft:item", "name": "useful_ores:raw_arcanite",
-          "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:constant", "value": 2 } } ] },
-        { "type": "minecraft:item", "name": "useful_ores:raw_voidshard",
-          "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:constant", "value": 2 } } ] },
-        { "type": "minecraft:item", "name": "minecraft:ender_pearl",
-          "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:constant", "value": 2 } } ] },
-        { "type": "minecraft:item", "name": "minecraft:ender_eye" }
-      ]
+      "condition": {
+        "predicate": {
+          "items": "useful_ores:attributed_subspace_pickaxe"
+        },
+        "type": "minecraft:match_tool"
+      }
     }
   ]
 }

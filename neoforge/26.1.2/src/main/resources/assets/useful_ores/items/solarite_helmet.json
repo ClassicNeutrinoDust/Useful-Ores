@@ -82,6 +82,90 @@
           "model": "useful_ores:item/solarite_helmet_resin_trim"
         },
         "when": "minecraft:resin"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/solarite_helmet_arcanite_trim"
+        },
+        "when": "arcanite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/solarite_helmet_argentite_trim"
+        },
+        "when": "argentite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/solarite_helmet_chromite_trim"
+        },
+        "when": "chromite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/solarite_helmet_fulgurite_trim"
+        },
+        "when": "fulgurite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/solarite_helmet_ilmenite_trim"
+        },
+        "when": "ilmenite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/solarite_helmet_nyxium_trim"
+        },
+        "when": "nyxium"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/solarite_helmet_osmium_trim"
+        },
+        "when": "osmium"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/solarite_helmet_phosgene_trim"
+        },
+        "when": "phosgene"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/solarite_helmet_scheelite_trim"
+        },
+        "when": "scheelite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/solarite_helmet_solarite_trim"
+        },
+        "when": "solarite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/solarite_helmet_sperrylite_trim"
+        },
+        "when": "sperrylite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/solarite_helmet_zephyrite_trim"
+        },
+        "when": "zephyrite"
       }
     ],
     "property": "minecraft:trim_material"

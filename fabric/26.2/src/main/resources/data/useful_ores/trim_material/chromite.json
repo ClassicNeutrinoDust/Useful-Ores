@@ -1,0 +1,9 @@
+{
+  "asset_name": "chromite",
+  "description": {
+    "color": "#7B7B7B",
+    "translate": "trim_material.useful_ores.chromite"
+  },
+  "ingredient": "useful_ores:chromite_ingot",
+  "item_model_index": 1.4
+}

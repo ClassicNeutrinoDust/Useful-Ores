@@ -4,8 +4,15 @@
   "pools": [
     {
       "rolls": 1.0,
-      "conditions": [ { "condition": "minecraft:survives_explosion" } ],
-      "entries": [ { "type": "minecraft:item", "name": "useful_ores:chromite_piston" } ]
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "useful_ores:chromite_piston"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
     }
   ]
 }

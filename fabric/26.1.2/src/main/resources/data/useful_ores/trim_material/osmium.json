@@ -1,0 +1,9 @@
+{
+  "asset_name": "osmium",
+  "description": {
+    "color": "#6B7180",
+    "translate": "trim_material.useful_ores.osmium"
+  },
+  "ingredient": "useful_ores:osmium_ingot",
+  "item_model_index": 1.8
+}

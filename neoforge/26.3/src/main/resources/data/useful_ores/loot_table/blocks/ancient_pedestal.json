@@ -5,15 +5,18 @@
     {
       "rolls": 1.0,
       "bonus_rolls": 0.0,
-      "conditions": [
+      "entries": [
         {
-          "condition": "minecraft:match_tool",
-          "predicate": { "items": "useful_ores:voidshard_pickaxe" }
+          "type": "minecraft:item",
+          "name": "useful_ores:ancient_pedestal"
         }
       ],
-      "entries": [
-        { "type": "minecraft:item", "name": "useful_ores:ancient_pedestal" }
-      ]
+      "condition": {
+        "predicate": {
+          "items": "useful_ores:voidshard_pickaxe"
+        },
+        "type": "minecraft:match_tool"
+      }
     }
   ]
 }

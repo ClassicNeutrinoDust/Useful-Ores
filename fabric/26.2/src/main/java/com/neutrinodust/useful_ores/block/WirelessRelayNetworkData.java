@@ -174,7 +174,7 @@ public class WirelessRelayNetworkData extends SavedData {
    }
 
    public void addEdge(GlobalPos parent, GlobalPos child) {
-      
+      // A node with an upstream is not an independent root.
       this.knownRoots.remove(child);
       List<GlobalPos> children = this.downstream.computeIfAbsent(parent, k -> new ArrayList<>());
       if (!children.contains(child)) {
@@ -227,8 +227,8 @@ public class WirelessRelayNetworkData extends SavedData {
    }
 
    public void forgetRelay(GlobalPos pos) {
-      
-      
+      // Remove incident edges through the normal edge path so surviving nodes
+      // are recomputed and root bookkeeping remains authoritative.
       for (GlobalPos child : List.copyOf(this.downstream.getOrDefault(pos, List.of()))) {
          removeEdge(pos, child);
       }
@@ -382,8 +382,8 @@ public class WirelessRelayNetworkData extends SavedData {
          }
          VersionedValue current = this.values.get(root);
          if (current == null) continue;
-         
-         
+         // Maintenance propagates the existing event; it does not fabricate a
+         // newer signal version.
          propagateInstant(root, new HashSet<>(), changed);
       }
       return changed;

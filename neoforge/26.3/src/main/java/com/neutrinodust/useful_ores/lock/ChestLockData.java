@@ -77,11 +77,11 @@ public class ChestLockData extends SavedData {
     }
 
 
-    
-
-
-
-
+    /**
+     * Returns all block positions that belong to the chest container at {@code pos}.
+     * A double chest is represented by both halves so the lock applies to the whole
+     * shared inventory, regardless of which half the player clicks.
+     */
     public static java.util.List<BlockPos> getContainerPositions(net.minecraft.world.level.Level level, BlockPos pos) {
         java.util.ArrayList<BlockPos> positions = new java.util.ArrayList<>(2);
         BlockState state = level.getBlockState(pos);
@@ -102,7 +102,7 @@ public class ChestLockData extends SavedData {
         return positions;
     }
 
-    
+    /** Returns the lock entry for either half of a chest container. */
     public LockEntry getForContainer(net.minecraft.world.level.Level level, BlockPos pos) {
         for (BlockPos containerPos : getContainerPositions(level, pos)) {
             LockEntry entry = get(containerPos);
@@ -111,7 +111,7 @@ public class ChestLockData extends SavedData {
         return null;
     }
 
-    
+    /** Locks every half of a chest container using one shared lock identity. */
     public void lockContainer(net.minecraft.world.level.Level level, BlockPos pos, UUID owner, UUID lockId) {
         LockEntry entry = new LockEntry(owner, lockId, false);
         for (BlockPos containerPos : getContainerPositions(level, pos)) {
@@ -120,7 +120,7 @@ public class ChestLockData extends SavedData {
         setDirty();
     }
 
-    
+    /** Marks every half of a chest container as bound, recovering old one-half entries too. */
     public void markContainerBound(net.minecraft.world.level.Level level, BlockPos pos) {
         LockEntry existing = getForContainer(level, pos);
         if (existing == null || existing.bound()) return;
@@ -131,7 +131,7 @@ public class ChestLockData extends SavedData {
         setDirty();
     }
 
-    
+    /** Unlocks every half of a chest container. */
     public void unlockContainer(net.minecraft.world.level.Level level, BlockPos pos) {
         boolean changed = false;
         for (BlockPos containerPos : getContainerPositions(level, pos)) {
@@ -140,7 +140,7 @@ public class ChestLockData extends SavedData {
         if (changed) setDirty();
     }
 
-    
+    /** Returns whether either half of the chest container at {@code pos} is locked. */
     public boolean isLocked(net.minecraft.world.level.Level level, BlockPos pos) {
         for (BlockPos containerPos : getContainerPositions(level, pos)) {
             if (isLocked(containerPos)) return true;
@@ -148,10 +148,10 @@ public class ChestLockData extends SavedData {
         return false;
     }
 
-    
-
-
-
+    /**
+     * Returns locked positions expanded to both halves of any currently formed double chest.
+     * Also migrates legacy one-half lock entries so old worlds get the corrected behavior.
+     */
     public List<Long> snapshotPositions(net.minecraft.world.level.Level level) {
         java.util.ArrayList<Long> original = new java.util.ArrayList<>(locks.keySet());
         java.util.HashMap<Long, LockEntry> additions = new java.util.HashMap<>();

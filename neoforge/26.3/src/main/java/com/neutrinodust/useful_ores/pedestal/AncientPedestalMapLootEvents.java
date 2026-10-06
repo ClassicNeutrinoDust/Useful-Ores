@@ -9,7 +9,7 @@ import net.minecraft.world.level.storage.loot.providers.number.ints.ConstantValu
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.LootTableLoadEvent;
 
-
+/** Injects an Ancient Pedestal map pool into chest loot tables. */
 public final class AncientPedestalMapLootEvents {
     private static final String PEDESTAL_LOOT_TABLE = "useful_ores:chests/ancient_pedestal_chamber";
     private static final String ANCIENT_CITY_LOOT_TABLE = "minecraft:chests/ancient_city";
@@ -23,7 +23,7 @@ public final class AncientPedestalMapLootEvents {
                                 .apply(new AncientPedestalMapLootFunction.Builder(excludeNearest))
                 );
 
-        
+        /* 1:4 gives 20% for Ancient Cities, 1:19 gives 5% elsewhere. */
         pool.add(EmptyLootItem.emptyItem().setWeight(ancientCity ? 4 : 19));
         return pool;
     }

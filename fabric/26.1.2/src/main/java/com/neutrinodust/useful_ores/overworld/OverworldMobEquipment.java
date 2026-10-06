@@ -17,12 +17,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-
-
-
-
-
-
+/**
+ * Gives Overworld hostile mobs a small, tier-scaled chance to spawn wearing armor made from
+ * this mod's Overworld ores, similar in spirit to vanilla's own random zombie/skeleton armor
+ * rolls, but restricted to ores at least as strong as diamond. Higher-tier ores are rarer.
+ * Never overwrites armor a mob already spawned with (vanilla gold/iron/etc. is untouched).
+ */
 public final class OverworldMobEquipment {
     private OverworldMobEquipment() {}
 
@@ -40,15 +40,15 @@ public final class OverworldMobEquipment {
         }
     }
 
-    
-    
+    // Diamond-equivalent ores: rarer than nether painite, but the most common of this tier list.
+    // Beyond-netherite ores (nyxium/arcanite): much rarer, like true "jackpot" spawns.
     private static final List<MaterialTier> TIERS = List.of(
-        new MaterialTier(ModItems.CHROMITE_ITEMS, 0.0025F, 0.0050F, 0.0075F), 
-        new MaterialTier(ModItems.ILMENITE_ITEMS, 0.0025F, 0.0050F, 0.0075F), 
-        new MaterialTier(ModItems.NYXIUM_ITEMS,   0.0005F, 0.0010F, 0.0015F), 
-        new MaterialTier(ModItems.ARCANITE_ITEMS, 0.0005F, 0.0010F, 0.0015F)  
+        new MaterialTier(ModItems.CHROMITE_ITEMS, 0.0025F, 0.0050F, 0.0075F), // diamond tier, 1.5% total
+        new MaterialTier(ModItems.ILMENITE_ITEMS, 0.0025F, 0.0050F, 0.0075F), // diamond tier, 1.5% total
+        new MaterialTier(ModItems.NYXIUM_ITEMS,   0.0005F, 0.0010F, 0.0015F), // beyond netherite, 0.3% total
+        new MaterialTier(ModItems.ARCANITE_ITEMS, 0.0005F, 0.0010F, 0.0015F)  // beyond netherite, 0.3% total
     );
-    
+    // Combined chance across all tiers/pieces: 3.6%. ~96.4% of overworld mobs get no bonus armor.
 
     public static void onEntityLoad(Entity entity, ServerLevel level) {
         if (!(entity instanceof Monster mob) || level.dimension() != Level.OVERWORLD || hasModArmor(mob)) return;
@@ -66,7 +66,7 @@ public final class OverworldMobEquipment {
     }
 
     private static void equip(Monster mob, ServerLevel level, MaterialTier tier, int pieceCount) {
-        
+        // Only fill slots the mob doesn't already have gear in (never replaces vanilla armor).
         List<EquipmentSlot> emptySlots = new ArrayList<>();
         for (EquipmentSlot slot : ARMOR_SLOTS) {
             if (mob.getItemBySlot(slot).isEmpty()) emptySlots.add(slot);

@@ -660,5 +660,16 @@
   "item.useful_ores.voidshard_spear": "Voidshard Spear",
   "item.useful_ores.lonsdaleite_spear": "Lonsdaleite Spear",
   "item.useful_ores.painite_spear": "Painite Spear",
-  "item.useful_ores.subspace_spear": "Subspace Spear"
+  "item.useful_ores.subspace_spear": "Subspace Spear",
+  "trim_material.useful_ores.chromite": "Chromite Material",
+  "trim_material.useful_ores.nyxium": "Nyxium Material",
+  "trim_material.useful_ores.phosgene": "Phosgene Material",
+  "trim_material.useful_ores.arcanite": "Arcanite Material",
+  "trim_material.useful_ores.fulgurite": "Fulgurite Material",
+  "trim_material.useful_ores.osmium": "Osmium Material",
+  "trim_material.useful_ores.solarite": "Solarite Material",
+  "trim_material.useful_ores.sperrylite": "Sperrylite Material",
+  "trim_material.useful_ores.argentite": "Argentite Material",
+  "trim_material.useful_ores.ilmenite": "Ilmenite Material",
+  "trim_material.useful_ores.scheelite": "Scheelite Material"
 }

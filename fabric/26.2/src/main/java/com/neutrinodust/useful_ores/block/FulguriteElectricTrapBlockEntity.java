@@ -299,9 +299,9 @@ public class FulguriteElectricTrapBlockEntity extends BlockEntity implements com
          if (!(invokeGetterByReturnType(display, ItemStack.class) instanceof ItemStack stack)) continue;
          if (stack.getItem() != com.neutrinodust.useful_ores.init.ModItems.ELECTRIC_RING.get()) continue;
 
-         
-         
-         
+         // Ring displays are spawned exactly at the trap center. Only remove an
+         // untracked ring if it belongs to this trap's position; this prevents
+         // neighboring traps from deleting each other's displays.
          BlockPos ringPos = BlockPos.containing(display.getX(), display.getY(), display.getZ());
          if (ringPos.equals(pos)) {
             display.discard();

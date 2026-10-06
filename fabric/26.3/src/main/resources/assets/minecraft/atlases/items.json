@@ -1,0 +1,34 @@
+{
+  "replace": false,
+  "sources": [
+    {
+      "type": "minecraft:directory",
+      "prefix": "item/",
+      "source": "item"
+    },
+    {
+      "type": "minecraft:paletted_permutations",
+      "palette_key": "minecraft:trim_base",
+      "permutations": {
+        "chromite": "useful_ores:trim/chromite",
+        "nyxium": "useful_ores:trim/nyxium",
+        "phosgene": "useful_ores:trim/phosgene",
+        "arcanite": "useful_ores:trim/arcanite",
+        "fulgurite": "useful_ores:trim/fulgurite",
+        "osmium": "useful_ores:trim/osmium",
+        "solarite": "useful_ores:trim/solarite",
+        "sperrylite": "useful_ores:trim/sperrylite",
+        "argentite": "useful_ores:trim/argentite",
+        "zephyrite": "useful_ores:trim/zephyrite",
+        "ilmenite": "useful_ores:trim/ilmenite",
+        "scheelite": "useful_ores:trim/scheelite"
+      },
+      "textures": [
+        "minecraft:trims/items/helmet_trim",
+        "minecraft:trims/items/chestplate_trim",
+        "minecraft:trims/items/leggings_trim",
+        "minecraft:trims/items/boots_trim"
+      ]
+    }
+  ]
+}

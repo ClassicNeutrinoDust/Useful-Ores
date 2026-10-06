@@ -4,10 +4,10 @@ plugins {
 }
 
 val modId = "useful_ores"
-val modVersion = project.findProperty("mod_version") as String? ?: "2.1.7"
+val modVersion = project.findProperty("mod_version") as String? ?: "2.1.8"
 val minecraftVersion = project.findProperty("minecraft_version") as String? ?: "26.3"
 val fabricLoaderVersion = project.findProperty("fabric_loader_version") as String? ?: "0.19.5"
-val fabricApiVersion = project.findProperty("fabric_api_version") as String? ?: "0.160.3+26.3"
+val fabricApiVersion = project.findProperty("fabric_api_version") as String? ?: "0.161.0+26.3"
 
 group = "com.neutrinodust"
 version = modVersion
@@ -20,6 +20,10 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(25)
 
 repositories {
     mavenCentral()
+    maven {
+        name = "CurseMaven"
+        url = uri("https://www.cursemaven.com")
+    }
 }
 
 // Minecraft 26.1+ ships fully unobfuscated (Mojang's own names, no more obfuscation
@@ -39,6 +43,8 @@ dependencies {
 
     // GeckoLib remains available for the other mod content; the Solarite minecart itself does not use it.
     implementation(fileTree("libs") { include("*.jar") })
+    // JEI is an optional gameplay/UI integration at runtime, but this plugin must compile against the Fabric 26.3 JEI API.
+    implementation("curse.maven:jei-238222:9068072")
 
     // No Sodium dependency: Fabric users get real, official Sodium as a separate mod
     // install. The NeoForge build's Sodium compat mixin (compileOnly against Sodium's

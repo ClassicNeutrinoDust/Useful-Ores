@@ -14,8 +14,12 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.PotionItem;
 import net.minecraft.world.item.alchemy.PotionContents;
 import net.minecraft.world.item.alchemy.Potions;
+import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.ClipContext;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.gameevent.GameEvent;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.HitResult;
 
@@ -66,14 +70,60 @@ public class SperryliteCatalyticVialItem extends PotionItem {
 
         level.playSound(player, player.getX(), player.getY(), player.getZ(),
             SoundEvents.BOTTLE_FILL, SoundSource.NEUTRAL, 1.0F, 1.0F);
-        level.gameEvent(player, net.minecraft.world.level.gameevent.GameEvent.FLUID_PICKUP, pos);
+        level.gameEvent(player, GameEvent.FLUID_PICKUP, pos);
 
         if (!level.isClientSide()) {
-            stack.set(DataComponents.POTION_CONTENTS, new PotionContents(Potions.WATER));
+            // Fill exactly one vial from the stack instead of stamping the potion
+            // contents onto the whole stack (which would fill every vial in it at
+            // once). The rest of the empty vials stay behind as empty vials.
+            ItemStack filledVial = new ItemStack(this);
+            filledVial.set(DataComponents.POTION_CONTENTS, new PotionContents(Potions.WATER));
+            filledVial.set(DataComponents.MAX_STACK_SIZE, 1);
+
+            if (stack.getCount() > 1) {
+                stack.shrink(1);
+                if (!player.getInventory().add(filledVial)) {
+                    player.drop(filledVial, false);
+                }
+            } else {
+                stack.set(DataComponents.POTION_CONTENTS, new PotionContents(Potions.WATER));
+                stack.set(DataComponents.MAX_STACK_SIZE, 1);
+            }
+
             player.awardStat(Stats.ITEM_USED.get(this));
         }
 
         return InteractionResult.SUCCESS;
+    }
+
+    @Override
+    public InteractionResult useOn(UseOnContext context) {
+        Level level = context.getLevel();
+        BlockPos pos = context.getClickedPos();
+        BlockState state = level.getBlockState(pos);
+        ItemStack stack = context.getItemInHand();
+        PotionContents contents = stack.getOrDefault(DataComponents.POTION_CONTENTS, PotionContents.EMPTY);
+
+        // Vanilla's dirt -> mud conversion is hardcoded to hand back a plain glass
+        // bottle regardless of the potion item subclass, which would silently turn
+        // this vial into a glass bottle. Handle the conversion ourselves so the
+        // player gets an empty vial back instead.
+        boolean isDirtLike = state.is(Blocks.DIRT) || state.is(Blocks.COARSE_DIRT) || state.is(Blocks.ROOTED_DIRT);
+        if (isDirtLike && contents.is(Potions.WATER)) {
+            if (!level.isClientSide()) {
+                level.setBlockAndUpdate(pos, Blocks.MUD.defaultBlockState());
+                level.playSound(null, pos, SoundEvents.GENERIC_SPLASH, SoundSource.BLOCKS, 1.0F, 1.0F);
+                level.gameEvent(context.getPlayer(), GameEvent.FLUID_PLACE, pos);
+
+                Player player = context.getPlayer();
+                if (player != null && !player.getAbilities().instabuild) {
+                    player.setItemInHand(context.getHand(), new ItemStack(this));
+                }
+            }
+            return InteractionResult.SUCCESS;
+        }
+
+        return super.useOn(context);
     }
 
     @Override
@@ -92,8 +142,8 @@ public class SperryliteCatalyticVialItem extends PotionItem {
             return stack;
         }
 
-        
-        
+        // Consume exactly one filled vial.  Return that one vial as an empty
+        // vial so it can stack with other empty vials in the inventory.
         if (stack.getCount() > 1) {
             stack.shrink(1);
             ItemStack emptyVial = new ItemStack(this);
@@ -103,8 +153,6 @@ public class SperryliteCatalyticVialItem extends PotionItem {
             return stack;
         }
 
-        stack.remove(DataComponents.POTION_CONTENTS);
-        return stack;
+        return new ItemStack(this);
     }
 }
-

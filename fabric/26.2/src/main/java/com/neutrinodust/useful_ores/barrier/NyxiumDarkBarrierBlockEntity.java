@@ -30,7 +30,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
-
+/** Server-side state for the Nyxium Dark Barrier matter-reversion field. */
 public class NyxiumDarkBarrierBlockEntity extends BlockEntity implements com.geckolib.animatable.GeoAnimatable {
 
    private static final int SCAN_INTERVAL_TICKS = 1;
@@ -76,11 +76,11 @@ public class NyxiumDarkBarrierBlockEntity extends BlockEntity implements com.gec
    private static void scanAndQueue(ServerLevel level, BlockPos pos, BlockState state,
                                     NyxiumDarkBarrierBlockEntity be) {
       AABB triggerBox = buildTriggerBox(pos, state);
-      
-      
-      
-      
-      
+      // Broad-phase query is intentionally larger than the field. Item entities can
+      // move more than the barrier depth between server ticks, especially when
+      // thrown, bounced, or synchronized after lag. The narrow phase below uses
+      // the entity's one-tick swept bounds, so nearby items are not consumed merely
+      // for being in the broad-phase area.
       AABB captureBox = triggerBox.inflate(CAPTURE_BROADPHASE_MARGIN);
       for (ItemEntity itemEntity : level.getEntitiesOfClass(ItemEntity.class, captureBox)) {
          if (be.pending.size() >= MAX_PENDING_JOBS) break;
@@ -95,19 +95,19 @@ public class NyxiumDarkBarrierBlockEntity extends BlockEntity implements com.gec
             ItemReversion.revert(current, level, be.materialResidue);
          if (reversion.outputs().isEmpty() && reversion.residue().equals(be.materialResidue)) continue;
 
-         
+         // Replace only after a successful, deterministic conservation calculation.
          be.materialResidue.clear();
          be.materialResidue.putAll(reversion.residue());
 
-         
+         // A recipe that maps an item back to itself is never useful to the barrier.
          if (reversion.outputs().size() == 1
                && reversion.outputs().get(0).getItem() == current.getItem()
                && reversion.outputs().get(0).getCount() == current.getCount()) {
             continue;
          }
 
-         
-         
+         // Reversion consumes the entity stack. This preserves any unprocessed stack
+         // if the entity contains more than one stackable operation in the future.
          itemEntity.discard();
 
          if (!reversion.outputs().isEmpty()) {
@@ -128,9 +128,9 @@ public class NyxiumDarkBarrierBlockEntity extends BlockEntity implements com.gec
       AABB current = entity.getBoundingBox();
       var motion = entity.getDeltaMovement();
 
-      
-      
-      
+      // Block-entity ticks may execute after the item entity has already moved.
+      // Sweep one motion-length in both directions from the current bounds so an
+      // item crossing the thin barrier plane during this tick cannot tunnel through.
       double minX = Math.min(current.minX - motion.x, current.minX + motion.x);
       double minY = Math.min(current.minY - motion.y, current.minY + motion.y);
       double minZ = Math.min(current.minZ - motion.z, current.minZ + motion.z);
@@ -186,10 +186,10 @@ public class NyxiumDarkBarrierBlockEntity extends BlockEntity implements com.gec
          cx + halfX, cy + halfHeight, cz + halfZ);
    }
 
-   
-
-
-
+   /**
+    * Eject through the barrier plane, not from its geometric center. This makes the
+    * machine directional and greatly reduces self-recapture and feedback loops.
+    */
    private static void spit(ServerLevel level, BlockPos pos, NyxiumDarkBarrierBlockEntity be,
                             List<ItemStack> stacks) {
       BlockState state = be.getBlockState();
@@ -225,8 +225,8 @@ public class NyxiumDarkBarrierBlockEntity extends BlockEntity implements com.gec
             out.setDefaultPickUpDelay();
             level.addFreshEntity(out);
 
-            
-            
+            // Kept as a secondary guard for edge cases such as entity merging or a
+            // temporary obstruction in front of the barrier. It is also persisted.
             be.recentlyEjected.put(out.getUUID(), graceExpiry);
          }
       }
@@ -321,7 +321,7 @@ public class NyxiumDarkBarrierBlockEntity extends BlockEntity implements com.gec
                materialResidue.put(item, new ItemReversion.Fraction(numerator, denominator));
             }
          } catch (Exception ignored) {
-            
+            // Ignore malformed old residue rather than making the whole block entity fail to load.
          }
       }
 
@@ -333,7 +333,7 @@ public class NyxiumDarkBarrierBlockEntity extends BlockEntity implements com.gec
          try {
             recentlyEjected.put(UUID.fromString(uuidText), expiry);
          } catch (IllegalArgumentException ignored) {
-            
+            // Skip malformed UUIDs safely.
          }
       }
    }

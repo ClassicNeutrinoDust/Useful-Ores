@@ -11,15 +11,15 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-
+/** Persistent registry of Ancient Pedestal center coordinates already assigned to maps. */
 public final class AncientPedestalMapAssignments extends SavedData {
     private final Set<Long> claimedTargets = new HashSet<>();
 
-    
-
-
-
-
+    /*
+     * Older versions stored BlockPos#asLong values, which included Y and could
+     * therefore represent the same pedestal twice. Convert legacy values to the
+     * new X/Z-only identity while loading.
+     */
     public static final Codec<AncientPedestalMapAssignments> CODEC = Codec.LONG.listOf().xmap(
             list -> {
                 AncientPedestalMapAssignments data = new AncientPedestalMapAssignments();

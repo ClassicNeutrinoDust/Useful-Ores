@@ -8,7 +8,7 @@ import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
 
-
+/** Adds Ancient Pedestal maps when chest loot is actually generated. */
 public final class AncientPedestalMapLootEvents {
     private static final String PEDESTAL_LOOT_TABLE = "useful_ores:chests/ancient_pedestal_chamber";
     private static final String ANCIENT_CITY_LOOT_TABLE = "minecraft:chests/ancient_city";

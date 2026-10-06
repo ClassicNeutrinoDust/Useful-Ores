@@ -4,8 +4,8 @@ plugins {
 }
 
 val modId = "useful_ores"
-val modVersion = project.findProperty("mod_version") as String? ?: "2.1.7"
-val neoForgeVersion = project.findProperty("neoforge_version") as String? ?: "26.1.2.75"
+val modVersion = project.findProperty("mod_version") as String? ?: "2.1.8-26.1.2"
+val neoForgeVersion = project.findProperty("neoforge_version") as String? ?: "26.1.2.94"
 val minecraftVersion = project.findProperty("minecraft_version") as String? ?: "26.1.2"
 
 group = "com.neutrinodust"

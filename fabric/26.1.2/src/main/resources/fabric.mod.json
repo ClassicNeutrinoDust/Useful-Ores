@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "useful_ores",
-  "version": "${version}",
+  "version": "2.1.8",
   "name": "Useful Ores",
   "description": "Adds 14 ores and recipes (Swords, Armors, Tools and Blocks)",
   "authors": [
@@ -24,7 +24,7 @@
     "useful_ores.sound.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.18.4",
+    "fabricloader": ">=0.19.5",
     "fabric-api": "*",
     "minecraft": "~26.1.2",
     "java": ">=25",

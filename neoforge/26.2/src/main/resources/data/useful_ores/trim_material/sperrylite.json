@@ -1,0 +1,9 @@
+{
+  "asset_name": "sperrylite",
+  "description": {
+    "color": "#A4B4B8",
+    "translate": "trim_material.useful_ores.sperrylite"
+  },
+  "ingredient": "useful_ores:sperrylite_ingot",
+  "item_model_index": 2.2
+}

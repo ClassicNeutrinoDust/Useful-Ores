@@ -1,0 +1,9 @@
+{
+  "asset_name": "arcanite",
+  "description": {
+    "color": "#5A3A9B",
+    "translate": "trim_material.useful_ores.arcanite"
+  },
+  "ingredient": "useful_ores:arcanite_ingot",
+  "item_model_index": 1.2
+}

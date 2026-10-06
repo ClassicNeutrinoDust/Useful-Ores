@@ -59,8 +59,6 @@ public class UsefulOresMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        Constants.LOG.info("Hello Fabric world!");
-
         ModConfig.register();
         com.neutrinodust.useful_ores.block.WirelessRedstoneRelayLifecycleEvents.register();
 

@@ -1,0 +1,7 @@
+{
+  "description": {
+    "color": "#6B7180",
+    "translate": "trim_material.useful_ores.osmium"
+  },
+  "palette_id": "useful_ores:trim/osmium"
+}

@@ -82,6 +82,90 @@
           "model": "useful_ores:item/argentite_leggings_resin_trim"
         },
         "when": "minecraft:resin"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/argentite_leggings_arcanite_trim"
+        },
+        "when": "arcanite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/argentite_leggings_argentite_trim"
+        },
+        "when": "argentite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/argentite_leggings_chromite_trim"
+        },
+        "when": "chromite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/argentite_leggings_fulgurite_trim"
+        },
+        "when": "fulgurite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/argentite_leggings_ilmenite_trim"
+        },
+        "when": "ilmenite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/argentite_leggings_nyxium_trim"
+        },
+        "when": "nyxium"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/argentite_leggings_osmium_trim"
+        },
+        "when": "osmium"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/argentite_leggings_phosgene_trim"
+        },
+        "when": "phosgene"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/argentite_leggings_scheelite_trim"
+        },
+        "when": "scheelite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/argentite_leggings_solarite_trim"
+        },
+        "when": "solarite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/argentite_leggings_sperrylite_trim"
+        },
+        "when": "sperrylite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/argentite_leggings_zephyrite_trim"
+        },
+        "when": "zephyrite"
       }
     ],
     "property": "minecraft:trim_material"

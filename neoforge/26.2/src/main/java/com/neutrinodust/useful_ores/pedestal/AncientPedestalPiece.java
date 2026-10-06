@@ -43,7 +43,7 @@ public class AncientPedestalPiece extends StructurePiece {
       this.radius = tag.getIntOr("Radius", 8);
    }
 
-   
+   /** Exact X/Z/Y center used by generation and map targeting. */
    public BlockPos getCentre() {
       return centre;
    }

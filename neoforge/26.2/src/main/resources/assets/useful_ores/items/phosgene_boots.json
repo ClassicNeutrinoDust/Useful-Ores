@@ -82,6 +82,90 @@
           "model": "useful_ores:item/phosgene_boots_resin_trim"
         },
         "when": "minecraft:resin"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/phosgene_boots_arcanite_trim"
+        },
+        "when": "arcanite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/phosgene_boots_argentite_trim"
+        },
+        "when": "argentite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/phosgene_boots_chromite_trim"
+        },
+        "when": "chromite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/phosgene_boots_fulgurite_trim"
+        },
+        "when": "fulgurite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/phosgene_boots_ilmenite_trim"
+        },
+        "when": "ilmenite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/phosgene_boots_nyxium_trim"
+        },
+        "when": "nyxium"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/phosgene_boots_osmium_trim"
+        },
+        "when": "osmium"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/phosgene_boots_phosgene_trim"
+        },
+        "when": "phosgene"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/phosgene_boots_scheelite_trim"
+        },
+        "when": "scheelite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/phosgene_boots_solarite_trim"
+        },
+        "when": "solarite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/phosgene_boots_sperrylite_trim"
+        },
+        "when": "sperrylite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/phosgene_boots_zephyrite_trim"
+        },
+        "when": "zephyrite"
       }
     ],
     "property": "minecraft:trim_material"

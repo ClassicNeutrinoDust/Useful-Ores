@@ -4,7 +4,7 @@ plugins {
 }
 
 val modId = "useful_ores"
-val modVersion = project.findProperty("mod_version") as String? ?: "2.1.7"
+val modVersion = project.findProperty("mod_version") as String? ?: "2.1.8-26.1.2"
 val minecraftVersion = project.findProperty("minecraft_version") as String? ?: "26.1.2"
 val fabricLoaderVersion = project.findProperty("fabric_loader_version") as String? ?: "0.18.4"
 val fabricApiVersion = project.findProperty("fabric_api_version") as String? ?: "0.147.0+26.1.2"

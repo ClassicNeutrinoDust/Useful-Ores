@@ -82,6 +82,90 @@
           "model": "useful_ores:item/nyxium_chestplate_resin_trim"
         },
         "when": "minecraft:resin"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/nyxium_chestplate_arcanite_trim"
+        },
+        "when": "arcanite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/nyxium_chestplate_argentite_trim"
+        },
+        "when": "argentite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/nyxium_chestplate_chromite_trim"
+        },
+        "when": "chromite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/nyxium_chestplate_fulgurite_trim"
+        },
+        "when": "fulgurite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/nyxium_chestplate_ilmenite_trim"
+        },
+        "when": "ilmenite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/nyxium_chestplate_nyxium_trim"
+        },
+        "when": "nyxium"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/nyxium_chestplate_osmium_trim"
+        },
+        "when": "osmium"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/nyxium_chestplate_phosgene_trim"
+        },
+        "when": "phosgene"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/nyxium_chestplate_scheelite_trim"
+        },
+        "when": "scheelite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/nyxium_chestplate_solarite_trim"
+        },
+        "when": "solarite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/nyxium_chestplate_sperrylite_trim"
+        },
+        "when": "sperrylite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/nyxium_chestplate_zephyrite_trim"
+        },
+        "when": "zephyrite"
       }
     ],
     "property": "minecraft:trim_material"

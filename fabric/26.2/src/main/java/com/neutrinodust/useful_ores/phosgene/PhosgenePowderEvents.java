@@ -81,7 +81,7 @@ public final class PhosgenePowderEvents {
             BlockPos pos = BlockPos.of(packed);
             PhosgenePowderData.Applied applied = entry.getValue();
 
-            
+            // Cap fields created by older versions to the new one-day maximum.
             if (applied.expiresAt() > now + PhosgenePowderData.LIFETIME_TICKS) {
                 applied = new PhosgenePowderData.Applied(
                         applied.potionId(), now + PhosgenePowderData.LIFETIME_TICKS, applied.color());

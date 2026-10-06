@@ -21,11 +21,11 @@ public final class PainitePower {
 
     private PainitePower() {}
 
-    
-
-
-
-
+    /**
+     * One worn Painite armor piece costs half a heart (1.0 max-health point).
+     * Four pieces therefore lower the normal 20 HP player cap to 16 HP (8 hearts).
+     * When health is at or below 5 hearts, the existing 60% Painite low-health boost remains active.
+     */
     public static void update(LivingEntity entity) {
         int armorPieces = 0;
         double armor = 0.0D;
@@ -40,12 +40,12 @@ public final class PainitePower {
             }
         }
 
-        
+        // Half a heart = 1.0 max-health point per equipped Painite piece.
         set(entity.getAttribute(Attributes.MAX_HEALTH), MAX_HEALTH_ID,
                 "useful_ores_painite_health_cost", -armorPieces,
                 AttributeModifier.Operation.ADD_VALUE);
 
-        
+        // Never leave the entity above the newly reduced health ceiling.
         double maxHealth = entity.getMaxHealth();
         if (entity.getHealth() > maxHealth) {
             entity.setHealth((float) maxHealth);
@@ -64,7 +64,7 @@ public final class PainitePower {
         set(entity.getAttribute(Attributes.BLOCK_BREAK_SPEED), SPEED_ID,
                 "useful_ores_painite_low_health_speed", active && tool ? 0.60D : 0.0D,
                 AttributeModifier.Operation.ADD_MULTIPLIED_BASE);
-        
+        // 60% shorter attack cooldown means attack speed is multiplied by 2.5 (cooldown becomes 40%).
         set(entity.getAttribute(Attributes.ATTACK_SPEED), SPEAR_SPEED_ID,
                 "useful_ores_painite_low_health_spear_speed", active && spear ? 1.50D : 0.0D,
                 AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL);
@@ -74,11 +74,11 @@ public final class PainitePower {
         }
     }
 
-    
-
-
-
-
+    /**
+     * Keeps the GUI-only Painite Fury visual component synchronized with the player's actual Fury state.
+     * The component is presence-only and is added/removed only when the state changes, so normal item data
+     * is not churned every tick.
+     */
     private static void updateToolVisualState(Player player, boolean active) {
         var type = ModDataComponents.painiteFuryToolType();
         for (ItemStack stack : player.getInventory()) {
@@ -96,7 +96,7 @@ public final class PainitePower {
         else if (!active && marked) stack.remove(type);
     }
 
-    
+    /** Painite's Fury state begins at exactly 5 hearts or lower for players. */
     public static boolean isFuryActive(LivingEntity entity) {
         return entity.getHealth() > 0.0F
                 && entity.getHealth() <= threshold(entity)
@@ -143,14 +143,14 @@ public final class PainitePower {
         return c.bootsDefense.get();
     }
 
-    
+    /** Painite tools that receive the existing 60% low-health gameplay bonus; the spear also receives the 60% damage boost and a 60% shorter attack cooldown. */
     public static boolean isPainiteCombatTool(ItemStack s) {
         return s.is(ModItems.PAINITE_ITEMS.get(3).get()) || s.is(ModItems.PAINITE_ITEMS.get(4).get())
             || s.is(ModItems.PAINITE_ITEMS.get(5).get()) || s.is(ModItems.PAINITE_ITEMS.get(6).get())
             || s.is(ModItems.PAINITE_ITEMS.get(7).get());
     }
 
-    
+    /** Painite items whose inventory icon/hand model changes during Fury, including armor and spear. */
     private static boolean isPainiteVisualItem(ItemStack s) {
         return isPainiteArmor(s) || isPainiteCombatTool(s) || isPainiteSpear(s);
     }

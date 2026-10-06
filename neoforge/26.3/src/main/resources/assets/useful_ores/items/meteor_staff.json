@@ -4,7 +4,11 @@
     "property": "minecraft:display_context",
     "cases": [
       {
-        "when": ["gui", "fixed", "ground"],
+        "when": [
+          "gui",
+          "fixed",
+          "ground"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/meteor_staff_flat"

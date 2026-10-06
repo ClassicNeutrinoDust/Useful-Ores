@@ -32,7 +32,7 @@ public final class SperryliteVialFuel {
         return true;
     }
 
-    
+    /** Initialize one custom fuel charge from a blaze-powder item stack. */
     public static boolean primeCharge(BrewingStandBlockEntity brewingStand) {
         if (charges(brewingStand) > 0) return true;
 

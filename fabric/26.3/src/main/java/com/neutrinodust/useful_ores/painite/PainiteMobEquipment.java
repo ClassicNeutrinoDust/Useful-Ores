@@ -22,7 +22,7 @@ public final class PainiteMobEquipment {
         EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET
     };
 
-    
+    // Chance tiers (checked in order): full 4-piece set, then 2-piece, then 1-piece.
     private static final float FULL_SET_CHANCE = 0.02F;
     private static final float TWO_PIECE_CHANCE = 0.025F;
     private static final float ONE_PIECE_CHANCE = 0.035F;
@@ -42,8 +42,8 @@ public final class PainiteMobEquipment {
             return;
         }
 
-        
-        
+        // Never overwrite armor a mob already spawned with (e.g. vanilla piglin gold armor).
+        // Painite only fills slots that are still empty after natural equipment generation.
         List<EquipmentSlot> emptySlots = new ArrayList<>();
         for (EquipmentSlot slot : ARMOR_SLOTS) {
             if (mob.getItemBySlot(slot).isEmpty()) emptySlots.add(slot);

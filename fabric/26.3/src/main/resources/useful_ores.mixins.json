@@ -32,7 +32,6 @@
     "MixinNewMinecartBehaviorSolariteBoost"
   ],
   "client": [
-    "MixinMinecraft",
     "MixinPistonHeadRenderer",
     "MixinMinecartSoundInstanceSolarite",
     "MixinRidingMinecartSoundInstanceSolarite",

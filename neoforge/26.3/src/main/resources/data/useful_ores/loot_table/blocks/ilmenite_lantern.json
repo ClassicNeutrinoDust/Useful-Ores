@@ -4,17 +4,15 @@
   "pools": [
     {
       "rolls": 1.0,
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "useful_ores:ilmenite_lantern"
         }
-      ]
+      ],
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
     }
   ]
 }

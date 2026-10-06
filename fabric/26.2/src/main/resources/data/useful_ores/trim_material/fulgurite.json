@@ -1,0 +1,9 @@
+{
+  "asset_name": "fulgurite",
+  "description": {
+    "color": "#E7B64A",
+    "translate": "trim_material.useful_ores.fulgurite"
+  },
+  "ingredient": "useful_ores:fulgurite_ingot",
+  "item_model_index": 1.5
+}

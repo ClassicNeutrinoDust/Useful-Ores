@@ -1,0 +1,9 @@
+{
+  "asset_name": "phosgene",
+  "description": {
+    "color": "#B6E36B",
+    "translate": "trim_material.useful_ores.phosgene"
+  },
+  "ingredient": "useful_ores:phosgene_ingot",
+  "item_model_index": 1.9
+}

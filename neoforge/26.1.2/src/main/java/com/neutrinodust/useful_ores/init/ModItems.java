@@ -609,7 +609,7 @@ public class ModItems {
       new Properties().rarity(Rarity.EPIC)
    );
 
-   
+   /** Vanilla-style spear for the Subspace material. Kept separate from SUBSPACE_ITEMS to preserve legacy list indices. */
    public static final DeferredItem<Item> SUBSPACE_SPEAR = ModRegisters.registerSpear(
       "subspace", ModMaterials.SUBSPACE, () -> new Properties().rarity(Rarity.EPIC).fireResistant()
    );
