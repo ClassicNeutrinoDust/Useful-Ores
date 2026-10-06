@@ -288,7 +288,7 @@ public class WirelessRedstoneRelayBlockEntity extends BlockEntity {
 
    private static void runPendingLoad(Level level, BlockPos pos, BlockState state, WirelessRedstoneRelayBlockEntity relay) {
       if (level instanceof ServerLevel loadServerLevel) {
-         // Repair a persisted SINGLE link if its counterpart was removed while unloaded.
+                                                                                         
          if (relay.linkedPos != null && loadServerLevel.isLoaded(relay.linkedPos)) {
             if (!(loadServerLevel.getBlockEntity(relay.linkedPos) instanceof WirelessRedstoneRelayBlockEntity partner)
                   || partner.linkedPos == null || !relay.worldPosition.equals(partner.linkedPos)) {

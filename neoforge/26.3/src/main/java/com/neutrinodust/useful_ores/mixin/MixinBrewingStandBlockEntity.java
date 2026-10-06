@@ -31,8 +31,8 @@ public class MixinBrewingStandBlockEntity {
     ) {
         MixinBrewingStandBlockEntity self = (MixinBrewingStandBlockEntity) (Object) blockEntity;
 
-        // If vanilla has already charged the brewing stand, adopt that charge
-        // only when this custom recipe is actually ready to brew.
+                                                                              
+                                                                  
         if (SperryliteCatalyticVialBrewing.matchesItems(blockEntity)
                 && SperryliteVialFuel.charges(blockEntity) <= 0) {
             if (self.fuel > 0) SperryliteVialFuel.loadCharges(blockEntity, self.fuel);

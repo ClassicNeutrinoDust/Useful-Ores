@@ -26,30 +26,30 @@ repositories {
     }
 }
 
-// Minecraft 26.1+ ships fully unobfuscated (Mojang's own names, no more obfuscation
-// maps) - Loom's non-remapping "fabric-loom" plugin (1.15+, including this project's
-// 1.17.+) does NOT take a `mappings(...)`
-// dependency at all (there is nothing left to map), and dependencies use the standard
-// `implementation`/`compileOnly` configurations instead of the old `modImplementation`/
-// `modCompileOnly` (those were for remapping mod jars, which no longer happens either).
-// See https://fabricmc.net/2026/03/14/261.html - do not add mappings(loom.officialMojangMappings())
-// back in, that call is what caused the earlier "Failed to find official mojang mappings
-// for 26.1.2" build failure; there are no mappings published for 26.1+ because the game
-// itself is no longer obfuscated.
+                                                                                    
+                                                                                     
+                                          
+                                                                                      
+                                                                                        
+                                                                                        
+                                                                                                    
+                                                                                         
+                                                                                        
+                                  
 dependencies {
     minecraft("com.mojang:minecraft:$minecraftVersion")
     implementation("net.fabricmc:fabric-loader:$fabricLoaderVersion")
     implementation("net.fabricmc.fabric-api:fabric-api:$fabricApiVersion")
 
-    // GeckoLib remains available for the other mod content; the Solarite minecart itself does not use it.
+                                                                                                          
     implementation(fileTree("libs") { include("*.jar") })
-    // JEI is an optional gameplay/UI integration at runtime, but this plugin must compile against the Fabric 26.3 JEI API.
+                                                                                                                           
     implementation("curse.maven:jei-238222:9068072")
 
-    // No Sodium dependency: Fabric users get real, official Sodium as a separate mod
-    // install. The NeoForge build's Sodium compat mixin (compileOnly against Sodium's
-    // inner jar) is NOT ported as-is - see MixinNotes.md for what to do with
-    // SodiumMixinPlugin/its guarded mixin when you get to the mixin subsystem pass.
+                                                                                     
+                                                                                      
+                                                                             
+                                                                                    
 }
 
 tasks.processResources {

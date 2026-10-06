@@ -74,9 +74,9 @@ public class SperryliteCatalyticVialItem extends PotionItem {
         level.gameEvent(player, GameEvent.FLUID_PICKUP, pos);
 
         if (!level.isClientSide()) {
-            // Fill exactly one vial from the stack instead of stamping the potion
-            // contents onto the whole stack (which would fill every vial in it at
-            // once). The rest of the empty vials stay behind as empty vials.
+                                                                                  
+                                                                                  
+                                                                             
             ItemStack filledVial = new ItemStack(this);
             filledVial.set(DataComponents.POTION_CONTENTS, new PotionContents(Potions.WATER));
             filledVial.set(DataComponents.MAX_STACK_SIZE, 1);
@@ -105,10 +105,10 @@ public class SperryliteCatalyticVialItem extends PotionItem {
         ItemStack stack = context.getItemInHand();
         PotionContents contents = stack.getOrDefault(DataComponents.POTION_CONTENTS, PotionContents.EMPTY);
 
-        // Vanilla's dirt -> mud conversion is hardcoded to hand back a plain glass
-        // bottle regardless of the potion item subclass, which would silently turn
-        // this vial into a glass bottle. Handle the conversion ourselves so the
-        // player gets an empty vial back instead.
+                                                                                   
+                                                                                   
+                                                                                
+                                                  
         boolean isDirtLike = state.is(Blocks.DIRT) || state.is(Blocks.COARSE_DIRT) || state.is(Blocks.ROOTED_DIRT);
         if (isDirtLike && contents.is(Potions.WATER)) {
             if (!level.isClientSide()) {
@@ -144,8 +144,8 @@ public class SperryliteCatalyticVialItem extends PotionItem {
             return stack;
         }
 
-        // Consume exactly one filled vial.  Return that one vial as an empty
-        // vial so it can stack with other empty vials in the inventory.
+                                                                             
+                                                                        
         if (stack.getCount() > 1) {
             stack.shrink(1);
             ItemStack emptyVial = new ItemStack(this);

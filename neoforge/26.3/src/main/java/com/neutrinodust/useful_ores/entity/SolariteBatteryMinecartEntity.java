@@ -285,13 +285,13 @@ public class SolariteBatteryMinecartEntity extends Minecart {
         return level().getBlockState(pos).isRedstoneConductor(level(), pos);
     }
 
-    /**
-     * Vanilla minecarts let a non-player mob become a passenger when the
-     * (moving) cart collides with it. The custom movement/behavior handling
-     * on this entity ends up bypassing that vanilla hook, so mobs never sit
-     * down in this cart. This restores the same feel: an empty cart that
-     * touches an unmounted, non-player living entity picks it up as a rider.
-     */
+       
+                                                                         
+                                                                            
+                                                                            
+                                                                         
+                                                                             
+       
     private void trySeatNearbyMob() {
         if (!getPassengers().isEmpty()) return;
 

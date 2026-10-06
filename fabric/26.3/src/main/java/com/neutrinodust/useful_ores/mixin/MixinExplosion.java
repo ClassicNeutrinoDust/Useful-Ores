@@ -33,17 +33,17 @@ public class MixinExplosion {
         ExplosionContext.setActive(false);
     }
 
-    /**
-     * Filter the final block list at the call site in explode(), after
-     * calculateExplodedPositions() has completed.
-     *
-     * This is intentionally a ModifyArg on explode() rather than an injection
-     * into calculateExplodedPositions() or interactWithBlocks(). Lithium's
-     * block_raycast optimization transforms the calculation path, so hooking
-     * the final argument passed to the block-interaction stage leaves Lithium
-     * free to perform its optimized raycast and only applies Useful Ores'
-     * protection policy to the resulting targets.
-     */
+       
+                                                                       
+                                                  
+      
+                                                                              
+                                                                           
+                                                                             
+                                                                              
+                                                                          
+                                                  
+       
     @ModifyArg(
             method = "explode",
             at = @At(
@@ -56,8 +56,8 @@ public class MixinExplosion {
         BlastproofBlockData blastproofData = BlastproofBlockData.get(this.level);
         ChestLockData lockData = ChestLockData.get(this.level);
 
-        // Do not mutate Lithium's/vanilla's list in place. Returning a fresh
-        // mutable list also keeps interactWithBlocks() free to shuffle it.
+                                                                             
+                                                                           
         List<BlockPos> filtered = new ArrayList<>(targetBlocks.size());
         for (BlockPos pos : targetBlocks) {
             if (!blastproofData.isBlastproof(pos) && !lockData.isLocked(this.level, pos)) {

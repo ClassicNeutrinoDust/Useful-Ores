@@ -6,7 +6,7 @@ import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.storage.loot.functions.LootItemFunction;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
 
-/** Runtime loot function so map target selection sees the real chest origin. */
+                                                                                
 public final class AncientPedestalMapLootFunction implements LootItemFunction {
     private final boolean excludeNearest;
 

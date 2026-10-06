@@ -24,19 +24,19 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Conservation-based reverse crafting for the Nyxium Dark Barrier.
- *
- * A recipe is treated as a batch transformation. If a recipe consumes q units
- * of an ingredient and produces m output items, n observed output items carry
- * n*q/m units of that ingredient. Whole units are released immediately and
- * fractional units remain as an exact rational residue inside the barrier.
- *
- * Recipe selection deliberately follows the older working behaviour: recipes
- * are deterministic and canonical instead of requiring every possible recipe
- * for an output to agree. Requiring unanimous agreement made common valid
- * recipes disappear entirely when several recipe variants existed.
- */
+   
+                                                                   
+  
+                                                                              
+                                                                              
+                                                                           
+                                                                           
+  
+                                                                             
+                                                                             
+                                                                          
+                                                                   
+   
 public final class ItemReversion {
     private ItemReversion() {}
 
@@ -91,14 +91,14 @@ public final class ItemReversion {
         Identifier id = BuiltInRegistries.ITEM.getKey(item);
         if (id == null) return new ReversionResult(List.of(), existingResidue);
 
-        // Never dismantle an edited/enchanted/damaged/customized stack. The
-        // recipe result cannot faithfully preserve arbitrary component data.
+                                                                            
+                                                                             
         ItemStack vanillaStack = new ItemStack(item, input.getCount());
         if (!isSafeStateForReversion(input, vanillaStack)) {
             return new ReversionResult(List.of(), existingResidue);
         }
 
-        // Stripping is an exact state reversal rather than a crafting recipe.
+                                                                              
         if (id.getPath().startsWith("stripped_")) {
             Identifier unstripped = Identifier.fromNamespaceAndPath(
                 id.getNamespace(), id.getPath().substring("stripped_".length()));
@@ -127,12 +127,12 @@ public final class ItemReversion {
         return new ReversionResult(outputs, Map.copyOf(ledger));
     }
 
-    /**
-     * Functional components such as a battery charge are part of the item's live
-     * state rather than its recipe ingredients. We may reverse only a component
-     * state that is explicitly known to represent the empty/default state. A
-     * charged/stateful item remains untouched so the Barrier cannot destroy value.
-     */
+       
+                                                                                 
+                                                                                
+                                                                             
+                                                                                   
+       
     private static boolean isSafeStateForReversion(ItemStack input, ItemStack vanillaStack) {
         if (ItemStack.isSameItemSameComponents(input, vanillaStack)) return true;
 
@@ -142,9 +142,9 @@ public final class ItemReversion {
         try {
             String key = id.toString();
             if ("useful_ores:solar_battery".equals(key)) {
-                // Battery charge is intentionally destructible by the Nyxium Barrier.
-                // Reversion recovers the crafting materials while the stored energy
-                // is released/lost, matching the Barrier's matter-reversion purpose.
+                                                                                      
+                                                                                    
+                                                                                     
                 ItemStack sanitized = input.copy();
                 sanitized.remove(com.neutrinodust.useful_ores.solar.ModSolarComponents.BATTERY_ENERGY);
                 return ItemStack.isSameItemSameComponents(sanitized, vanillaStack);
@@ -190,13 +190,13 @@ public final class ItemReversion {
                 Subdivision subdivision = subdivisions.get(source);
                 if (f == null || subdivision == null || f.numerator() <= 0) continue;
 
-                // Never materialize a denomination back into the exact item that
-                // entered the barrier. For example, 1 iron nugget reverses to
-                // 1/9 ingot and must retain that fraction, not become a nugget
-                // again. The same prevents log -> plank -> log feedback loops.
+                                                                                 
+                                                                              
+                                                                               
+                                                                               
                 if (subdivision.target() == originalInput) continue;
 
-                // sourceCount units of source become targetCount units of target.
+                                                                                  
                 long scaledNumerator = f.numerator() * subdivision.targetCount();
                 long scaledDenominator = f.denominator() * subdivision.sourceCount();
                 long targetUnits = scaledNumerator / scaledDenominator;
@@ -270,8 +270,8 @@ public final class ItemReversion {
         Map<Item, ReversionEntry> reverse = new LinkedHashMap<>();
         Map<Item, Subdivision> subdivisions = new LinkedHashMap<>();
 
-        // Prefer recipes which produce one output item. This preserves the
-        // established behaviour for items that have both assembly and pack recipes.
+                                                                           
+                                                                                    
         collectRecipes(recipes, reverse, subdivisions, true);
         collectRecipes(recipes, reverse, subdivisions, false);
 
@@ -322,7 +322,7 @@ public final class ItemReversion {
                     if (ingredient.isEmpty()) continue;
                     ItemStack resolved = resolveIngredient(ingredient, result);
                     if (resolved.isEmpty()) {
-                        // Fall back to the proven old behaviour for ambiguous tags.
+                                                                                    
                         resolved = firstItemStack(ingredient);
                     }
                     if (resolved.isEmpty()) continue;
@@ -331,29 +331,29 @@ public final class ItemReversion {
 
                 if (tally.isEmpty() || tally.containsKey(result.getItem())) continue;
 
-                // Do not make basic material/denomination items reversible. The
-                // Barrier is for dismantling composite/formed objects, not for
-                // turning a basic resource such as a diamond, ingot, nugget, dust
-                // or gem back into another denomination. This also prevents
-                // diamond -> nyxium-nugget style results caused by denomination
-                // recipes entering the reverse table.
+                                                                                
+                                                                               
+                                                                                  
+                                                                            
+                                                                                
+                                                      
                 boolean basicMaterialConversion = isBasicMaterialConversion(result.getItem(), tally);
 
-                // First recipe wins, as in the original working barrier, but the
-                // recipe order is stable because recipe ids are sorted above.
-                // Material subdivision is deliberately handled below even when
-                // this result is a terminal/basic denomination. For example,
-                // 1 iron ingot -> 9 nuggets is useful for converting a fractional
-                // ingot recovered from another composite item, but an iron nugget
-                // must not itself become a reverse input.
+                                                                                 
+                                                                              
+                                                                               
+                                                                             
+                                                                                  
+                                                                                  
+                                                          
                 if (!basicMaterialConversion && !reverse.containsKey(result.getItem())) {
                     reverse.put(result.getItem(), new ReversionEntry(
                         result.getCount(), Map.copyOf(tally), holder.id().toString()));
                 }
 
-                // Only treat semantically obvious unit decompositions as a material
-                // denomination. This prevents e.g. wool -> string from being mistaken
-                // for a generic monetary-style subdivision.
+                                                                                    
+                                                                                      
+                                                            
                 if (result.getCount() > 1 && tally.size() == 1) {
                     Map.Entry<Item, Integer> only = tally.entrySet().iterator().next();
                     if (isLikelyUnitSubdivision(only.getKey(), result.getItem(), only.getValue(), result.getCount())) {
@@ -419,7 +419,7 @@ public final class ItemReversion {
         String s = sourceId.getPath();
         String t = targetId.getPath();
 
-        // Classic Minecraft material denominations.
+                                                    
         if (s.endsWith("_ingot") && t.endsWith("_nugget")) return targetCount == 9;
         if ((s.endsWith("_block") || s.endsWith("_ore")) && t.endsWith("_ingot")) return true;
         if ((s.endsWith("_log") || s.endsWith("_wood") || s.endsWith("_stem") || s.endsWith("_hyphae"))
@@ -429,13 +429,13 @@ public final class ItemReversion {
     }
 
 
-    /**
-     * Returns true when the recipe is fundamentally a material denomination
-     * conversion rather than construction of a composite/formed object.
-     * Examples rejected: diamond block -> diamond, 9 nuggets -> ingot,
-     * ingot -> nuggets. These resources are leaves of the material graph and
-     * must never become direct Barrier inputs.
-     */
+       
+                                                                            
+                                                                        
+                                                                       
+                                                                             
+                                               
+       
     private static boolean isBasicMaterialConversion(Item result, Map<Item, Integer> tally) {
         Identifier resultId = BuiltInRegistries.ITEM.getKey(result);
         if (resultId == null || tally.isEmpty()) return false;
@@ -443,8 +443,8 @@ public final class ItemReversion {
         String resultPath = resultId.getPath();
         String resultFamily = materialFamily(resultPath);
 
-        // A bare resource such as diamond/coal/redstone/emerald is basic when
-        // the recipe merely consumes another form of that same material.
+                                                                              
+                                                                         
         boolean bareResource = !resultPath.contains("_");
         if (bareResource) {
             for (Item ingredient : tally.keySet()) {
@@ -458,10 +458,10 @@ public final class ItemReversion {
             }
         }
 
-        // Resource denominations and compressed blocks are terminal forms for
-        // the purpose of the Barrier. They can still be produced as outputs by
-        // reversing a composite object, but they can never themselves be input
-        // to the reverse engine.
+                                                                              
+                                                                               
+                                                                               
+                                 
         if (isTerminalMaterialForm(resultPath)) {
             boolean sameFamilyIngredient = false;
             for (Item ingredient : tally.keySet()) {

@@ -32,11 +32,11 @@ public final class SperryliteVialFuel {
         return true;
     }
 
-    /**
-     * Initializes a custom brewing charge from the blaze-powder slot before
-     * the custom brewing tick runs. This avoids relying on vanilla's fuel
-     * bootstrap inside a server-tick path that the mod cancels.
-     */
+       
+                                                                            
+                                                                          
+                                                                
+       
     public static boolean primeCharge(BrewingStandBlockEntity brewingStand) {
         if (charges(brewingStand) > 0) return true;
 

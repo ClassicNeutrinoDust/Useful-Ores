@@ -59,10 +59,10 @@ public class MixinPistonBaseBlock {
       if (direction == Direction.UP && pos.getY() == level.getMaxY()) return false;
       if (state.getDestroySpeed(level, pos) == -1.0F) return false;
 
-      // Obsidian/crying obsidian are intentionally IMMOVEABLE in vanilla, which is the
-      // exact restriction this chromite piston is meant to bypass. Falling through to
-      // state.getPistonPushReaction() here would just hit IMMOVEABLE again and silently
-      // cancel the override, so once the bounds/destroy-speed checks above pass, allow it.
+                                                                                       
+                                                                                      
+                                                                                        
+                                                                                           
       return true;
    }
 }

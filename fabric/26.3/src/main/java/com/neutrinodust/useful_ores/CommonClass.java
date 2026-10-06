@@ -5,6 +5,6 @@ public final class CommonClass {
    }
 
    public static void init() {
-      // Intentionally empty: platform-specific initialization is performed by the mod initializer.
+                                                                                                   
    }
 }
