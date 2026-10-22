@@ -13,7 +13,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.level.Level;
 
-
 public class SpearItem extends SwordItem {
     public SpearItem(Tier material, float attackDamage, float attackSpeed, Properties properties) {
         super(material, properties.attributes(SwordItem.createAttributes(material, Math.round(attackDamage), attackSpeed)));
@@ -29,11 +28,6 @@ public class SpearItem extends SwordItem {
         }
         return InteractionResultHolder.sidedSuccess(stack, level.isClientSide());
     }
-
-    
-
-
-
 
     @Override
     public void onUseTick(Level level, LivingEntity user, ItemStack stack, int remainingUseDuration) {

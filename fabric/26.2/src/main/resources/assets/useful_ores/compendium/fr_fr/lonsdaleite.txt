@@ -1,0 +1,9 @@
+La lonsdaléite se trouve uniquement dans les météorites écrasées. Six amas sont enfouis près du centre : il faut creuser pour les atteindre.
+
+Se trouve uniquement dans les structures de météorites écrasées. Six amas de minerai sont enfouis près du centre.
+
+Butin : Chaque bloc de minerai donne 1 minerai brut. Fortune augmente la quantité ; Toucher de soie récupère le bloc.
+
+Caractéristiques : Durabilité : 6200 ; vitesse de minage : 25.0 ; dégâts d’attaque : +15.0 ; aptitude aux enchantements : 28 ; niveau de minage : Netherite.
+
+Atouts : Chaque pièce d’armure réduit les dégâts d’explosion de 17,5 %, jusqu’à 70 % avec l’ensemble complet. Son équipement atteint la puissance du voidshard avec environ deux fois sa durabilité.

@@ -1,0 +1,3 @@
+Un bocal en verre qui stocke jusqu’à 1 395 points d’expérience, soit environ 30 niveaux. Placez-le sur un bloc, une dalle ou une trappe fermée. Accroupissez-vous et faites un clic droit pour déposer de l’XP ; faites un clic droit normal pour la récupérer.
+
+Tant qu’il reste de la place, il absorbe aussi les orbes d’expérience proches. Si vous tenez ou portez un objet avec Raccommodage, l’XP récupérée répare cet objet au lieu de vous donner des niveaux. Le bocal n’a pas d’interface et se casse comme du verre, mais l’objet obtenu conserve l’XP stockée. Fabriquez-le avec un lingot d’arcanite, un éclat d’arcanite à noyau d’argent et trois blocs de verre.

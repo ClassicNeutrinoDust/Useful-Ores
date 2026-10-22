@@ -1,0 +1,13 @@
+Les pioches sont classées du niveau de minage le plus faible au plus élevé. Une pioche peut extraire les blocs qui exigent son niveau ou un niveau inférieur.
+
+Niveau 1 (bois, or) : pioches en bois et en or. Elles extraient le charbon, les blocs de pierre et les blocs sans exigence d’outil.
+
+Niveau 2 (pierre) : pioches en pierre et en zéphyrite. Elles extraient aussi le minerai de fer, le minerai de zéphyrite ainsi que le minerai et les blocs d’argentite.
+
+Niveau 3 (fer) : pioches en fer, argentite, phosgène, fulgurite, osmium, sperrylite et scheelite. Elles extraient aussi le diamant, la redstone, l’émeraude et l’or, ainsi que les minerais et blocs de phosgène, fulgurite, osmium, sperrylite, scheelite, chromite et ilménite.
+
+Niveau 4 (diamant) : pioches en diamant, chromite, ilménite et painite. Elles extraient aussi l’obsidienne, les débris antiques et les minerais de niveau supérieur du mod, dont le nyxium, l’arcanite, la solarite, l’enderium, le voidshard, la lonsdaléite et la painite.
+
+Niveau 5 (nétherite) : pioches en nétherite, nyxium, arcanite, solarite, enderium, voidshard, subspace et lonsdaléite. Elles extraient les mêmes blocs que le niveau 4, mais diffèrent par leur vitesse, leur durabilité et leurs capacités spéciales.
+
+Exception : seule une pioche en voidshard peut casser le Piédestal ancien. Toutes les autres, y compris celles en nétherite et en subspace, échouent. Voir « Piédestal ancien » dans Utilitaires.

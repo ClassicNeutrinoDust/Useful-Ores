@@ -1,0 +1,3 @@
+A versão energizada do Núcleo de Nyxium-Arcanita. É a fonte de energia do Cajado de Nyxiumnita.
+
+Combine um Núcleo de Nyxium-Arcanita com bafo de dragão em qualquer posição. O núcleo é consumido ao fabricar o cajado e não tem outro uso com clique direito.

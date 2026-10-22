@@ -18,7 +18,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(ItemInHandLayer.class)
 public abstract class MixinItemInHandLayerSpear {
-    @Inject(method="method_4192",at=@At(value="INVOKE",target="Lnet/minecraft/client/renderer/item/ItemStackRenderState;method_65604(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;III)V"))
+    @Inject(method="submitArmWithItem",at=@At(value="INVOKE",target="Lnet/minecraft/client/renderer/item/ItemStackRenderState;submit(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;III)V"))
     private void usefulOres$applySpearPose(ArmedEntityRenderState state,ItemStackRenderState itemState,HumanoidArm arm,PoseStack pose,SubmitNodeCollector collector,int light,CallbackInfo ci){
         SpearArmedRenderStateAccess a=(SpearArmedRenderStateAccess)(Object)state;
         ItemStack stack=arm==HumanoidArm.RIGHT?a.usefulOres$getRightHandStack():a.usefulOres$getLeftHandStack();

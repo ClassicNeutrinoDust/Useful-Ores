@@ -1,0 +1,3 @@
+Raíl de alta velocidad para la [Vagoneta con batería de solarita](Utility/Solarite Battery Minecart). Siempre es recto y acelera las vagonetas de forma distinta a los raíles propulsores normales. Su textura cambia entre el día y la noche.
+
+Colócalo en una vía. Una señal de redstone desde un bloque adyacente da un impulso a la vagoneta. No tiene selector de modo.

@@ -1,0 +1,5 @@
+A hopper with five filter slots. Empty slots accept nothing. Each filled slot accepts only the exact item placed there, including its components.
+
+Open the filter and place a sample stack in each slot you want to use. The sample count is a protected reserve, so automation moves only items above that amount. You can still take items out by hand.
+
+The filter pulls matching items from above and pushes the surplus toward the block it faces, using normal hopper timing. Feed it from above and collect sorted items from the front. Use one slot per item type.

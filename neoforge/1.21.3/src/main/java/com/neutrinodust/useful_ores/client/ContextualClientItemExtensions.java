@@ -8,7 +8,6 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.client.extensions.common.IClientItemExtensions;
 import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
 
-
 @EventBusSubscriber(modid = "useful_ores", bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public final class ContextualClientItemExtensions implements IClientItemExtensions {
     private BlockEntityWithoutLevelRenderer renderer;

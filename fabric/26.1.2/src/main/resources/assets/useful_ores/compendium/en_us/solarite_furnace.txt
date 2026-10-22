@@ -1,0 +1,3 @@
+A 2×2×2 multiblock furnace that smelts items five times faster than a Blast Furnace. It runs on direct sunlight or stored power from a [Solar Battery](Utility/Solar Battery).
+
+Craft eight Solarite Furnace Components and assemble them into a complete 2×2×2 cube. An incomplete build will not run. Put smeltable items in through its interface. Direct sunlight powers it during the day; a charged Solar Battery can supply stored power when sunlight is unavailable.

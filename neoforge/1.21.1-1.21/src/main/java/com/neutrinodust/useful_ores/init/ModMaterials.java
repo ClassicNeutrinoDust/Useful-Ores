@@ -76,9 +76,6 @@ public class ModMaterials {
         List<ArmorMaterial.Layer> layers = new java.util.ArrayList<>();
         layers.add(new ArmorMaterial.Layer(ResourceLocation.fromNamespaceAndPath("useful_ores", name)));
         
-        
-        
-        
         if ("painite".equals(name)) {
             layers.add(new ArmorMaterial.Layer(
                     ResourceLocation.fromNamespaceAndPath("useful_ores", "painite_fury_core")

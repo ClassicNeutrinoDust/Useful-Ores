@@ -13,27 +13,6 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @Mixin(LocalPlayer.class)
 public abstract class MixinLocalPlayerSpearUseEffects {
     @Shadow
@@ -47,7 +26,6 @@ public abstract class MixinLocalPlayerSpearUseEffects {
         return (LocalPlayer) (Object) this;
     }
 
-    
     @Unique
     private static boolean usefulOres$usingBackportSpear(LocalPlayer player) {
         ItemStack useStack = player.getUseItem();
@@ -55,11 +33,6 @@ public abstract class MixinLocalPlayerSpearUseEffects {
                 && useStack != null
                 && useStack.getItem() instanceof BackportSpearItem;
     }
-
-    
-
-
-
 
     @Redirect(
         method = "aiStep",
@@ -75,11 +48,6 @@ public abstract class MixinLocalPlayerSpearUseEffects {
         }
         return player.isUsingItem();
     }
-
-    
-
-
-
 
     @Redirect(
         method = "shouldStopSprinting",

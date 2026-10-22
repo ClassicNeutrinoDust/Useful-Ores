@@ -1,0 +1,3 @@
+Le bâton de nyxiumnite se lie à ce bloc et l’utilise comme destination de ses tirs de trou de ver. Il n’a pas d’interface et ne peut pas être fabriqué.
+
+Les piédestaux anciens apparaissent dans une [chambre du piédestal ancien](Misc/Ancient Pedestal Chamber). Faites un clic droit avec le bâton pour enregistrer la dimension et les coordonnées. Seule une pioche en Voidshard peut le détruire.

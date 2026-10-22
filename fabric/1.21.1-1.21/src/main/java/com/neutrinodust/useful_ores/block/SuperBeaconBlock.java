@@ -31,11 +31,6 @@ public class SuperBeaconBlock extends BaseEntityBlock implements BeaconBeamBlock
         super(properties);
     }
 
-    
-
-
-
-
     @Override
     public RenderShape getRenderShape(BlockState state) {
         return RenderShape.MODEL;

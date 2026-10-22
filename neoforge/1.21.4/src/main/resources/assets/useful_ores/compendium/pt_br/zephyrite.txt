@@ -1,0 +1,9 @@
+Zephyrite é um minério fraco, mas muito comum. É a base de muitos componentes de redstone do mod.
+
+Gera no Mundo Superior, em pedra e ardósia profunda, entre Y -16 e 112. Veios de 10 blocos, cerca de 14 por chunk; é o minério mais comum do mod. O minério exposto ao ar sempre gera.
+
+Drops: Cada bloco de minério rende 1 minério bruto; Fortuna aumenta a quantidade e Toque Suave coleta o próprio bloco.
+
+Atributos: Ferramentas: durabilidade 1561, velocidade de mineração 8.0, dano +3.0, encantabilidade 10, nível de mineração: diamante. Armadura: defesa 3/8/6/3, resistência 2.0, sem resistência a repulsão.
+
+Vantagens: Guarde Zephyrite Bruto para fabricar portas lógicas, relés de redstone sem fio, relógios de redstone e controladores de trilhos.

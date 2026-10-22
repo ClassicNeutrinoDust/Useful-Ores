@@ -1,4 +1,50 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_sword"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_pickaxe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_axe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_hoe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_shovel"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_helmet"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_chestplate"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_leggings"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_boots"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_nugget"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_block"
+    }
+  ],
   "criteria": {
     "get_argentite_ingot": {
       "trigger": "minecraft:inventory_changed",

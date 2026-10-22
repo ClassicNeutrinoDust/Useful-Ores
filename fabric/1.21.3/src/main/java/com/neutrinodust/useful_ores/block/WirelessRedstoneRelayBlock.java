@@ -50,11 +50,6 @@ public class WirelessRedstoneRelayBlock extends BaseEntityBlock {
          .setValue(CONNECTED, false));
    }
 
-    
-
-
-
-
     @Override
     public RenderShape getRenderShape(BlockState state) {
         return RenderShape.MODEL;

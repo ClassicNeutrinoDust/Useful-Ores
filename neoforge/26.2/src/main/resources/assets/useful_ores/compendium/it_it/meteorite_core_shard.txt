@@ -1,0 +1,3 @@
+Primo passaggio per creare il Bastone Meteorico. Metti un Nucleo di Meteorite tra due Verghe di Blaze in verticale per ottenere una scheggia.
+
+Poi combina la scheggia con respiro del drago per creare un Nucleo di Meteorite Volatile. I nuclei si trovano nei Meteoriti Schiantati; le Verghe di Blaze e il respiro del drago sono oggetti vanilla.

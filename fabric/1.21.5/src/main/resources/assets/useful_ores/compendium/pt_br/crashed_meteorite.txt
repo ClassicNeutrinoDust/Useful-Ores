@@ -1,0 +1,5 @@
+Estrutura de superfície com uma cratera queimada e um meteorito enterrado abaixo dela. O minério de lonsdaleíta fica dentro do meteorito.
+
+Gera em terra no Mundo Superior, em média uma vez a cada 81 chunks, com pelo menos 20 chunks entre locais. Procure uma cratera queimada em forma de tigela. O meteorito é uma massa irregular com raio de 5 a 10 blocos, e um Núcleo de Meteorito mais denso perto do centro.
+
+Seis bolsas de minério de lonsdaleíta aparecem dentro do meteorito. O núcleo inicia as receitas do Cajado de Meteorito e da Bomba de Meteorito.

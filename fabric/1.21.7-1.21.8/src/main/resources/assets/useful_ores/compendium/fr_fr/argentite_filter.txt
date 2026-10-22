@@ -1,0 +1,5 @@
+Une trémie avec cinq emplacements de filtre. Un emplacement vide n’accepte rien. Chaque emplacement rempli n’accepte que l’objet exact qui y a été placé, composants compris.
+
+Ouvrez le filtre et placez une pile de référence dans chaque emplacement à utiliser. Cette quantité reste en réserve : l’automatisation ne déplace que les objets en surplus. Vous pouvez toujours retirer des objets à la main.
+
+Le filtre récupère les objets correspondants par le dessus et pousse le surplus vers le bloc situé devant lui, à la cadence normale d’une trémie. Alimentez-le par le dessus et récupérez les objets triés à l’avant. Utilisez un emplacement par type d’objet.

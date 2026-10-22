@@ -1,0 +1,3 @@
+Un bastone che si collega a un Piedistallo Antico e spara un proiettile che apre un wormhole. Fai clic destro sul piedistallo con il bastone per collegarlo; le coordinate vengono salvate nel bastone.
+
+Fai clic destro in aria per sparare verso il mirino. Ricarica: 30 tick (1,5 secondi). Crealo mettendo un Nucleo di Nyxiumnite Volatile sopra due lingotti di argentite.

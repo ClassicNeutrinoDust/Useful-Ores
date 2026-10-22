@@ -1,4 +1,10 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:chiseled_painite_block"
+    }
+  ],
   "type": "minecraft:stonecutting",
   "ingredient": "useful_ores:painite_block",
   "result": {

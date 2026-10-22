@@ -1,0 +1,3 @@
+Cerradura para contenedores compatibles. Funciona con una [Llave de titanio](Utility/Titanium Key) y no necesita un circuito de redstone.
+
+Aplica la cerradura a un contenedor compatible. La llave correspondiente lo abre, así que guárdala bien. Se fabrica con pepitas y lingotes de ilmenita, como se muestra abajo.

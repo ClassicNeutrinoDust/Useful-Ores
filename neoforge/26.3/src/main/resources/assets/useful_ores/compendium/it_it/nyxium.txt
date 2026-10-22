@@ -1,0 +1,9 @@
+Il nyxium è un raro minerale blu scuro carico di magia oscura.
+
+Generazione: nel mondo normale, in pietra e ardesia delle profondità. Si sovrappongono tre distribuzioni: vena principale tra Y -64 e 16 (7 per chunk); sacca grande tra Y -64 e -48 (1 per chunk); sacca piccola tra Y -64 e -4 (2 per chunk).
+
+Bottino: Ogni blocco di minerale lascia 1 minerale grezzo; Fortuna aumenta la quantità e Tocco di velluto raccoglie il blocco.
+
+Statistiche: Durabilità: 2200; velocità di estrazione: 8.0; danno d’attacco: +10.0; incantabilità: 15; livello di estrazione: Netherite.
+
+Vantaggi: La spada di Nyxium infligge Wither per 3 secondi a ogni colpo. Le sue frecce sottraggono fino a un cuore al bersaglio e lo danno al tiratore come assorbimento dorato.

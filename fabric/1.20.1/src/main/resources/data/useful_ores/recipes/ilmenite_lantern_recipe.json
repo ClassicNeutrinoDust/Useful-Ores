@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:ilmenite_lantern"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NTN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "tag": "c:nuggets/ilmenite"
+    },
+    "T": {
+      "item": "useful_ores:ilmenite_torch"
+    }
+  },
+  "result": {
+    "item": "useful_ores:ilmenite_lantern",
+    "count": 1
+  }
+}

@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:ilmenite_ingot"
+    }
+  ],
   "criteria": {
     "get_ilmenite_ingot": {
       "trigger": "minecraft:inventory_changed",

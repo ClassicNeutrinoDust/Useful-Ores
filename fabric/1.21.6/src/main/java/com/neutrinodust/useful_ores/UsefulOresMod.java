@@ -98,6 +98,7 @@ public class UsefulOresMod implements ModInitializer {
         ModBlockEntities.init();
 
         UseBlockCallback.EVENT.register(new BlastproofEvents()::onUseBlock);
+        PlayerBlockBreakEvents.AFTER.register(new BlastproofEvents()::onBlockBreak);
 
         PlayerBlockBreakEvents.AFTER.register(new BioluminescentEvents()::onBlockBreak);
         UseBlockCallback.EVENT.register(new BioluminescentAxeEvents()::onUseBlock);

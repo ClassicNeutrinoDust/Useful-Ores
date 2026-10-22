@@ -1,0 +1,3 @@
+A heat-resistant material made from Voidshard and Solarite. It is used to craft a Subspace Ingot.
+
+Craft it with Voidshard Ingots in the four corners and Solarite Ingots on the four edge slots, leaving the center empty. Then place it inside eight Enderium Ingots to make a Subspace Ingot.

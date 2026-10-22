@@ -1,0 +1,2 @@
+Material: durability 6400, mining speed 32.0, damage bonus +16.0, enchantability 34. Highest raw stats of any material in the mod.
+Damage / attack speed: sword 31.0 / 2.6, pickaxe 29.0 / 2.4, axe 33.0 / 2.2, hoe 18.0 / 5.2, shovel 27.0 / 2.2.

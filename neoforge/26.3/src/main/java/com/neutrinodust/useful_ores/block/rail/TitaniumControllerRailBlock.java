@@ -23,7 +23,6 @@ import org.jspecify.annotations.Nullable;
 
 public class TitaniumControllerRailBlock extends BaseRailBlock implements EntityBlock, SimpleWaterloggedBlock {
 
-
     public static final EnumProperty<Direction> FACING = BlockStateProperties.HORIZONTAL_FACING;
     public static final EnumProperty<SwitchMode> MODE = EnumProperty.create("mode", SwitchMode.class);
     public static final net.minecraft.world.level.block.state.properties.BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
@@ -43,7 +42,6 @@ public class TitaniumControllerRailBlock extends BaseRailBlock implements Entity
             .setValue(SHAPE, RailShape.NORTH_SOUTH)
             .setValue(WATERLOGGED, false));
     }
-
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {

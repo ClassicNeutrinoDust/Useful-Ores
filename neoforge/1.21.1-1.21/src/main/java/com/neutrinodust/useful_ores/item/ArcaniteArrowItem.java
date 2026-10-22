@@ -23,6 +23,7 @@ public class ArcaniteArrowItem extends ArrowItem {
 
     public ArcaniteArrowItem(Item.Properties properties) {
         super(properties);
+        net.minecraft.world.level.block.DispenserBlock.registerProjectileBehavior(this);
     }
 
     @Override

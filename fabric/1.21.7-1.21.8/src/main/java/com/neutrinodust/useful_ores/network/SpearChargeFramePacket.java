@@ -7,15 +7,6 @@ import net.minecraft.resources.ResourceLocation;
 
 import java.util.UUID;
 
-
-
-
-
-
-
-
-
-
 public record SpearChargeFramePacket(
         double velocityX20,
         double velocityY20,

@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:sperrylite_catalytic_vial"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NBN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "tag": "c:nuggets/sperrylite"
+    },
+    "B": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "useful_ores:sperrylite_catalytic_vial",
+    "count": 1
+  }
+}

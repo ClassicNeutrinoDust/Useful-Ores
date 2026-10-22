@@ -12,13 +12,13 @@ import org.spongepowered.asm.mixin.gen.Invoker;
 
 @Mixin(ItemInHandRenderer.class)
 public interface ItemInHandRendererAccessor {
-    @Invoker("method_3217")
+    @Invoker("applyItemArmAttackTransform")
     void usefulOres$invokeApplyItemArmAttackTransform(PoseStack pose, HumanoidArm arm, float swingProgress);
 
-    @Invoker("method_3224")
+    @Invoker("applyItemArmTransform")
     void usefulOres$invokeApplyItemArmTransform(PoseStack pose, HumanoidArm arm, float equipProgress);
 
-    @Invoker("method_3233")
+    @Invoker("renderItem")
     void usefulOres$invokeRenderItem(
             LivingEntity entity,
             ItemStack stack,

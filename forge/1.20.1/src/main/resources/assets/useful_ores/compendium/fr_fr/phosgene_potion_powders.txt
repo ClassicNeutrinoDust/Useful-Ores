@@ -1,0 +1,5 @@
+Ces poudres appliquent l’effet d’une potion à un bloc et créent une zone temporaire qui affecte les êtres vivants présents dessus.
+
+Poudre brute : placez du phosgène brut dans les quatre coins, un bloc de slime au centre, trois poudres de redstone et une barre de Blaze dans les cases restantes. Vous en obtenez 16. Pour la poudre imprégnée, entourez une potion pleine de huit poudres brutes ; vous en obtenez deux avec l’effet et la couleur de la potion.
+
+Utilisez la poudre imprégnée sur un bloc. Des particules apparaissent et les entités présentes dessus reçoivent l’effet pendant trois minutes. Le bloc reste actif pendant un jour Minecraft (24 000 ticks). La recette brute se débloque en ramassant du phosgène brut ; l’autre nécessite la poudre brute et une potion.

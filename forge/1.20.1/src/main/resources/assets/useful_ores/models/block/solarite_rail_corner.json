@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/rail_curved",
+  "textures": {
+    "rail": "useful_ores:block/solarite_rail"
+  },
+  "render_type": "minecraft:cutout"
+}

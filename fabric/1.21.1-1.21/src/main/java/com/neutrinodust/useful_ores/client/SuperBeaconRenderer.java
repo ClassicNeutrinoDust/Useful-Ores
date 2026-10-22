@@ -11,14 +11,6 @@ import net.minecraft.core.BlockPos;
 
 import java.util.List;
 
-
-
-
-
-
-
-
-
 public final class SuperBeaconRenderer implements BlockEntityRenderer<SuperBeaconBlockEntity> {
     public SuperBeaconRenderer(BlockEntityRendererProvider.Context context) {
     }
@@ -76,12 +68,6 @@ public final class SuperBeaconRenderer implements BlockEntityRenderer<SuperBeaco
     public int getViewDistance() {
         return 256;
     }
-
-    
-
-
-
-
 
     public net.minecraft.world.phys.AABB getRenderBoundingBox(SuperBeaconBlockEntity beacon) {
         BlockPos pos = beacon.getBlockPos();

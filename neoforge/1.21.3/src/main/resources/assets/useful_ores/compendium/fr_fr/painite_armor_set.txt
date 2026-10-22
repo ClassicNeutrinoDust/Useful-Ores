@@ -1,0 +1,5 @@
+Défense: casque 3, plastron 8, jambières 6, bottes 3.
+Durabilité: casque 363, plastron 528, jambières 495, bottes 429.
+Enchantabilité 10, robustesse 2.0, résistance au recul 0%.
+
+Bonus d’ensemble : chaque pièce réduit la santé maximale de 1 PV ; avec l’ensemble complet, il vous reste 8 cœurs. À 5 cœurs ou moins, Furie s’active : chaque pièce ajoute 60 % de sa défense et l’armure change d’apparence. Voir Furie de painite.

@@ -378,7 +378,6 @@ public class ArgentiteFilterBlockEntity extends BlockEntity implements Container
         lastObservedTotal = totalItemCount();
     }
 
-
     @Override
     public Component getDisplayName() {
         return DEFAULT_NAME;

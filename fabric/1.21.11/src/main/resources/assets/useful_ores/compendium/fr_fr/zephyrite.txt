@@ -1,0 +1,9 @@
+La zéphyr ite est un minerai faible mais très courant, essentiel à de nombreux composants de redstone du mod.
+
+Génération : monde normal, dans la pierre et l’ardoise des abîmes, entre Y -16 et 112. Filons de 10 blocs, environ 14 par chunk ; c’est le minerai le plus courant du mod. Le minerai exposé à l’air apparaît toujours.
+
+Butin : Chaque bloc de minerai donne 1 minerai brut. Fortune augmente la quantité ; Toucher de soie récupère le bloc.
+
+Caractéristiques : Outils : durabilité 1561, vitesse de minage 8.0, dégâts +3.0, aptitude aux enchantements 10, niveau de minage : diamant. Armure : défense 3/8/6/3, robustesse 2.0, aucune résistance au recul.
+
+Atouts : Gardez du zéphyr ite brut pour fabriquer des portes logiques, des relais de redstone sans fil, des horloges et des contrôleurs de rails.

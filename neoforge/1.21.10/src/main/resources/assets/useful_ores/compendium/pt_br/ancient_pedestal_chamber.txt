@@ -1,0 +1,5 @@
+Estrutura subterrânea rara: uma esfera oca de obsidiana com manchas de obsidiana chorosa, um Pedestal Antigo no centro e um baú ao lado.
+
+Gera no subsolo do Mundo Superior, aproximadamente uma vez a cada 300 chunks, com pelo menos 60 chunks entre câmaras. Não há sinal na superfície; explore cavernas ou cave para encontrá-la. A esfera tem raio de 8 blocos e parede com cerca de 1,6 bloco de espessura.
+
+O baú pode conter lingotes de Nyxium, Voidshard, Arcanita e Argentita, além de diamantes e ouro. Também pode conter Olhos do End, Bafo de Dragão, um Núcleo de Nyxium-Arcanita ou esmeraldas; uma Estrela do Nether é muito rara. Só uma picareta de Voidshard quebra o pedestal.

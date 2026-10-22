@@ -1,0 +1,3 @@
+Horno multibloque de 2×2×2 que funde objetos cinco veces más rápido que un alto horno. Funciona con luz solar directa o con energía almacenada en una [Batería solarita](Utility/Solar Battery).
+
+Fabrica ocho componentes de horno de solarita y colócalos formando un cubo completo de 2×2×2. Una estructura incompleta no funciona. Introduce los objetos fundibles en su interfaz. La luz solar lo alimenta durante el día; una batería cargada proporciona energía cuando no hay sol.

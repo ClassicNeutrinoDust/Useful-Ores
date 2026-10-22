@@ -1,0 +1,17 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:osmium_ingot"
+    }
+  ],
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 6,
+  "cookingtime": 150,
+  "group": "osmium_ingot",
+  "ingredient": {
+    "tag": "c:ores/osmium"
+  },
+  "result": "useful_ores:osmium_ingot"
+}

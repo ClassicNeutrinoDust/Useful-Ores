@@ -1,0 +1,3 @@
+Un fragmento de núcleo de meteorito cargado con aliento de dragón. Proporciona energía al bastón de meteorito.
+
+Combina un fragmento con aliento de dragón en cualquier posición. El núcleo se consume al fabricar el bastón.

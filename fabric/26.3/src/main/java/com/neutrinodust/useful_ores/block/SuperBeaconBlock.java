@@ -19,7 +19,6 @@ import org.jspecify.annotations.Nullable;
 
 public class SuperBeaconBlock extends BaseEntityBlock implements BeaconBeamBlock {
 
-
     public SuperBeaconBlock(BlockBehaviour.Properties properties) {
         super(properties);
     }

@@ -13,11 +13,6 @@ import net.minecraft.world.item.ToolMaterial;
 import net.minecraft.world.level.Level;
 import net.minecraft.sounds.SoundSource;
 
-
-
-
-
-
 public final class BackportSpearItem extends Item {
     public static final int CONTACT_COOLDOWN_TICKS = 10;
     public static final float FORWARD_MOVEMENT = 0.38F;
@@ -118,7 +113,6 @@ public final class BackportSpearItem extends Item {
 
     @Override
     public void hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        
     }
 
     private static int secondsToTicks(float seconds) { return (int) (seconds * 20.0F); }

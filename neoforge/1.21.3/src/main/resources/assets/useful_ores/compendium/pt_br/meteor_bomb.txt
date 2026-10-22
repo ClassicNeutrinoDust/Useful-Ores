@@ -1,0 +1,3 @@
+Explosivo arremessável que quebra blocos com força semelhante à de um creeper, até debaixo d’água. Cada fabricação rende quatro bombas.
+
+Clique com o botão direito para arremessar. Fabrique quatro usando oito pós de meteorito ao redor de pólvora. O pó vem dos blocos de meteorito encontrados em um [Meteorito Caído](Misc/Crashed Meteorite); a pólvora vem de creepers e baús.

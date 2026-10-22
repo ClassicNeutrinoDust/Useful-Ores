@@ -1,0 +1,3 @@
+Mejora las herramientas de Subspace para que los bloques extraídos vayan directamente al inventario. Consulta [Armas y herramientas de Subspace](Tools & Combat/Subspace Weapons & Tools).
+
+No se puede fabricar. Los cofres del tesoro de las ciudades del End tienen un 7 % de probabilidad de incluir uno en una tirada de botín adicional. Busca en las ciudades de las islas exteriores del End; no hay una fuente garantizada.

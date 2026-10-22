@@ -1,4 +1,50 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_sword"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_pickaxe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_axe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_hoe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_shovel"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_helmet"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_chestplate"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_leggings"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_boots"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_nugget"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_block"
+    }
+  ],
   "criteria": {
     "get_chromite_ingot": {
       "trigger": "minecraft:inventory_changed",

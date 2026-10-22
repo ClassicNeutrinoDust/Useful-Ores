@@ -1,0 +1,4 @@
+Material: durabilidad 900, velocidad de minería 6.0, bonificación de daño +6.5, capacidad de encantamiento 10.
+Daño / velocidad de ataque: espada 10.5 / 1.6, pico 9.5 / 1.2, hacha 11.5 / 0.9, azada 6.5 / 3.0, pala 9.5 / 1.0.
+
+Al golpear: aplica Lentitud II durante 2 segundos y aturde brevemente al objetivo.

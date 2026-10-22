@@ -1,0 +1,30 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:and_gate"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "QTQ",
+    "TZT",
+    "QTQ"
+  ],
+  "key": {
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "T": {
+      "item": "minecraft:redstone_torch"
+    },
+    "Z": {
+      "item": "useful_ores:raw_zephyrite"
+    }
+  },
+  "result": {
+    "item": "useful_ores:and_gate",
+    "count": 1
+  }
+}

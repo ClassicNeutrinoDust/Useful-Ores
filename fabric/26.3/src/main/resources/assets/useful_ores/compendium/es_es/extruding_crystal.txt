@@ -1,0 +1,3 @@
+Se fabrica con nueve pepitas de cristal extrusor. Sirve para mejorar una estrella del Nether y crear la Superbaliza.
+
+Combínalo con una estrella del Nether para fabricar una [Estrella del Nether extrusora](Utility/Extruding Nether Star).

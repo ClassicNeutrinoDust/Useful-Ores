@@ -7,7 +7,6 @@ import net.minecraft.world.level.storage.loot.entries.EmptyLootItem;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
 
-
 public final class AncientPedestalMapLootEvents {
     private static final String PEDESTAL_LOOT_TABLE = "useful_ores:chests/ancient_pedestal_chamber";
     private static final String ANCIENT_CITY_LOOT_TABLE = "minecraft:chests/ancient_city";

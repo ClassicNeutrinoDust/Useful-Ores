@@ -1,0 +1,33 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:solarite_furnace_component"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "SFS",
+    "TPT"
+  ],
+  "key": {
+    "S": {
+      "item": "useful_ores:solarite_ingot"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "T": {
+      "item": "minecraft:smooth_stone"
+    },
+    "P": {
+      "item": "useful_ores:phosgene_block"
+    }
+  },
+  "result": {
+    "item": "useful_ores:solarite_furnace_component",
+    "count": 1
+  }
+}

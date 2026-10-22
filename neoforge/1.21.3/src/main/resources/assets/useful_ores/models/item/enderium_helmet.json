@@ -12,6 +12,114 @@
     },
     {
       "predicate": {
+        "minecraft:trim_type": 0.101
+      },
+      "model": "useful_ores:item/enderium_helmet_chromite_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.102
+      },
+      "model": "useful_ores:item/enderium_helmet_nyxium_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.103
+      },
+      "model": "useful_ores:item/enderium_helmet_phosgene_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.104
+      },
+      "model": "useful_ores:item/enderium_helmet_arcanite_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.105
+      },
+      "model": "useful_ores:item/enderium_helmet_fulgurite_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.106
+      },
+      "model": "useful_ores:item/enderium_helmet_osmium_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.107
+      },
+      "model": "useful_ores:item/enderium_helmet_solarite_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.108
+      },
+      "model": "useful_ores:item/enderium_helmet_sperrylite_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.109
+      },
+      "model": "useful_ores:item/enderium_helmet_argentite_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.11
+      },
+      "model": "useful_ores:item/enderium_helmet_zephyrite_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.111
+      },
+      "model": "useful_ores:item/enderium_helmet_ilmenite_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.112
+      },
+      "model": "useful_ores:item/enderium_helmet_scheelite_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.113
+      },
+      "model": "useful_ores:item/enderium_helmet_voidshard_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.114
+      },
+      "model": "useful_ores:item/enderium_helmet_enderium_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.115
+      },
+      "model": "useful_ores:item/enderium_helmet_painite_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.116
+      },
+      "model": "useful_ores:item/enderium_helmet_lonsdaleite_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.117
+      },
+      "model": "useful_ores:item/enderium_helmet_subspace_trim"
+    },
+    {
+      "predicate": {
+        "minecraft:trim_type": 0.118
+      },
+      "model": "useful_ores:item/enderium_helmet_attributed_subspace_trim"
+    },
+    {
+      "predicate": {
         "minecraft:trim_type": 0.2
       },
       "model": "useful_ores:item/enderium_helmet_iron_trim"

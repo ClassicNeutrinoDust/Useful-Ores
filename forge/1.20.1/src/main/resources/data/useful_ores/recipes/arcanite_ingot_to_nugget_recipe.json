@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:arcanite_ingot"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:nuggets/arcanite"
+    }
+  },
+  "result": {
+    "item": "useful_ores:arcanite_ingot",
+    "count": 1
+  }
+}

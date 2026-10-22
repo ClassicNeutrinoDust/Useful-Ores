@@ -1,0 +1,7 @@
+{
+  "type": "useful_ores:config_add_features",
+  "ore": "voidshard",
+  "biomes": "#useful_ores:generates_in/end_biomes",
+  "features": "useful_ores:voidshard_ore_placed",
+  "step": "underground_ores"
+}

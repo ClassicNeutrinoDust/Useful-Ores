@@ -1,0 +1,5 @@
+Una tolva con cinco ranuras de filtro. Las ranuras vacías no aceptan nada. Cada ranura ocupada solo acepta el objeto exacto que hayas colocado, incluidos sus componentes.
+
+Abre el filtro y coloca una pila de referencia en cada ranura que quieras usar. Esa cantidad queda reservada: la automatización solo mueve los objetos que la superan. Aun así, puedes sacar objetos a mano.
+
+El filtro recoge los objetos coincidentes desde arriba y empuja el excedente hacia el bloque al que apunta, con el ritmo normal de una tolva. Aliméntalo desde arriba y recoge los objetos clasificados por delante. Usa una ranura por tipo de objeto.

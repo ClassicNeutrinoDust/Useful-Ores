@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:ore_enabled",
+      "ore": "nyxium"
+    }
+  ],
   "type": "neoforge:add_features",
   "biomes": "#minecraft:is_overworld",
   "features": [

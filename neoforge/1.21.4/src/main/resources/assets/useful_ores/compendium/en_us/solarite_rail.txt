@@ -1,0 +1,3 @@
+A high-speed rail for the [Solarite Battery Minecart](Utility/Solarite Battery Minecart). It stays straight and launches carts differently from vanilla powered rails. Its texture changes between day and night.
+
+Place it in a rail line. A redstone signal from a neighboring block gives the cart a launch push. It has no mode switch.

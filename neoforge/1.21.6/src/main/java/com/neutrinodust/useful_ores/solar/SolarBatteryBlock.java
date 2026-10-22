@@ -91,13 +91,13 @@ public class SolarBatteryBlock extends BaseEntityBlock {
     }
 
     @Override
-    public BlockState playerWillDestroy(Level level, BlockPos pos, BlockState state, Player player) {
-        if (!level.isClientSide() && level.getBlockEntity(pos) instanceof SolarBatteryBlockEntity be) {
-            ItemStack drop = new ItemStack(com.neutrinodust.useful_ores.init.ModItems.SOLAR_BATTERY.get());
-            SolarBatteryItem.setEnergy(drop, be.getEnergy());
-            Block.popResource(level, pos, drop);
-        }
-        return super.playerWillDestroy(level, pos, state, player);
+   public java.util.List<ItemStack> getDrops(BlockState state, net.minecraft.world.level.storage.loot.LootParams.Builder params) {
+        if (!com.neutrinodust.useful_ores.util.BlockDropUtil.survivesExplosion(params)) return java.util.List.of();
+        net.minecraft.world.level.block.entity.BlockEntity be =
+                params.getOptionalParameter(net.minecraft.world.level.storage.loot.parameters.LootContextParams.BLOCK_ENTITY);
+        ItemStack drop = new ItemStack(com.neutrinodust.useful_ores.init.ModItems.SOLAR_BATTERY.get());
+        if (be instanceof SolarBatteryBlockEntity battery) SolarBatteryItem.setEnergy(drop, battery.getEnergy());
+        return java.util.List.of(drop);
     }
 }
 

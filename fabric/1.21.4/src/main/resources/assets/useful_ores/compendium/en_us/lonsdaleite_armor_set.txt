@@ -1,0 +1,5 @@
+Defense: helmet 4, chestplate 13, leggings 9, boots 3.
+Durability: helmet 638, chestplate 928, leggings 870, boots 754.
+Enchantability 27, toughness 3.8, knockback resistance 22%.
+
+Set bonus: each worn piece reduces explosion damage by 17.5%, up to 70% with all four pieces. The bonus scales with the number of pieces worn. All Lonsdaleite armor and tools can be enchanted.

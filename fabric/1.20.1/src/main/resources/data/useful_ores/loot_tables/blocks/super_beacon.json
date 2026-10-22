@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "useful_ores:blocks/super_beacon",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "useful_ores:super_beacon"
+        }
+      ]
+    }
+  ]
+}

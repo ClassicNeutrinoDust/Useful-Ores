@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "useful_ores:item/sperrylite_catalytic_vial"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "useful_ores:potion_contents": 1.0
+      },
+      "model": "useful_ores:item/sperrylite_catalytic_vial_filled"
+    }
+  ]
+}

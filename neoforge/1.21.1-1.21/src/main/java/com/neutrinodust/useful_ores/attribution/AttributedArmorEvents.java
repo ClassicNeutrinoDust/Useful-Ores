@@ -15,13 +15,6 @@ public class AttributedArmorEvents {
 
     private static final int REFRESH_THRESHOLD_TICKS = 20;
 
-    
-
-
-
-
-
-
     private static final int NIGHT_VISION_REFRESH_DURATION = 240;
     private static final int NIGHT_VISION_REFRESH_THRESHOLD_TICKS = 220;
     private static final int PARTICLE_INTERVAL_TICKS = 6;

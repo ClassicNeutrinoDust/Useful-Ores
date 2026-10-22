@@ -1,0 +1,3 @@
+Se obtiene al extraer mineral de cristal extrusor. Fortuna aumenta la cantidad. Nueve pepitas forman un [Cristal extrusor](Utility/Extruding Crystal).
+
+Fabricación: llena las nueve casillas de la cuadrícula con pepitas.

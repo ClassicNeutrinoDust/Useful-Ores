@@ -17,14 +17,6 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.gameevent.GameEvent;
 import net.minecraft.world.phys.BlockHitResult;
 
-
-
-
-
-
-
-
-
 public final class SperryliteVialDirtEvents {
 
     private static final PotionContents WATER_CONTENTS = new PotionContents(Potions.WATER);

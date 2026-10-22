@@ -1,0 +1,3 @@
+Bloco defensivo fabricado com um Núcleo Sombrio, Nyxium, Arcanita e Pedra-negra. Foi pensado para muralhas e salas protegidas.
+
+Não tem interface nem modos. Suas regras especiais de mineração podem impedir que ferramentas comuns o recuperem; confira os requisitos antes de quebrá-lo.

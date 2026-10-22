@@ -1,4 +1,50 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_sword"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_pickaxe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_axe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_hoe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_shovel"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_helmet"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_chestplate"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_leggings"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_boots"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_nugget"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_block"
+    }
+  ],
   "criteria": {
     "get_zephyrite_ingot": {
       "trigger": "minecraft:inventory_changed",

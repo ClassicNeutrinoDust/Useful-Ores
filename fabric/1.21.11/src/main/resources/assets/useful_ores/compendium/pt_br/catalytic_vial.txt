@@ -1,0 +1,5 @@
+Um recipiente de preparo reutilizável que combina os efeitos de duas poções vanilla em um único frasco. Fabrique-o cercando uma Garrafa de Vidro com oito Pepitas de Sperrylite.
+
+No suporte de poções, coloque um frasco vazio e duas poções cheias nos espaços de garrafa; adicione uma Pepita de Sperrylite como ingrediente. O preparo leva 20 segundos. As poções viram garrafas vazias e a pepita é consumida.
+
+Adicione pólvora ao frasco cheio para criar um Frasco Catalítico Arremessável e depois bafo de dragão para obter a versão persistente. Beba o frasco normal, arremesse o de respingo ou use o persistente para deixar uma nuvem. A descrição lista todos os efeitos.

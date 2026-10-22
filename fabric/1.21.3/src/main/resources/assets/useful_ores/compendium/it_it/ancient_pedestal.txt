@@ -1,0 +1,3 @@
+Il bastone di nyxiumnite si lega a questo blocco e lo usa come destinazione dei suoi colpi a wormhole. Non ha interfaccia e non si può fabbricare.
+
+I piedistalli antichi si generano nella [Camera del Piedistallo Antico](Misc/Ancient Pedestal Chamber). Fai clic destro con il bastone per salvare dimensione e coordinate. Solo un piccone di Voidshard può romperlo.

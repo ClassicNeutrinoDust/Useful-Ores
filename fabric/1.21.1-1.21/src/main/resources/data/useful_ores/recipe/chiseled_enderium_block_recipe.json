@@ -1,4 +1,10 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:chiseled_enderium_block"
+    }
+  ],
   "type": "minecraft:stonecutting",
   "ingredient": {
     "item": "useful_ores:enderium_block"

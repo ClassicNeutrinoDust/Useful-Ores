@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_torch"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "X"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:nuggets/scheelite"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "useful_ores:scheelite_torch",
+    "count": 4
+  }
+}

@@ -10,14 +10,6 @@ import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.neoforge.common.extensions.IItemExtension;
 
-
-
-
-
-
-
-
-
 public class PainiteArmorItem extends ArmorItem implements IItemExtension {
     private static final ResourceLocation NORMAL_LAYER_1 =
             ResourceLocation.fromNamespaceAndPath("useful_ores", "textures/models/armor/painite_layer_1.png");
@@ -34,7 +26,6 @@ public class PainiteArmorItem extends ArmorItem implements IItemExtension {
         boolean fury = entity instanceof LivingEntity living && PainitePower.isFuryActive(living);
         String layerPath = layer.texture(innerModel).getPath();
 
-        
         if (!layerPath.contains("painite_fury_core")) {
             if (!fury) {
                 return innerModel ? NORMAL_LAYER_2 : NORMAL_LAYER_1;
@@ -44,8 +35,6 @@ public class PainiteArmorItem extends ArmorItem implements IItemExtension {
             return ResourceLocation.fromNamespaceAndPath("useful_ores", path);
         }
 
-        
-        
         int frame = fury ? (int) ((System.currentTimeMillis() / 85L) % 12L) : 0;
         String path = "textures/models/armor/painite_fury_core_"
                 + String.format("%02d", frame)

@@ -1,0 +1,3 @@
+Desvio de três vias que envia a vagoneta para a esquerda, em frente ou para a direita. Coloque-o voltado para a rota reta e construa as três saídas a partir do trilho à frente.
+
+Selecione a saída usando o controle de interação do desvio. O controlador permanece reto; o trilho à frente se curva para a rota escolhida.

@@ -1,0 +1,3 @@
+A primeira etapa para fabricar o Cajado de Meteorito. Coloque um Núcleo de Meteorito entre duas Varas de Blaze na vertical para criar um fragmento.
+
+Depois, combine o fragmento com bafo de dragão para criar um Núcleo de Meteorito Volátil. Os núcleos vêm de Meteoritos Caídos; Varas de Blaze e bafo de dragão são itens vanilla.

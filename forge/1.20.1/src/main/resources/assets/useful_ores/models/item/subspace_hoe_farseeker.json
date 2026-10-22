@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "useful_ores:item/subspace_hoe",
+    "layer1": "useful_ores:item/farseeker_overlay"
+  }
+}

@@ -1,0 +1,3 @@
+Améliore les outils de Subspace : les blocs minés vont directement dans l’inventaire. Voir [Armes et outils de Subspace](Tools & Combat/Subspace Weapons & Tools).
+
+Il ne peut pas être fabriqué. Les coffres au trésor des cités de l’End ont 7 % de chances d’en contenir un lors d’un tirage de butin supplémentaire. Cherchez dans les cités des îles extérieures de l’End ; aucune source n’est garantie.

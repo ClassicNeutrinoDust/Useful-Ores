@@ -21,11 +21,6 @@ public final class PainitePower {
 
     private PainitePower() {}
 
-    
-
-
-
-
     public static void update(LivingEntity entity) {
         int armorPieces = 0;
         double armor = 0.0D;
@@ -40,12 +35,10 @@ public final class PainitePower {
             }
         }
 
-        
         set(entity.getAttribute(Attributes.MAX_HEALTH), MAX_HEALTH_ID,
                 "useful_ores_painite_health_cost", -armorPieces,
                 AttributeModifier.Operation.ADD_VALUE);
 
-        
         double maxHealth = entity.getMaxHealth();
         if (entity.getHealth() > maxHealth) {
             entity.setHealth((float) maxHealth);
@@ -64,7 +57,6 @@ public final class PainitePower {
         set(entity.getAttribute(Attributes.BLOCK_BREAK_SPEED), SPEED_ID,
                 "useful_ores_painite_low_health_speed", active && tool ? 0.60D : 0.0D,
                 AttributeModifier.Operation.ADD_MULTIPLIED_BASE);
-        
         set(entity.getAttribute(Attributes.ATTACK_SPEED), SPEAR_SPEED_ID,
                 "useful_ores_painite_low_health_spear_speed", active && spear ? 1.50D : 0.0D,
                 AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL);
@@ -73,11 +65,6 @@ public final class PainitePower {
             updateToolVisualState(player, active);
         }
     }
-
-    
-
-
-
 
     private static void updateToolVisualState(Player player, boolean active) {
         var type = ModDataComponents.painiteFuryToolType();
@@ -96,7 +83,6 @@ public final class PainitePower {
         else if (!active && marked) stack.remove(type);
     }
 
-    
     public static boolean isFuryActive(LivingEntity entity) {
         return entity.getHealth() > 0.0F
                 && entity.getHealth() <= threshold(entity)
@@ -143,14 +129,12 @@ public final class PainitePower {
         return c.bootsDefense.get();
     }
 
-    
     public static boolean isPainiteCombatTool(ItemStack s) {
         return s.is(ModItems.PAINITE_ITEMS.get(3).get()) || s.is(ModItems.PAINITE_ITEMS.get(4).get())
             || s.is(ModItems.PAINITE_ITEMS.get(5).get()) || s.is(ModItems.PAINITE_ITEMS.get(6).get())
             || s.is(ModItems.PAINITE_ITEMS.get(7).get());
     }
 
-    
     private static boolean isPainiteVisualItem(ItemStack s) {
         return isPainiteArmor(s) || isPainiteCombatTool(s) || isPainiteSpear(s);
     }

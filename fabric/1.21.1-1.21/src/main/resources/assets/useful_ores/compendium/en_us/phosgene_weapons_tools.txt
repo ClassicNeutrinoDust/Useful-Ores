@@ -1,0 +1,4 @@
+Material: durability 650, mining speed 6.5, damage bonus +6.0, enchantability 6.
+Damage / attack speed: sword 11.0 / 1.4, pickaxe 9.0 / 1.2, axe 11.0 / 0.9, hoe 6.0 / 3.0, shovel 9.0 / 1.0.
+
+On hit: applies Poison for 3 seconds.

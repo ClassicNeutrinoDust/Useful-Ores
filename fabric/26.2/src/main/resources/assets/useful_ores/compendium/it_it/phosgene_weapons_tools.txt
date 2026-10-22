@@ -1,0 +1,4 @@
+Materiale: durabilità 650, velocità di estrazione 6.5, bonus ai danni +6.0, incantabilità 6.
+Danni / velocità d’attacco: spada 11.0 / 1.4, piccone 9.0 / 1.2, ascia 11.0 / 0.9, zappa 6.0 / 3.0, pala 9.0 / 1.0.
+
+Quando colpisce: applica Veleno per 3 secondi.

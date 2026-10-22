@@ -1,4 +1,10 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:wireless_redstone_relay"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "pattern": [
@@ -13,5 +19,8 @@
     "Z": "useful_ores:raw_zephyrite",
     "S": "minecraft:stone"
   },
-  "result": { "id": "useful_ores:wireless_redstone_relay", "count": 1 }
+  "result": {
+    "id": "useful_ores:wireless_redstone_relay",
+    "count": 1
+  }
 }

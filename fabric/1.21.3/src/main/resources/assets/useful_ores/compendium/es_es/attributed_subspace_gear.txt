@@ -1,0 +1,11 @@
+El equipo de subespacio puede llevar un efecto de poción normal de forma permanente. Primero crea un lingote de subespacio atribuido y después úsalo para fabricar el equipo.
+
+Para atribuir un lingote, coloca un lingote de subespacio y cualquier poción normal llena en la cuadrícula de fabricación. El resultado conserva el efecto de esa poción. Se admiten los efectos que pueden prepararse en un soporte, como Curación instantánea, Daño instantáneo, Resistencia al fuego, Respiración acuática y Visión nocturna.
+
+Fabrica el equipo con la receta normal de subespacio, sustituyendo cada lingote por uno atribuido. Todos los lingotes deben tener el mismo efecto. Las armas y herramientas siguen necesitando palos; la armadura no.
+
+Armadura: equipa el conjunto completo con el mismo efecto en cada pieza para mantenerlo mientras lleves puesta la armadura.
+
+Armas y herramientas: al golpear con una espada, hacha, pico, pala o azada atribuida, aplicas el efecto durante 10 segundos. Los efectos beneficiosos se aplican a ti y los perjudiciales al objetivo. Los efectos instantáneos se activan al momento.
+
+Los efectos instantáneos pueden aplicarse a armas y herramientas, pero no a la armadura.

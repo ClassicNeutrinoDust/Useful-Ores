@@ -288,16 +288,12 @@ public class WirelessRedstoneRelayBlockEntity extends BlockEntity {
 
    private static void runPendingLoad(Level level, BlockPos pos, BlockState state, WirelessRedstoneRelayBlockEntity relay) {
       if (level instanceof ServerLevel loadServerLevel) {
-         
-         
-         
          if (relay.linkedPos != null && loadServerLevel.isLoaded(relay.linkedPos)) {
             BlockState partnerState = loadServerLevel.getBlockState(relay.linkedPos);
             if (!(partnerState.getBlock() instanceof WirelessRedstoneRelayBlock)) {
                relay.linkedPos = null;
                relay.setChanged();
             } else if (loadServerLevel.getBlockEntity(relay.linkedPos) instanceof WirelessRedstoneRelayBlockEntity partner) {
-               
                if (partner.linkedPos == null) {
                   partner.linkedPos = relay.worldPosition.immutable();
                   partner.setChanged();
@@ -307,8 +303,6 @@ public class WirelessRedstoneRelayBlockEntity extends BlockEntity {
             }
          }
 
-         
-         
          WirelessRelayNetworkData registry = WirelessRelayNetworkData.get(loadServerLevel);
          GlobalPos here = GlobalPos.of(loadServerLevel.dimension(), relay.worldPosition);
          for (BlockPos targetPos : List.copyOf(relay.broadcastTargets)) {

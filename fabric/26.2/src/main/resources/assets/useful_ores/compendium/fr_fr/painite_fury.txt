@@ -1,0 +1,13 @@
+L’armure en painite réduit votre santé, mais vous rend plus puissant au combat.
+
+Coût en santé : chaque pièce portée réduit la santé maximale de 1 PV (un demi-cœur). Avec l’ensemble complet, il vous reste 16 PV (8 cœurs). Si votre santé actuelle dépasse cette limite, elle est ajustée. Retirer l’armure rétablit la limite maximale, mais ne soigne pas. Cela vaut même lorsque Furie est inactive.
+
+Furie : s’active chez les joueurs à 10 PV ou moins (5 cœurs). Chaque pièce d’armure en painite portée ajoute alors 60 % de sa défense normale.
+
+Outils : lorsque Furie est active, tenir une épée, une pioche, une hache, une houe ou une pelle en painite augmente de 60 % les dégâts d’attaque et la vitesse de minage.
+
+Lance : conserve son fonctionnement habituel. Pendant Furie, elle inflige aussi 60 % de dégâts supplémentaires et réduit de 60 % le temps de recharge de l’attaque.
+
+Apparence : l’armure prend des teintes bleu-cramoisi et le plastron affiche une petite fissure de magma animée. L’armure et toutes les armes en painite, lance comprise, gardent cette couleur dans l’inventaire et en main.
+
+Retour à la normale : au-dessus de 5 cœurs, les bonus et l’apparence redeviennent normaux.

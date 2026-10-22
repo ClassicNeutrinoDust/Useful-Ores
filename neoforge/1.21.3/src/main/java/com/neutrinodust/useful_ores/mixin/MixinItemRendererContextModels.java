@@ -13,14 +13,6 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.ModifyVariable;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-
-
-
-
-
-
-
-
 @Mixin(ItemRenderer.class)
 public abstract class MixinItemRendererContextModels {
     private static final String RENDER_METHOD =
@@ -36,11 +28,6 @@ public abstract class MixinItemRendererContextModels {
                                     int light, int overlay, BakedModel model, CallbackInfo ci) {
         USEFUL_ORES$CONTEXT.set(new Context(stack, displayContext));
     }
-
-    
-
-
-
 
     @ModifyVariable(
             method = RENDER_METHOD,

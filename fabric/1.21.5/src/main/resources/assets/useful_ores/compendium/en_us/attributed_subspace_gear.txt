@@ -1,0 +1,11 @@
+Subspace gear can carry one permanent vanilla potion effect. First make an Attributed Subspace Ingot, then use it to craft gear.
+
+To attribute an ingot, place a Subspace Ingot and any filled vanilla potion anywhere in the crafting grid. The result carries that potion's effect. Brewable effects are supported, including Instant Health, Instant Damage, Fire Resistance, Water Breathing and Night Vision.
+
+Craft the gear using the normal Subspace recipe, replacing every ingot with an Attributed Subspace Ingot. All ingots must carry the same effect. Weapons and tools still need sticks; armor does not.
+
+Armor: wear a full set with the same effect on every piece to keep that effect while the set is equipped.
+
+Weapons and tools: hitting a target with an attributed sword, axe, pickaxe, shovel or hoe applies the effect for 10 seconds. Beneficial effects apply to you; harmful effects apply to the target. Instant effects trigger immediately.
+
+Instant effects can be used on weapons and tools, but not armor.

@@ -1,0 +1,3 @@
+Il se fabrique avec neuf pépites de cristal extrudé. Il sert à améliorer une étoile du Nether pour la Super-balise.
+
+Combinez-le avec une étoile du Nether pour fabriquer une [étoile du Nether extrudée](Utility/Extruding Nether Star).

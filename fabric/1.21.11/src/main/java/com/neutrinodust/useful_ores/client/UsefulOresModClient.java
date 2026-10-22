@@ -25,13 +25,8 @@ public class UsefulOresModClient implements ClientModInitializer {
 
         EntityModelLayerRegistry.registerModelLayer(ClientModelLayers.SOLARITE_MINECART, SolariteMinecartModelData::createBodyLayer);
 
-        
-        
-        
-        
         registerCutoutTerrain();
 
-        
         BlockRenderLayerMap.putBlock((net.minecraft.world.level.block.Block) ModItems.ARCANITE_XP_JAR_BLOCK.get(), ChunkSectionLayer.TRANSLUCENT);
 
         ClientBlockEntityRenderers.register();
@@ -49,18 +44,14 @@ public class UsefulOresModClient implements ClientModInitializer {
     }
 
     private static void registerCutoutTerrain() {
-        
         for (var fire : ModOreFireBlocks.FIRE_BLOCKS.values()) {
             BlockRenderLayerMap.putBlock(fire.get(), ChunkSectionLayer.CUTOUT);
         }
 
-        
-        
         for (var campfire : ModColoredCampfireBlocks.CAMPFIRE_BLOCKS.values()) {
             BlockRenderLayerMap.putBlock(campfire.get(), ChunkSectionLayer.CUTOUT);
         }
 
-        
         BlockRenderLayerMap.putBlock(ModTitaniumRailBlocks.TITANIUM_RAIL.get(), ChunkSectionLayer.CUTOUT);
         BlockRenderLayerMap.putBlock(ModTitaniumRailBlocks.TITANIUM_CONTROLLER_RAIL.get(), ChunkSectionLayer.CUTOUT);
         BlockRenderLayerMap.putBlock(ModEnderiumRailBlocks.ENDERIUM_RAIL.get(), ChunkSectionLayer.CUTOUT);

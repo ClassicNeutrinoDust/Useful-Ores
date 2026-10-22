@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:arcanite_infused_coal"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "CNC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "N": {
+      "tag": "c:nuggets/arcanite"
+    }
+  },
+  "result": {
+    "item": "useful_ores:arcanite_infused_coal",
+    "count": 8
+  }
+}

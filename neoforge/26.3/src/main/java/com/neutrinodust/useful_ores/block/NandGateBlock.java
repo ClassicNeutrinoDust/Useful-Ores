@@ -10,7 +10,6 @@ public class NandGateBlock extends LogicGateBlock {
       super(properties);
    }
 
-
    @Override
    protected boolean computeOutput(Level level, BlockPos pos, BlockState state) {
       boolean a = readInput(level, pos, inputA(state));

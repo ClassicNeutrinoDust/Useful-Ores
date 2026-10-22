@@ -1,0 +1,9 @@
+Osmium is the densest natural metal in the mod. It is built for durability and knockback resistance, not speed.
+
+Found: Overworld, in stone and deepslate, from Y -32 to 0. Veins of 4, 4 per chunk. Ore touching air always spawns.
+
+Drops: 1 Raw Osmium per ore block, increased by Fortune. Silk Touch drops the ore block itself.
+
+Tool stats: durability 1900, mining speed 6.0 (the slowest of the upper tiers), attack damage +8.5, enchantability 22. Mining tier: Iron.
+
+Perks: the full four-piece Osmium armor set pulls you down through water quickly and lets you walk on the seafloor instead of floating. A partial set does nothing.

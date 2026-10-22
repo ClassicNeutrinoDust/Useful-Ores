@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fire_up",
+  "textures": {
+    "fire": "useful_ores:block/nyxium_fire_0"
+  }
+}

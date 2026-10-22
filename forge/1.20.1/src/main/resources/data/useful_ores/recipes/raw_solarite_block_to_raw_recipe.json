@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:raw_solarite"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "useful_ores:raw_solarite_block"
+    }
+  },
+  "result": {
+    "item": "useful_ores:raw_solarite",
+    "count": 9
+  }
+}

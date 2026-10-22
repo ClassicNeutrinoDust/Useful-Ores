@@ -8,11 +8,6 @@ import net.minecraft.world.item.ItemStack;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-
-
-
-
-
 public final class SpearRenderContext {
     private static final ThreadLocal<Deque<Context>> STACK =
             ThreadLocal.withInitial(ArrayDeque::new);

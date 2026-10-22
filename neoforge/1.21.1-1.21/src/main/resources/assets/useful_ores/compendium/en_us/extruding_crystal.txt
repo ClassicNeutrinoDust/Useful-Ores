@@ -1,0 +1,3 @@
+Made by combining nine Extruding Crystal Nuggets. It is used to upgrade a Nether Star for the Super Beacon.
+
+Combine it with a Nether Star to craft an [Extruding Nether Star](Utility/Extruding Nether Star).

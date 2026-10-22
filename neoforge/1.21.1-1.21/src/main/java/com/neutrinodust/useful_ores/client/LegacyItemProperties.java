@@ -12,7 +12,6 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
 
-
 @EventBusSubscriber(modid="useful_ores", bus=EventBusSubscriber.Bus.MOD, value=Dist.CLIENT)
 public final class LegacyItemProperties {
     private LegacyItemProperties() {}
@@ -21,10 +20,6 @@ public final class LegacyItemProperties {
     public static void onClientSetup(FMLClientSetupEvent event) {
         event.enqueueWork(LegacyItemProperties::register);
     }
-
-    
-
-
 
     @SubscribeEvent
     public static void registerItemColors(RegisterColorHandlersEvent.Item event) {

@@ -1,0 +1,9 @@
+Arcanite è il minerale normale di livello più alto del mod e offre la massima predisposizione agli incantesimi.
+
+Generazione: nel mondo normale, in pietra e ardesia delle profondità, tra Y -64 e -32. Vene da 4 blocchi, circa 4 per chunk. Il minerale esposto all’aria si genera sempre.
+
+Bottino: Ogni blocco di minerale lascia 1 minerale grezzo; Fortuna aumenta la quantità e Tocco di velluto raccoglie il blocco.
+
+Statistiche: Durabilità: 2150; velocità di estrazione: 8.5; danno d’attacco: +11.5; incantabilità: 32; livello di estrazione: Netherite.
+
+Vantaggi: Le Frecce di Arcanite non infliggono danni diretti: conferiscono al bersaglio un cuore dorato di assorbimento duraturo. Il motivo Arcanite Heart protegge quando sei vicino alla morte. Il barattolo XP contiene fino a 1395 XP.

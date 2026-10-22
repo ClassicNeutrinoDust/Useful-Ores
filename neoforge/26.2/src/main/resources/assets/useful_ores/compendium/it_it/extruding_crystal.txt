@@ -1,0 +1,3 @@
+Si crea con nove pepite di cristallo estruso. Serve a potenziare una stella del Nether per il Super Faro.
+
+Uniscilo a una stella del Nether per creare una [Stella del Nether estrusa](Utility/Extruding Nether Star).

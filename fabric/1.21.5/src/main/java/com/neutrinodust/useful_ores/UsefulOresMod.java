@@ -100,6 +100,7 @@ public class UsefulOresMod implements ModInitializer {
         UseBlockCallback.EVENT.register(new BlastproofEvents()::onUseBlock);
 
         PlayerBlockBreakEvents.AFTER.register(new BioluminescentEvents()::onBlockBreak);
+        PlayerBlockBreakEvents.AFTER.register(new BlastproofEvents()::onBlockBreak);
         UseBlockCallback.EVENT.register(new BioluminescentAxeEvents()::onUseBlock);
         ServerPlayConnectionEvents.JOIN.register((handler, sender, server) ->
                 BioluminescentSyncEvents.sendFullSync(handler.getPlayer()));

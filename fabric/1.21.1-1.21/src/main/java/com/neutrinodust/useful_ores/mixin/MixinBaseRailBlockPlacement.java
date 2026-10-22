@@ -23,7 +23,6 @@ public class MixinBaseRailBlockPlacement {
         if (level.isClientSide()) return;
         if (!(state.getBlock() instanceof BaseRailBlock)) return;
         
-        
         if (state.getBlock() instanceof SolariteRailBlock) return;
         TitaniumControllerRailBlock.enforceControllerPriority(level, pos);
     }

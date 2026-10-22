@@ -1,4 +1,10 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:meteor_staff"
+    }
+  ],
   "criteria": {
     "get_volatile_meteorite_core": {
       "trigger": "minecraft:inventory_changed",

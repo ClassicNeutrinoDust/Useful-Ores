@@ -13,14 +13,12 @@ import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.block.state.properties.RailShape;
 
-
 public class SolariteRailBlock extends BaseRailBlock {
     public static final MapCodec<SolariteRailBlock> CODEC = simpleCodec(SolariteRailBlock::new);
     public static final EnumProperty<RailShape> SHAPE = BlockStateProperties.RAIL_SHAPE;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
     public static final BooleanProperty LIT = BooleanProperty.create("lit");
 
-    
     private static final int ACTIVATION_SKY_DARKEN_MAX = 4;
     private static final int LIGHT_CHECK_PERIOD = 20;
 
@@ -48,7 +46,6 @@ public class SolariteRailBlock extends BaseRailBlock {
         return SHAPE;
     }
 
-
     public static boolean isActive(BlockState state) {
         return state.getBlock() instanceof SolariteRailBlock
                 && state.hasProperty(LIT)
@@ -57,8 +54,6 @@ public class SolariteRailBlock extends BaseRailBlock {
 
     public static boolean shouldBeActive(Level level, BlockPos pos) {
         if (level.dimension() != Level.OVERWORLD) return false;
-        
-        
         
         long time = Math.floorMod(level.getDayTime(), 24000L);
         return time < 12000L && level.getSkyDarken() < ACTIVATION_SKY_DARKEN_MAX;

@@ -1,0 +1,9 @@
+La fulgurite est du verre fondu par la foudre. C’est le matériau intermédiaire qui offre la meilleure vitesse de minage.
+
+Génération : monde normal, dans la pierre et l’ardoise des abîmes, entre Y -32 et 0. Filons de 5 blocs, environ 4 par chunk. Le minerai exposé à l’air apparaît toujours.
+
+Butin : Chaque bloc de minerai donne 1 minerai brut. Fortune augmente la quantité ; Toucher de soie récupère le bloc.
+
+Caractéristiques : Durabilité : 1750 ; vitesse de minage : 7.5 ; dégâts d’attaque : +8.5 ; aptitude aux enchantements : 16 ; niveau de minage : fer.
+
+Atouts : Ses lingots augmentent la portée du piège électrique en fulgurite après son activation par la foudre.

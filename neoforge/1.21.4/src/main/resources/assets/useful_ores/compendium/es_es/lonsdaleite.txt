@@ -1,0 +1,9 @@
+Lonsdaleite solo aparece en meteoritos estrellados. Hay seis grupos de mineral cerca del centro del meteorito; tendrás que excavar para encontrarlos. No aparece en otros lugares.
+
+Solo aparece dentro de estructuras de meteoritos estrellados. Seis grupos de mineral están enterrados cerca del centro.
+
+Botín: Cada bloque de mena suelta 1 unidad de mineral en bruto; Fortuna aumenta la cantidad y Toque de seda recoge el bloque.
+
+Estadísticas: Durabilidad: 6200; velocidad de minería: 25.0; daño de ataque: +15.0; encantabilidad: 28; nivel de minería: Netherite.
+
+Ventajas: Cada pieza de armadura reduce el daño de explosión un 17,5%, hasta un 70% con el conjunto completo. Su equipo alcanza la potencia de Voidshard y dura aproximadamente el doble.

@@ -1,0 +1,5 @@
+Una tramoggia con cinque slot filtro. Gli slot vuoti non accettano nulla. Ogni slot riempito accetta solo l’oggetto esatto inserito, componenti inclusi.
+
+Apri il filtro e inserisci una pila di riferimento in ogni slot da usare. La quantità di riferimento resta una riserva: l’automazione sposta solo gli oggetti in eccesso. Puoi comunque prelevare oggetti a mano.
+
+Il filtro raccoglie dall’alto gli oggetti corrispondenti e spinge l’eccedenza verso il blocco frontale, con i normali tempi della tramoggia. Alimentalo dall’alto e raccogli gli oggetti ordinati davanti. Usa uno slot per ogni tipo di oggetto.

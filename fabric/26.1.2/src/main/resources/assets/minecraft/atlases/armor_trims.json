@@ -31,7 +31,12 @@
         "argentite": "useful_ores:trims/color_palettes/argentite",
         "zephyrite": "useful_ores:trims/color_palettes/zephyrite",
         "ilmenite": "useful_ores:trims/color_palettes/ilmenite",
-        "scheelite": "useful_ores:trims/color_palettes/scheelite"
+        "scheelite": "useful_ores:trims/color_palettes/scheelite",
+        "voidshard": "useful_ores:trims/color_palettes/voidshard",
+        "enderium": "useful_ores:trims/color_palettes/enderium",
+        "painite": "useful_ores:trims/color_palettes/painite",
+        "lonsdaleite": "useful_ores:trims/color_palettes/lonsdaleite",
+        "subspace": "useful_ores:trims/color_palettes/subspace"
       },
       "textures": [
         "minecraft:trims/entity/humanoid/sentry",

@@ -33,17 +33,6 @@ public class MixinExplosion {
         ExplosionContext.setActive(false);
     }
 
-       
-                                                                       
-                                                  
-      
-                                                                              
-                                                                           
-                                                                             
-                                                                              
-                                                                          
-                                                  
-       
     @ModifyArg(
             method = "explode",
             at = @At(
@@ -56,8 +45,6 @@ public class MixinExplosion {
         BlastproofBlockData blastproofData = BlastproofBlockData.get(this.level);
         ChestLockData lockData = ChestLockData.get(this.level);
 
-                                                                             
-                                                                           
         List<BlockPos> filtered = new ArrayList<>(targetBlocks.size());
         for (BlockPos pos : targetBlocks) {
             if (!blastproofData.isBlastproof(pos) && !lockData.isLocked(this.level, pos)) {

@@ -27,7 +27,6 @@ public final class WirelessRelayKeyHandler {
 
    private WirelessRelayKeyHandler() {}
 
-
    @SubscribeEvent
    private static void onPlayerTick(PlayerTickEvent.Post event) {
       if (!(event.getEntity() instanceof net.minecraft.client.player.LocalPlayer)) return;

@@ -9,7 +9,6 @@ import net.minecraft.client.resources.model.BakedModel;
 import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.item.ItemStack;
 
-
 public final class ContextualDynamicItemRenderer implements BuiltinItemRendererRegistry.DynamicItemRenderer {
     public static final ContextualDynamicItemRenderer INSTANCE = new ContextualDynamicItemRenderer();
     private MeteorStaffItemRenderer meteor;

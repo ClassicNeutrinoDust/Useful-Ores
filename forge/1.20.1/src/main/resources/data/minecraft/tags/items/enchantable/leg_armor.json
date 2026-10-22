@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "useful_ores:chromite_leggings",
+    "useful_ores:nyxium_leggings",
+    "useful_ores:phosgene_leggings",
+    "useful_ores:arcanite_leggings",
+    "useful_ores:fulgurite_leggings",
+    "useful_ores:osmium_leggings",
+    "useful_ores:solarite_leggings",
+    "useful_ores:sperrylite_leggings",
+    "useful_ores:argentite_leggings",
+    "useful_ores:zephyrite_leggings",
+    "useful_ores:ilmenite_leggings",
+    "useful_ores:scheelite_leggings",
+    "useful_ores:enderium_leggings",
+    "useful_ores:voidshard_leggings",
+    "useful_ores:lonsdaleite_leggings",
+    "useful_ores:subspace_leggings",
+    "useful_ores:attributed_subspace_leggings",
+    "useful_ores:painite_leggings"
+]
+}

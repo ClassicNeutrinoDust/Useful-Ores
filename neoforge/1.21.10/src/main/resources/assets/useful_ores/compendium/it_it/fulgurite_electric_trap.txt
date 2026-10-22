@@ -1,0 +1,9 @@
+Una trappola elettrica inattiva. Un fulmine durante un temporale la attiva. Una volta attiva, danneggia le entità viventi in un’area quadrata e le attira verso il centro.
+
+Attivazione: posizionala su un blocco solido con cielo libero sopra e aspetta un temporale. A ogni tick ha una probabilità di essere colpita. Il fulmine la sblocca in modo permanente. Romperla e riposizionarla mantiene lo sblocco, ma riporta la portata a 1.
+
+Portata: parte da 1 (3×3). Fai clic destro con un lingotto di fulgurite per passare a 2 (5×5), poi a 3 (7×7, massimo). Ogni potenziamento costa un lingotto fuori dalla modalità Creativa. Fai clic destro a mano vuota per controllarne lo stato.
+
+Danni: il campo infligge periodicamente 2 danni ai giocatori e 4 ai mob. I mob perdono anche movimento orizzontale. Le entità vengono attirate verso la trappola e le particelle mostrano l’area attiva.
+
+Qualsiasi segnale di redstone che tocca la trappola spegne il campo. La trappola resta sbloccata.

@@ -45,7 +45,6 @@ public class RedstoneClockBlock extends BaseEntityBlock {
          .setValue(PERIOD_INDEX, 3));
    }
 
-
    @Override
    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
       builder.add(FACING, POWERED, PERIOD_INDEX);

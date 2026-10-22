@@ -1,0 +1,5 @@
+Queste polveri applicano l’effetto di una pozione a un blocco, creando una zona temporanea che influenza le entità viventi sopra di esso.
+
+Polvere grezza: metti Fosgene Grezzo nei quattro angoli, un Blocco di Slime al centro, tre polveri di redstone e una Verga di Blaze negli spazi rimanenti. Ne ottieni 16. Per la polvere infusa, circonda una pozione piena con otto polveri grezze: ne ottieni due con l’effetto e il colore della pozione.
+
+Usa la polvere infusa su un blocco. Appariranno particelle e le entità sopra il blocco riceveranno l’effetto per tre minuti. Il blocco resta attivo per un giorno di Minecraft (24.000 tick). La ricetta grezza si sblocca raccogliendo Fosgene Grezzo; quella infusa richiede la polvere grezza e una pozione.

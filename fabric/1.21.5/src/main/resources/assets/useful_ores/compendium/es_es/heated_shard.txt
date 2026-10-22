@@ -1,0 +1,3 @@
+Material resistente al calor, fabricado con lingotes de fragmento del vacío y solarita. Se usa para crear un lingote de Subspace.
+
+Coloca lingotes de fragmento del vacío en las cuatro esquinas y lingotes de solarita en los cuatro lados, dejando el centro vacío. Después, rodéalo con ocho lingotes de enderio para crear un lingote de Subspace.

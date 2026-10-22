@@ -1,0 +1,3 @@
+Bloque defensivo fabricado con un Núcleo oscuro, nyxium, arcanita y piedra negra. Está pensado para muros y salas protegidas.
+
+No tiene interfaz ni modos. Sus reglas especiales de extracción pueden impedir que las herramientas normales lo recuperen; comprueba los requisitos antes de romperlo.

@@ -1,4 +1,50 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:fulgurite_sword"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:fulgurite_pickaxe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:fulgurite_axe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:fulgurite_hoe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:fulgurite_shovel"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:fulgurite_helmet"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:fulgurite_chestplate"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:fulgurite_leggings"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:fulgurite_boots"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:fulgurite_nugget"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:fulgurite_block"
+    }
+  ],
   "criteria": {
     "get_fulgurite_ingot": {
       "trigger": "minecraft:inventory_changed",

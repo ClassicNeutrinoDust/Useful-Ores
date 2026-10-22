@@ -1,7 +1,7 @@
 {
   "asset_name": "nyxium",
   "description": {
-    "color": "#3A1E68",
+    "color": "#AEAEE4",
     "translate": "trim_material.useful_ores.nyxium"
   },
   "ingredient": "useful_ores:nyxium_ingot",

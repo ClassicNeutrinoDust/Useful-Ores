@@ -4,11 +4,6 @@ import com.neutrinodust.useful_ores.init.ModConfig;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.ItemStack;
 
-
-
-
-
-
 public record SpearAnimationProfile(
         float swingAnimationSeconds,
         float chargeDamageMultiplier,
@@ -29,8 +24,6 @@ public record SpearAnimationProfile(
         ModConfig.MaterialEntries entry = ModConfig.ENTRIES.get(path);
         float speed = entry == null ? 2.0F : entry.miningSpeed.get().floatValue();
 
-        
-        
         if (speed <= 2.5F) {
             return new SpearAnimationProfile(0.65F, 0.70F, 0.75F, 5.0F, 14.0F, 10.0F, 5.1F, 15.0F, 4.6F, 0.38F);
         }

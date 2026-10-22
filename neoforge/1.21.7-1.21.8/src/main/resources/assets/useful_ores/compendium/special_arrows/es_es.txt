@@ -1,0 +1,9 @@
+Tres flechas con efectos distintos. Funcionan con cualquier arco y no necesitan una carga especial.
+
+Flecha de scheelita: inflige 1,5 veces el daño de un disparo normal con arco sin encantar. Por lo demás, vuela y cae como una flecha normal.
+
+Flecha de arcanita: no inflige daño directo. Al impactar, otorga al objetivo un corazón dorado de absorción, que permanece hasta absorber daño.
+
+Flecha de nyxium: roba hasta un corazón al objetivo, sin reducirlo por debajo de medio corazón, y otorga al tirador un corazón dorado de absorción.
+
+Fabricación: coloca un lingote del material correspondiente, un palo y una pluma en una columna vertical para fabricar cuatro flechas. Las tres recetas aparecen abajo.

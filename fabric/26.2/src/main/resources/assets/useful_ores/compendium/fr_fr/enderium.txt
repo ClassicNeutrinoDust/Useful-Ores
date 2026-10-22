@@ -1,0 +1,9 @@
+L’enderium est le matériau intermédiaire du trio supérieur : solarite, enderium et voidshard. Il mine plus vite que la solarite et la Netherite.
+
+End, dans la pierre de l’End, entre Y 0–120 ; filons de 3, 6 par chunk. Le minerai exposé à l’air a 15 % de chances de ne pas apparaître.
+
+Butin : Chaque bloc de minerai donne 1 minerai brut. Fortune augmente la quantité ; Toucher de soie récupère le bloc.
+
+Caractéristiques : Durabilité : 2700 ; vitesse de minage : 20.0 ; dégâts d’attaque : +13.5 ; aptitude aux enchantements : 26 ; niveau de minage : Netherite.
+
+Atouts : Les rails d’enderium fonctionnent par paire : un wagonnet qui passe sur un rail est téléporté vers son partenaire lié.

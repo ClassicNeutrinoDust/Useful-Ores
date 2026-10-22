@@ -1,0 +1,5 @@
+Un récipient d’alchimie réutilisable qui combine les effets de deux potions vanilla dans un seul flacon. Fabriquez-le en entourant une bouteille en verre de huit pépites de sperrylite.
+
+Dans un alambic, placez un flacon vide et deux potions pleines dans les emplacements pour bouteilles, puis ajoutez une pépite de sperrylite comme ingrédient. La préparation dure 20 secondes. Les potions redeviennent des bouteilles vides et la pépite est consommée.
+
+Ajoutez de la poudre à canon au flacon rempli pour obtenir un flacon catalytique à lancer, puis du souffle de dragon pour sa version persistante. Buvez le flacon normal, lancez celui à effet de zone ou utilisez la version persistante pour créer un nuage. La description liste tous les effets.

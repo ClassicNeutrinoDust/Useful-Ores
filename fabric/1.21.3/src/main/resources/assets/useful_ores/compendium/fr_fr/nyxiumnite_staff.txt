@@ -1,0 +1,3 @@
+Un bâton qui se lie à un piédestal ancien et tire un projectile ouvrant un trou de ver. Faites un clic droit sur un piédestal ancien avec le bâton pour le lier ; ses coordonnées sont enregistrées dans le bâton.
+
+Faites un clic droit dans le vide pour tirer vers le réticule. Recharge : 30 ticks (1,5 seconde). Fabriquez-le en plaçant un noyau de nyxiumnite volatile au-dessus de deux lingots d’argentite.

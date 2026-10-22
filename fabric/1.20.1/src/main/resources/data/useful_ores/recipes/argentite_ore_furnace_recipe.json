@@ -1,0 +1,17 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_ingot"
+    }
+  ],
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 3,
+  "cookingtime": 200,
+  "group": "argentite_ingot",
+  "ingredient": {
+    "tag": "c:ores/argentite"
+  },
+  "result": "useful_ores:argentite_ingot"
+}

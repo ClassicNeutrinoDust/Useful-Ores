@@ -1,0 +1,5 @@
+Invertitore a un ingresso. L’uscita è attiva quando l’ingresso è spento e viceversa. Ritardo: 1 tick.
+
+Posizionalo su un blocco solido. L’ingresso è a sinistra rispetto alla direzione frontale; il lato frontale è l’uscita.
+
+Tabella della verità: 0 = 1, 1 = 0. Usalo per invertire i segnali di orologi o sensori.

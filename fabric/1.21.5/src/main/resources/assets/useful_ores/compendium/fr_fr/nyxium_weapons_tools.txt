@@ -1,0 +1,4 @@
+Matériau : durabilité 2200, vitesse de minage 8.0, bonus de dégâts +10.0, aptitude à l’enchantement 15.
+Dégâts / vitesse d’attaque: épée 16.0 / 1.8, pioche 15.0 / 1.2, hache 17.0 / 1.2, houe 10.0 / 2.0, pelle 14.0 / 1.0.
+
+À l’impact : applique Wither pendant 3 secondes.

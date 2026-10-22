@@ -1,0 +1,13 @@
+{
+  "type": "useful_ores:config_add_features",
+  "ore": "extruding_crystal",
+  "biomes": {
+    "type": "forge:and",
+    "values": [
+      "#minecraft:is_overworld",
+      "#useful_ores:extruding_crystal/snowy"
+    ]
+  },
+  "features": "useful_ores:extruding_crystal_ore_snowy_placed",
+  "step": "underground_ores"
+}

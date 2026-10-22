@@ -1,0 +1,4 @@
+Matériau : durabilité 650, vitesse de minage 6.5, bonus de dégâts +6.0, aptitude à l’enchantement 6.
+Dégâts / vitesse d’attaque: épée 11.0 / 1.4, pioche 9.0 / 1.2, hache 11.0 / 0.9, houe 6.0 / 3.0, pelle 9.0 / 1.0.
+
+À l’impact : applique Poison pendant 3 secondes.

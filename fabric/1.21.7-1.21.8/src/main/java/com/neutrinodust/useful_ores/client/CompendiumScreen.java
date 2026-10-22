@@ -2,10 +2,11 @@ package com.neutrinodust.useful_ores.client;
 
 import com.neutrinodust.useful_ores.compendium.CompendiumData;
 import net.minecraft.ChatFormatting;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.RenderPipelines;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.screens.Screen;
-import net.minecraft.client.renderer.RenderPipelines;
 import net.minecraft.core.Holder;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -52,6 +53,7 @@ public class CompendiumScreen extends Screen {
    private int gridScroll = 0;
 
    private int panelX, panelY, panelW, panelH;
+   private int tabW = 100;
 
    private final List<LinkHitbox> linkHitboxes = new ArrayList<>();
 
@@ -114,9 +116,19 @@ public class CompendiumScreen extends Screen {
 
    @Override
    protected void init() {
-      panelW = Math.min(340, this.width - 40);
-      panelH = Math.min(240, this.height - 70);
+      int margin = 6;
+      int gap = 6;
+      tabW = 100;
+      panelW = Math.min(340, this.width - tabW - gap - margin * 2);
+      if (panelW < 250) {
+         tabW = 70;
+         panelW = Math.min(340, this.width - tabW - gap - margin * 2);
+      }
+      panelW = Math.max(160, panelW);
+      panelH = Math.max(110, Math.min(240, this.height - 70));
       panelX = (this.width - panelW) / 2;
+      int minPanelX = margin + tabW + gap;
+      if (panelX < minPanelX) panelX = minPanelX;
       panelY = (this.height - panelH) / 2;
 
       chapterIndex = Math.min(chapterIndex, CompendiumData.CHAPTERS.size() - 1);
@@ -127,31 +139,218 @@ public class CompendiumScreen extends Screen {
       rebuildButtons();
    }
 
+   private static String chapterTranslationKey(String name) {
+      return switch (name) {
+         case "Ores & Materials" -> "compendium.chapter.ores_materials";
+         case "Redstone" -> "compendium.chapter.redstone";
+         case "Tools & Combat" -> "compendium.chapter.tools_combat";
+         case "Utility" -> "compendium.chapter.utility";
+         case "Misc" -> "compendium.chapter.misc";
+         default -> "compendium.chapter.misc";
+      };
+   }
+
+   private static Component localizedPageTitle(String title) {
+      return Component.literal(localizedPageTitleText(title));
+   }
+   private static String localizedMaterialTitleName(String material, String base) {
+      return switch (base) {
+         case "es" -> switch (material.toLowerCase()) { case "arcanite" -> "arcanita"; case "argentite" -> "argentita"; case "chromite" -> "cromita"; case "enderium" -> "enderium"; case "fulgurite" -> "fulgurita"; case "ilmenite" -> "ilmenita"; case "lonsdaleite" -> "lonsdaleíta"; case "nyxium" -> "nyxium"; case "osmium" -> "osmio"; case "painite" -> "painita"; case "phosgene" -> "fosgeno"; case "scheelite" -> "scheelita"; case "solarite" -> "solarita"; case "sperrylite" -> "sperrylita"; case "subspace" -> "subespacio"; case "voidshard" -> "esquirla del vacío"; case "zephyrite" -> "zefirita"; default -> material; };
+         case "pt" -> switch (material.toLowerCase()) { case "arcanite" -> "arcanita"; case "argentite" -> "argentita"; case "chromite" -> "cromita"; case "enderium" -> "enderium"; case "fulgurite" -> "fulgurita"; case "ilmenite" -> "ilmenita"; case "lonsdaleite" -> "lonsdaleíta"; case "nyxium" -> "nyxium"; case "osmium" -> "ósmio"; case "painite" -> "painita"; case "phosgene" -> "fosgênio"; case "scheelite" -> "scheelita"; case "solarite" -> "solarita"; case "sperrylite" -> "sperrylita"; case "subspace" -> "subespaço"; case "voidshard" -> "estilhaço do vazio"; case "zephyrite" -> "zefirita"; default -> material; };
+         case "fr" -> switch (material.toLowerCase()) { case "arcanite" -> "arcanite"; case "argentite" -> "argentite"; case "chromite" -> "chromite"; case "enderium" -> "enderium"; case "fulgurite" -> "fulgurite"; case "ilmenite" -> "ilménite"; case "lonsdaleite" -> "lonsdaléite"; case "nyxium" -> "nyxium"; case "osmium" -> "osmium"; case "painite" -> "painite"; case "phosgene" -> "phosgène"; case "scheelite" -> "scheelite"; case "solarite" -> "solarite"; case "sperrylite" -> "sperrylite"; case "subspace" -> "sous-espace"; case "voidshard" -> "éclat du vide"; case "zephyrite" -> "zéphyrite"; default -> material; };
+         case "it" -> switch (material.toLowerCase()) { case "arcanite" -> "arcanite"; case "argentite" -> "argentite"; case "chromite" -> "cromite"; case "enderium" -> "enderium"; case "fulgurite" -> "fulgurite"; case "ilmenite" -> "ilmenite"; case "lonsdaleite" -> "lonsdaleite"; case "nyxium" -> "nyxium"; case "osmium" -> "osmio"; case "painite" -> "painite"; case "phosgene" -> "fosgene"; case "scheelite" -> "scheelite"; case "solarite" -> "solarite"; case "sperrylite" -> "sperrylite"; case "subspace" -> "sottospazio"; case "voidshard" -> "scheggia del vuoto"; case "zephyrite" -> "zefirite"; default -> material; };
+         case "ru" -> switch (material.toLowerCase()) { case "arcanite" -> "арканит"; case "argentite" -> "аргентит"; case "chromite" -> "хромит"; case "enderium" -> "эндериум"; case "fulgurite" -> "фульгурит"; case "ilmenite" -> "ильменит"; case "lonsdaleite" -> "лонсдейлит"; case "nyxium" -> "никсиум"; case "osmium" -> "осмий"; case "painite" -> "пейнит"; case "phosgene" -> "фосген"; case "scheelite" -> "шеелит"; case "solarite" -> "солярит"; case "sperrylite" -> "сперрилит"; case "subspace" -> "подпространство"; case "voidshard" -> "осколок пустоты"; case "zephyrite" -> "зефирит"; default -> material; };
+         case "zh" -> switch (material.toLowerCase()) { case "arcanite" -> "奥术石"; case "argentite" -> "辉银矿"; case "chromite" -> "铬铁矿"; case "enderium" -> "末影素"; case "fulgurite" -> "雷击石"; case "ilmenite" -> "钛铁矿"; case "lonsdaleite" -> "六方金刚石"; case "nyxium" -> "暗夜素"; case "osmium" -> "锇"; case "painite" -> "红硼钙铝石"; case "phosgene" -> "光气"; case "scheelite" -> "白钨矿"; case "solarite" -> "日耀石"; case "sperrylite" -> "砷铂矿"; case "subspace" -> "亚空间"; case "voidshard" -> "虚空碎片"; case "zephyrite" -> "和风石"; default -> material; };
+         default -> material;
+      };
+   }
+   private static String localizedPageTitleText(String title) {
+      String lang = Minecraft.getInstance().getLanguageManager().getSelected().toLowerCase();
+      String base = lang.contains("_") ? lang.substring(0, lang.indexOf('_')) : lang;
+      if (title.equals("Special Arrows")) return switch (base) {
+         case "es" -> "Flechas especiales"; case "pt" -> "Flechas especiais";
+         case "fr" -> "Flèches spéciales"; case "it" -> "Frecce speciali";
+         case "ru" -> "Особые стрелы"; case "zh" -> "特殊箭矢"; default -> title;
+      };
+      if (title.equals("Pickaxe Tier List")) return switch (base) {
+         case "es" -> "Niveles de pico"; case "pt" -> "Níveis de picareta";
+         case "fr" -> "Niveaux de pioche"; case "it" -> "Livelli dei picconi";
+         case "ru" -> "Уровни кирок"; case "zh" -> "镐的等级"; default -> title;
+      };
+      if (title.equals("Attributed Subspace Gear")) return switch (base) {
+         case "es" -> "Equipo de subespacio atribuido"; case "pt" -> "Equipamento de subspace atribuído";
+         case "fr" -> "Équipement de subspace attribué"; case "it" -> "Equipaggiamento subspace attribuito";
+         case "ru" -> "Атрибутированное снаряжение сабспейса"; case "zh" -> "附效次元装备"; default -> title;
+      };
+      if (title.equals("Painite Fury")) return switch (base) {
+         case "es" -> "Furia de painita"; case "pt" -> "Fúria da painite";
+         case "fr" -> "Furie de painite"; case "it" -> "Furia della painite";
+         case "ru" -> "Ярость пайнита"; case "zh" -> "痛石狂怒"; default -> title;
+      };
+      if (title.equals("Chromite Piston")) return switch (base) {
+         case "es" -> "Pistón de cromita"; case "pt" -> "Pistão de cromita"; case "fr" -> "Piston en chromite";
+         case "it" -> "Pistone in cromite"; case "ru" -> "Поршень из хромита"; case "zh" -> "铬铁矿活塞"; default -> title;
+      };
+      if (title.equals("Wireless Redstone Relay")) return switch (base) {
+         case "es" -> "Relé de redstone inalámbrico"; case "pt" -> "Relé de redstone sem fio"; case "fr" -> "Relais de redstone sans fil";
+         case "it" -> "Relè di redstone senza fili"; case "ru" -> "Беспроводное реле редстоуна"; case "zh" -> "无线红石继电器"; default -> title;
+      };
+      if (title.equals("Redstone Clock")) return switch (base) {
+         case "es" -> "Reloj de redstone"; case "pt" -> "Relógio de redstone"; case "fr" -> "Horloge de redstone";
+         case "it" -> "Orologio di redstone"; case "ru" -> "Часы редстоуна"; case "zh" -> "红石时钟"; default -> title;
+      };
+      if (title.equals("AND Gate")) return switch (base) {
+         case "es" -> "Puerta AND"; case "pt" -> "Porta AND"; case "fr" -> "Porte ET"; case "it" -> "Porta AND";
+         case "ru" -> "Элемент И"; case "zh" -> "与门"; default -> title;
+      };
+      if (title.equals("NAND Gate")) return switch (base) {
+         case "es" -> "Puerta NAND"; case "pt" -> "Porta NAND"; case "fr" -> "Porte NON-ET"; case "it" -> "Porta NAND";
+         case "ru" -> "Элемент И-НЕ"; case "zh" -> "与非门"; default -> title;
+      };
+      if (title.equals("OR Gate")) return switch (base) {
+         case "es" -> "Puerta OR"; case "pt" -> "Porta OR"; case "fr" -> "Porte OU"; case "it" -> "Porta OR";
+         case "ru" -> "Элемент ИЛИ"; case "zh" -> "或门"; default -> title;
+      };
+      if (title.equals("NOR Gate")) return switch (base) {
+         case "es" -> "Puerta NOR"; case "pt" -> "Porta NOR"; case "fr" -> "Porte NON-OU"; case "it" -> "Porta NOR";
+         case "ru" -> "Элемент ИЛИ-НЕ"; case "zh" -> "或非门"; default -> title;
+      };
+      if (title.equals("XOR Gate")) return switch (base) {
+         case "es" -> "Puerta XOR"; case "pt" -> "Porta XOR"; case "fr" -> "Porte OU exclusif"; case "it" -> "Porta XOR";
+         case "ru" -> "Элемент исключающее ИЛИ"; case "zh" -> "异或门"; default -> title;
+      };
+      if (title.equals("NOT Gate")) return switch (base) {
+         case "es" -> "Puerta NOT"; case "pt" -> "Porta NOT"; case "fr" -> "Inverseur"; case "it" -> "Porta NOT";
+         case "ru" -> "Инвертор НЕ"; case "zh" -> "非门"; default -> title;
+      };
+      if (title.equals("Argentite Filter")) return switch (base) {
+         case "es" -> "Filtro de argentita"; case "pt" -> "Filtro de argentita"; case "fr" -> "Filtre en argentite";
+         case "it" -> "Filtro in argentite"; case "ru" -> "Фильтр из аргентита"; case "zh" -> "辉银矿过滤器"; default -> title;
+      };
+      if (title.equals("Fulgurite Electric Trap")) return switch (base) {
+         case "es" -> "Trampa eléctrica de fulgurita"; case "pt" -> "Armadilha elétrica de fulgurita"; case "fr" -> "Piège électrique en fulgurite";
+         case "it" -> "Trappola elettrica in fulgurite"; case "ru" -> "Электрическая ловушка из фульгурита"; case "zh" -> "闪电石电击陷阱"; default -> title;
+      };
+      if (title.equals("Catalytic Vial")) return switch (base) {
+         case "es" -> "Vial catalítico"; case "pt" -> "Frasco catalítico"; case "fr" -> "Fiole catalytique";
+         case "it" -> "Fiala catalitica"; case "ru" -> "Каталитический сосуд"; case "zh" -> "催化药剂瓶"; default -> title;
+      };
+      if (title.equals("Arcanite XP Jar")) return switch (base) {
+         case "es" -> "Frasco de experiencia de arcanita"; case "pt" -> "Jarro de XP de arcanita"; case "fr" -> "Bocal d’XP en arcanite";
+         case "it" -> "Barattolo XP di arcanite"; case "ru" -> "Банка опыта из арканита"; case "zh" -> "奥术矿经验罐"; default -> title;
+      };
+      if (title.equals("Nyxiumnite Staff")) return switch (base) {
+         case "es" -> "Bastón de nyxiumnita"; case "pt" -> "Cajado de nyxiumnita"; case "fr" -> "Bâton de nyxiumnite";
+         case "it" -> "Bastone di nyxiumnite"; case "ru" -> "Посох никсиумнита"; case "zh" -> "次元镍晶法杖"; default -> title;
+      };
+      if (title.equals("Meteor Staff")) return switch (base) {
+         case "es" -> "Bastón de meteorito"; case "pt" -> "Cajado de meteorito"; case "fr" -> "Bâton météorique";
+         case "it" -> "Bastone meteorico"; case "ru" -> "Метеоритный посох"; case "zh" -> "陨石法杖"; default -> title;
+      };
+      if (title.equals("Nyxium-Arcanite Core")) return switch (base) {
+         case "es" -> "Núcleo de nyxium y arcanita"; case "pt" -> "Núcleo de Nyxium-Arcanita"; case "fr" -> "Noyau nyxium-arcanite";
+         case "it" -> "Nucleo Nyxium-Arcanite"; case "ru" -> "Ядро никсиум-арканит"; case "zh" -> "次元镍晶奥术核心"; default -> title;
+      };
+      if (title.equals("Volatile Nyxiumnite Core")) return switch (base) {
+         case "es" -> "Núcleo de nyxiumnita volátil"; case "pt" -> "Núcleo de nyxiumnita volátil"; case "fr" -> "Noyau de nyxiumnite volatile";
+         case "it" -> "Nucleo di nyxiumnite volatile"; case "ru" -> "Нестабильное ядро никсиумнита"; case "zh" -> "不稳定次元镍晶核心"; default -> title;
+      };
+      if (title.equals("Meteorite Core Shard")) return switch (base) {
+         case "es" -> "Fragmento del núcleo de meteorito"; case "pt" -> "Fragmento do núcleo de meteorito"; case "fr" -> "Éclat de noyau de météorite";
+         case "it" -> "Scheggia del nucleo di meteorite"; case "ru" -> "Осколок ядра метеорита"; case "zh" -> "陨石核心碎片"; default -> title;
+      };
+      if (title.equals("Volatile Meteorite Core")) return switch (base) {
+         case "es" -> "Núcleo de meteorito volátil"; case "pt" -> "Núcleo de meteorito volátil"; case "fr" -> "Noyau de météorite volatile";
+         case "it" -> "Nucleo di meteorite volatile"; case "ru" -> "Нестабильное ядро метеорита"; case "zh" -> "不稳定陨石核心"; default -> title;
+      };
+      if (title.equals("Silver Core Arcanite Shard")) return switch (base) {
+         case "es" -> "Fragmento de arcanita con núcleo de plata"; case "pt" -> "Fragmento de arcanita com núcleo de prata"; case "fr" -> "Éclat d’arcanite à noyau d’argent";
+         case "it" -> "Scheggia di arcanite con nucleo d’argento"; case "ru" -> "Осколок арканита с серебряным ядром"; case "zh" -> "银芯奥术碎片"; default -> title;
+      };
+      if (title.equals("Dark Core")) return switch (base) {
+         case "es" -> "Núcleo oscuro"; case "pt" -> "Núcleo sombrio"; case "fr" -> "Noyau sombre";
+         case "it" -> "Nucleo oscuro"; case "ru" -> "Тёмное ядро"; case "zh" -> "暗影核心"; default -> title;
+      };
+      if (title.endsWith(" Armor Set")) {
+         String material = title.substring(0, title.length() - " Armor Set".length());
+         String translated = localizedMaterialTitleName(material, base);
+         return switch (base) {
+            case "es" -> "Armadura de " + translated;
+            case "pt" -> "Conjunto de armadura de " + translated;
+            case "fr" -> "Armure en " + translated;
+            case "it" -> "Armatura di " + translated;
+            case "ru" -> "Комплект брони: " + translated;
+            case "zh" -> translated + "盔甲套装";
+            default -> title;
+         };
+      }
+      if (title.endsWith(" Weapons & Tools")) {
+         String material = title.substring(0, title.length() - " Weapons & Tools".length());
+         String translated = localizedMaterialTitleName(material, base);
+         return switch (base) {
+            case "es" -> "Armas y herramientas de " + translated;
+            case "pt" -> "Armas e ferramentas de " + translated;
+            case "fr" -> "Armes et outils en " + translated;
+            case "it" -> "Armi e strumenti di " + translated;
+            case "ru" -> "Оружие и инструменты: " + translated;
+            case "zh" -> translated + "武器与工具";
+            default -> title;
+         };
+      }
+      if (title.equals("Farseeker Crystal")) return switch (base) { case "es" -> "Cristal buscador"; case "pt" -> "Cristal Farseeker"; case "fr" -> "Cristal Farseeker"; case "it" -> "Cristallo Farseeker"; case "ru" -> "Кристалл искателя"; case "zh" -> "寻迹水晶"; default -> title; };
+      if (title.equals("Extruding Crystal Ore")) return switch (base) { case "es" -> "Mineral de cristal extrusor"; case "pt" -> "Minério de Cristal Extrusor"; case "fr" -> "Minerai de cristal extrudé"; case "it" -> "Minerale di cristallo estruso"; case "ru" -> "Руда экструдированного кристалла"; case "zh" -> "挤出水晶矿石"; default -> title; };
+      if (title.equals("Extruding Crystal Nugget")) return switch (base) { case "es" -> "Pepita de cristal extrusor"; case "pt" -> "Pepita de Cristal Extrusor"; case "fr" -> "Pépite de cristal extrudé"; case "it" -> "Pepita di cristallo estruso"; case "ru" -> "Самородок экструдированного кристалла"; case "zh" -> "挤出水晶粒"; default -> title; };
+      if (title.equals("Extruding Crystal")) return switch (base) { case "es" -> "Cristal extrusor"; case "pt" -> "Cristal Extrusor"; case "fr" -> "Cristal extrudé"; case "it" -> "Cristallo estruso"; case "ru" -> "Экструдированный кристалл"; case "zh" -> "挤出水晶"; default -> title; };
+      if (title.equals("Extruding Nether Star")) return switch (base) { case "es" -> "Estrella del Nether extrusora"; case "pt" -> "Estrela do Nether Extrusora"; case "fr" -> "Étoile du Nether extrudée"; case "it" -> "Stella del Nether estrusa"; case "ru" -> "Экструдированная звезда Незера"; case "zh" -> "挤出下界之星"; default -> title; };
+      if (title.equals("Heated Shard")) return switch (base) { case "es" -> "Fragmento calentado"; case "pt" -> "Fragmento Aquecido"; case "fr" -> "Éclat chauffé"; case "it" -> "Scheggia riscaldata"; case "ru" -> "Нагретый осколок"; case "zh" -> "热能碎片"; default -> title; };
+      if (title.equals("Meteor Bomb")) return switch (base) { case "es" -> "Bomba de meteorito"; case "pt" -> "Bomba de Meteorito"; case "fr" -> "Bombe météoritique"; case "it" -> "Bomba meteorica"; case "ru" -> "Метеоритная бомба"; case "zh" -> "陨石炸弹"; default -> title; };
+      if (title.equals("Phosgene Potion Powders")) return switch (base) { case "es" -> "Polvos de poción de fosgeno"; case "pt" -> "Pós de Poção de Fosgênio"; case "fr" -> "Poudres de potion au phosgène"; case "it" -> "Polveri per pozioni al fosgene"; case "ru" -> "Порошки фосгенового зелья"; case "zh" -> "光气药水粉末"; default -> title; };
+      if (title.equals("Lonsdaleite Layer Glue")) return switch (base) { case "es" -> "Pegamento de capa de lonsdaleíta"; case "pt" -> "Cola de Camada de Lonsdaleíta"; case "fr" -> "Colle à couche de lonsdaléite"; case "it" -> "Colla per strato di lonsdaleite"; case "ru" -> "Клей для слоя лонсдейлита"; case "zh" -> "朗斯代尔石涂层胶"; default -> title; };
+      if (title.equals("Ancient Pedestal")) return switch (base) { case "es" -> "Pedestal antiguo"; case "pt" -> "Pedestal Antigo"; case "fr" -> "Piédestal ancien"; case "it" -> "Piedistallo antico"; case "ru" -> "Древний пьедестал"; case "zh" -> "远古基座"; default -> title; };
+      if (title.equals("Titanium Rail")) return switch (base) { case "es" -> "Raíl de titanio"; case "pt" -> "Trilho de Titânio"; case "fr" -> "Rail en titane"; case "it" -> "Binario in titanio"; case "ru" -> "Титановые рельсы"; case "zh" -> "钛铁轨"; default -> title; };
+      if (title.equals("Titanium Controller Rail")) return switch (base) { case "es" -> "Raíl controlador de titanio"; case "pt" -> "Trilho Controlador de Titânio"; case "fr" -> "Rail contrôleur en titane"; case "it" -> "Binario controllore in titanio"; case "ru" -> "Титановые рельсы-переключатели"; case "zh" -> "钛控制铁轨"; default -> title; };
+      if (title.equals("Enderium Rail")) return switch (base) { case "es" -> "Raíl de enderio"; case "pt" -> "Trilho de Enderium"; case "fr" -> "Rail en enderium"; case "it" -> "Binario di enderium"; case "ru" -> "Рельсы из эндериума"; case "zh" -> "末影铁轨"; default -> title; };
+      if (title.equals("Solarite Rail")) return switch (base) { case "es" -> "Raíl de solarita"; case "pt" -> "Trilho de Solarite"; case "fr" -> "Rail en solarite"; case "it" -> "Binario di Solarite"; case "ru" -> "Рельсы Solarite"; case "zh" -> "日耀矿铁轨"; default -> title; };
+      if (title.equals("Solarite Furnace")) return switch (base) { case "es" -> "Horno de solarita"; case "pt" -> "Fornalha de Solarite"; case "fr" -> "Fourneau de solarite"; case "it" -> "Fornace di Solarite"; case "ru" -> "Печь Solarite"; case "zh" -> "日耀矿熔炉"; default -> title; };
+      if (title.equals("Solar Battery")) return switch (base) { case "es" -> "Batería solarita"; case "pt" -> "Bateria de Solarite"; case "fr" -> "Batterie de solarite"; case "it" -> "Batteria di Solarite"; case "ru" -> "Батарея Solarite"; case "zh" -> "日耀矿电池"; default -> title; };
+      if (title.equals("Solarite Battery Minecart")) return switch (base) { case "es" -> "Vagoneta con batería de solarita"; case "pt" -> "Vagão com Bateria de Solarite"; case "fr" -> "Wagonnet à batterie de solarite"; case "it" -> "Carrello con batteria di Solarite"; case "ru" -> "Вагонетка с батареей Solarite"; case "zh" -> "日耀矿电池矿车"; default -> title; };
+      if (title.equals("Super Beacon")) return switch (base) { case "es" -> "Superbaliza"; case "pt" -> "Super Sinalizador"; case "fr" -> "Super-balise"; case "it" -> "Super Faro"; case "ru" -> "Супер-маяк"; case "zh" -> "超级信标"; default -> title; };
+      if (title.equals("Nyxium Dark Barrier")) return switch (base) { case "es" -> "Barrera oscura de nyxium"; case "pt" -> "Barreira Sombria de Nyxium"; case "fr" -> "Barrière sombre en Nyxium"; case "it" -> "Barriera oscura di Nyxium"; case "ru" -> "Тёмный барьер из Nyxium"; case "zh" -> "Nyxium 暗能屏障"; default -> title; };
+      if (title.equals("Scheelite Chisel")) return switch (base) { case "es" -> "Cincel de scheelita"; case "pt" -> "Cinzel de Scheelita"; case "fr" -> "Ciseau en scheelite"; case "it" -> "Scalpello di scheelite"; case "ru" -> "Шеелитовый резец"; case "zh" -> "白钨矿凿子"; default -> title; };
+      if (title.equals("Titanium Lock")) return switch (base) { case "es" -> "Cerradura de titanio"; case "pt" -> "Fechadura de Titânio"; case "fr" -> "Serrure en titane"; case "it" -> "Serratura in titanio"; case "ru" -> "Титановый замок"; case "zh" -> "钛锁"; default -> title; };
+      if (title.equals("Titanium Key")) return switch (base) { case "es" -> "Llave de titanio"; case "pt" -> "Chave de Titânio"; case "fr" -> "Clé en titane"; case "it" -> "Chiave di titanio"; case "ru" -> "Титановый ключ"; case "zh" -> "钛钥匙"; default -> title; };
+      if (title.equals("Crashed Meteorite")) return switch (base) { case "es" -> "Meteorito estrellado"; case "pt" -> "Meteorito Caído"; case "fr" -> "Météorite écrasée"; case "it" -> "Meteorite precipitato"; case "ru" -> "Упавший метеорит"; case "zh" -> "坠落陨石"; default -> title; };
+      if (title.equals("Ancient Pedestal Chamber")) return switch (base) { case "es" -> "Cámara del pedestal antiguo"; case "pt" -> "Câmara do Pedestal Antigo"; case "fr" -> "Chambre du piédestal ancien"; case "it" -> "Camera del Piedistallo Antico"; case "ru" -> "Камера древнего пьедестала"; case "zh" -> "远古基座密室"; default -> title; };
+      if (title.equals("Torches")) return switch (base) { case "es" -> "Antorchas"; case "pt" -> "Tochas"; case "fr" -> "Torches"; case "it" -> "Torce"; case "ru" -> "Факелы"; case "zh" -> "火把"; default -> title; };
+      if (title.equals("Lanterns")) return switch (base) { case "es" -> "Faroles"; case "pt" -> "Lanternas"; case "fr" -> "Lanternes"; case "it" -> "Lanterne"; case "ru" -> "Фонари"; case "zh" -> "灯笼"; default -> title; };
+      if (title.equals("Campfires")) return switch (base) { case "es" -> "Fogatas"; case "pt" -> "Fogueiras"; case "fr" -> "Feux de camp"; case "it" -> "Fuochi da campo"; case "ru" -> "Костры"; case "zh" -> "营火"; default -> title; };
+      return title;
+   }
+
    private void rebuildButtons() {
       this.clearWidgets();
 
       List<CompendiumData.Chapter> chapters = CompendiumData.CHAPTERS;
-      int tabW = 100;
-      int tabH = 20;
+      int tabH = Math.max(12, Math.min(20, (panelH - (chapters.size() - 1) * 4) / chapters.size()));
       int tabX = panelX - tabW - 6;
       for (int i = 0; i < chapters.size(); i++) {
          int idx = i;
-         Component label = Component.literal(chapters.get(i).name);
+         Component label = Component.translatable(chapterTranslationKey(chapters.get(i).name));
          this.addRenderableWidget(Button.builder(label, btn -> navigateTo(idx, 0))
             .bounds(tabX, panelY + i * (tabH + 4), tabW, tabH).build());
       }
 
       int navY = panelY + panelH + 8;
+      int bw = Math.min(70, (panelW - 12) / 4);
 
-      backButton = this.addRenderableWidget(Button.builder(Component.literal("< Back"), btn -> openGrid(chapterIndex))
-         .bounds(panelX, navY, 70, 20).build());
-
-      prevButton = this.addRenderableWidget(Button.builder(Component.literal("<< Prev"), btn -> previousSubPage()).bounds(panelX + 74, navY, 70, 20).build());
-
-      nextButton = this.addRenderableWidget(Button.builder(Component.literal("Next >>"), btn -> nextSubPage()).bounds(panelX + panelW - 144, navY, 70, 20).build());
-
-      this.addRenderableWidget(Button.builder(Component.literal("Done"), btn -> this.onClose())
-         .bounds(panelX + panelW - 70, navY, 70, 20).build());
+      backButton = this.addRenderableWidget(Button.builder(Component.translatable("compendium.button.back"), btn -> openGrid(chapterIndex))
+         .bounds(panelX, navY, bw, 20).build());
+      prevButton = this.addRenderableWidget(Button.builder(Component.translatable("compendium.button.previous"), btn -> previousSubPage())
+         .bounds(panelX + bw + 4, navY, bw, 20).build());
+      nextButton = this.addRenderableWidget(Button.builder(Component.translatable("compendium.button.next"), btn -> nextSubPage())
+         .bounds(panelX + panelW - bw * 2 - 4, navY, bw, 20).build());
+      this.addRenderableWidget(Button.builder(Component.translatable("compendium.button.done"), btn -> this.onClose())
+         .bounds(panelX + panelW - bw, navY, bw, 20).build());
 
       updateNavButtonStates();
    }
@@ -535,7 +734,7 @@ public class CompendiumScreen extends Screen {
       int textY = panelY + 12;
       int textWidth = panelW - 24;
 
-      graphics.drawString(this.font, Component.literal(page.title), textX, textY, TITLE_COLOR, false);
+      graphics.drawString(this.font, localizedPageTitle(page.title), textX, textY, TITLE_COLOR, false);
       textY += this.font.lineHeight + 8;
 
       if (page.gridEntries != null) {

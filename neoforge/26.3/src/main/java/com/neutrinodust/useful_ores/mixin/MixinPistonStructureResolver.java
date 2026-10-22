@@ -54,10 +54,6 @@ public class MixinPistonStructureResolver {
       if (direction == Direction.UP && pos.getY() == level.getMaxY()) return false;
       if (state.getDestroySpeed(level, pos) == -1.0F) return false;
 
-                                                                                       
-                                                                                      
-                                                                                        
-                                                                                           
       return true;
    }
 

@@ -1,0 +1,9 @@
+Tre frecce con effetti diversi. Funzionano con qualsiasi arco e non richiedono una carica speciale.
+
+Freccia di scheelite: infligge 1,5 volte i danni di un normale tiro con arco senza incantesimi. Per il resto, vola e cade come una freccia standard.
+
+Freccia di arcanite: non infligge danni diretti. Quando colpisce, assegna al bersaglio un cuore dorato di assorbimento, che resta finché non assorbe dei danni.
+
+Freccia di nyxium: sottrae al bersaglio fino a un cuore, senza portarlo sotto mezzo cuore, e assegna al tiratore un cuore dorato di assorbimento.
+
+Creazione: disponi un lingotto del materiale corrispondente, un bastone e una piuma in una colonna verticale per ottenere quattro frecce. Le tre ricette sono mostrate qui sotto.

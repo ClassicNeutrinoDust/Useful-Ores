@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_ingot"
+    }
+  ],
   "criteria": {
     "get_zephyrite_ingot": {
       "trigger": "minecraft:inventory_changed",

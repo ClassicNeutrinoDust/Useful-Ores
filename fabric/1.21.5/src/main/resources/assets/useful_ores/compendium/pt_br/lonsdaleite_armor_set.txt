@@ -1,0 +1,5 @@
+Defesa: capacete 4, peitoral 13, calças 9, botas 3.
+Durabilidade: capacete 638, peitoral 928, calças 870, botas 754.
+Encantabilidade 27, resistência 3.8, resistência a repulsão 22%.
+
+Bônus do conjunto: cada peça reduz o dano de explosões em 17,5%, até 70% com as quatro. O bônus varia conforme o número de peças equipadas. Toda armadura e ferramenta de lonsdaleíta pode receber encantamentos.

@@ -38,7 +38,6 @@ public class EnderiumRailBlock extends BaseRailBlock implements EntityBlock, Sim
             .setValue(WATERLOGGED, false));
     }
 
-
     @Override
     public Property<RailShape> getShapeProperty() {
         return SHAPE;

@@ -1,0 +1,5 @@
+Un recipiente de alquimia reutilizable que combina dos efectos de pociones normales en un solo vial. Se fabrica rodeando una botella de cristal con ocho pepitas de esperrilita.
+
+En un soporte para pociones, coloca un vial vacío y dos pociones llenas en los espacios para botellas; añade una pepita de esperrilita como ingrediente. El proceso tarda 20 segundos. Las pociones se convierten en botellas vacías y se consume la pepita.
+
+Añade pólvora a un vial lleno para crear un vial catalítico arrojadizo y después aliento de dragón para obtener la versión persistente. Bebe el normal, lanza el arrojadizo o usa el persistente para dejar una nube. La descripción muestra todos sus efectos.

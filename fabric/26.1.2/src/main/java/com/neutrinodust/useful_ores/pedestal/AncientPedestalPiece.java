@@ -21,7 +21,6 @@ import net.minecraft.world.level.levelgen.structure.BoundingBox;
 import net.minecraft.world.level.levelgen.structure.StructurePiece;
 import net.minecraft.world.level.levelgen.structure.pieces.StructurePieceSerializationContext;
 
-
 public class AncientPedestalPiece extends StructurePiece {
 
    private final BlockPos centre;
@@ -43,7 +42,6 @@ public class AncientPedestalPiece extends StructurePiece {
       this.radius = tag.getIntOr("Radius", 8);
    }
 
-   /** Exact X/Z/Y center used by generation and map targeting. */
    public BlockPos getCentre() {
       return centre;
    }

@@ -1,0 +1,5 @@
+Structure de surface formée d’un cratère brûlé et d’une météorite enfouie. Le minerai de lonsdaléite se trouve à l’intérieur.
+
+Elle apparaît sur la terre ferme du monde normal, en moyenne une fois tous les 81 chunks, avec au moins 20 chunks entre deux sites. Cherchez un cratère brûlé en forme de bol. La météorite forme une masse irrégulière de 5 à 10 blocs de rayon, avec un noyau météoritique plus dense près du centre.
+
+Six poches de minerai de lonsdaléite se trouvent dans la météorite. Le noyau sert à fabriquer le bâton météoritique et les bombes météoritiques.

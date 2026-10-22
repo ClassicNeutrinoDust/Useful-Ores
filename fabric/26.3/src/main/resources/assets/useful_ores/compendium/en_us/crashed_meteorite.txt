@@ -1,0 +1,5 @@
+A surface structure with a scorched crater and a meteorite buried beneath it. Lonsdaleite ore is found inside the meteorite.
+
+It generates on land in the Overworld, on average about once every 81 chunks, with at least 20 chunks between sites. Look for a burnt, bowl-shaped crater. The meteorite is an irregular mass 5–10 blocks in radius, with a denser Meteorite Core near the center.
+
+Six Lonsdaleite ore pockets generate inside the meteorite. The core can be used to start the Meteor Staff and Meteor Bomb crafting chains.

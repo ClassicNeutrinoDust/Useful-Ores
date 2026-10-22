@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "useful_ores:arcanite_campfire",
+    "useful_ores:argentite_campfire",
+    "useful_ores:chromite_campfire",
+    "useful_ores:enderium_campfire",
+    "useful_ores:fulgurite_campfire",
+    "useful_ores:ilmenite_campfire",
+    "useful_ores:lonsdaleite_campfire",
+    "useful_ores:nyxium_campfire",
+    "useful_ores:osmium_campfire",
+    "useful_ores:phosgene_campfire",
+    "useful_ores:scheelite_campfire",
+    "useful_ores:solarite_campfire",
+    "useful_ores:sperrylite_campfire",
+    "useful_ores:voidshard_campfire",
+    "useful_ores:zephyrite_campfire",
+    "minecraft:campfire",
+    "minecraft:soul_campfire"
+  ]
+}

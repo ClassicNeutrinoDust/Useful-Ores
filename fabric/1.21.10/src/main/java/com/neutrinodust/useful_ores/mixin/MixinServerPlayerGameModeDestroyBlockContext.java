@@ -17,12 +17,12 @@ public class MixinServerPlayerGameModeDestroyBlockContext {
 
     @Inject(method = "destroyBlock(Lnet/minecraft/core/BlockPos;)Z", at = @At("HEAD"))
     private void usefulOres$captureBreaker(BlockPos pos, CallbackInfoReturnable<Boolean> cir) {
-        FarseekerBlockEvents.CURRENT_BREAKER.set(this.player);
+        FarseekerBlockEvents.pushBreaker(this.player);
     }
 
     @Inject(method = "destroyBlock(Lnet/minecraft/core/BlockPos;)Z", at = @At("RETURN"))
     private void usefulOres$clearBreaker(BlockPos pos, CallbackInfoReturnable<Boolean> cir) {
-        FarseekerBlockEvents.CURRENT_BREAKER.remove();
+        FarseekerBlockEvents.popBreaker();
     }
 }
 

@@ -1,0 +1,9 @@
+Arcanite é o minério comum de nível mais alto do mod e tem a maior facilidade para receber encantamentos.
+
+Gera no Mundo Superior, em pedra e ardósia profunda, entre Y -64 e -32. Veios de 4 blocos, cerca de 4 por chunk. O minério exposto ao ar sempre gera.
+
+Drops: Cada bloco de minério rende 1 minério bruto; Fortuna aumenta a quantidade e Toque Suave coleta o próprio bloco.
+
+Atributos: Durabilidade: 2150; velocidade de mineração: 8.5; dano de ataque: +11.5; encantabilidade: 32; nível de mineração: Netherita.
+
+Vantagens: As Flechas de Arcanite não causam dano direto: dão ao alvo um coração dourado de absorção duradouro. O aplique Arcanite Heart protege quando você está perto da morte. O Pote de XP guarda até 1395 XP.

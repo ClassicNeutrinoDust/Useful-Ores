@@ -41,7 +41,7 @@ public class MeteorBombEntity extends ThrowableItemProjectile {
    }
 
    private void detonate() {
-      if (level().isClientSide()) return;
+      if (level().isClientSide() || isRemoved()) return;
 
       level().explode(this, getX(), getY(), getZ(), EXPLOSION_POWER,
          true, Level.ExplosionInteraction.TNT);

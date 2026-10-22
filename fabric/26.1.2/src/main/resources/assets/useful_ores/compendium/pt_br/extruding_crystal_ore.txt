@@ -1,0 +1,3 @@
+Este minério solta Pepitas de Cristal Extrusor, usadas para fabricar Cristais Extrusores e melhorar uma Estrela do Nether para o Super Sinalizador.
+
+Gera em pequenos veios de quatro blocos entre Y -64 e 16, com cerca de uma tentativa de veio a cada dois chunks. Fortuna aumenta as pepitas obtidas; Toque Suave coleta o bloco de minério.

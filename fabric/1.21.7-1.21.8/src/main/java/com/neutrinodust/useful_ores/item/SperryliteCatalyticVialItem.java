@@ -69,8 +69,6 @@ public class SperryliteCatalyticVialItem extends PotionItem {
         level.gameEvent(player, net.minecraft.world.level.gameevent.GameEvent.FLUID_PICKUP, pos);
 
         if (!level.isClientSide()) {
-            
-            
             if (stack.getCount() > 1) {
                 stack.shrink(1);
                 ItemStack filledVial = new ItemStack(this);
@@ -103,8 +101,6 @@ public class SperryliteCatalyticVialItem extends PotionItem {
             return stack;
         }
 
-        
-        
         if (stack.getCount() > 1) {
             stack.shrink(1);
             ItemStack emptyVial = new ItemStack(this);

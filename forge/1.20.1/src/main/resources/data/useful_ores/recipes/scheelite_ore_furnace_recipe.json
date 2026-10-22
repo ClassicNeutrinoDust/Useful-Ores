@@ -1,0 +1,17 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_ingot"
+    }
+  ],
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 3,
+  "cookingtime": 200,
+  "group": "scheelite_ingot",
+  "ingredient": {
+    "tag": "c:ores/scheelite"
+  },
+  "result": "useful_ores:scheelite_ingot"
+}

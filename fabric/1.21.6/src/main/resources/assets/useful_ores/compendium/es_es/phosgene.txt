@@ -1,0 +1,9 @@
+Phosgene es un mineral tóxico y corrosivo, frágil pero muy abundante y barato de reunir.
+
+Se genera en el mundo superior, en piedra y pizarra profunda, entre Y -32 y 64. Vetas de 8 bloques, unas 10 por chunk, por lo que es una de las menas más comunes del mod. El mineral expuesto al aire siempre se genera.
+
+Botín: Cada bloque de mena suelta 1 unidad de mineral en bruto; Fortuna aumenta la cantidad y Toque de seda recoge el bloque.
+
+Estadísticas: Durabilidad: 650; velocidad de minería: 6.5; daño de ataque: +6.0; encantabilidad: 6; nivel de minería: hierro.
+
+Ventajas: Es útil para fabricar en grandes cantidades. El Phosgene en bruto se usa para crear polvo de Phosgene y el horno Solarite. El polvo puede combinarse con pociones.

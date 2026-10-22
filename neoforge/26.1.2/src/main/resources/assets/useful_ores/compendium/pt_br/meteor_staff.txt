@@ -1,0 +1,3 @@
+Uma arma de longo alcance que lança um meteorito explosivo na direção da mira. Clique com o botão direito para disparar; cada tiro tem recarga de 100 ticks (5 segundos).
+
+Etapas de fabricação: Núcleo de Meteorito → Fragmento do Núcleo de Meteorito → Núcleo de Meteorito Volátil (adicione bafo de dragão) → Cajado de Meteorito.

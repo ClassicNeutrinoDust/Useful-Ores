@@ -1,0 +1,5 @@
+A rare underground structure: a hollow Obsidian sphere with Crying Obsidian patches, an Ancient Pedestal in the center and a loot chest beside it.
+
+It generates underground in the Overworld, roughly once every 300 chunks, with at least 60 chunks between chambers. There is no surface marker, so explore caves or dig to find one. The sphere has an 8-block radius and a shell about 1.6 blocks thick.
+
+The chest can contain Nyxium, Voidshard, Arcanite and Argentite Ingots, Diamonds and Gold Ingots. It may also contain Ender Eyes, Dragon’s Breath, a Nyxium-Arcanite Core or Emeralds; a Nether Star is very rare. Only a Voidshard Pickaxe can break the pedestal.

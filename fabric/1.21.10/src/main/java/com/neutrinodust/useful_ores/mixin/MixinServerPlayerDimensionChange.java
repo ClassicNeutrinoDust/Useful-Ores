@@ -16,7 +16,6 @@ public class MixinServerPlayerDimensionChange {
             TeleportTransition transition, CallbackInfoReturnable<ServerPlayer> cir) {
         BioluminescentSyncEvents.sendFullSync((ServerPlayer) (Object) this);
         com.neutrinodust.useful_ores.lock.ChestLockSyncEvents.sendFullSync((ServerPlayer) (Object) this);
-        com.neutrinodust.useful_ores.phosgene.PhosgenePowderSync.sendFullSync((ServerPlayer) (Object) this);
     }
 }
 

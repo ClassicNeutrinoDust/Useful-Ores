@@ -1,0 +1,3 @@
+Elle tombe du minerai de cristal extrudé. Fortune augmente la quantité obtenue. Neuf pépites donnent un [cristal extrudé](Utility/Extruding Crystal).
+
+Fabrication : remplissez les neuf cases de la grille avec des pépites.

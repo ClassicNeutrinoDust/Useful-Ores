@@ -1,0 +1,5 @@
+Estos polvos aplican el efecto de una poción a un bloque y crean una zona temporal que afecta a las criaturas que estén encima.
+
+Polvo sin tratar: coloca Fósgeno bruto en las cuatro esquinas, un bloque de slime en el centro, tres polvos de redstone y una vara de blaze en las casillas restantes. Se obtienen 16. Para el polvo impregnado, rodea una poción llena con ocho polvos sin tratar; obtendrás dos con el efecto y el color de la poción.
+
+Usa el polvo impregnado sobre un bloque. Aparecerán partículas y las criaturas que estén encima recibirán el efecto durante tres minutos. El bloque permanece activo un día de Minecraft (24.000 ticks). La receta del polvo sin tratar se desbloquea al recoger Fósgeno bruto; la otra, al tener polvo sin tratar y una poción.

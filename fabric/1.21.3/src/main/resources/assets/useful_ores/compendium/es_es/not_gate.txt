@@ -1,0 +1,5 @@
+Inversor de una entrada. La salida está activa cuando la entrada está apagada, y viceversa. Retardo: 1 tick.
+
+Colócalo sobre un bloque sólido. La entrada está a la izquierda respecto a la dirección frontal; el lado frontal es la salida.
+
+Tabla de verdad: 0 = 1, 1 = 0. Úsalo para invertir señales de relojes o sensores.

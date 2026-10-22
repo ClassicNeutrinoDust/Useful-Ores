@@ -1,0 +1,5 @@
+Un recipiente riutilizzabile per la distillazione che combina gli effetti di due pozioni vanilla in un unico flacone. Si crea circondando una Bottiglia di Vetro con otto Pepite di Sperrylite.
+
+In un alambicco, inserisci un flacone vuoto e due pozioni piene negli slot delle bottiglie, poi aggiungi una Pepita di Sperrylite come ingrediente. La preparazione dura 20 secondi. Le pozioni tornano bottiglie vuote e la pepita viene consumata.
+
+Aggiungi polvere da sparo al flacone pieno per ottenere un Flacone Catalitico da Lancio, poi respiro del drago per la versione persistente. Bevi il flacone normale, lancia quello a spruzzo oppure usa la versione persistente per creare una nube. La descrizione mostra tutti gli effetti.

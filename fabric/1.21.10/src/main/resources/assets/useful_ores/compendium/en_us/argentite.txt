@@ -1,9 +1,9 @@
-Argentite is the mod's silver ore - a solid, dependable low tier material.
+Argentite is the mod's silver ore, a basic low-tier material.
 
-Generation: Overworld, in stone only (it has no deepslate variant). It generates from Y 0 to Y 64, in clusters of 6, with 8 veins per chunk, and never disappears when exposed to air.
+Found: Overworld, in stone only (no deepslate variant), from Y 0 to 64. Veins of 6, 8 per chunk. Ore touching air always spawns.
 
-Drops: 1 Raw Argentite per block, boosted by Fortune, or the ore block itself when mined with Silk Touch.
+Drops: 1 Raw Argentite per ore block, increased by Fortune. Silk Touch drops the ore block itself.
 
-Tool stats: 380 durability, 5.0 mining speed, +6.5 attack damage bonus, enchantability 18. It is not correct for iron-tier-only blocks.
+Tool stats: durability 380, mining speed 5.0, attack damage +6.5, enchantability 18. Mining tier: Iron.
 
-Special ability: Argentite Ingots build the [Argentite Filter](Redstone/Argentite Filter), a five-slot filtered hopper that only accepts items matching a reference stack placed in each slot, with a protected reserve amount that automation cannot pull below.
+Perks: Argentite Ingots craft the [Argentite Filter](Redstone/Argentite Filter), a five-slot filtering hopper. Each slot only accepts items that match a reference stack, and you can set a reserve amount that automation cannot pull below.

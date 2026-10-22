@@ -1,0 +1,9 @@
+Il subspace è il materiale finale del mod. I suoi attrezzi estraggono più velocemente di tutti gli altri e non provengono dalla generazione del mondo.
+
+Si ottiene con la fabbricazione: metti un Frammento Riscaldato al centro e circondalo con otto lingotti di Enderium. Non genera come minerale.
+
+Bottino: Ogni blocco di minerale lascia 1 minerale grezzo; Fortuna aumenta la quantità e Tocco di velluto raccoglie il blocco.
+
+Statistiche: Attrezzi: durabilità 1561, velocità di estrazione 8.0, danno +3.0, incantabilità 10, livello di estrazione: diamante. Armatura: difesa 3/8/6/3, robustezza 2.0, nessuna resistenza al contraccolpo.
+
+Vantaggi: Combina gli attrezzi Subspace con un Cristallo Farseeker per inviare i blocchi estratti direttamente nell’inventario. L’armatura completa mantiene attivo l’effetto della pozione associata; le armi danno un effetto benefico a chi le impugna e uno dannoso al bersaglio per 10 secondi.

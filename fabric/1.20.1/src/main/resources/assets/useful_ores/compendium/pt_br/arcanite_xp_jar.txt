@@ -1,0 +1,3 @@
+Um jarro de vidro que armazena até 1.395 pontos de experiência, cerca de 30 níveis. Coloque-o sobre um bloco, laje ou alçapão fechado. Agache e clique com o botão direito para guardar XP; clique normalmente para retirar.
+
+Enquanto houver espaço, ele também absorve orbes de XP próximos. Se você estiver segurando ou usando um item com Remendo, a XP retirada repara esse item em vez de conceder níveis. O jarro não tem interface e quebra como vidro, mas o item derrubado mantém a XP armazenada. Fabrique-o com um Lingote de Arcanita, um Fragmento de Arcanita com Núcleo de Prata e três vidros.

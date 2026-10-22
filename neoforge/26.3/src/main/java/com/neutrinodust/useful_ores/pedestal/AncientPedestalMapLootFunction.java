@@ -6,7 +6,6 @@ import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.storage.loot.functions.LootItemFunction;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
 
-                                                                                
 public final class AncientPedestalMapLootFunction implements LootItemFunction {
     private final boolean excludeNearest;
 

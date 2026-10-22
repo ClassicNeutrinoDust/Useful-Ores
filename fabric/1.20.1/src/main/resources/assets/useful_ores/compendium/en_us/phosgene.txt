@@ -1,0 +1,11 @@
+Phosgene is a toxic, corrosive ore. It is a fragile low-to-mid tier material, but it is very common and cheap to gather in bulk.
+
+Found: Overworld, in stone and deepslate, from Y -32 to 64. Veins of 8, 10 per chunk, which makes it one of the most common ores in the mod. Ore touching air always spawns.
+
+Drops: 1 Raw Phosgene per ore block, increased by Fortune. Silk Touch drops the ore block itself.
+
+Tool stats: durability 650, mining speed 6.5, attack damage +6.0, enchantability 6. Mining tier: Iron.
+
+Best for: bulk crafting. Raw Phosgene is a key ingredient in Raw Phosgene Powder and the Solarite Furnace, so it is worth stockpiling even after you stop using Phosgene tools.
+
+Potion powder: Raw Phosgene can be crafted into Raw Phosgene Powder and infused with potions. See [Phosgene Potion Powders](Utility/Phosgene Potion Powders).

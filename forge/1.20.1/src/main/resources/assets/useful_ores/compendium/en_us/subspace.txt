@@ -1,0 +1,9 @@
+Subspace is the endgame material. Its tools mine far faster than anything else in the mod, and it is the only material that does not come from world generation.
+
+Obtained: craft a Subspace Ingot with a [Heated Shard](Utility/Heated Shard) in the center of a ring of eight Enderium Ingots. There is no ore or vein. Subspace comes purely from crafting, after the top trio.
+
+Tool stats: durability 6400, mining speed 32.0, attack damage +16.0, enchantability 34. All four are the highest in the mod. Mining tier: Netherite.
+
+Perks: Subspace tools can be combined with a Farseeker Crystal to send mined blocks straight into your inventory.
+
+Subspace items can also be combined with potions. The full armor set permanently gives its bound potion effect while worn. Subspace weapons give you a beneficial effect and the target a harmful one for 10 seconds on hit.

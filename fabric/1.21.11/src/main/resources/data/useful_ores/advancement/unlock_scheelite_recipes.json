@@ -1,4 +1,54 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_sword"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_pickaxe"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_axe"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_hoe"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_shovel"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_helmet"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_chestplate"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_leggings"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_boots"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_nugget"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_block"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_chisel"
+    }
+  ],
   "criteria": {
     "get_scheelite_ingot": {
       "trigger": "minecraft:inventory_changed",

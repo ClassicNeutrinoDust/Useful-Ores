@@ -1,0 +1,3 @@
+Materiale resistente al calore, creato con Voidshard e Solarite. Serve per fabbricare un lingotto Subspace.
+
+Metti lingotti di Voidshard nei quattro angoli e lingotti di Solarite sui quattro lati, lasciando vuoto il centro. Poi circondalo con otto lingotti di Enderium per ottenere un lingotto Subspace.

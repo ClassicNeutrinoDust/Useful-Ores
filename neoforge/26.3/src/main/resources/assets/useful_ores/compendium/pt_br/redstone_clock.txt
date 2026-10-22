@@ -1,0 +1,7 @@
+Um oscilador de redstone independente. Ele alterna a saída entre desligada e potência máxima (15), sem repetidores ou circuitos de tochas.
+
+Coloque-o sobre um bloco sólido. A seta indica a saída. Clique com o botão direito e a mão vazia para mudar o período; cada mudança reinicia o relógio desligado.
+
+Cada ciclo completo ligado/desligado dura 2, 4, 10, 20, 40, 60, 100 ou 200 ticks (0,1; 0,2; 0,5; 1; 2; 3; 5 ou 10 segundos).
+
+Ele não precisa de entrada de redstone. Use a saída para alimentar pó, lâmpadas, portas lógicas, relés ou máquinas.

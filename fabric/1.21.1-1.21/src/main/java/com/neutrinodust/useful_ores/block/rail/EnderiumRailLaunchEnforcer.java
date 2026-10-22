@@ -13,12 +13,6 @@ import net.minecraft.util.Mth;
 import net.minecraft.world.entity.vehicle.AbstractMinecart;
 import net.minecraft.world.phys.Vec3;
 
-
-
-
-
-
-
 public class EnderiumRailLaunchEnforcer {
     static final class PendingLaunch {
         final BlockPos landingPos;
@@ -75,7 +69,6 @@ public class EnderiumRailLaunchEnforcer {
                 PendingLaunch launch = pending.get(cartId);
                 if (launch == null) continue;
 
-                
                 if (launch.ticksRemaining > 0) {
                     launch.ticksRemaining--;
                     cart.setDeltaMovement(Vec3.ZERO);
@@ -86,10 +79,6 @@ public class EnderiumRailLaunchEnforcer {
                 BlockPos source = cart.blockPosition();
                 spawnTeleportParticles(level, source, false);
 
-                
-                
-                
-                
                 float baseYaw = 180.0F - (float) (Math.atan2(launch.direction.getStepZ(), launch.direction.getStepX())
                         * 180.0D / Math.PI);
                 float currentYaw = cart.getYRot();

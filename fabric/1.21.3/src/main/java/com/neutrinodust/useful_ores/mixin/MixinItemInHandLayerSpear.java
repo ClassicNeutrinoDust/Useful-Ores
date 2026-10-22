@@ -15,7 +15,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-
 @Mixin(ItemInHandLayer.class)
 public abstract class MixinItemInHandLayerSpear {
     @Inject(
@@ -44,8 +43,6 @@ public abstract class MixinItemInHandLayerSpear {
                 VanillaSpearAnimations.thirdPersonAttackItem(state, pose, humanoid.attackTime, item);
             }
 
-            
-            
             float timeUsing = humanoid.ticksUsingItem;
             if (timeUsing != 0.0F) {
                 VanillaSpearAnimations.thirdPersonUseItem(

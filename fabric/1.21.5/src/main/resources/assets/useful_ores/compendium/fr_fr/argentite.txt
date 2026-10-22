@@ -1,0 +1,9 @@
+L’argentite est le minerai d’argent du mod, un matériau de départ.
+
+Génération : monde normal, uniquement dans la pierre (pas dans l’ardoise des abîmes), entre Y 0 et 64. Filons de 6 blocs, environ 8 par chunk. Le minerai exposé à l’air apparaît toujours.
+
+Butin : Chaque bloc de minerai donne 1 minerai brut. Fortune augmente la quantité ; Toucher de soie récupère le bloc.
+
+Caractéristiques : Durabilité : 380 ; vitesse de minage : 5.0 ; dégâts d’attaque : +6.5 ; aptitude aux enchantements : 18 ; niveau de minage : fer.
+
+Atouts : Les lingots fabriquent le filtre d’argentite, une trémie à cinq emplacements qui filtre selon une pile de référence et peut conserver une réserve minimale.

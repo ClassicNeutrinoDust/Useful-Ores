@@ -1,0 +1,2 @@
+Material: durability 190, mining speed 5.0, damage bonus +4.0, enchantability 9.
+Damage / attack speed: sword 7.0 / 1.6, pickaxe 6.0 / 1.2, axe 9.0 / 0.8, hoe 4.0 / 2.0, shovel 6.0 / 1.0.

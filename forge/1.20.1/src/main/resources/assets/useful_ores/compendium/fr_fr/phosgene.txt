@@ -1,0 +1,9 @@
+Le phosgène est un minerai toxique et corrosif, fragile mais très courant et facile à accumuler.
+
+Génération : monde normal, dans la pierre et l’ardoise des abîmes, entre Y -32 et 64. Filons de 8 blocs, environ 10 par chunk, ce qui en fait l’un des minerais les plus courants du mod. Le minerai exposé à l’air apparaît toujours.
+
+Butin : Chaque bloc de minerai donne 1 minerai brut. Fortune augmente la quantité ; Toucher de soie récupère le bloc.
+
+Caractéristiques : Durabilité : 650 ; vitesse de minage : 6.5 ; dégâts d’attaque : +6.0 ; aptitude aux enchantements : 6 ; niveau de minage : fer.
+
+Atouts : Il est pratique pour la fabrication en grande quantité. Le phosgène brut sert à fabriquer la poudre de phosgène et le four solaire. La poudre peut être infusée avec des potions.

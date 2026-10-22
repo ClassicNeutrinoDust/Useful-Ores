@@ -1,0 +1,7 @@
+Les pistons en chromite, normal et collant, fonctionnent comme ceux de Minecraft, mais peuvent aussi pousser l’obsidienne et l’obsidienne pleureuse. Le piston collant peut également les tirer.
+
+Placez-les et reliez-les comme des pistons ordinaires. Les délais, les signaux de redstone et les limites de déplacement restent les mêmes que dans Minecraft.
+
+Seules l’obsidienne et l’obsidienne pleureuse sont ajoutées à la liste des blocs déplaçables. Les blocs déjà immobiles, comme les ancres de réapparition et la deepslate renforcée, le restent. Les limites normales et les restrictions liées aux blocs avec entité s’appliquent toujours.
+
+Fabriquez le piston avec des planches, de la deepslate, de la redstone et un lingot de chromite. Combinez-le avec une boule de slime pour obtenir la version collante.

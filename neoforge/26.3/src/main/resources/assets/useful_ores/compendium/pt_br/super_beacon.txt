@@ -1,0 +1,3 @@
+Sinalizador que usa uma [Estrela do Nether Extrusora](Utility/Extruding Nether Star) no lugar de uma estrela comum. Seu alcance aumenta com o tamanho da pirâmide.
+
+Coloque-o como um sinalizador normal sobre uma pirâmide mineral válida, com visão livre do céu. O raio inicial é de 64 blocos; cada camada adicional acrescenta 112 blocos ao alcance. Escolha os efeitos pela interface habitual do sinalizador.

@@ -1,0 +1,9 @@
+La solarite est un métal précieux lumineux et le premier du trio supérieur. Elle mine plus vite que la Netherite.
+
+Génération : dans le Nether, dans la netherrack, entre Y 8 et 119. Minerai rare : filons de 3 blocs, 1 tentative par chunk. Il n’apparaît pas à l’air libre ; les filons bordant des cavernes ouvertes sont donc plus petits.
+
+Butin : Chaque bloc de minerai donne 1 minerai brut. Fortune augmente la quantité ; Toucher de soie récupère le bloc.
+
+Caractéristiques : Durabilité : 2400 ; vitesse de minage : 15.0 ; dégâts d’attaque : +12.0 ; aptitude aux enchantements : 24 ; niveau de minage : Netherite.
+
+Atouts : Elle alimente un four cinq fois plus rapide qu’un haut fourneau, grâce au soleil direct ou à une batterie solaire chargée. Elle sert aussi à fabriquer le wagonnet automoteur et les rails en solarite.

@@ -71,7 +71,12 @@ public class SolariteFurnaceRenderer<T extends SolariteFurnaceBlockEntity> imple
             int b = 255;
             int alpha = (int) (125 + wave * 95);
             VertexConsumer glow = bufferSource.getBuffer(RenderType.entityTranslucentEmissive(GLOW_MASK));
+            poseStack.pushPose();
+            poseStack.translate(1.0F, 1.0F, 1.0F);
+            poseStack.scale(1.003F, 1.003F, 1.003F);
+            poseStack.translate(-1.0F, -1.0F, -1.0F);
             renderCube(glow, poseStack, FULL_BRIGHT, packedOverlay, cos, sin, r, g, b, alpha);
+            poseStack.popPose();
         }
     }
 

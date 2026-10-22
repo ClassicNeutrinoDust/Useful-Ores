@@ -11,6 +11,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.util.List;
@@ -21,12 +22,12 @@ public class MixinExplosion {
     @Shadow @Final private ServerLevel level;
 
     @Inject(method = "explode", at = @At("HEAD"))
-    private void usefulOres$explosionStart(CallbackInfoReturnable<?> cir) {
+    private void usefulOres$explosionStart(CallbackInfo ci) {
         ExplosionContext.setActive(true);
     }
 
     @Inject(method = "explode", at = @At("RETURN"))
-    private void usefulOres$explosionEnd(CallbackInfoReturnable<?> cir) {
+    private void usefulOres$explosionEnd(CallbackInfo ci) {
         ExplosionContext.setActive(false);
     }
 

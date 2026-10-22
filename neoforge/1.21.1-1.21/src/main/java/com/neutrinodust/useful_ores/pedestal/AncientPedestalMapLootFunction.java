@@ -11,7 +11,6 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-
 public final class AncientPedestalMapLootFunction implements LootItemFunction {
     private final boolean excludeNearest;
 

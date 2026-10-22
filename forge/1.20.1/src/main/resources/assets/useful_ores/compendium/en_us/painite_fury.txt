@@ -1,0 +1,13 @@
+Painite armor trades health for extra power in a fight.
+
+Health cost: each worn piece lowers your maximum health by 1 HP (half a heart). A full set leaves you with 16 HP (8 hearts). If your current health is above the new limit, it is reduced to that limit. Removing armor restores your maximum health but does not heal you. This applies even when Fury is inactive.
+
+Fury: activates for players at 10 HP or less (5 hearts). Each worn Painite armor piece then adds 60% of its normal defense.
+
+Tools: while Fury is active, a held Painite sword, pickaxe, axe, hoe or shovel gains 60% attack damage and 60% block-breaking speed.
+
+Spear: keeps its normal mechanics. During Fury, it also gains 60% attack damage and a 60% shorter attack cooldown.
+
+Appearance: the armor turns blue-crimson and the chestplate shows a small animated molten crack. Painite armor and all Painite weapons, including the spear, use this color in your inventory and hand.
+
+Recovery: once your health rises above 5 hearts, the bonuses and appearance return to normal.

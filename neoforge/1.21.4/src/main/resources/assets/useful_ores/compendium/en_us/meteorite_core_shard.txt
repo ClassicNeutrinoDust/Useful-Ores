@@ -1,0 +1,3 @@
+The first step in crafting the Meteor Staff. Place a Meteorite Core between two Blaze Rods in a vertical line to make one shard.
+
+Next, combine the shard with Dragon’s Breath to create a Volatile Meteorite Core. Meteorite Cores come from Crashed Meteorites; Blaze Rods and Dragon’s Breath are vanilla items.

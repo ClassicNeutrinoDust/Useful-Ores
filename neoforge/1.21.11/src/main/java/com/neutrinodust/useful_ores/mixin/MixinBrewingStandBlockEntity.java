@@ -30,8 +30,6 @@ public class MixinBrewingStandBlockEntity {
     ) {
         MixinBrewingStandBlockEntity self = (MixinBrewingStandBlockEntity) (Object) blockEntity;
 
-        
-        
         if (SperryliteCatalyticVialBrewing.matchesItems(blockEntity)
                 && SperryliteVialFuel.charges(blockEntity) <= 0) {
             if (self.fuel > 0) SperryliteVialFuel.loadCharges(blockEntity, self.fuel);

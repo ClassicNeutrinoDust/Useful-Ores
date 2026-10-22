@@ -176,6 +176,9 @@
     "useful_ores:voidshard_spear",
     "useful_ores:lonsdaleite_spear",
     "useful_ores:painite_spear",
-    "useful_ores:subspace_spear"
+    "useful_ores:subspace_spear",
+    "useful_ores:attributed_subspace_pickaxe",
+    "useful_ores:attributed_subspace_shovel",
+    "useful_ores:attributed_subspace_hoe"
   ]
 }

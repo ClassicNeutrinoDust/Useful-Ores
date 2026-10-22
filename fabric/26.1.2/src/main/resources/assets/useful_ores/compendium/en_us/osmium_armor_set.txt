@@ -1,0 +1,5 @@
+Defense: helmet 2, chestplate 8, leggings 5, boots 2.
+Durability: helmet 330, chestplate 480, leggings 450, boots 390.
+Enchantability 20, toughness 1.5, knockback resistance 35%.
+
+Set bonus: the full four-piece set lets you walk along the seafloor instead of floating. A partial set has no effect.

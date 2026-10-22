@@ -1,0 +1,3 @@
+Un arma a distancia que lanza un meteorito explosivo hacia donde apuntas. Haz clic derecho para disparar; cada disparo tiene un enfriamiento de 100 ticks (5 segundos).
+
+Cadena de fabricación: núcleo de meteorito → fragmento de núcleo de meteorito → núcleo de meteorito volátil (añade aliento de dragón) → bastón de meteorito.

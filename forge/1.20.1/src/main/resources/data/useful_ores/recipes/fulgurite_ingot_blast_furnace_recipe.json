@@ -1,0 +1,17 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:fulgurite_ingot"
+    }
+  ],
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 7,
+  "cookingtime": 1200,
+  "group": "fulgurite_ingot",
+  "ingredient": {
+    "tag": "c:raw_materials/fulgurite"
+  },
+  "result": "useful_ores:fulgurite_ingot"
+}

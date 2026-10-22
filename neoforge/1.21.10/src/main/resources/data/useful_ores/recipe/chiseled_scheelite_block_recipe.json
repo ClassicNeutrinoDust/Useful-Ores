@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:chiseled_scheelite_block"
+    }
+  ],
   "type": "minecraft:stonecutting",
   "ingredient": "useful_ores:scheelite_block",
   "result": {

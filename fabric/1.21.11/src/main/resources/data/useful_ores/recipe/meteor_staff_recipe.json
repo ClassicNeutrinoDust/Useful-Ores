@@ -1,4 +1,10 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:meteor_staff"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
@@ -11,5 +17,8 @@
     "C": "useful_ores:volatile_meteorite_core",
     "B": "minecraft:blaze_rod"
   },
-  "result": { "id": "useful_ores:meteor_staff", "count": 1 }
+  "result": {
+    "id": "useful_ores:meteor_staff",
+    "count": 1
+  }
 }

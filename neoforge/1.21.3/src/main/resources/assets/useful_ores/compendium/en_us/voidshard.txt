@@ -1,9 +1,9 @@
-Voidshard sits at the very top of the "top trio" - the strongest of the three ores below Subspace, and clearly faster to mine with than Enderium.
+Voidshard is the top of the trio and the strongest ore-based material in the mod below Subspace. It mines noticeably faster than Enderium.
 
-Generation: The End, generating directly in end stone. It is rare - a 1-in-5 chance filter gates a single vein from Y 0 to Y 20 with uniform distribution, in clusters of 4.
+Found: The End, in end stone, from Y 0 to 20, evenly distributed. Veins of 4. Every chunk gets 1 vein, with a 70% chance of a second one.
 
-Drops: 1 Raw Voidshard per block, boosted by Fortune, or the ore block itself when mined with Silk Touch.
+Drops: 1 Raw Voidshard per ore block, increased by Fortune. Silk Touch drops the ore block itself.
 
-Tool stats: 3000 durability, 25.0 mining speed, +15.0 attack damage bonus, enchantability 28. It is not correct for Netherite-tier-only blocks.
+Tool stats: durability 3000, mining speed 25.0, attack damage +15.0, enchantability 28. Mining tier: Netherite.
 
-Best used for: the strongest gear obtainable through ordinary ore progression. Voidshard armor also carries the highest toughness of the trio, making it the natural stepping stone before Subspace.
+Best for: the strongest gear you can get through normal ore progression. Voidshard armor also has the highest toughness of the trio, which makes it a good step before Subspace.

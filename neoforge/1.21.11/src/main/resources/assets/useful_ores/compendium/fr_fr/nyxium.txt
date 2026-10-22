@@ -1,0 +1,9 @@
+Le nyxium est un minerai bleu sombre rare, chargé de magie noire.
+
+Génération : monde normal, dans la pierre et l’ardoise des abîmes. Trois distributions se chevauchent : filon principal entre Y -64 et 16 (7 par chunk) ; grande poche entre Y -64 et -48 (1 par chunk) ; petite poche entre Y -64 et -4 (2 par chunk).
+
+Butin : Chaque bloc de minerai donne 1 minerai brut. Fortune augmente la quantité ; Toucher de soie récupère le bloc.
+
+Caractéristiques : Durabilité : 2200 ; vitesse de minage : 8.0 ; dégâts d’attaque : +10.0 ; aptitude aux enchantements : 15 ; niveau de minage : Netherite.
+
+Atouts : L’épée de nyxium applique Wither pendant 3 secondes à chaque coup. Ses flèches volent jusqu’à un cœur à la cible et l’accordent au tireur sous forme d’absorption dorée.

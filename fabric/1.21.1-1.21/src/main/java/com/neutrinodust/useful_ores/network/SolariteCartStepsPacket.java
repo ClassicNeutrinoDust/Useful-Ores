@@ -8,10 +8,6 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.resources.ResourceLocation;
 
-
-
-
-
 public record SolariteCartStepsPacket(int entityId, List<MinecartStep> steps, boolean reset) implements CustomPacketPayload {
 
    public static final CustomPacketPayload.Type<SolariteCartStepsPacket> TYPE =

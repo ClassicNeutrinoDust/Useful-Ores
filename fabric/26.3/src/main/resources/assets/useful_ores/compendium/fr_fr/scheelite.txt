@@ -1,0 +1,9 @@
+La scheelite est le minerai de tungstène du mod, surtout utile pour sa flèche et son ciseau.
+
+Génération : monde normal, uniquement dans la pierre (pas dans l’ardoise des abîmes), entre Y 0 et 64. Filons de 6 blocs, environ 8 par chunk. Le minerai exposé à l’air apparaît toujours.
+
+Butin : Chaque bloc de minerai donne 1 minerai brut. Fortune augmente la quantité ; Toucher de soie récupère le bloc.
+
+Caractéristiques : Durabilité : 900 ; vitesse de minage : 6.0 ; dégâts d’attaque : +6.5 ; aptitude aux enchantements : 10 ; niveau de minage : fer.
+
+Atouts : La flèche inflige 1,5 fois les dégâts d’un tir d’arc normal sans enchantement. Les lingots fabriquent aussi un ciseau de 200 points de durabilité qui transforme certains blocs pleins en dalles, ainsi que la serrure et la clé en titane.

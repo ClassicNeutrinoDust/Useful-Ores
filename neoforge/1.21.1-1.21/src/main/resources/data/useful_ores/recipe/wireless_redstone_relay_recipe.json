@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:wireless_redstone_relay"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "pattern": [

@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:raw_zephyrite"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "useful_ores:raw_zephyrite_block"
+    }
+  },
+  "result": {
+    "item": "useful_ores:raw_zephyrite",
+    "count": 9
+  }
+}

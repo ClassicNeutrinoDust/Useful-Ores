@@ -14,12 +14,16 @@ public class VoidshardDarknessHandler {
     private static final int RADIUS_SQ = RADIUS * RADIUS;
 
     private static final int SCAN_INTERVAL_TICKS = 10;
-    private static final int EFFECT_DURATION_TICKS = 30;
+    private static final int EFFECT_DURATION_TICKS = 60;
+    private static final int REFRESH_BELOW_TICKS = 40;
 
     public void onPlayerTick(Player player) {
+        if (player.level().isClientSide()) return;
         if (player.tickCount % SCAN_INTERVAL_TICKS != 0) return;
 
         if (isNearVoidshardDarkSource(player.level(), player.blockPosition())) {
+            MobEffectInstance existing = player.getEffect(MobEffects.DARKNESS);
+            if (existing != null && existing.getDuration() > REFRESH_BELOW_TICKS) return;
             player.addEffect(new MobEffectInstance(
                     MobEffects.DARKNESS,
                     EFFECT_DURATION_TICKS,

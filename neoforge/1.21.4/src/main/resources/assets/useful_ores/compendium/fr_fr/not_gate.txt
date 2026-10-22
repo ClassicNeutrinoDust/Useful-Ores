@@ -1,0 +1,5 @@
+Inverseur à une entrée. La sortie est active lorsque l’entrée est désactivée, et inversement. Délai : 1 tick.
+
+Placez-le sur un bloc solide. L’entrée se trouve à gauche par rapport à la face avant ; cette face est la sortie.
+
+Table de vérité : 0 = 1, 1 = 0. Utilisez-le pour inverser les signaux d’horloges ou de capteurs.

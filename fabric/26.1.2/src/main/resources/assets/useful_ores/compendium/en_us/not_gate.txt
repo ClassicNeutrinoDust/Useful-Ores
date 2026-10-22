@@ -1,0 +1,5 @@
+A one-input inverter. The output is on when the input is off, and off when the input is on. Delay: 1 tick.
+
+Place it on a solid block. The input is on the left relative to the facing direction; the facing side is the output.
+
+Truth table: 0 = 1, 1 = 0. Use it to invert clock or sensor signals.

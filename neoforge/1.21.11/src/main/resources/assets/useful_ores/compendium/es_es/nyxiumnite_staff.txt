@@ -1,0 +1,3 @@
+Un bastón que se vincula a un Pedestal antiguo y dispara un proyectil que abre un agujero de gusano. Haz clic derecho en un pedestal antiguo con el bastón para vincularlo; el bastón guarda sus coordenadas.
+
+Haz clic derecho en el aire para disparar hacia el punto de mira. Enfriamiento: 30 ticks (1,5 segundos). Se fabrica colocando un núcleo de nyxiumnita volátil sobre dos lingotes de argentita.

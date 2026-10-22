@@ -1,0 +1,9 @@
+La chromite est un métal dur qui résiste à la corrosion, entre le fer et le diamant.
+
+Génération : monde normal, dans la pierre et l’ardoise des abîmes, entre Y -32 et 0. Filons de 4 blocs, environ 4 par chunk. Le minerai exposé à l’air apparaît toujours.
+
+Butin : Chaque bloc de minerai donne 1 minerai brut. Fortune augmente la quantité ; Toucher de soie récupère le bloc.
+
+Caractéristiques : Durabilité : 1650 ; vitesse de minage : 7.0 ; dégâts d’attaque : +8.0 ; aptitude aux enchantements : 12 ; niveau de minage : diamant.
+
+Atouts : Son équipement constitue une amélioration durable entre le fer et le diamant, sans devoir chercher un matériau rare.

@@ -12,7 +12,6 @@ import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 
-
 public class ArcaniteXpJarItem extends BlockItem {
 
     public ArcaniteXpJarItem(Block block, Properties properties) {

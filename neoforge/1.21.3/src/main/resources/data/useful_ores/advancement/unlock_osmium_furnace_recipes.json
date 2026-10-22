@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:osmium_ingot"
+    }
+  ],
   "criteria": {
     "get_osmium_ingot": {
       "trigger": "minecraft:inventory_changed",

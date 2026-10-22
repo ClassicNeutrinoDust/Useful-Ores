@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:fulgurite_spear"
+    }
+  ],
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_fulgurite": {

@@ -1,4 +1,50 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_sword"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_pickaxe"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_axe"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_hoe"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_shovel"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_helmet"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_chestplate"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_leggings"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_boots"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_nugget"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_block"
+    }
+  ],
   "criteria": {
     "get_chromite_ingot": {
       "trigger": "minecraft:inventory_changed",

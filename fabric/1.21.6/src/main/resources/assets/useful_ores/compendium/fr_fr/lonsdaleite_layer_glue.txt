@@ -1,0 +1,3 @@
+Outil réutilisable qui applique une couche de lonsdaléite sur les blocs compatibles. Il possède 64 points de durabilité.
+
+Placez de la lonsdaléite brute au centre et huit boules de slime autour. Tenez l’outil et interagissez avec un bloc compatible ; chaque utilisation consomme de la durabilité.

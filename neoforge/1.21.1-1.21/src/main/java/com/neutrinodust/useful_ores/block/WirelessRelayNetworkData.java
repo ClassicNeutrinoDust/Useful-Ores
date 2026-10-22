@@ -230,7 +230,6 @@ public class WirelessRelayNetworkData extends SavedData {
 
    public void forgetRelay(GlobalPos pos) {
       
-      
       for (GlobalPos child : List.copyOf(this.downstream.getOrDefault(pos, List.of()))) {
          removeEdge(pos, child);
       }
@@ -384,7 +383,6 @@ public class WirelessRelayNetworkData extends SavedData {
          }
          VersionedValue current = this.values.get(root);
          if (current == null) continue;
-         
          
          propagateInstant(root, new HashSet<>(), changed);
       }

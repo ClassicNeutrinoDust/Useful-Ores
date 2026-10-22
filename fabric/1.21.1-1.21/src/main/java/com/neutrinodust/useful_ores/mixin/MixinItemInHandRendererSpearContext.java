@@ -17,11 +17,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-
-
-
-
-
 @Mixin(ItemInHandRenderer.class)
 public abstract class MixinItemInHandRendererSpearContext {
     private static boolean usefulOres$isThirdPerson(ItemDisplayContext context) {
@@ -44,8 +39,6 @@ public abstract class MixinItemInHandRendererSpearContext {
             }
         }
     }
-
-    
 
     @Inject(
             method = "renderItem(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;"

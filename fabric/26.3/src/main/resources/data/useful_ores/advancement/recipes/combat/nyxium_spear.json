@@ -1,4 +1,10 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:nyxium_spear"
+    }
+  ],
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_nyxium": {

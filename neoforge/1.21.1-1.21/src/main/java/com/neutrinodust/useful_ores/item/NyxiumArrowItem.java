@@ -24,6 +24,7 @@ public class NyxiumArrowItem extends ArrowItem {
 
     public NyxiumArrowItem(Item.Properties properties) {
         super(properties);
+        net.minecraft.world.level.block.DispenserBlock.registerProjectileBehavior(this);
     }
 
     @Override

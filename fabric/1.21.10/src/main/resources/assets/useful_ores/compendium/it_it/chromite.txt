@@ -1,0 +1,9 @@
+La cromite è un metallo duro e resistente alla corrosione, a metà strada tra ferro e diamante.
+
+Generazione: nel mondo normale, in pietra e ardesia delle profondità, tra Y -32 e 0. Vene da 4 blocchi, circa 4 per chunk. Il minerale esposto all’aria si genera sempre.
+
+Bottino: Ogni blocco di minerale lascia 1 minerale grezzo; Fortuna aumenta la quantità e Tocco di velluto raccoglie il blocco.
+
+Statistiche: Durabilità: 1650; velocità di estrazione: 7.0; danno d’attacco: +8.0; incantabilità: 12; livello di estrazione: diamante.
+
+Vantaggi: L’equipaggiamento in cromite è un miglioramento resistente tra ferro e diamante, senza dover trovare un materiale raro.

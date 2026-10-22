@@ -4,14 +4,14 @@ public final class ExplosionContext {
 
     private ExplosionContext() {}
 
-    private static boolean active = false;
+    private static int depth = 0;
 
     public static boolean isActive() {
-        return active;
+        return depth > 0;
     }
 
     public static void setActive(boolean value) {
-        active = value;
+        depth = value ? depth + 1 : Math.max(0, depth - 1);
     }
 }
 

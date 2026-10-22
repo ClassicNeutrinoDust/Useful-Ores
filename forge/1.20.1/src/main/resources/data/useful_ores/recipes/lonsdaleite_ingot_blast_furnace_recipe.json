@@ -1,0 +1,17 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:lonsdaleite_ingot"
+    }
+  ],
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 8,
+  "cookingtime": 900,
+  "group": "lonsdaleite_ingot",
+  "ingredient": {
+    "tag": "c:raw_materials/lonsdaleite"
+  },
+  "result": "useful_ores:lonsdaleite_ingot"
+}

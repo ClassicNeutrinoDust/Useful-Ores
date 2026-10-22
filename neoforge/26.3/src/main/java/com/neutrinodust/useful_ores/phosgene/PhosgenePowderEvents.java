@@ -94,7 +94,6 @@ public final class PhosgenePowderEvents {
             BlockPos pos = BlockPos.of(entry.getKey());
             PhosgenePowderData.Applied applied = entry.getValue();
 
-                                                                               
             if (applied.expiresAt() > now + PhosgenePowderData.LIFETIME_TICKS) {
                 applied = new PhosgenePowderData.Applied(
                         applied.potionId(), now + PhosgenePowderData.LIFETIME_TICKS, applied.color());

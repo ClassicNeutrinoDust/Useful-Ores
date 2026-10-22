@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:raw_fulgurite"
+    }
+  ],
   "type": "minecraft:smelting",
   "category": "misc",
   "experience": 6,

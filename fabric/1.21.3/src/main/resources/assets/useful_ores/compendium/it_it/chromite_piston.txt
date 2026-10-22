@@ -1,0 +1,7 @@
+I pistoni in cromite, normale e appiccicoso, funzionano come quelli di Minecraft, ma possono spingere anche ossidiana e ossidiana piangente. Il pistone appiccicoso può anche tirare indietro questi blocchi.
+
+Piazzali e collegali come normali pistoni. Tempi, segnali di redstone e limiti di movimento restano invariati.
+
+Il supporto aggiuntivo vale solo per ossidiana e ossidiana piangente. I blocchi normalmente immobili, come le ancore della rinascita e la deepslate rinforzata, non possono ancora essere spostati. Restano validi anche i limiti di movimento e le restrizioni per i blocchi con entità.
+
+Crea il pistone con assi, deepslate, redstone e un lingotto di cromite. Combinalo con una palla di slime per ottenere la versione appiccicosa.

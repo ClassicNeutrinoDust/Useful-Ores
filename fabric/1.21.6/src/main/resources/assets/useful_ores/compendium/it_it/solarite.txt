@@ -1,0 +1,9 @@
+La solarite è un metallo prezioso e luminoso, il primo del trio superiore. Estrae più velocemente della Netherite.
+
+Generazione: nel Nether, nella netherrack, tra Y 8 e 119. È raro: vene da 3 blocchi, 1 tentativo per chunk. Il minerale esposto all’aria non si genera, quindi le vene ai bordi delle caverne aperte sono più piccole.
+
+Bottino: Ogni blocco di minerale lascia 1 minerale grezzo; Fortuna aumenta la quantità e Tocco di velluto raccoglie il blocco.
+
+Statistiche: Durabilità: 2400; velocità di estrazione: 15.0; danno d’attacco: +12.0; incantabilità: 24; livello di estrazione: Netherite.
+
+Vantaggi: Alimenta una fornace cinque volte più veloce di un altoforno, usando luce solare diretta o una Batteria Solare carica. Serve anche per il carrello a batteria Solarite semovente e per i binari Solarite.

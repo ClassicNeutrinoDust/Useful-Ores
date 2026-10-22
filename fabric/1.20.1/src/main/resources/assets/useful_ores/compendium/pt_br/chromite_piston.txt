@@ -1,0 +1,7 @@
+Os pistões de cromita, normal e grudento, funcionam como os do Minecraft, mas também empurram obsidiana e obsidiana chorosa. O pistão grudento também pode puxar esses blocos.
+
+Coloque e conecte os pistões como faria com os normais. O tempo, os sinais de redstone e os limites de movimento continuam iguais aos do Minecraft.
+
+A compatibilidade extra vale apenas para obsidiana e obsidiana chorosa. Blocos que já não podem ser movidos, como âncoras de renascimento e ardósia profunda reforçada, continuam imóveis. Os limites normais de movimento e as restrições de blocos com entidades também continuam valendo.
+
+Fabrique o pistão com tábuas, ardósia profunda, redstone e um Lingote de Cromita. Combine-o com uma Bola de Slime para obter a versão grudenta.

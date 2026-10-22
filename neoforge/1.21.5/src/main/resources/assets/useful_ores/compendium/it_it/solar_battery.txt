@@ -1,0 +1,3 @@
+Batteria ricaricabile per la [Fornace di Solarite](Utility/Solarite Furnace) e altre macchine Solarite compatibili. Mantiene la carica tra un uso e l’altro.
+
+Ricaricala con il sistema solare della mod e inseriscila in una macchina compatibile. Serve anche per creare il [Carrello con batteria di Solarite](Utility/Solarite Battery Minecart).

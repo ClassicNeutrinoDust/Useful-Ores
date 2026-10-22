@@ -1,4 +1,50 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:phosgene_sword"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:phosgene_pickaxe"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:phosgene_axe"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:phosgene_hoe"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:phosgene_shovel"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:phosgene_helmet"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:phosgene_chestplate"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:phosgene_leggings"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:phosgene_boots"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:phosgene_nugget"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:phosgene_block"
+    }
+  ],
   "criteria": {
     "get_phosgene_ingot": {
       "trigger": "minecraft:inventory_changed",

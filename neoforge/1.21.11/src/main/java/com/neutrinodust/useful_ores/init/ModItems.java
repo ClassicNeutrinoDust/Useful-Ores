@@ -490,8 +490,6 @@ public class ModItems {
       new Properties().fireResistant().rarity(Rarity.RARE)
    );
 
-
-
    public static final DeferredBlock<Block> METEORITE_BLOCK = ModRegisters.registerBlock(
       "meteorite_block", Block::new,
       net.minecraft.world.level.block.state.BlockBehaviour.Properties.of()
@@ -588,7 +586,7 @@ public class ModItems {
    );
 
    public static final DeferredItem<Item> SUBSPACE_INGOT = ModRegisters.registerItem(
-      "subspace_ingot", Item::new, new Properties().rarity(Rarity.EPIC)
+      "subspace_ingot", Item::new, new Properties().rarity(Rarity.EPIC).trimMaterial(ModRegisters.trimKey("subspace"))
    );
    public static final DeferredItem<Item> SUBSPACE_NUGGET = ModRegisters.registerItem(
       "subspace_nugget", Item::new, new Properties().rarity(Rarity.EPIC)
@@ -609,7 +607,6 @@ public class ModItems {
       new Properties().rarity(Rarity.EPIC)
    );
 
-   
    public static final DeferredItem<Item> SUBSPACE_SPEAR = ModRegisters.registerSpear(
       "subspace", ModMaterials.SUBSPACE, () -> new Properties().rarity(Rarity.EPIC).fireResistant()
    );

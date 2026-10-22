@@ -1,7 +1,22 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:raw_lonsdaleite_block"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "pattern": [ "aaa", "aaa", "aaa" ],
-  "key": { "a": "#c:raw_materials/lonsdaleite" },
-  "result": { "id": "useful_ores:raw_lonsdaleite_block", "count": 1 }
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "#c:raw_materials/lonsdaleite"
+  },
+  "result": {
+    "id": "useful_ores:raw_lonsdaleite_block",
+    "count": 1
+  }
 }

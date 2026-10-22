@@ -1,0 +1,3 @@
+A reusable tool that applies a Lonsdaleite layer to compatible blocks. It has 64 durability.
+
+Craft it with Raw Lonsdaleite in the center and eight Slime Balls around it. Hold it and interact with a supported block; each use consumes durability.

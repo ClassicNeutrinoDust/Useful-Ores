@@ -1,0 +1,2 @@
+Material: durabilidad 6400, velocidad de minería 32.0, bonificación de daño +16.0, capacidad de encantamiento 34. Tiene las estadísticas base más altas de todos los materiales del mod.
+Daño / velocidad de ataque: espada 31.0 / 2.6, pico 29.0 / 2.4, hacha 33.0 / 2.2, azada 18.0 / 5.2, pala 27.0 / 2.2.

@@ -5,7 +5,6 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
-import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
@@ -17,22 +16,12 @@ import net.minecraft.world.level.gameevent.GameEvent;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 
-
-
-
-
-
-
-
-
 public final class SperryliteVialDirtEvents {
 
     private static final PotionContents WATER_CONTENTS = new PotionContents(Potions.WATER);
 
     @SubscribeEvent
     public void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
-        if (event.getHand() != InteractionHand.MAIN_HAND) return;
-
         ItemStack stack = event.getItemStack();
         if (!(stack.getItem() instanceof SperryliteCatalyticVialItem)) return;
 
@@ -41,7 +30,8 @@ public final class SperryliteVialDirtEvents {
 
         Level level = event.getLevel();
         BlockPos pos = event.getPos();
-        if (!level.getBlockState(pos).is(Blocks.DIRT)) return;
+        if (event.getFace() == net.minecraft.core.Direction.DOWN
+                || !level.getBlockState(pos).is(net.minecraft.tags.BlockTags.CONVERTABLE_TO_MUD)) return;
 
         Player player = event.getEntity();
 

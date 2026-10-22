@@ -44,12 +44,6 @@ public class SolariteFurnaceRenderer<T extends SolariteFurnaceBlockEntity> imple
         return VIEW_DISTANCE;
     }
 
-    
-
-
-
-
-
     public net.minecraft.world.phys.AABB getRenderBoundingBox(T furnace) {
         BlockPos pos = furnace.getBlockPos();
         return new net.minecraft.world.phys.AABB(

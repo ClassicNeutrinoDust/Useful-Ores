@@ -1,0 +1,3 @@
+Fourneau multibloc de 2×2×2 qui fond les objets cinq fois plus vite qu’un haut fourneau. Il fonctionne à la lumière directe du soleil ou grâce à l’énergie stockée dans une [batterie de solarite](Utility/Solar Battery).
+
+Fabriquez huit composants de fourneau de solarite et assemblez-les en un cube complet de 2×2×2. Une structure incomplète ne fonctionne pas. Placez les objets à fondre dans son interface. Le soleil l’alimente le jour ; une batterie chargée fournit de l’énergie en son absence.

@@ -1,0 +1,3 @@
+Clé pour une [serrure en titane](Utility/Titanium Lock). Utilisez-la sur le conteneur verrouillé pour l’ouvrir ; aucune interface de configuration n’est disponible.
+
+Elle se fabrique avec deux pépites d’ilménite. Gardez-la en lieu sûr si le conteneur doit rester protégé.

@@ -1,0 +1,3 @@
+Fechadura para recipientes compatíveis. Funciona com uma [Chave de Titânio](Utility/Titanium Key) e não precisa de circuito de redstone.
+
+Aplique a fechadura a um recipiente compatível. A chave correspondente o abre, então guarde-a com cuidado. A receita usa pepitas e lingotes de ilmenita, conforme mostrado abaixo.

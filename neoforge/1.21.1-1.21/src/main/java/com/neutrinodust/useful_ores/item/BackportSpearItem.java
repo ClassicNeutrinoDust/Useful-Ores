@@ -14,11 +14,6 @@ import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.level.Level;
 import net.minecraft.sounds.SoundSource;
 
-
-
-
-
-
 public final class BackportSpearItem extends SwordItem {
     public static final int CONTACT_COOLDOWN_TICKS = 10;
     public static final float FORWARD_MOVEMENT = 0.38F;

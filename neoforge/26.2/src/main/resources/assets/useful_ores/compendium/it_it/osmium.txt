@@ -1,0 +1,9 @@
+L’osmio è il metallo naturale più denso del mod. Punta su durabilità e resistenza al contraccolpo, non sulla velocità.
+
+Generazione: nel mondo normale, in pietra e ardesia delle profondità, tra Y -32 e 0. Vene da 4 blocchi, circa 4 per chunk. Il minerale esposto all’aria si genera sempre.
+
+Bottino: Ogni blocco di minerale lascia 1 minerale grezzo; Fortuna aumenta la quantità e Tocco di velluto raccoglie il blocco.
+
+Statistiche: Attrezzi: durabilità 1561, velocità di estrazione 8.0, danno +3.0, incantabilità 10, livello di estrazione: diamante. Armatura: difesa 3/8/6/3, robustezza 2.0, nessuna resistenza al contraccolpo.
+
+Vantaggi: Il set completo di armatura in osmio ti fa affondare rapidamente e permette di camminare sul fondale. Un set incompleto non ha effetto.

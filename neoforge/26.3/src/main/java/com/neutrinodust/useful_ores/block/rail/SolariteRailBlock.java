@@ -13,7 +13,6 @@ import net.minecraft.world.level.block.state.properties.RailShape;
 
 public class SolariteRailBlock extends BaseRailBlock {
 
-
     public static final EnumProperty<RailShape> SHAPE = BlockStateProperties.RAIL_SHAPE;
 
     public static final net.minecraft.world.level.block.state.properties.BooleanProperty WATERLOGGED =
@@ -29,7 +28,6 @@ public class SolariteRailBlock extends BaseRailBlock {
                 .setValue(WATERLOGGED, false)
                 .setValue(LIT, false));
     }
-
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<net.minecraft.world.level.block.Block, BlockState> builder) {

@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:nyxium_dark_barrier"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/nyxium"
+    },
+    "b": {
+      "item": "minecraft:blackstone"
+    },
+    "c": {
+      "tag": "c:ingots/arcanite"
+    },
+    "d": {
+      "item": "useful_ores:dark_core"
+    }
+  },
+  "result": {
+    "item": "useful_ores:nyxium_dark_barrier",
+    "count": 1
+  }
+}

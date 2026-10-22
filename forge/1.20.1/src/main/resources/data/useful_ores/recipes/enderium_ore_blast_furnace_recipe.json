@@ -1,0 +1,17 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:enderium_ingot"
+    }
+  ],
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 8,
+  "cookingtime": 900,
+  "group": "enderium_ingot",
+  "ingredient": {
+    "tag": "c:ores/enderium"
+  },
+  "result": "useful_ores:enderium_ingot"
+}

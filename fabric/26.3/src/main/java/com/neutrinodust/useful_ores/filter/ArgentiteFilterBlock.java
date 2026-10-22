@@ -48,7 +48,6 @@ public class ArgentiteFilterBlock extends BaseEntityBlock {
     private final Function<BlockState, VoxelShape> shapes;
     private final Map<Direction, VoxelShape> interactionShapes;
 
-
     public ArgentiteFilterBlock(BlockBehaviour.Properties properties) {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.DOWN).setValue(ENABLED, true));

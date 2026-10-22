@@ -1,0 +1,11 @@
+{
+  "type": "useful_ores:config_add_features",
+  "ore": "nyxium",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "useful_ores:nyxium_ore_large_placed",
+    "useful_ores:nyxium_ore_small_placed",
+    "useful_ores:nyxium_ore_placed"
+  ],
+  "step": "underground_ores"
+}

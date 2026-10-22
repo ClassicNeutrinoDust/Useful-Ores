@@ -1,0 +1,5 @@
+Structure souterraine rare : une sphère creuse d’obsidienne parsemée d’obsidienne pleureuse, avec un piédestal ancien au centre et un coffre à côté.
+
+Elle apparaît sous terre dans le monde normal, environ une fois tous les 300 chunks, avec au moins 60 chunks entre deux chambres. Aucun indice n’est visible en surface ; explorez les grottes ou creusez. La sphère a un rayon de 8 blocs et une paroi d’environ 1,6 bloc d’épaisseur.
+
+Le coffre peut contenir des lingots de Nyxium, Voidshard, Arcanite et Argentite, ainsi que des diamants et des lingots d’or. Il peut aussi contenir des yeux de l’End, du souffle de dragon, un noyau Nyxium-Arcanite ou des émeraudes ; l’étoile du Nether est très rare. Seule une pioche en Voidshard peut casser le piédestal.

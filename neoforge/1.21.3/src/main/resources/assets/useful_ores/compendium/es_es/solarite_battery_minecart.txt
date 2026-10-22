@@ -1,0 +1,3 @@
+Vagoneta conducible y autopropulsada con una batería solarita integrada. Funciona en raíles normales, propulsores, de titanio y de solarita.
+
+Mientras la conduces, usa W para acelerar y S para reducir la velocidad. Mantén Mayús y haz clic para abrir los controles y elegir una velocidad predefinida. En rectas alcanza 1,6 bloques por tick (32 bloques por segundo); usa raíles de titanio para curvas más seguras a alta velocidad.

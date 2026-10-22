@@ -1,0 +1,3 @@
+Fornalha multibloco 2×2×2 que funde itens cinco vezes mais rápido que um Alto-forno. Funciona com luz solar direta ou energia armazenada em uma [Bateria de Solarite](Utility/Solar Battery).
+
+Fabrique oito Componentes de Fornalha de Solarite e monte um cubo completo de 2×2×2. Uma estrutura incompleta não funciona. Coloque os itens fundíveis pela interface. A luz solar a alimenta durante o dia; uma bateria carregada fornece energia quando não há sol.

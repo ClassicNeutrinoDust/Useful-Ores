@@ -1,0 +1,9 @@
+Trois flèches aux effets différents. Elles fonctionnent avec n’importe quel arc et ne nécessitent aucune charge spéciale.
+
+Flèche de scheelite : inflige 1,5 fois les dégâts d’un tir à l’arc normal sans enchantement. Pour le reste, son vol et sa chute sont ceux d’une flèche classique.
+
+Flèche d’arcanite : n’inflige aucun dégât direct. La cible touchée reçoit un cœur doré d’absorption, conservé jusqu’à ce qu’il absorbe des dégâts.
+
+Flèche de nyxium : vole jusqu’à un cœur à la cible, sans la faire descendre sous un demi-cœur, puis donne au tireur un cœur doré d’absorption.
+
+Fabrication : placez un lingot du matériau correspondant, un bâton et une plume dans une colonne verticale pour obtenir quatre flèches. Les trois recettes sont présentées ci-dessous.

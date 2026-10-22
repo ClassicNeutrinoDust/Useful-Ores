@@ -1,0 +1,3 @@
+Desvío de tres vías que dirige la vagoneta a la izquierda, recto o a la derecha. Colócalo orientado hacia la ruta recta y construye las tres salidas desde el raíl de delante.
+
+Selecciona la salida con el control de interacción del desvío. El controlador permanece recto; el raíl situado delante se curva hacia la ruta elegida.

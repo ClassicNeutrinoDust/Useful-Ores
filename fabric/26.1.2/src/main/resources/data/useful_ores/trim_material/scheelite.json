@@ -1,7 +1,7 @@
 {
   "asset_name": "scheelite",
   "description": {
-    "color": "#E5E1D6",
+    "color": "#E2D9B4",
     "translate": "trim_material.useful_ores.scheelite"
   },
   "ingredient": "useful_ores:scheelite_ingot",

@@ -1,0 +1,9 @@
+Voidshard es el más poderoso del trío y el material de mineral más fuerte por debajo de Subspace. Mina más rápido que Enderium.
+
+El End, en piedra del End, entre Y 0–20; vetas de 4, 1 por chunk. El mineral puede generarse junto al aire.
+
+Botín: Cada bloque de mena suelta 1 unidad de mineral en bruto; Fortuna aumenta la cantidad y Toque de seda recoge el bloque.
+
+Estadísticas: Durabilidad: 3000; velocidad de minería: 25.0; daño de ataque: +15.0; encantabilidad: 28; nivel de minería: Netherite.
+
+Ventajas: Es el equipo más potente que se obtiene mediante la progresión normal de minerales. Su armadura tiene la mayor resistencia entre Solarite, Enderium y Voidshard.

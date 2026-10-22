@@ -1,0 +1,3 @@
+Scambio a tre vie che invia il carrello a sinistra, dritto o a destra. Orientalo lungo il percorso diritto e costruisci le tre diramazioni dal binario davanti.
+
+Seleziona la diramazione con il comando di interazione dello scambio. Il controllore resta diritto; il binario davanti si curva verso la direzione scelta.

@@ -27,20 +27,6 @@ import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.Vec3;
 import org.jspecify.annotations.Nullable;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public final class SolariteMinecartBehavior {
     
     public static final int POS_ROT_LERP_TICKS = 3;
@@ -63,8 +49,6 @@ public final class SolariteMinecartBehavior {
     public SolariteMinecartBehavior(SolariteBatteryMinecartEntity cart) {
         this.cart = cart;
     }
-
-    
 
     public record MinecartStep(Vec3 position, Vec3 movement, float yRot, float xRot, float weight) {
         public static final MinecartStep ZERO = new MinecartStep(Vec3.ZERO, Vec3.ZERO, 0.0F, 0.0F, 0.0F);
@@ -94,8 +78,6 @@ public final class SolariteMinecartBehavior {
             return firstIteration || movementLeft > EPS;
         }
     }
-
-    
 
     private static final Map<RailShape, Pair<Vec3i, Vec3i>> EXITS = buildExits();
 
@@ -138,8 +120,6 @@ public final class SolariteMinecartBehavior {
         return BaseRailBlock.isRail(state);
     }
 
-    
-
     public void tick() {
         if (cart.level() instanceof ServerLevel level) {
             BlockPos pos = cart.getCurrentBlockPosOrRailBelow();
@@ -156,9 +136,6 @@ public final class SolariteMinecartBehavior {
         }
     }
 
-    
-
-    
     public void receiveSteps(List<MinecartStep> steps, boolean reset) {
         if (steps.isEmpty()) return;
         if (reset) {
@@ -182,9 +159,6 @@ public final class SolariteMinecartBehavior {
 
     private void lerpClientPositionAndRotation() {
         
-        
-        
-        
         if (--lerpDelay <= 0) {
             setOldLerpValues();
             currentLerpSteps.clear();
@@ -201,8 +175,6 @@ public final class SolariteMinecartBehavior {
         }
 
         if (!currentLerpSteps.isEmpty()) {
-            
-            
             
             Vec3 position = getCartLerpPosition(1.0F);
             Vec3 movement = getCartLerpMovements(1.0F);
@@ -273,9 +245,6 @@ public final class SolariteMinecartBehavior {
         return cacheIndexAlpha;
     }
 
-    
-
-    
     public void adjustToRails(BlockPos pos, BlockState state, boolean disableSmoothing) {
         if (!isRail(state)) return;
         RailShape shape = state.getValue(((BaseRailBlock) state.getBlock()).getShapeProperty());
@@ -285,7 +254,6 @@ public final class SolariteMinecartBehavior {
         Vec3 aH = horizontal(a);
         Vec3 bH = horizontal(b);
         Vec3 movementForOrientation = cart.getDeltaMovement();
-        
         
         if ((movementForOrientation.length() > EPS
                 && movementForOrientation.dot(aH) < movementForOrientation.dot(bH))
@@ -436,12 +404,6 @@ public final class SolariteMinecartBehavior {
             if (!it.hasHalted) {
                 speed = cart.applyPropulsion(speed, pos, state, shape);
 
-                
-                
-                
-                
-                
-                
                 if (shape.isAscending() && cart.hasPropulsionPowerForRail()) {
                     double target = Math.min(cart.targetSpeed(), cart.getMaxSpeed());
                     double horizontal = speed.horizontalDistance();
@@ -474,7 +436,6 @@ public final class SolariteMinecartBehavior {
         };
     }
 
-    
     private Vec3 calculatePlayerInputSpeed(Vec3 speed) {
         if (cart.getFirstPassenger() instanceof ServerPlayer player) {
             float xx = player.xxa == 0.0F ? 0.0F : Math.signum(player.xxa);
@@ -500,7 +461,6 @@ public final class SolariteMinecartBehavior {
     }
 
     private double makeStepAlongTrack(ServerLevel level, BlockPos pos, RailShape shape, double movementLeft) {
-        
         
         if (movementLeft < EPS) return 0.0D;
 
@@ -562,11 +522,7 @@ public final class SolariteMinecartBehavior {
             return Math.max(0.0D, movementLeft - handoff);
         }
 
-        
         movement = railDirection.scale(movement.horizontalDistance() / railHorizontal);
-        
-        
-        
         
         cart.rememberPropulsionDirection(movement);
 
@@ -575,8 +531,6 @@ public final class SolariteMinecartBehavior {
         );
 
         if (startPos.distanceToSqr(railTarget) <= startPos.distanceToSqr(newPosition)) {
-            
-            
             
             movementLeft = railTarget.subtract(newPosition).horizontalDistance();
             newPosition = railTarget;
@@ -587,19 +541,9 @@ public final class SolariteMinecartBehavior {
         Vec3 attemptedDelta = newPosition.subtract(startPos);
         boolean connectedExit = hasConnectedRailAtSelectedExit(level, pos, shape, movement);
         
-        
-        
-        
-        
         boolean destinationContinuation = hasForwardRailContinuation(level, newPosition, attemptedDelta);
         boolean railContinuation = connectedExit || destinationContinuation;
         double attemptedDistance = attemptedDelta.length();
-        
-        
-        
-        
-        
-        
         
         boolean useRailKernelPosition = railContinuation && attemptedDistance > EPS;
         if (useRailKernelPosition) {
@@ -612,38 +556,18 @@ public final class SolariteMinecartBehavior {
             cart.verticalCollision = false;
             cart.setDeltaMovement(movement);
             
-            
-            
-            
             pushAndPickupEntitiesOnRailKernel();
         } else {
             cart.move(MoverType.SELF, attemptedDelta);
         }
 
-        
-        
-        
-        
-        
         if (railContinuation && cart.isOnRails()) {
             cart.horizontalCollision = false;
             cart.verticalCollision = false;
         }
 
-        
-        
-        
-        
-        
-        
-        
         double actualDistance = cart.position().distanceTo(startPos);
         if (!useRailKernelPosition && attemptedDistance > EPS && actualDistance + EPS < attemptedDistance) {
-            
-            
-            
-            
-            
             
             if (railContinuation) {
                 if (stopForRailKernelEntityCollision(level, startPos, newPosition)) {
@@ -659,15 +583,6 @@ public final class SolariteMinecartBehavior {
             return 0.0D;
         }
 
-        
-        
-        
-
-        
-        
-        
-        
-        
         BlockState nextState = level.getBlockState(
                 BlockPos.containing(newPosition.x, newPosition.y, newPosition.z));
 
@@ -680,10 +595,6 @@ public final class SolariteMinecartBehavior {
                 }
             }
 
-            
-            
-            
-            
             double horizontalDistance = railTarget.subtract(cart.position()).horizontalDistance();
             double expectedY = railTarget.y
                     + (isDescendingTowards(movement, shape) ? horizontalDistance : -horizontalDistance);
@@ -693,11 +604,6 @@ public final class SolariteMinecartBehavior {
         }
 
         if (!useRailKernelPosition && cart.position().distanceTo(startPos) < EPS && newPosition.distanceTo(startPos) > EPS) {
-            
-            
-            
-            
-            
             
             if (railContinuation) {
                 if (stopForRailKernelEntityCollision(level, startPos, newPosition)) {
@@ -713,23 +619,9 @@ public final class SolariteMinecartBehavior {
             return 0.0D;
         }
 
-        
         cart.setDeltaMovement(movement);
         return movementLeft;
     }
-
-
-    
-
-
-
-
-    
-
-
-
-
-
 
     private boolean hasForwardRailContinuation(ServerLevel level, Vec3 destination, Vec3 attemptedDelta) {
         Vec3 horizontalDelta = horizontal(attemptedDelta);
@@ -800,25 +692,17 @@ public final class SolariteMinecartBehavior {
         };
     }
 
-    
-
     public boolean pushAndPickupEntities() {
         boolean pickedUp = pickupEntities(cart.getBoundingBox().inflate(0.2D, 0.0D, 0.2D));
         boolean pushed = pushEntities(cart.getBoundingBox().inflate(1.0E-7D));
         return pickedUp && !pushed;
     }
 
-    
-
-
-
-
     private void pushAndPickupEntitiesOnRailKernel() {
         pickupEntities(cart.getBoundingBox().inflate(0.2D, 0.0D, 0.2D));
         pushEntities(cart.getBoundingBox().inflate(1.0E-7D));
     }
 
-    
     private boolean stopForRailKernelEntityCollision(ServerLevel level, Vec3 start, Vec3 end) {
         Vec3 delta = end.subtract(start);
         if (delta.lengthSqr() <= EPS * EPS) return false;

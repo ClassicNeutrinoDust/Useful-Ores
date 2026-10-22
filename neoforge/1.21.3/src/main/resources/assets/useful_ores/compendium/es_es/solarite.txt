@@ -1,0 +1,9 @@
+Solarite es un metal precioso y radiante, el primero del trío superior. Mina más rápido que la Netherite.
+
+Se genera en el Nether, en netherrack, entre Y 8 y 119. Es poco común: vetas de 3 bloques, 1 intento por chunk. El mineral expuesto al aire no se genera, por lo que las vetas junto a cuevas abiertas son más pequeñas.
+
+Botín: Cada bloque de mena suelta 1 unidad de mineral en bruto; Fortuna aumenta la cantidad y Toque de seda recoge el bloque.
+
+Estadísticas: Durabilidad: 2400; velocidad de minería: 15.0; daño de ataque: +12.0; encantabilidad: 24; nivel de minería: Netherite.
+
+Ventajas: Alimenta un horno que funde cinco veces más rápido que un alto horno, usando luz solar directa o una batería solar cargada. También se usa para la vagoneta autopropulsada Solarite y sus raíles.

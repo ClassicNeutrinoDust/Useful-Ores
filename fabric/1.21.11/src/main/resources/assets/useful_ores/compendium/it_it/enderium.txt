@@ -1,0 +1,9 @@
+L’enderium è il materiale intermedio del trio superiore: Solarite, Enderium e Voidshard. Estrae molto più velocemente di Solarite e Netherite.
+
+End, in pietra dell’End, tra Y 0–120; vene da 3, 6 per chunk. Il minerale esposto all’aria ha il 15% di probabilità di non generarsi.
+
+Bottino: Ogni blocco di minerale lascia 1 minerale grezzo; Fortuna aumenta la quantità e Tocco di velluto raccoglie il blocco.
+
+Statistiche: Durabilità: 2700; velocità di estrazione: 20.0; danno d’attacco: +13.5; incantabilità: 26; livello di estrazione: Netherite.
+
+Vantaggi: I binari Enderium funzionano a coppie: il carrello che passa su un binario viene teletrasportato al partner collegato.

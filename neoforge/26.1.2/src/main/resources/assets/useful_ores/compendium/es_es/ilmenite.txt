@@ -1,0 +1,9 @@
+Ilmenite es el mineral de titanio del mod y uno de los materiales más resistentes del nivel medio-alto.
+
+Se genera en el mundo superior, en piedra y pizarra profunda, entre Y -64 y 16. Vetas de 8 bloques, unas 7 por chunk. El mineral expuesto al aire tiene un 50 % de probabilidad de no generarse.
+
+Botín: Cada bloque de mena suelta 1 unidad de mineral en bruto; Fortuna aumenta la cantidad y Toque de seda recoge el bloque.
+
+Estadísticas: Durabilidad: 2600; velocidad de minería: 7.0; daño de ataque: +9.0; encantabilidad: 10; nivel de minería: diamante.
+
+Ventajas: Sus lingotes sirven para fabricar el sistema de raíles de titanio, incluido el raíl controlador que dirige las vagonetas a la izquierda, recto o a la derecha. También permiten crear la cerradura y la llave de titanio.

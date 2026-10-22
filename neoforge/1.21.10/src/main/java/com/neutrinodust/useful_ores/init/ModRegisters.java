@@ -25,13 +25,25 @@ import net.neoforged.neoforge.registries.DeferredRegister.Items;
 
 public class ModRegisters {
    public static final Items ITEMS = DeferredRegister.createItems("useful_ores");
+
+   private static final java.util.Set<String> TRIM_MATERIALS = java.util.Set.of(
+      "chromite", "nyxium", "phosgene", "arcanite", "fulgurite", "osmium", "solarite", "sperrylite", "argentite",
+      "zephyrite", "ilmenite", "scheelite", "voidshard", "lonsdaleite", "painite", "enderium", "subspace", "attributed_subspace");
    public static final Blocks BLOCKS = DeferredRegister.createBlocks("useful_ores");
 
    public static DeferredItem<Item> registerItem(String name, Function<Properties, Item> function, Properties itemProp) {
-      return ITEMS.register(
-         name, () -> function.apply(itemProp.setId(ResourceKey.create(Registries.ITEM,
-               ResourceLocation.fromNamespaceAndPath("useful_ores", name))))
-      );
+      return ITEMS.register(name, () -> {
+         Properties props = itemProp.setId(ResourceKey.create(Registries.ITEM,
+               ResourceLocation.fromNamespaceAndPath("useful_ores", name)));
+         if (name.endsWith("_ingot")) {
+            String material = name.substring(0, name.length() - "_ingot".length());
+            if (TRIM_MATERIALS.contains(material)) {
+               props = props.trimMaterial(ResourceKey.create(Registries.TRIM_MATERIAL,
+                     ResourceLocation.fromNamespaceAndPath("useful_ores", material)));
+            }
+         }
+         return function.apply(props);
+      });
    }
 
    public static DeferredItem<Item> registerSpear(String name, ToolMaterial tool, Supplier<Properties> itemProps) {
@@ -40,7 +52,6 @@ public class ModRegisters {
          tool, t[0], t[1], t[2], t[3], t[4], t[5], t[6], t[7], t[8], p
       ), itemProps.get());
    }
-
 
    public static DeferredBlock<Block> registerBlock(
       String name,

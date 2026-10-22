@@ -1,0 +1,2 @@
+Material: durabilidad 2150, velocidad de minería 8.5, bonificación de daño +11.5, capacidad de encantamiento 32.
+Daño / velocidad de ataque: espada 16.5 / 1.4, pico 15.5 / 1.2, hacha 17.5 / 1.0, azada 11.5 / 2.0, pala 14.5 / 1.0.

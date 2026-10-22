@@ -284,13 +284,6 @@ public class SolariteBatteryMinecartEntity extends Minecart {
         return level().getBlockState(pos).isRedstoneConductor(level(), pos);
     }
 
-    
-
-
-
-
-
-
     private void trySeatNearbyMob() {
         if (!getPassengers().isEmpty()) return;
 

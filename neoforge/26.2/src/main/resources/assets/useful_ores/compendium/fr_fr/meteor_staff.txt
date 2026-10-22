@@ -1,0 +1,3 @@
+Une arme à distance qui lance une météorite explosive dans la direction visée. Faites un clic droit pour tirer ; chaque tir a un délai de 100 ticks (5 secondes).
+
+Étapes de fabrication : noyau de météorite → éclat de noyau de météorite → noyau de météorite volatile (ajoutez du souffle de dragon) → bâton météorique.

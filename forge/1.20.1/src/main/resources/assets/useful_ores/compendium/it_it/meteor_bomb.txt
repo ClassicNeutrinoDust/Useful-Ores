@@ -1,0 +1,3 @@
+Esplosivo da lancio che rompe i blocchi con una forza simile a quella di un creeper, anche sott’acqua. Ogni creazione produce quattro bombe.
+
+Fai clic destro per lanciarla. Creane quattro disponendo otto polveri di meteorite attorno alla polvere da sparo. La polvere di meteorite si ricava dai blocchi di un [Meteorite precipitato](Misc/Crashed Meteorite); la polvere da sparo si trova dai creeper e nei bauli.

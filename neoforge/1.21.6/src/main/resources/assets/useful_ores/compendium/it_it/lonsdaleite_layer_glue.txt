@@ -1,0 +1,3 @@
+Strumento riutilizzabile che applica uno strato di lonsdaleite ai blocchi compatibili. Ha 64 punti di durabilità.
+
+Metti la Lonsdaleite Grezza al centro e otto palle di slime intorno. Tieni lo strumento e interagisci con un blocco compatibile; ogni uso consuma durabilità.

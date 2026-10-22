@@ -15,6 +15,9 @@
     "useful_ores:scheelite_pickaxe",
     "useful_ores:enderium_pickaxe",
     "useful_ores:voidshard_pickaxe",
-    "useful_ores:subspace_pickaxe"
+    "useful_ores:subspace_pickaxe",
+    "useful_ores:attributed_subspace_pickaxe",
+    "useful_ores:lonsdaleite_pickaxe",
+    "useful_ores:painite_pickaxe"
   ]
 }

@@ -1,0 +1,3 @@
+A pair of linked rails that teleports a minecart from one rail to the other. The two rails must be in the same dimension and within 100 blocks.
+
+Right-click the first rail, then the second to link them. Each rail has one partner; linking it again replaces the old link. Shift-right-click cancels a pending selection. Lay ordinary track to and from each rail.

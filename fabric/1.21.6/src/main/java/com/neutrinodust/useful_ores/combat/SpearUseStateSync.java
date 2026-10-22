@@ -6,30 +6,6 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public final class SpearUseStateSync {
     private SpearUseStateSync() {}
 
@@ -45,9 +21,6 @@ public final class SpearUseStateSync {
             return InteractionResult.PASS;
         });
     }
-
-    
-
 
     public static void cancelOnBlockBreak(Player player) {
         if (player.level().isClientSide() || !player.isUsingItem()) {

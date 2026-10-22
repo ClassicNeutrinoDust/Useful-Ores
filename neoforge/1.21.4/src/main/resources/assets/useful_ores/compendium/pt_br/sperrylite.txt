@@ -1,0 +1,9 @@
+Sperrylite é a versão de platina do mod: um metal precioso macio, pouco durável e ótimo para encantamentos.
+
+Gera no Mundo Superior, apenas em pedra (não aparece na ardósia profunda), entre Y 0 e 64. Veios de 6 blocos, cerca de 6 por chunk. O minério exposto ao ar sempre gera.
+
+Drops: Cada bloco de minério rende 1 minério bruto; Fortuna aumenta a quantidade e Toque Suave coleta o próprio bloco.
+
+Atributos: Ferramentas: durabilidade 1561, velocidade de mineração 8.0, dano +3.0, encantabilidade 10, nível de mineração: diamante. Armadura: defesa 3/8/6/3, resistência 2.0, sem resistência a repulsão.
+
+Vantagens: Pepitas de Sperrylite criam um Frasco Catalítico reutilizável que combina duas poções. Pólvora e bafo de dragão podem transformá-lo em frasco arremessável ou persistente.

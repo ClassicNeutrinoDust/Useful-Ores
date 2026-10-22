@@ -1,0 +1,3 @@
+Ferramenta com 200 pontos de durabilidade que transforma blocos inteiros compatíveis em lajes.
+
+Segure-a e interaja com um bloco compatível. Blocos não aceitos não mudam. Fabrique-a com um Lingote de Scheelita e dois gravetos na diagonal.

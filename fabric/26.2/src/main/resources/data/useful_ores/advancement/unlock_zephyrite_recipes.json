@@ -1,4 +1,50 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_sword"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_pickaxe"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_axe"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_hoe"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_shovel"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_helmet"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_chestplate"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_leggings"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_boots"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_nugget"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_block"
+    }
+  ],
   "criteria": {
     "get_zephyrite_ingot": {
       "trigger": "minecraft:inventory_changed",

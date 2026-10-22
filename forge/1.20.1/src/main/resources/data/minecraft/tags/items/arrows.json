@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "useful_ores:scheelite_arrow",
+    "useful_ores:arcanite_arrow",
+    "useful_ores:nyxium_arrow"
+  ]
+}

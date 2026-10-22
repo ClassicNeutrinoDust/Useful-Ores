@@ -1,4 +1,10 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:farseeker_crystal"
+    }
+  ],
   "type": "useful_ores:farseeker_tool",
   "category": "equipment"
 }

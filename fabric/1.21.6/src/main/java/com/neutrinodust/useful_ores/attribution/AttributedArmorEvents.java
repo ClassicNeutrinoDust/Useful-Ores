@@ -14,6 +14,9 @@ public class AttributedArmorEvents {
     private static final int EFFECT_REFRESH_DURATION = 60;
     private static final int PARTICLE_INTERVAL_TICKS = 6;
 
+    private static final int NIGHT_VISION_REFRESH_DURATION = 240;
+    private static final int NIGHT_VISION_REFRESH_THRESHOLD_TICKS = 220;
+
     public void onPlayerTick(Player player) {
         if (player.tickCount % 2 != 0) return;
 
@@ -29,6 +32,12 @@ public class AttributedArmorEvents {
         if (effect == null) return;
 
         for (MobEffectInstance instance : effect.freshInstances(EFFECT_REFRESH_DURATION)) {
+            if (instance.getEffect().equals(net.minecraft.world.effect.MobEffects.NIGHT_VISION)) {
+                MobEffectInstance current = player.getEffect(instance.getEffect());
+                if (current != null && current.getDuration() > NIGHT_VISION_REFRESH_THRESHOLD_TICKS) continue;
+                instance = new MobEffectInstance(instance.getEffect(), NIGHT_VISION_REFRESH_DURATION,
+                        instance.getAmplifier(), true, false, true);
+            }
             player.addEffect(instance);
         }
 

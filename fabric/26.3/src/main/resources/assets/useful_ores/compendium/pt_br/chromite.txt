@@ -1,0 +1,9 @@
+Chromite é um metal duro e resistente à corrosão, entre o ferro e o diamante.
+
+Gera no Mundo Superior, em pedra e ardósia profunda, entre Y -32 e 0. Veios de 4 blocos, cerca de 4 por chunk. O minério exposto ao ar sempre gera.
+
+Drops: Cada bloco de minério rende 1 minério bruto; Fortuna aumenta a quantidade e Toque Suave coleta o próprio bloco.
+
+Atributos: Durabilidade: 1650; velocidade de mineração: 7.0; dano de ataque: +8.0; encantabilidade: 12; nível de mineração: diamante.
+
+Vantagens: Equipamentos de Chromite são uma melhoria durável entre ferro e diamante, sem exigir um material raro.

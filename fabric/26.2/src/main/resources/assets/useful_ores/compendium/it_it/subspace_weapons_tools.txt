@@ -1,0 +1,2 @@
+Materiale: durabilità 6400, velocità di estrazione 32.0, bonus ai danni +16.0, incantabilità 34. Ha le statistiche base più alte tra i materiali della mod.
+Danni / velocità d’attacco: spada 31.0 / 2.6, piccone 29.0 / 2.4, ascia 33.0 / 2.2, zappa 18.0 / 5.2, pala 27.0 / 2.2.

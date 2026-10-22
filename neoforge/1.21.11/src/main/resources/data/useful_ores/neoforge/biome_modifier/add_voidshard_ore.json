@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:ore_enabled",
+      "ore": "voidshard"
+    }
+  ],
   "type": "neoforge:add_features",
   "biomes": "#useful_ores:generates_in/end_biomes",
   "features": "useful_ores:voidshard_ore_placed",

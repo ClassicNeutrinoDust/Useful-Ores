@@ -16,7 +16,6 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-
 @Mixin(HumanoidArmorLayer.class)
 public abstract class MixinHumanoidArmorLayerPainite {
     @Unique private LivingEntity usefulOres$currentEntity;
@@ -27,12 +26,6 @@ public abstract class MixinHumanoidArmorLayerPainite {
     private static int animationFrame() {
         return (int)((System.currentTimeMillis() / 85L) % 12L);
     }
-
-    
-
-
-
-
 
     @Unique
     private static ResourceLocation furyBaseAsset(EquipmentSlot slot) {

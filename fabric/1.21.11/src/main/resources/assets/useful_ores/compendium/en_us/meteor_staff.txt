@@ -1,0 +1,3 @@
+A ranged weapon that launches an explosive meteorite in the direction you aim. Right-click to fire; each shot has a 100-tick (5-second) cooldown.
+
+Crafting chain: Meteorite Core → Meteorite Core Shard → Volatile Meteorite Core (add Dragon’s Breath) → Meteor Staff.

@@ -1,0 +1,9 @@
+Scheelite é o minério de tungstênio do mod, conhecido pela flecha e pelo cinzel.
+
+Gera no Mundo Superior, apenas em pedra (não aparece na ardósia profunda), entre Y 0 e 64. Veios de 6 blocos, cerca de 8 por chunk. O minério exposto ao ar sempre gera.
+
+Drops: Cada bloco de minério rende 1 minério bruto; Fortuna aumenta a quantidade e Toque Suave coleta o próprio bloco.
+
+Atributos: Durabilidade: 900; velocidade de mineração: 6.0; dano de ataque: +6.5; encantabilidade: 10; nível de mineração: ferro.
+
+Vantagens: A Flecha de Scheelite causa 1,5 vez o dano de um disparo normal de arco sem encantamentos. Os lingotes também criam um cinzel com durabilidade 200 que transforma blocos compatíveis em lajes, além da Fechadura e Chave de Titânio.

@@ -1,0 +1,29 @@
+Envia sinais de redstone entre locais sem precisar de uma linha de pó. Cada relé recebe o sinal pelo lado oposto à sua frente. A face frontal é a saída e emite potência máxima quando está ligado.
+
+Conexão
+
+Coloque os dois relés sobre blocos sólidos, na mesma dimensão e a até 100 blocos um do outro. Clique com o botão direito no primeiro com a mão vazia e depois no segundo. O segundo seguirá a entrada do primeiro, permitindo controlar uma saída distante com uma alavanca ou outra fonte.
+
+Pressione C para cancelar uma seleção pendente. Os vínculos existentes são mantidos.
+
+Modos
+
+Agache e clique com o botão direito para alternar entre SINGLE, MULTI e CONNECTION.
+
+SINGLE: um relé segue outro. Por exemplo, um interruptor escondido pode controlar uma lâmpada ou uma porta de pistões distante. Faça uma nova seleção para cada par.
+
+MULTI: um relé central controla vários receptores. Coloque-o em MULTI, clique com o botão direito nele e depois em cada receptor. Ele continua selecionado para você adicionar outros. Clique novamente em um receptor vinculado para removê-lo.
+
+CONNECTION: para cadeias e linhas de distribuição. Funciona como MULTI, mas serve para passar o sinal a um relé intermediário que controla várias partes distantes.
+
+Várias entradas
+
+Um receptor pode seguir vários relés de entrada. Com dois ou mais, agache e clique com o botão direito para escolher como combinar os sinais. OR liga se qualquer relé estiver ligado; AND só liga se todos estiverem; LATEST segue o relé cujo sinal mudou por último. A seleção pendente tem prioridade; pressione C para cancelá-la primeiro.
+
+Exemplos
+
+Interruptor remoto: Relé A junto a uma alavanca e Relé B junto a uma lâmpada, em SINGLE. Um interruptor, várias saídas: um hub MULTI ligado a vários receptores. Duas condições: ligue dois relés a um receptor em AND. Vários controladores: use dois relés e defina o receptor como LATEST.
+
+Dicas
+
+Todos os relés vinculados precisam estar na mesma dimensão e a até 100 blocos. Cada relé ainda precisa de redstone normal para seu circuito local. Se a rede falhar, confira o modo, os vínculos de entrada e depois a opção OR, AND ou LATEST.

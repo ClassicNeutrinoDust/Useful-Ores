@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "useful_ores:chiseled_zephyrite_block",
+    "useful_ores:deepslate_zephyrite_ore",
+    "useful_ores:raw_zephyrite_block",
+    "useful_ores:zephyrite_block",
+    "useful_ores:zephyrite_ore"
+  ]
+}

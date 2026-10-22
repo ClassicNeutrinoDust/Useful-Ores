@@ -1,0 +1,4 @@
+Material: durability 700, mining speed 6.5, damage bonus +7.0, enchantability 29.
+Damage / attack speed: sword 13.0 / 1.6, pickaxe 8.0 / 1.2, axe 11.0 / 1.0, hoe 7.0 / 1.0, shovel 8.0 / 1.0.
+
+On hit: applies Weakness for 3 seconds.

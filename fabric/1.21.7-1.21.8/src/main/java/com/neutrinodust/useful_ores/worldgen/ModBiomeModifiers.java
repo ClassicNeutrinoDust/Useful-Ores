@@ -23,7 +23,7 @@ public final class ModBiomeModifiers {
         addOverworld("arcanite_ore_placed");
         addOverworld("argentite_ore_placed");
         addOverworld("chromite_ore_placed");
-        addOverworld("extruding_crystal_ore_placed");
+        addExtrudingCrystal();
         addOverworld("fulgurite_ore_placed");
         addOverworld("ilmenite_ore_placed");
         addOverworld("osmium_ore_placed");
@@ -38,6 +38,21 @@ public final class ModBiomeModifiers {
 
         addEnd("enderium_ore_placed");
         addEnd("voidshard_ore_placed");
+    }
+
+    private static java.util.function.Predicate<net.fabricmc.fabric.api.biome.v1.BiomeSelectionContext> extrudingBiomeTag(String path) {
+        return BiomeSelectors.tag(TagKey.create(Registries.BIOME, ResourceLocation.fromNamespaceAndPath("useful_ores", "extruding_crystal/" + path)));
+    }
+
+    private static void addExtrudingCrystal() {
+        java.util.function.Predicate<net.fabricmc.fabric.api.biome.v1.BiomeSelectionContext> overworld = BiomeSelectors.tag(BiomeTags.IS_OVERWORLD);
+        java.util.function.Predicate<net.fabricmc.fabric.api.biome.v1.BiomeSelectionContext> ancient = extrudingBiomeTag("ancient_city");
+        java.util.function.Predicate<net.fabricmc.fabric.api.biome.v1.BiomeSelectionContext> snowy = extrudingBiomeTag("snowy");
+        java.util.function.Predicate<net.fabricmc.fabric.api.biome.v1.BiomeSelectionContext> sulfur = extrudingBiomeTag("sulfur");
+        add(overworld.and(ancient), "extruding_crystal_ore_ancient_city_placed");
+        add(overworld.and(snowy).and(ancient.negate()), "extruding_crystal_ore_snowy_placed");
+        add(overworld.and(sulfur).and(ancient.negate()).and(snowy.negate()), "extruding_crystal_ore_sulfur_placed");
+        add(overworld.and(ancient.or(snowy).or(sulfur).negate()), "extruding_crystal_ore_placed");
     }
 
     private static void addOverworld(String... placedFeatureNames) {

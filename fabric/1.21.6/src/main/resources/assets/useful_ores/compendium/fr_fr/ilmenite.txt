@@ -1,0 +1,9 @@
+L’ilménite est le minerai de titane du mod et l’un des matériaux les plus résistants du milieu de progression.
+
+Génération : monde normal, dans la pierre et l’ardoise des abîmes, entre Y -64 et 16. Filons de 8 blocs, environ 7 par chunk. Le minerai exposé à l’air a 50 % de chances de ne pas apparaître.
+
+Butin : Chaque bloc de minerai donne 1 minerai brut. Fortune augmente la quantité ; Toucher de soie récupère le bloc.
+
+Caractéristiques : Durabilité : 2600 ; vitesse de minage : 7.0 ; dégâts d’attaque : +9.0 ; aptitude aux enchantements : 10 ; niveau de minage : diamant.
+
+Atouts : Ses lingots servent au système de rails en titane, dont un rail de commande dirige le wagonnet à gauche, tout droit ou à droite. Ils permettent aussi de fabriquer la serrure et la clé en titane.

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "particle": "useful_ores:block/chromite_piston_side",
+    "bottom": "useful_ores:block/chromite_piston_bottom",
+    "top": "useful_ores:block/chromite_piston_top_normal",
+    "side": "useful_ores:block/chromite_piston_side"
+  }
+}

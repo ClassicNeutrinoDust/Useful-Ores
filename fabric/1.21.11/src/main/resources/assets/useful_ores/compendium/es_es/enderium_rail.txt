@@ -1,0 +1,3 @@
+Dos raíles enlazados que teletransportan la vagoneta de uno al otro. Deben estar en la misma dimensión y a menos de 100 bloques de distancia.
+
+Haz clic derecho en el primer raíl y después en el segundo para enlazarlos. Cada raíl tiene una sola pareja; volver a enlazarlo sustituye la conexión anterior. Mayús + clic derecho cancela una selección pendiente. Conecta cada raíl con vías normales.

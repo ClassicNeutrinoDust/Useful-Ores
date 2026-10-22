@@ -1,0 +1,9 @@
+Enderium is the middle material of the top trio (Solarite, Enderium, Voidshard). It mines noticeably faster than both Solarite and vanilla Netherite.
+
+Found: The End, in end stone, from Y 0 to 120. Veins of 3, 6 per chunk. Ore touching air has a 15% chance of not spawning.
+
+Drops: 1 Raw Enderium per ore block, increased by Fortune. Silk Touch drops the ore block itself.
+
+Tool stats: durability 2700, mining speed 20.0, attack damage +13.5, enchantability 26. Mining tier: Netherite.
+
+Perks: Enderium Ingots craft [Enderium Rails](Utility/Enderium Rail), a paired teleport rail. A minecart riding over one rail is sent instantly to its linked partner, so you can build long-distance transport without laying continuous track.

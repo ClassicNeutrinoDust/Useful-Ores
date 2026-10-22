@@ -1,0 +1,9 @@
+Phosgene é um minério tóxico e corrosivo, frágil, mas muito comum e fácil de juntar em grandes quantidades.
+
+Gera no Mundo Superior, em pedra e ardósia profunda, entre Y -32 e 64. Veios de 8 blocos, cerca de 10 por chunk, o que faz dele um dos minérios mais comuns do mod. O minério exposto ao ar sempre gera.
+
+Drops: Cada bloco de minério rende 1 minério bruto; Fortuna aumenta a quantidade e Toque Suave coleta o próprio bloco.
+
+Atributos: Durabilidade: 650; velocidade de mineração: 6.5; dano de ataque: +6.0; encantabilidade: 6; nível de mineração: ferro.
+
+Vantagens: É útil para fabricar itens em massa. Phosgene Bruto é usado no Pó de Phosgene e na Fornalha Solarite. O pó pode receber efeitos de poções.

@@ -1,4 +1,10 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_spear"
+    }
+  ],
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_scheelite": {

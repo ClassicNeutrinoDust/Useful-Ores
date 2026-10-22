@@ -1,0 +1,9 @@
+Argentite é o minério de prata do mod, um material básico de nível baixo.
+
+Gera no Mundo Superior, apenas em pedra (não aparece na ardósia profunda), entre Y 0 e 64. Veios de 6 blocos, cerca de 8 por chunk. O minério exposto ao ar sempre gera.
+
+Drops: Cada bloco de minério rende 1 minério bruto; Fortuna aumenta a quantidade e Toque Suave coleta o próprio bloco.
+
+Atributos: Durabilidade: 380; velocidade de mineração: 5.0; dano de ataque: +6.5; encantabilidade: 18; nível de mineração: ferro.
+
+Vantagens: Os lingotes criam o Filtro de Argentite, um funil de cinco espaços que filtra por uma pilha de referência e permite manter uma quantidade reservada.

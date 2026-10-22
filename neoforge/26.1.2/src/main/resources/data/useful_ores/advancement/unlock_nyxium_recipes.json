@@ -1,4 +1,50 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:nyxium_sword"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:nyxium_pickaxe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:nyxium_axe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:nyxium_hoe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:nyxium_shovel"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:nyxium_helmet"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:nyxium_chestplate"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:nyxium_leggings"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:nyxium_boots"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:nyxium_nugget"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:nyxium_block"
+    }
+  ],
   "criteria": {
     "get_nyxium_ingot": {
       "trigger": "minecraft:inventory_changed",

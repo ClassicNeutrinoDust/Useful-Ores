@@ -1,4 +1,10 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:volatile_meteorite_core"
+    }
+  ],
   "criteria": {
     "get_meteorite_core_shard": {
       "trigger": "minecraft:inventory_changed",

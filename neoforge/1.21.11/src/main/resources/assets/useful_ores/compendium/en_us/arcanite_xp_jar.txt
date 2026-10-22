@@ -1,0 +1,3 @@
+A glass jar that stores up to 1,395 XP, about 30 levels. Place it on a block, slab or closed trapdoor. Shift-right-click to deposit XP; right-click to withdraw it.
+
+While the jar has room, it also absorbs nearby XP orbs. If you hold or wear gear with Mending, withdrawing XP repairs that gear instead of giving you levels. The jar has no GUI and breaks like glass, but its dropped item keeps the stored XP. Craft it with an Arcanite Ingot, a Silver Core Arcanite Shard and three Glass.

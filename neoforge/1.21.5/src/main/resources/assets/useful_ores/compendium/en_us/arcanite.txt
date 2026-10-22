@@ -1,9 +1,11 @@
-Arcanite sits at the top of the mod's "regular" ore tier and is well known for its strong magical properties.
+Arcanite is the top regular ore in the mod and has the highest enchantability of any material.
 
-Generation: Overworld, in stone and deepslate. It generates from Y -64 to Y -32, in clusters of 4, with 4 veins per chunk, and never disappears when exposed to air.
+Found: Overworld, in stone and deepslate, from Y -64 to -32. Veins of 4, 4 per chunk. Ore touching air always spawns.
 
-Drops: 1 Raw Arcanite per block, boosted by Fortune, or the ore block itself when mined with Silk Touch.
+Drops: 1 Raw Arcanite per ore block, increased by Fortune. Silk Touch drops the ore block itself.
 
-Tool stats: 2150 durability, 8.5 mining speed, +11.5 attack damage bonus, enchantability 32 - the highest of any material in the mod. It is not correct for Netherite-tier-only blocks.
+Tool stats: durability 2150, mining speed 8.5, attack damage +11.5, enchantability 32. Mining tier: Netherite.
 
-Special ability: [Arcanite Arrows](Tools & Combat/Special Arrows) deal no direct damage but grant whatever they hit a persistent golden absorption heart, and the Arcanite Heart armor trim grants a near-death shield effect. Arcanite is also the key ingredient of the [Arcanite XP Jar](Utility/Arcanite XP Jar), a portable, placeable jar that stores up to 1395 experience points (about 30 levels).
+Perks: [Arcanite Arrows](Tools & Combat/Special Arrows) do no direct damage. Instead they give whatever they hit a lasting golden absorption heart. The Arcanite Heart armor trim gives a shield effect when you are close to death.
+
+Arcanite is also the key ingredient of the [Arcanite XP Jar](Utility/Arcanite XP Jar), a placeable jar that holds up to 1395 XP (about 30 levels).

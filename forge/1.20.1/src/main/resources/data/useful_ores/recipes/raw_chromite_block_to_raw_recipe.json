@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:raw_chromite"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "useful_ores:raw_chromite_block"
+    }
+  },
+  "result": {
+    "item": "useful_ores:raw_chromite",
+    "count": 9
+  }
+}

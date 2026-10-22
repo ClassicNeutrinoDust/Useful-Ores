@@ -100,6 +100,11 @@ public class ChestLockEvents {
             return InteractionResult.FAIL;
         }
 
+        if (serverPlayer.isSecondaryUseActive()
+                && !(serverPlayer.getMainHandItem().isEmpty() && serverPlayer.getOffhandItem().isEmpty())) {
+            return InteractionResult.PASS;
+        }
+
         serverPlayer.displayClientMessage(Component.translatable("message.useful_ores.titanium_lock.locked_deny"), true);
         return InteractionResult.FAIL;
     }

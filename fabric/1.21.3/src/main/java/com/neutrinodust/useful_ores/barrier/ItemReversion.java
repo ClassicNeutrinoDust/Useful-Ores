@@ -24,19 +24,6 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 public final class ItemReversion {
     private ItemReversion() {}
 
@@ -91,14 +78,11 @@ public final class ItemReversion {
         ResourceLocation id = BuiltInRegistries.ITEM.getKey(item);
         if (id == null) return new ReversionResult(List.of(), existingResidue);
 
-        
-        
         ItemStack vanillaStack = new ItemStack(item, input.getCount());
         if (!isSafeStateForReversion(input, vanillaStack)) {
             return new ReversionResult(List.of(), existingResidue);
         }
 
-        
         if (id.getPath().startsWith("stripped_")) {
             ResourceLocation unstripped = ResourceLocation.fromNamespaceAndPath(
                 id.getNamespace(), id.getPath().substring("stripped_".length()));
@@ -127,12 +111,6 @@ public final class ItemReversion {
         return new ReversionResult(outputs, Map.copyOf(ledger));
     }
 
-    
-
-
-
-
-
     private static boolean isSafeStateForReversion(ItemStack input, ItemStack vanillaStack) {
         if (ItemStack.isSameItemSameComponents(input, vanillaStack)) return true;
 
@@ -142,9 +120,6 @@ public final class ItemReversion {
         try {
             String key = id.toString();
             if ("useful_ores:solar_battery".equals(key)) {
-                
-                
-                
                 ItemStack sanitized = input.copy();
                 sanitized.remove(com.neutrinodust.useful_ores.solar.ModSolarComponents.BATTERY_ENERGY);
                 return ItemStack.isSameItemSameComponents(sanitized, vanillaStack);
@@ -190,13 +165,8 @@ public final class ItemReversion {
                 Subdivision subdivision = subdivisions.get(source);
                 if (f == null || subdivision == null || f.numerator() <= 0) continue;
 
-                
-                
-                
-                
                 if (subdivision.target() == originalInput) continue;
 
-                
                 long scaledNumerator = f.numerator() * subdivision.targetCount();
                 long scaledDenominator = f.denominator() * subdivision.sourceCount();
                 long targetUnits = scaledNumerator / scaledDenominator;
@@ -270,8 +240,6 @@ public final class ItemReversion {
         Map<Item, ReversionEntry> reverse = new LinkedHashMap<>();
         Map<Item, Subdivision> subdivisions = new LinkedHashMap<>();
 
-        
-        
         collectRecipes(recipes, reverse, subdivisions, true, level.registryAccess());
         collectRecipes(recipes, reverse, subdivisions, false, level.registryAccess());
 
@@ -322,7 +290,6 @@ public final class ItemReversion {
                     if (ingredient.items().isEmpty()) continue;
                     ItemStack resolved = resolveIngredient(ingredient, result);
                     if (resolved.isEmpty()) {
-                        
                         resolved = firstItemStack(ingredient);
                     }
                     if (resolved.isEmpty()) continue;
@@ -331,29 +298,13 @@ public final class ItemReversion {
 
                 if (tally.isEmpty() || tally.containsKey(result.getItem())) continue;
 
-                
-                
-                
-                
-                
-                
                 boolean basicMaterialConversion = isBasicMaterialConversion(result.getItem(), tally);
 
-                
-                
-                
-                
-                
-                
-                
                 if (!basicMaterialConversion && !reverse.containsKey(result.getItem())) {
                     reverse.put(result.getItem(), new ReversionEntry(
                         result.getCount(), Map.copyOf(tally), holder.id().toString()));
                 }
 
-                
-                
-                
                 if (result.getCount() > 1 && tally.size() == 1) {
                     Map.Entry<Item, Integer> only = tally.entrySet().iterator().next();
                     if (isLikelyUnitSubdivision(only.getKey(), result.getItem(), only.getValue(), result.getCount())) {
@@ -420,7 +371,6 @@ public final class ItemReversion {
         String s = sourceId.getPath();
         String t = targetId.getPath();
 
-        
         if (s.endsWith("_ingot") && t.endsWith("_nugget")) return targetCount == 9;
         if ((s.endsWith("_block") || s.endsWith("_ore")) && t.endsWith("_ingot")) return true;
         if ((s.endsWith("_log") || s.endsWith("_wood") || s.endsWith("_stem") || s.endsWith("_hyphae"))
@@ -429,14 +379,6 @@ public final class ItemReversion {
         return false;
     }
 
-
-    
-
-
-
-
-
-
     private static boolean isBasicMaterialConversion(Item result, Map<Item, Integer> tally) {
         ResourceLocation resultId = BuiltInRegistries.ITEM.getKey(result);
         if (resultId == null || tally.isEmpty()) return false;
@@ -444,8 +386,6 @@ public final class ItemReversion {
         String resultPath = resultId.getPath();
         String resultFamily = materialFamily(resultPath);
 
-        
-        
         boolean bareResource = !resultPath.contains("_");
         if (bareResource) {
             for (Item ingredient : tally.keySet()) {
@@ -459,10 +399,6 @@ public final class ItemReversion {
             }
         }
 
-        
-        
-        
-        
         if (isTerminalMaterialForm(resultPath)) {
             boolean sameFamilyIngredient = false;
             for (Item ingredient : tally.keySet()) {

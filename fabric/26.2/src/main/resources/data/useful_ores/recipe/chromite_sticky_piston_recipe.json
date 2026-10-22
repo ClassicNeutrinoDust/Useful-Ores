@@ -1,4 +1,10 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_sticky_piston"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "pattern": [
@@ -10,5 +16,8 @@
     "S": "minecraft:slime_ball",
     "P": "useful_ores:chromite_piston"
   },
-  "result": { "id": "useful_ores:chromite_sticky_piston", "count": 1 }
+  "result": {
+    "id": "useful_ores:chromite_sticky_piston",
+    "count": 1
+  }
 }

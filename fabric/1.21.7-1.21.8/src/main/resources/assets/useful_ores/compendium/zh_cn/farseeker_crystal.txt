@@ -1,0 +1,3 @@
+可升级 Subspace 工具，让挖掘掉落物直接进入背包。参见 [Subspace 武器与工具](Tools & Combat/Subspace Weapons & Tools)。
+
+无法合成。末地城宝箱有一次额外战利品判定，获得它的概率为 7%。前往末地外岛寻找末地城；没有保证获得的途径。

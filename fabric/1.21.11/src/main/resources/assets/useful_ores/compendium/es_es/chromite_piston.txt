@@ -1,0 +1,7 @@
+Los pistones de cromita, normal y adhesivo, funcionan como los de Minecraft, pero también pueden empujar obsidiana y obsidiana llorosa. El adhesivo también puede tirar de esos bloques.
+
+Colócalos y conéctalos como cualquier pistón. Los tiempos, las señales de redstone y los límites de movimiento son los mismos que en Minecraft.
+
+Solo se añade compatibilidad con la obsidiana y la obsidiana llorosa. Los bloques que no se pueden mover por otras razones, como los anclajes de reaparición y la pizarra profunda reforzada, siguen siendo inmóviles. También se mantienen los límites normales de movimiento y las restricciones de bloques con entidades.
+
+Fabrica el pistón con tablones, pizarra profunda, redstone y un lingote de cromita. Combínalo con una bola de slime para obtener la versión adhesiva.

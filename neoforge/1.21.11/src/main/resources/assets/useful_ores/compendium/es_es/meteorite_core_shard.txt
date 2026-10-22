@@ -1,0 +1,3 @@
+El primer paso para fabricar el bastón de meteorito. Coloca un núcleo de meteorito entre dos varas de blaze en vertical para obtener un fragmento.
+
+Después, combina el fragmento con aliento de dragón para crear un núcleo de meteorito volátil. Los núcleos se extraen de meteoritos estrellados; las varas de blaze y el aliento de dragón son objetos normales de Minecraft.

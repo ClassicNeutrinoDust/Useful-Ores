@@ -1,0 +1,5 @@
+Defesa: capacete 3, peitoral 8, calças 6, botas 3.
+Durabilidade: capacete 363, peitoral 528, calças 495, botas 429.
+Encantabilidade 10, resistência 2.0, resistência a repulsão 0%.
+
+Bônus do conjunto: cada peça reduz a vida máxima em 1 HP; com o conjunto completo, restam 8 corações. Com 5 corações ou menos, a Fúria é ativada: cada peça adiciona mais 60% da própria defesa e a armadura muda de aparência. Consulte Fúria da painite.

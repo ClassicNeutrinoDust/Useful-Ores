@@ -32,7 +32,6 @@ public final class SperryliteVialFuel {
         return true;
     }
 
-                                                                            
     public static boolean primeCharge(BrewingStandBlockEntity brewingStand) {
         if (charges(brewingStand) > 0) return true;
 

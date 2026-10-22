@@ -1,0 +1,17 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_ingot"
+    }
+  ],
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 3,
+  "cookingtime": 100,
+  "group": "scheelite_ingot",
+  "ingredient": {
+    "tag": "c:raw_materials/scheelite"
+  },
+  "result": "useful_ores:scheelite_ingot"
+}

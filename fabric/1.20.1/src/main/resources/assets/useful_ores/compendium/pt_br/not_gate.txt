@@ -1,0 +1,5 @@
+Inversor de uma entrada. A saída fica ligada quando a entrada está desligada e vice-versa. Atraso: 1 tick.
+
+Coloque-o sobre um bloco sólido. A entrada fica à esquerda em relação à direção frontal; a face frontal é a saída.
+
+Tabela-verdade: 0 = 1, 1 = 0. Use-o para inverter sinais de relógios ou sensores.

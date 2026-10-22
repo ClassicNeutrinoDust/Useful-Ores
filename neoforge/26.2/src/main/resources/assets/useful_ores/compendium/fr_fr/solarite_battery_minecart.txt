@@ -1,0 +1,3 @@
+Wagonnet pilotable et autonome doté d’une batterie de solarite intégrée. Il roule sur les rails classiques, propulseurs, en titane et en solarite.
+
+À bord, utilisez W pour accélérer et S pour ralentir. Maintenez Maj et interagissez pour ouvrir les commandes de vitesse et choisir un réglage. Sur une ligne droite, il atteint 1,6 bloc par tick (32 blocs par seconde) ; utilisez les rails en titane pour les virages rapides.

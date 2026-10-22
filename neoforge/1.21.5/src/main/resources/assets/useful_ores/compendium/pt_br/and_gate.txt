@@ -1,0 +1,5 @@
+Porta lógica de duas entradas. A saída liga apenas quando as duas entradas recebem energia. Atraso: 1 tick.
+
+Coloque-a sobre um bloco sólido. A face frontal é a saída; os lados esquerdo e direito são as entradas. Conecte pó de redstone ou outra fonte.
+
+Tabela-verdade: 0/0 = 0, 0/1 = 0, 1/0 = 0, 1/1 = 1. A saída tem potência máxima e pode alimentar outros componentes diretamente.

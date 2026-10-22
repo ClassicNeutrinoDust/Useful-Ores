@@ -1,0 +1,3 @@
+É obtida ao minerar o Minério de Cristal Extrusor. Fortuna aumenta a quantidade. Nove pepitas formam um [Cristal Extrusor](Utility/Extruding Crystal).
+
+Fabricação: preencha as nove casas da grade com pepitas.

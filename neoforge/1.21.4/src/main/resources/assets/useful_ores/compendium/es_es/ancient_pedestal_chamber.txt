@@ -1,0 +1,5 @@
+Estructura subterránea poco común: una esfera hueca de obsidiana con parches de obsidiana llorosa, un pedestal antiguo en el centro y un cofre junto a él.
+
+Aparece bajo tierra en el mundo superior, aproximadamente una vez cada 300 chunks, con al menos 60 chunks entre cámaras. No deja señales en la superficie; busca en cuevas o excava. La esfera tiene un radio de 8 bloques y una pared de unos 1,6 bloques de grosor.
+
+El cofre puede contener lingotes de nyxium, fragmento del vacío, arcanita y argentita, además de diamantes y oro. También puede contener ojos de ender, aliento de dragón, un núcleo de nyxium-arcanita o esmeraldas; la estrella del Nether es muy rara. Solo un pico de fragmento del vacío puede romper el pedestal.

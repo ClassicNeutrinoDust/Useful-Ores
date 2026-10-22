@@ -69,6 +69,9 @@
     "useful_ores:painite_pickaxe",
     "useful_ores:painite_axe",
     "useful_ores:painite_shovel",
-    "useful_ores:painite_hoe"
-]
+    "useful_ores:painite_hoe",
+    "useful_ores:attributed_subspace_pickaxe",
+    "useful_ores:attributed_subspace_shovel",
+    "useful_ores:attributed_subspace_hoe"
+  ]
 }

@@ -1,4 +1,50 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_sword"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_pickaxe"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_axe"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_hoe"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_shovel"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_helmet"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_chestplate"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_leggings"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_boots"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_nugget"
+    },
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_block"
+    }
+  ],
   "criteria": {
     "get_argentite_ingot": {
       "trigger": "minecraft:inventory_changed",

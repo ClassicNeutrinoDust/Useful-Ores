@@ -1,0 +1,3 @@
+A tool with 200 durability that turns supported full blocks into slabs.
+
+Hold it and interact with a supported block. Unsupported blocks are unchanged. Craft it with one Scheelite Ingot and two Sticks arranged diagonally.

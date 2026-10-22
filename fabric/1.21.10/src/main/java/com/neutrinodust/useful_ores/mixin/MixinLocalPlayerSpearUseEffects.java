@@ -13,24 +13,13 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-
-
-
-
-
-
-
-
-
-
-
 @Mixin(LocalPlayer.class)
 public abstract class MixinLocalPlayerSpearUseEffects {
     @Shadow
-    protected abstract boolean method_46743(); 
+    protected abstract boolean hasEnoughFoodToSprint(); 
 
     @Shadow
-    protected abstract boolean method_48301(Entity vehicle); 
+    protected abstract boolean vehicleCanSprint(Entity vehicle); 
 
     @Unique
     private LocalPlayer usefulOres$self() {
@@ -42,13 +31,8 @@ public abstract class MixinLocalPlayerSpearUseEffects {
         return usefulOres$self().getMainHandItem().is(SpearTags.SPEARS);
     }
 
-    
-
-
-
-
     @Inject(
-        method = "method_67270(Lnet/minecraft/class_241;)Lnet/minecraft/class_241;",
+        method = "modifyInput(Lnet/minecraft/world/phys/Vec2;)Lnet/minecraft/world/phys/Vec2;",
         at = @At("HEAD"),
         cancellable = true,
         require = 1
@@ -62,15 +46,12 @@ public abstract class MixinLocalPlayerSpearUseEffects {
         LocalPlayer player = usefulOres$self();
         Vec2 vec = new Vec2(input.x * 0.98F, input.y * 0.98F);
 
-        
-        
         if (player.isUsingItem()
                 && !player.isSpectator()
                 && !usefulOres$mainHandSpear()) {
             vec = new Vec2(vec.x * 0.2F, vec.y * 0.2F);
         }
 
-        
         if (player.isMovingSlowly()) {
             float speed = (float) player.getAttributeValue(Attributes.MOVEMENT_SPEED);
             vec = new Vec2(vec.x * speed, vec.y * speed);
@@ -100,36 +81,23 @@ public abstract class MixinLocalPlayerSpearUseEffects {
         return (float) (Math.cos(Math.atan(ratio)) + Math.sin(Math.atan(ratio)));
     }
 
-    
-    @Inject(method = "method_48300()Z", at = @At("HEAD"), cancellable = true, require = 1)
+    @Inject(method = "canStartSprinting()Z", at = @At("HEAD"), cancellable = true, require = 1)
     private void usefulOres$canStartSprinting(CallbackInfoReturnable<Boolean> cir) {
         LocalPlayer player = usefulOres$self();
         if (!usefulOres$mainHandSpear()) {
             return;
         }
 
-        
-        
-        
         boolean result = !player.isSprinting()
                 && player.input.getMoveVector().y > 0.0F
-                && method_46743()
+                && hasEnoughFoodToSprint()
                 && (!player.isSpectator()
-                    || (player.getVehicle() != null && method_48301(player.getVehicle())))
+                    || (player.getVehicle() != null && vehicleCanSprint(player.getVehicle())))
                 && (!player.isSwimming() || !player.isUnderWater())
                 && (!player.isMovingSlowly() || !player.isUnderWater())
                 && (!player.isFallFlying() || !player.isUnderWater());
 
         cir.setReturnValue(result);
     }
-
-    
-
-
-
-
-
-
-
 
 }

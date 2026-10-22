@@ -1,0 +1,9 @@
+Le subspace est le matériau ultime du mod. Ses outils minent plus vite que tous les autres et ne provient d’aucun minerai naturel.
+
+S’obtient par fabrication : placez un Éclat chauffé au centre et entourez-le de huit lingots d’Enderium. Il ne se génère pas sous forme de minerai.
+
+Butin : Chaque bloc de minerai donne 1 minerai brut. Fortune augmente la quantité ; Toucher de soie récupère le bloc.
+
+Caractéristiques : Outils : durabilité 1561, vitesse de minage 8.0, dégâts +3.0, aptitude aux enchantements 10, niveau de minage : diamant. Armure : défense 3/8/6/3, robustesse 2.0, aucune résistance au recul.
+
+Atouts : Associez ses outils à un cristal Farseeker pour envoyer les blocs minés dans l’inventaire. L’armure complète maintient son effet de potion tant qu’elle est portée ; les armes donnent un effet bénéfique au porteur et un effet néfaste à la cible pendant 10 secondes.

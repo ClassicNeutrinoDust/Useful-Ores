@@ -1,0 +1,11 @@
+L’equipaggiamento subspace può mantenere in modo permanente un effetto di una pozione vanilla. Crea prima un Lingotto Subspace Attribuito, poi usalo per fabbricare l’equipaggiamento.
+
+Per attribuire un lingotto, inserisci un Lingotto Subspace e una qualsiasi pozione vanilla piena nella griglia di fabbricazione. Il lingotto ottenuto porta l’effetto della pozione. Sono supportati gli effetti preparabili, tra cui Cura istantanea, Danno istantaneo, Resistenza al fuoco, Respirazione subacquea e Visione notturna.
+
+Fabbrica l’equipaggiamento con la ricetta normale del subspace, sostituendo ogni lingotto con uno attribuito. Tutti devono avere lo stesso effetto. Armi e attrezzi richiedono comunque bastoni; l’armatura no.
+
+Armatura: indossa tutte e quattro le parti con lo stesso effetto per mantenerlo finché il set è equipaggiato.
+
+Armi e attrezzi: colpire un bersaglio con una spada, un’ascia, un piccone, una pala o una zappa attribuita applica l’effetto per 10 secondi. Gli effetti positivi agiscono su di te, quelli negativi sul bersaglio. Gli effetti istantanei si attivano subito.
+
+Gli effetti istantanei si possono applicare ad armi e attrezzi, ma non all’armatura.

@@ -1,0 +1,9 @@
+Uma armadilha elétrica inativa. Um raio durante uma tempestade a ativa. Depois disso, ela causa dano a entidades vivas em uma área quadrada e as puxa para o centro.
+
+Ativação: coloque-a sobre um bloco sólido com céu aberto acima e espere uma tempestade. Ela tem uma chance de ser atingida a cada tick. O raio a desbloqueia permanentemente. Quebrar e colocar novamente mantém o desbloqueio, mas redefine o alcance para 1.
+
+Alcance: começa em 1 (3×3). Clique com o botão direito usando um Lingote de Fulgurita para aumentar para 2 (5×5) e depois 3 (7×7, máximo). Cada melhoria custa um lingote fora do Criativo. Clique com a mão vazia para ver o estado.
+
+Dano: o campo causa periodicamente 2 de dano a jogadores e 4 a criaturas. As criaturas também perdem movimento horizontal. As entidades são puxadas para a armadilha, e partículas indicam a área ativa.
+
+Qualquer sinal de redstone que toque a armadilha desliga o campo. Ela continua desbloqueada.

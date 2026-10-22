@@ -1,0 +1,9 @@
+Ilmenite é o minério de titânio do mod e um dos materiais mais resistentes da faixa intermediária alta.
+
+Gera no Mundo Superior, em pedra e ardósia profunda, entre Y -64 e 16. Veios de 8 blocos, cerca de 7 por chunk. O minério exposto ao ar tem 50% de chance de não gerar.
+
+Drops: Cada bloco de minério rende 1 minério bruto; Fortuna aumenta a quantidade e Toque Suave coleta o próprio bloco.
+
+Atributos: Durabilidade: 2600; velocidade de mineração: 7.0; dano de ataque: +9.0; encantabilidade: 10; nível de mineração: diamante.
+
+Vantagens: Os lingotes criam o sistema de Trilhos de Titânio, incluindo um trilho controlador que envia carrinhos para a esquerda, em frente ou para a direita. Também fabricam a Fechadura e a Chave de Titânio.

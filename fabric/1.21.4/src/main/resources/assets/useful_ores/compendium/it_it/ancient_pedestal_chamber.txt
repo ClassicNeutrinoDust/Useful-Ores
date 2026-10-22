@@ -1,0 +1,5 @@
+Struttura sotterranea rara: una sfera cava di ossidiana con chiazze di ossidiana piangente, un Piedistallo Antico al centro e un baule accanto.
+
+Genera sottoterra nel mondo normale, circa una volta ogni 300 chunk, con almeno 60 chunk tra le camere. Non ci sono segnali in superficie: esplora le caverne o scava per trovarla. La sfera ha un raggio di 8 blocchi e una parete spessa circa 1,6 blocchi.
+
+Il baule può contenere lingotti di Nyxium, Voidshard, Arcanite e Argentite, oltre a diamanti e lingotti d’oro. Può contenere anche Occhi dell’End, Respiro del Drago, un Nucleo Nyxium-Arcanite o smeraldi; la Stella del Nether è molto rara. Solo un piccone di Voidshard può rompere il piedistallo.

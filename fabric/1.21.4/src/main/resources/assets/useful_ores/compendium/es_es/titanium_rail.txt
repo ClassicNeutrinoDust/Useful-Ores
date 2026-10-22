@@ -1,0 +1,3 @@
+Raíl reforzado hecho de ilmenita, diseñado para viajar a gran velocidad, especialmente con la [Vagoneta con batería de solarita](Utility/Solarite Battery Minecart).
+
+Colócalo como un raíl normal. Funciona en rectas y curvas; en las curvas, la vagoneta con batería de solarita puede alcanzar 0,8 bloques por tick (16 bloques por segundo). Usa un [Raíl controlador de titanio](Utility/Titanium Controller Rail) en los cruces.

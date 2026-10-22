@@ -1,0 +1,2 @@
+Matériau : durabilité 2700, vitesse de minage 20.0, bonus de dégâts +13.5, aptitude à l’enchantement 26.
+Dégâts / vitesse d’attaque: épée 22.5 / 2.0, pioche 21.5 / 1.8, hache 23.5 / 1.6, houe 14.5 / 4.8, pelle 19.5 / 1.6.

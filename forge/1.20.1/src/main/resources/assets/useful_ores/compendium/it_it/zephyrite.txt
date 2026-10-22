@@ -1,0 +1,9 @@
+La zephyrite è un minerale debole ma molto comune, fondamentale per molti componenti di redstone del mod.
+
+Generazione: nel mondo normale, in pietra e ardesia delle profondità, tra Y -16 e 112. Vene da 10 blocchi, circa 14 per chunk: è il minerale più comune della mod. Il minerale esposto all’aria si genera sempre.
+
+Bottino: Ogni blocco di minerale lascia 1 minerale grezzo; Fortuna aumenta la quantità e Tocco di velluto raccoglie il blocco.
+
+Statistiche: Attrezzi: durabilità 1561, velocità di estrazione 8.0, danno +3.0, incantabilità 10, livello di estrazione: diamante. Armatura: difesa 3/8/6/3, robustezza 2.0, nessuna resistenza al contraccolpo.
+
+Vantaggi: Fai scorta di zephyrite grezza per creare porte logiche, relè redstone wireless, orologi redstone e controllori dei binari.

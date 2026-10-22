@@ -10,7 +10,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-
 @Mixin(LivingEntity.class)
 public abstract class MixinLivingEntitySpearSwingDuration {
     @Inject(method = "getCurrentSwingDuration", at = @At("HEAD"), cancellable = true)
@@ -20,10 +19,6 @@ public abstract class MixinLivingEntitySpearSwingDuration {
         ItemStack off = self.getOffhandItem();
         ItemStack spear = main.is(SpearTags.SPEARS) ? main : (off.is(SpearTags.SPEARS) ? off : ItemStack.EMPTY);
         if (!spear.isEmpty()) {
-            
-            
-            
-            
             int duration = Math.max(1, Math.round(SpearAnimationProfile.forStack(spear).swingAnimationSeconds() * 20.0F));
             cir.setReturnValue(duration);
             cir.cancel();

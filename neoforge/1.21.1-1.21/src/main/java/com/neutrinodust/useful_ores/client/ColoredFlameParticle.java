@@ -45,7 +45,8 @@ public class ColoredFlameParticle extends RisingParticle {
     public int getLightColor(float a) {
         int packed = super.getLightColor(a);
         int emission = Math.min(15, Math.max(0, (int) (((this.age + a) / this.lifetime) * 15.0F)));
-        return LightTexture.pack(Math.max(LightTexture.block(packed), emission), LightTexture.sky(packed));
+        if (emission == 0) return packed;
+        return LightTexture.pack(Math.max(LightTexture.block(packed), emission), Math.max(LightTexture.sky(packed), emission));
     }
 
     public static class Provider implements ParticleProvider<ColoredFlameOptions> {

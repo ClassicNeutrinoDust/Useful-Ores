@@ -48,11 +48,6 @@ public class RedstoneClockBlock extends BaseEntityBlock {
          .setValue(PERIOD_INDEX, 3));
    }
 
-    
-
-
-
-
     @Override
     public RenderShape getRenderShape(BlockState state) {
         return RenderShape.MODEL;

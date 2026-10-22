@@ -1,0 +1,22 @@
+{
+  "type": "neoforge:add_features",
+  "step": "underground_ores",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#minecraft:is_overworld",
+      {
+        "type": "neoforge:not",
+        "value": {
+          "type": "neoforge:or",
+          "values": [
+            "#useful_ores:extruding_crystal/ancient_city",
+            "#useful_ores:extruding_crystal/snowy",
+            "#useful_ores:extruding_crystal/sulfur"
+          ]
+        }
+      }
+    ]
+  },
+  "features": "useful_ores:extruding_crystal_ore_placed"
+}

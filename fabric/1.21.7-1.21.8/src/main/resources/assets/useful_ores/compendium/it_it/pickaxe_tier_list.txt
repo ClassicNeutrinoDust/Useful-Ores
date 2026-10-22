@@ -1,0 +1,13 @@
+I picconi sono ordinati dal livello di estrazione più basso al più alto. Un piccone può estrarre i blocchi che richiedono il suo livello o uno inferiore.
+
+Livello 1 (legno, oro): picconi di legno e d’oro. Estraggono carbone, blocchi di pietra e blocchi senza requisiti per gli attrezzi.
+
+Livello 2 (pietra): picconi di pietra e zephyrite. Estraggono anche minerale di ferro, minerale di zephyrite e minerali e blocchi di argentite.
+
+Livello 3 (ferro): picconi di ferro, argentite, fosgene, fulgurite, osmio, sperrylite e scheelite. Estraggono anche diamante, redstone, smeraldo e oro, oltre ai minerali e blocchi di fosgene, fulgurite, osmio, sperrylite, scheelite, cromite e ilmenite.
+
+Livello 4 (diamante): picconi di diamante, cromite, ilmenite e painite. Estraggono anche ossidiana, detriti antichi e i minerali di livello superiore della mod, tra cui nyxium, arcanite, solarite, enderium, voidshard, lonsdaleite e painite.
+
+Livello 5 (netherite): picconi di netherite, nyxium, arcanite, solarite, enderium, voidshard, subspace e lonsdaleite. Estraggono gli stessi blocchi del livello 4, ma cambiano per velocità, durabilità e abilità speciali.
+
+Eccezione: solo un piccone di voidshard può rompere il Piedistallo Antico. Tutti gli altri, compresi quelli di netherite e subspace, non ci riescono. Vedi «Piedistallo Antico» in Utilità.

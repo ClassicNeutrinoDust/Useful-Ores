@@ -1,0 +1,7 @@
+{
+  "type": "useful_ores:config_add_features",
+  "ore": "ilmenite",
+  "biomes": "#minecraft:is_overworld",
+  "features": "useful_ores:ilmenite_ore_placed",
+  "step": "underground_ores"
+}

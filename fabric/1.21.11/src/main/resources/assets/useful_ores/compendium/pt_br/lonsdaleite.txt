@@ -1,0 +1,9 @@
+Lonsdaleíta só aparece dentro de Meteoritos Caídos. Seis grupos de minério ficam enterrados perto do centro do meteorito; é preciso escavar para encontrá-los.
+
+Só aparece dentro de estruturas de Meteorito Caído. Seis grupos de minério ficam enterrados perto do centro.
+
+Drops: Cada bloco de minério rende 1 minério bruto; Fortuna aumenta a quantidade e Toque Suave coleta o próprio bloco.
+
+Atributos: Durabilidade: 6200; velocidade de mineração: 25.0; dano de ataque: +15.0; encantabilidade: 28; nível de mineração: Netherita.
+
+Vantagens: Cada peça de armadura reduz o dano de explosões em 17,5%, até 70% com o conjunto completo. O equipamento tem poder semelhante ao de Voidshard e cerca do dobro da durabilidade.

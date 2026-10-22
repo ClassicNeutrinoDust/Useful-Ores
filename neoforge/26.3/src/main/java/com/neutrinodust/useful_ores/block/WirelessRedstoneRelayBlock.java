@@ -47,7 +47,6 @@ public class WirelessRedstoneRelayBlock extends BaseEntityBlock {
          .setValue(CONNECTED, false));
    }
 
-
    @Override
    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
       builder.add(FACING, POWERED, CONNECTED);

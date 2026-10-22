@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:phosgene_lantern"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NTN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "tag": "c:nuggets/phosgene"
+    },
+    "T": {
+      "item": "useful_ores:phosgene_torch"
+    }
+  },
+  "result": {
+    "item": "useful_ores:phosgene_lantern",
+    "count": 1
+  }
+}

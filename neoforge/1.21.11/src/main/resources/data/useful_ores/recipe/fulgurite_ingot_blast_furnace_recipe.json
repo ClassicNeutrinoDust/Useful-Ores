@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:fulgurite_ingot"
+    }
+  ],
   "type": "minecraft:blasting",
   "category": "misc",
   "experience": 7,

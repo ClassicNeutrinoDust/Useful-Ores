@@ -1,0 +1,9 @@
+La painite est un minerai rouge du Nether. Son armure réduit la santé maximale, mais l’équipement devient redoutable quand la santé baisse.
+
+Génération : uniquement dans le Nether, répartie uniformément entre Y 8 et 119. Filons de 8 blocs, 2 tentatives par chunk. Le minerai exposé à l’air a 50 % de chances de ne pas apparaître.
+
+Butin : Chaque bloc de minerai donne 1 minerai brut. Fortune augmente la quantité ; Toucher de soie récupère le bloc.
+
+Caractéristiques : Durabilité : 1561 ; vitesse de minage : 8.0 ; dégâts d’attaque : +3.0 ; aptitude aux enchantements : 10 ; niveau de minage : diamant.
+
+Atouts : Chaque pièce d’armure retire 1 PV à la santé maximale. Fury s’active à 10 PV ou moins pour les joueurs et à mi-santé pour les autres créatures. En Fury, l’armure gagne 60 % de défense et les outils 60 % de dégâts et de vitesse de minage. La lance récupère aussi 60 % plus vite.

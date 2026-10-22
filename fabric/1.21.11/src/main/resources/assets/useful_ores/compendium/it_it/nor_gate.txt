@@ -1,0 +1,5 @@
+È l’inverso di OR. L’uscita si attiva solo quando entrambi gli ingressi sono spenti. Ritardo: 1 tick.
+
+Posizionala su un blocco solido. Il lato frontale è l’uscita; i lati sinistro e destro sono gli ingressi. Collegali a polvere di redstone o a un’altra fonte.
+
+Tabella della verità: 0/0 = 1, 0/1 = 0, 1/0 = 0, 1/1 = 0. Utile per rilevare quando nessun ingresso è attivo.

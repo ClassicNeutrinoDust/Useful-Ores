@@ -1,0 +1,5 @@
+Esses pós aplicam o efeito de uma poção a um bloco, criando uma área temporária que afeta entidades vivas sobre ele.
+
+Pó bruto: coloque Fósgeno Bruto nos quatro cantos, um Bloco de Slime no centro, três pós de redstone e uma Vara de Blaze nos espaços restantes. Produz 16. Para fazer o pó infundido, cerque uma poção cheia com oito Pós de Fósgeno Bruto; você receberá dois pós com o efeito e a cor da poção.
+
+Use o pó infundido em um bloco. Surgem partículas, e entidades sobre o bloco recebem o efeito por três minutos. O bloco fica ativo por um dia de Minecraft (24.000 ticks). A receita do pó bruto é desbloqueada ao pegar Fósgeno Bruto; a outra, quando você tiver o pó bruto e uma poção.

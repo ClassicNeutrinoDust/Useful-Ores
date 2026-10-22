@@ -6,11 +6,6 @@ import software.bernie.geckolib.animatable.GeoAnimatable;
 import software.bernie.geckolib.model.GeoModel;
 import software.bernie.geckolib.renderer.GeoBlockRenderer;
 
-
-
-
-
-
 public class VisibleGeoBlockRenderer<T extends BlockEntity & GeoAnimatable> extends GeoBlockRenderer<T> {
     private static final int VIEW_DISTANCE = 256;
     private final AABB localRenderBounds;
@@ -33,13 +28,6 @@ public class VisibleGeoBlockRenderer<T extends BlockEntity & GeoAnimatable> exte
     public int getViewDistance() {
         return VIEW_DISTANCE;
     }
-
-    
-
-
-
-
-
 
     public AABB getRenderBoundingBox(T entity) {
         if (localRenderBounds == null) {

@@ -1,0 +1,5 @@
+Défense: casque 2, plastron 8, jambières 5, bottes 2.
+Durabilité: casque 330, plastron 480, jambières 450, bottes 390.
+Enchantabilité 20, robustesse 1.5, résistance au recul 35%.
+
+Bonus d’ensemble : les quatre pièces vous permettent de marcher au fond de l’eau au lieu de flotter. Un ensemble incomplet n’a aucun effet.

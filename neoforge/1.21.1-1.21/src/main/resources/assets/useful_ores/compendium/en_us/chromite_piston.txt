@@ -1,0 +1,7 @@
+A Chromite piston and sticky piston work like their vanilla versions, but can also push Obsidian and Crying Obsidian. The sticky piston can pull those blocks back.
+
+Place and wire them like ordinary pistons. Timing, redstone triggers and structure limits are unchanged.
+
+Only Obsidian and Crying Obsidian gain this support. Blocks that are otherwise immovable, such as Respawn Anchors and Reinforced Deepslate, still cannot be moved. Vanilla push limits and block-entity restrictions still apply.
+
+Craft the piston with planks, deepslate, redstone and a Chromite Ingot. Combine it with a Slime Ball to make the sticky version.

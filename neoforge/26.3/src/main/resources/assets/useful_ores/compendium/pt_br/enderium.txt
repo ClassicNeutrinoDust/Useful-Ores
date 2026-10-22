@@ -1,0 +1,9 @@
+Enderium é o material intermediário do trio superior: Solarite, Enderium e Voidshard. Minera bem mais rápido que Solarite e Netherita.
+
+End, em pedra do End, entre Y 0–120; veios de 3, 6 por chunk. O minério exposto ao ar tem 15% de chance de não gerar.
+
+Drops: Cada bloco de minério rende 1 minério bruto; Fortuna aumenta a quantidade e Toque Suave coleta o próprio bloco.
+
+Atributos: Durabilidade: 2700; velocidade de mineração: 20.0; dano de ataque: +13.5; encantabilidade: 26; nível de mineração: Netherita.
+
+Vantagens: Os Trilhos de Enderium funcionam em pares: o carrinho que passa por um trilho é teleportado para o parceiro vinculado.

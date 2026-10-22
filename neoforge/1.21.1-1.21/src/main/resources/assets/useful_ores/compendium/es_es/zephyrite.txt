@@ -1,0 +1,9 @@
+Zephyrite es un mineral débil, pero muy común. Es la base de muchos componentes de redstone del mod.
+
+Se genera en el mundo superior, en piedra y pizarra profunda, entre Y -16 y 112. Vetas de 10 bloques, unas 14 por chunk; es la mena más común del mod. El mineral expuesto al aire siempre se genera.
+
+Botín: Cada bloque de mena suelta 1 unidad de mineral en bruto; Fortuna aumenta la cantidad y Toque de seda recoge el bloque.
+
+Estadísticas: Herramientas: durabilidad 1561, velocidad de minería 8.0, daño +3.0, encantabilidad 10, nivel de minería: diamante. Armadura: defensa 3/8/6/3, dureza 2.0, sin resistencia al retroceso.
+
+Ventajas: Guarda Zephyrite en bruto para fabricar puertas lógicas, relés de redstone inalámbricos, relojes de redstone y controladores de raíles.

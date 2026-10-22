@@ -1,0 +1,5 @@
+Um funil com cinco espaços de filtro. Espaços vazios não aceitam nada. Cada espaço preenchido aceita apenas o item exato colocado nele, incluindo seus componentes.
+
+Abra o filtro e coloque uma pilha de referência em cada espaço que quiser usar. A quantidade de referência fica reservada, então a automação só move itens acima desse total. Ainda é possível retirar itens manualmente.
+
+O filtro puxa itens correspondentes de cima e empurra o excedente na direção do bloco para o qual está virado, no ritmo normal de um funil. Alimente-o por cima e recolha os itens separados pela frente. Use um espaço por tipo de item.

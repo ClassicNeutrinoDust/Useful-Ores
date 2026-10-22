@@ -11,7 +11,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "useful_ores:ilmenite_ore",
+              "name": "useful_ores:deepslate_ilmenite_ore",
               "condition": {
                 "predicate": {
                   "predicates": {

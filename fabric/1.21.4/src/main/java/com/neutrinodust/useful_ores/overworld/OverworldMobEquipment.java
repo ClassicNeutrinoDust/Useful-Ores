@@ -17,12 +17,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-
-
-
-
-
-
 public final class OverworldMobEquipment {
     private OverworldMobEquipment() {}
 
@@ -40,15 +34,12 @@ public final class OverworldMobEquipment {
         }
     }
 
-    
-    
     private static final List<MaterialTier> TIERS = List.of(
         new MaterialTier(ModItems.CHROMITE_ITEMS, 0.0025F, 0.0050F, 0.0075F), 
         new MaterialTier(ModItems.ILMENITE_ITEMS, 0.0025F, 0.0050F, 0.0075F), 
         new MaterialTier(ModItems.NYXIUM_ITEMS,   0.0005F, 0.0010F, 0.0015F), 
         new MaterialTier(ModItems.ARCANITE_ITEMS, 0.0005F, 0.0010F, 0.0015F)  
     );
-    
 
     public static void onEntityLoad(Entity entity, ServerLevel level) {
         if (!(entity instanceof Monster mob) || level.dimension() != Level.OVERWORLD || hasModArmor(mob)) return;
@@ -66,7 +57,6 @@ public final class OverworldMobEquipment {
     }
 
     private static void equip(Monster mob, ServerLevel level, MaterialTier tier, int pieceCount) {
-        
         List<EquipmentSlot> emptySlots = new ArrayList<>();
         for (EquipmentSlot slot : ARMOR_SLOTS) {
             if (mob.getItemBySlot(slot).isEmpty()) emptySlots.add(slot);

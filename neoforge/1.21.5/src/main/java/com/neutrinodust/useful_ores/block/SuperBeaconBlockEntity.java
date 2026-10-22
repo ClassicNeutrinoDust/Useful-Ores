@@ -48,7 +48,6 @@ import net.minecraft.world.level.block.entity.BaseContainerBlockEntity;
 import net.minecraft.world.level.block.entity.BeaconBeamOwner;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.phys.AABB;
 import org.jspecify.annotations.Nullable;
 
@@ -146,7 +145,7 @@ public class SuperBeaconBlockEntity extends BlockEntity implements MenuProvider,
         BeaconBeamOwner.Section lastBeamSection = entity.checkingBeamSections.isEmpty()
             ? null
             : entity.checkingBeamSections.get(entity.checkingBeamSections.size() - 1);
-        int lastSetBlock = level.getHeight(Heightmap.Types.WORLD_SURFACE, x, z);
+        int lastSetBlock = level.getMaxY() - 1;
 
         for (int i = 0; i < 10 && checkPos.getY() <= lastSetBlock; i++) {
             BlockState state = level.getBlockState(checkPos);

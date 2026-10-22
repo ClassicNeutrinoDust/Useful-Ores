@@ -1,4 +1,10 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:osmium_ingot"
+    }
+  ],
   "type": "minecraft:smelting",
   "category": "misc",
   "experience": 6,

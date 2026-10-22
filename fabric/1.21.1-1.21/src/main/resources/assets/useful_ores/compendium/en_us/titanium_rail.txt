@@ -1,0 +1,3 @@
+A reinforced rail made from Ilmenite. It is designed for high-speed travel, especially with the [Solarite Battery Minecart](Utility/Solarite Battery Minecart).
+
+Place it like ordinary rail. Straight sections and curves work; on curves, the Solarite Battery Minecart can travel up to 0.8 blocks per tick (16 blocks per second). Use a [Titanium Controller Rail](Utility/Titanium Controller Rail) to route carts at junctions.

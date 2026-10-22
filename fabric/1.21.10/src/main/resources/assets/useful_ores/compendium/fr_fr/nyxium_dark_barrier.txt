@@ -1,0 +1,3 @@
+Bloc défensif fabriqué avec un noyau sombre, du Nyxium, de l’Arcanite et de la pierre noire. Il convient aux murs et aux pièces protégées.
+
+Il n’a ni interface ni mode. Ses règles de récolte particulières peuvent empêcher les outils ordinaires de le récupérer ; vérifiez les conditions avant de le casser.

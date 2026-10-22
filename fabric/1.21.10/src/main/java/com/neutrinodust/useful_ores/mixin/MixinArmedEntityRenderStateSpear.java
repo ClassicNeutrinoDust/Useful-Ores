@@ -11,10 +11,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-
-
-
-
 @Mixin(ArmedEntityRenderState.class)
 public abstract class MixinArmedEntityRenderStateSpear implements SpearArmedRenderStateAccess {
     @Unique
@@ -43,7 +39,7 @@ public abstract class MixinArmedEntityRenderStateSpear implements SpearArmedRend
         usefulOres$leftHandStack = stack == null ? ItemStack.EMPTY : stack;
     }
 
-    @Inject(method = "method_65577", at = @At("TAIL"))
+    @Inject(method = "extractArmedEntityRenderState", at = @At("TAIL"))
     private static void usefulOres$captureRawHandStacks(
             LivingEntity entity,
             ArmedEntityRenderState state,

@@ -1,0 +1,5 @@
+Es la inversa de OR. La salida solo se activa cuando ambas entradas están apagadas. Retardo: 1 tick.
+
+Colócala sobre un bloque sólido. El lado frontal es la salida y los lados izquierdo y derecho son las entradas. Conéctalas con polvo de redstone u otra fuente.
+
+Tabla de verdad: 0/0 = 1, 0/1 = 0, 1/0 = 0, 1/1 = 0. Sirve para detectar cuándo ninguna entrada está activa.

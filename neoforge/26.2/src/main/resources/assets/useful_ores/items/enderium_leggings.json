@@ -88,84 +88,119 @@
           "type": "minecraft:model",
           "model": "useful_ores:item/enderium_leggings_arcanite_trim"
         },
-        "when": "arcanite"
+        "when": "useful_ores:arcanite"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/enderium_leggings_argentite_trim"
         },
-        "when": "argentite"
+        "when": "useful_ores:argentite"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/enderium_leggings_chromite_trim"
         },
-        "when": "chromite"
+        "when": "useful_ores:chromite"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/enderium_leggings_fulgurite_trim"
         },
-        "when": "fulgurite"
+        "when": "useful_ores:fulgurite"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/enderium_leggings_ilmenite_trim"
         },
-        "when": "ilmenite"
+        "when": "useful_ores:ilmenite"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/enderium_leggings_nyxium_trim"
         },
-        "when": "nyxium"
+        "when": "useful_ores:nyxium"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/enderium_leggings_osmium_trim"
         },
-        "when": "osmium"
+        "when": "useful_ores:osmium"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/enderium_leggings_phosgene_trim"
         },
-        "when": "phosgene"
+        "when": "useful_ores:phosgene"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/enderium_leggings_scheelite_trim"
         },
-        "when": "scheelite"
+        "when": "useful_ores:scheelite"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/enderium_leggings_solarite_trim"
         },
-        "when": "solarite"
+        "when": "useful_ores:solarite"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/enderium_leggings_sperrylite_trim"
         },
-        "when": "sperrylite"
+        "when": "useful_ores:sperrylite"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/enderium_leggings_zephyrite_trim"
         },
-        "when": "zephyrite"
+        "when": "useful_ores:zephyrite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/enderium_leggings_voidshard_trim"
+        },
+        "when": "useful_ores:voidshard"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/enderium_leggings_enderium_trim"
+        },
+        "when": "useful_ores:enderium"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/enderium_leggings_painite_trim"
+        },
+        "when": "useful_ores:painite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/enderium_leggings_lonsdaleite_trim"
+        },
+        "when": "useful_ores:lonsdaleite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/enderium_leggings_subspace_trim"
+        },
+        "when": "useful_ores:subspace"
       }
     ],
     "property": "minecraft:trim_material"

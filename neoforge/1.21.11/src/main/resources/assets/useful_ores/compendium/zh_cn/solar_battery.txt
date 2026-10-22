@@ -1,0 +1,3 @@
+可充电电池，适用于[日耀矿熔炉](Utility/Solarite Furnace)和其他兼容的日耀矿机器。电量会在使用间保留。
+
+使用模组的太阳能充电系统为其充电，然后放入兼容机器。它也是合成[日耀矿电池矿车](Utility/Solarite Battery Minecart)的材料。

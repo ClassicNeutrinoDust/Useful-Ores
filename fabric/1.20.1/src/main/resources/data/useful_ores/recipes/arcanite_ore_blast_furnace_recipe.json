@@ -1,0 +1,17 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:arcanite_ingot"
+    }
+  ],
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 8,
+  "cookingtime": 200,
+  "group": "arcanite_ingot",
+  "ingredient": {
+    "tag": "c:ores/arcanite"
+  },
+  "result": "useful_ores:arcanite_ingot"
+}

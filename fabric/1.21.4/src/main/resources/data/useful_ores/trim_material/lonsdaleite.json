@@ -1,0 +1,9 @@
+{
+  "asset_name": "lonsdaleite",
+  "description": {
+    "translate": "trim_material.useful_ores.lonsdaleite",
+    "color": "#B5E2E2"
+  },
+  "ingredient": "useful_ores:lonsdaleite_ingot",
+  "item_model_index": 0.0
+}

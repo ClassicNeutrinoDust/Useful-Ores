@@ -60,6 +60,7 @@ public class UsefulOresMod {
       Constants.LOG.info("Hello NeoForge world!");
 
       ModConfig.register(container);
+      com.neutrinodust.useful_ores.config.ModConditions.init(eventBus);
 
       ModMaterials.onConfigLoad();
 

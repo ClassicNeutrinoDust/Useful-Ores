@@ -1,0 +1,9 @@
+Sperrylite es el equivalente del platino en el mod: un metal precioso, blando y fácil de encantar, pero poco duradero.
+
+Se genera en el mundo superior, solo en piedra (no aparece en pizarra profunda), entre Y 0 y 64. Vetas de 6 bloques, unas 6 por chunk. El mineral expuesto al aire siempre se genera.
+
+Botín: Cada bloque de mena suelta 1 unidad de mineral en bruto; Fortuna aumenta la cantidad y Toque de seda recoge el bloque.
+
+Estadísticas: Herramientas: durabilidad 1561, velocidad de minería 8.0, daño +3.0, encantabilidad 10, nivel de minería: diamante. Armadura: defensa 3/8/6/3, dureza 2.0, sin resistencia al retroceso.
+
+Ventajas: Sus pepitas crean un vial catalítico reutilizable que combina dos pociones. Con pólvora y aliento de dragón se convierte en vial arrojadizo o persistente.

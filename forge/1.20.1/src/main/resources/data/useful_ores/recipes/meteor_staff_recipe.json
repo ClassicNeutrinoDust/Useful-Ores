@@ -1,0 +1,30 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:meteor_staff"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MCM",
+    "BBB",
+    " B "
+  ],
+  "key": {
+    "M": {
+      "item": "useful_ores:meteorite_block"
+    },
+    "C": {
+      "item": "useful_ores:volatile_meteorite_core"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "useful_ores:meteor_staff",
+    "count": 1
+  }
+}

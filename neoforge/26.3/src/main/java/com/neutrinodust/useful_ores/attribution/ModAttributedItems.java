@@ -35,7 +35,7 @@ public class ModAttributedItems {
 
     public static final DeferredItem<Item> ATTRIBUTED_SUBSPACE_INGOT = ModRegisters.registerItem(
             "attributed_subspace_ingot", AttributedItem::new,
-            new Item.Properties().rarity(Rarity.EPIC).stacksTo(16)
+            ModRegisters.trimIngot("subspace", new Item.Properties().rarity(Rarity.EPIC).stacksTo(16))
     );
 
     public static final DeferredItem<Item> ATTRIBUTED_SUBSPACE_HELMET = ModRegisters.registerItem(

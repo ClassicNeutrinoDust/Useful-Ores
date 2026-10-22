@@ -1,0 +1,3 @@
+Ce minerai donne des pépites de cristal extrudé, utilisées pour fabriquer des cristaux extrudés et améliorer une étoile du Nether pour la Super-balise.
+
+Il apparaît en petits filons de quatre blocs entre Y -64 et 16, avec environ une tentative de filon tous les deux chunks. Fortune augmente le nombre de pépites ; Toucher de soie donne le bloc de minerai.

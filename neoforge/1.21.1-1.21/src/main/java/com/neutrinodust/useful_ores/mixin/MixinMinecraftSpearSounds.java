@@ -15,7 +15,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-
 @Mixin(Minecraft.class)
 public abstract class MixinMinecraftSpearSounds {
     @Inject(method = "startAttack", at = @At("HEAD"), cancellable = true, require = 0)
@@ -30,7 +29,6 @@ public abstract class MixinMinecraftSpearSounds {
         HitResult hit = minecraft.hitResult;
         boolean wasUsing = player.isUsingItem() && player.getUsedItemHand() == InteractionHand.MAIN_HAND;
 
-        
         if (hit != null && hit.getType() == HitResult.Type.BLOCK) {
             return;
         }
@@ -56,7 +54,6 @@ public abstract class MixinMinecraftSpearSounds {
                 : 10;
         player.getCooldowns().addCooldown(stack.getItem(), cooldownTicks);
 
-        
         cir.setReturnValue(true);
         cir.cancel();
     }

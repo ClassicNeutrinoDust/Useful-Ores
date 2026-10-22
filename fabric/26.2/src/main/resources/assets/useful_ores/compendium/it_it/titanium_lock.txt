@@ -1,0 +1,3 @@
+Serratura per contenitori compatibili. Funziona con una [Chiave di titanio](Utility/Titanium Key) e non richiede circuiti di redstone.
+
+Applica la serratura a un contenitore compatibile. Solo la chiave corrispondente può aprirlo, quindi conservala al sicuro. La ricetta usa pepite e lingotti di ilmenite, come mostrato sotto.

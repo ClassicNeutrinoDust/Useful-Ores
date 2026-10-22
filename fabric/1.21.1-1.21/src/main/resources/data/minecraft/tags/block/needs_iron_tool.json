@@ -35,6 +35,8 @@
     "useful_ores:chiseled_osmium_block",
     "useful_ores:chiseled_sperrylite_block",
     "useful_ores:chiseled_ilmenite_block",
-    "useful_ores:chiseled_scheelite_block"
+    "useful_ores:chiseled_scheelite_block",
+    "useful_ores:deepslate_argentite_ore",
+    "useful_ores:deepslate_zephyrite_ore"
   ]
 }

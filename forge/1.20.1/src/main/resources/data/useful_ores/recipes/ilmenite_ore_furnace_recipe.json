@@ -1,0 +1,17 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:ilmenite_ingot"
+    }
+  ],
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 8,
+  "cookingtime": 400,
+  "group": "ilmenite_ingot",
+  "ingredient": {
+    "tag": "c:ores/ilmenite"
+  },
+  "result": "useful_ores:ilmenite_ingot"
+}

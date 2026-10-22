@@ -1,0 +1,4 @@
+Material: durability 1561, mining speed 8.0, damage bonus +3.0, enchantability 10.
+Damage / attack speed: sword 6.0 / 1.6, pickaxe 4.0 / 1.2, axe 8.0 / 1.0, hoe 0.0 / 4.0, shovel 4.5 / 1.0.
+
+Low health: at 5 hearts or less, a held Painite sword, pickaxe, axe, hoe or shovel gains 60% attack damage and 60% block-breaking speed.

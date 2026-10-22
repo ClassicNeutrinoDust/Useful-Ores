@@ -1,0 +1,7 @@
+Un oscillateur de redstone autonome. Il alterne sa sortie entre l’arrêt et la puissance maximale (15), sans répéteur ni boucle de torches.
+
+Placez-le sur un bloc solide. La flèche indique la sortie. Faites un clic droit avec la main vide pour changer la période ; chaque changement relance l’horloge à l’arrêt.
+
+Un cycle complet marche/arrêt dure 2, 4, 10, 20, 40, 60, 100 ou 200 ticks (0,1 ; 0,2 ; 0,5 ; 1 ; 2 ; 3 ; 5 ou 10 secondes).
+
+Aucune entrée de redstone n’est nécessaire. Utilisez la sortie pour alimenter de la poudre, des lampes, des portes logiques, des relais ou des machines.

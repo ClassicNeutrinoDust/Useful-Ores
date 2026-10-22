@@ -1,0 +1,3 @@
+La versione energizzata del Nucleo Nyxium-Arcanite. Fornisce energia al Bastone di Nyxiumnite.
+
+Combina un Nucleo Nyxium-Arcanite con respiro del drago in qualsiasi disposizione. Il nucleo viene consumato per creare il bastone e non ha altri usi con il clic destro.

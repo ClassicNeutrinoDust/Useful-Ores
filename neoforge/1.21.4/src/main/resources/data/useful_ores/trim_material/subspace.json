@@ -1,0 +1,9 @@
+{
+  "asset_name": "subspace",
+  "description": {
+    "translate": "trim_material.useful_ores.subspace",
+    "color": "#F5B9A1"
+  },
+  "ingredient": "useful_ores:subspace_ingot",
+  "item_model_index": 0.0
+}

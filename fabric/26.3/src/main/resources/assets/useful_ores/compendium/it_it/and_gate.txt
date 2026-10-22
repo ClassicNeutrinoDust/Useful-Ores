@@ -1,0 +1,5 @@
+Porta logica a due ingressi. L’uscita si attiva solo quando entrambi gli ingressi sono alimentati. Ritardo: 1 tick.
+
+Posizionala su un blocco solido. Il lato frontale è l’uscita; i lati sinistro e destro sono gli ingressi. Collegali a polvere di redstone o a un’altra fonte.
+
+Tabella della verità: 0/0 = 0, 0/1 = 0, 1/0 = 0, 1/1 = 1. L’uscita ha potenza massima e può alimentare direttamente altri componenti.

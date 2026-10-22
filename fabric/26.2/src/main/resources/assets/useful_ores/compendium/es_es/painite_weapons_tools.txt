@@ -1,0 +1,4 @@
+Material: durabilidad 1561, velocidad de minería 8.0, bonificación de daño +3.0, capacidad de encantamiento 10.
+Daño / velocidad de ataque: espada 6.0 / 1.6, pico 4.0 / 1.2, hacha 8.0 / 1.0, azada 0.0 / 4.0, pala 4.5 / 1.0.
+
+Poca salud: con 5 corazones o menos, una espada, un pico, un hacha, una azada o una pala de painita en la mano obtiene un 60 % más de daño y velocidad de rotura de bloques.

@@ -1,0 +1,9 @@
+Fulgurite é vidro fundido por um raio e tem a maior velocidade de mineração entre os materiais intermediários.
+
+Gera no Mundo Superior, em pedra e ardósia profunda, entre Y -32 e 0. Veios de 5 blocos, cerca de 4 por chunk. O minério exposto ao ar sempre gera.
+
+Drops: Cada bloco de minério rende 1 minério bruto; Fortuna aumenta a quantidade e Toque Suave coleta o próprio bloco.
+
+Atributos: Durabilidade: 1750; velocidade de mineração: 7.5; dano de ataque: +8.5; encantabilidade: 16; nível de mineração: ferro.
+
+Vantagens: Os lingotes aumentam o alcance da Armadilha Elétrica de Fulgurite depois que um raio a ativa.

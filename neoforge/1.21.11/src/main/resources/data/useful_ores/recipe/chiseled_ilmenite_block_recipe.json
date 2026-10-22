@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:chiseled_ilmenite_block"
+    }
+  ],
   "type": "minecraft:stonecutting",
   "ingredient": "useful_ores:ilmenite_block",
   "result": {

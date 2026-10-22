@@ -19,7 +19,6 @@ public final class SolariteCartInputHandler {
 
    private static int ticksSinceSend = 0;
 
-
    @SubscribeEvent
    private static void onPlayerTick(PlayerTickEvent.Post event) {
       if (!(event.getEntity() instanceof LocalPlayer player)) return;
@@ -35,7 +34,6 @@ public final class SolariteCartInputHandler {
          boolean backward = mc.options.keyDown.isDown();
          direction = forward == backward ? 0 : (forward ? 1 : -1);
       }
-
 
       ticksSinceSend++;
       boolean changed = direction != lastSent;

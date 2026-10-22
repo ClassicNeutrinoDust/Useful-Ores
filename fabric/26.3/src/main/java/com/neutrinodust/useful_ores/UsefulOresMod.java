@@ -60,6 +60,7 @@ public class UsefulOresMod implements ModInitializer {
     @Override
     public void onInitialize() {
         ModConfig.register();
+        com.neutrinodust.useful_ores.config.ModConditions.init();
         com.neutrinodust.useful_ores.block.WirelessRedstoneRelayLifecycleEvents.register();
 
         ModMaterials.onConfigLoad();

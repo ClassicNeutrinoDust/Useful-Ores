@@ -11,7 +11,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "useful_ores:phosgene_ore",
+              "name": "useful_ores:deepslate_phosgene_ore",
               "condition": {
                 "predicate": {
                   "predicates": {

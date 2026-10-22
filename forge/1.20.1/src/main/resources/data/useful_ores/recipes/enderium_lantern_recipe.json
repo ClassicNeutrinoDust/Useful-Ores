@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:enderium_lantern"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NTN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "tag": "c:nuggets/enderium"
+    },
+    "T": {
+      "item": "useful_ores:enderium_torch"
+    }
+  },
+  "result": {
+    "item": "useful_ores:enderium_lantern",
+    "count": 1
+  }
+}

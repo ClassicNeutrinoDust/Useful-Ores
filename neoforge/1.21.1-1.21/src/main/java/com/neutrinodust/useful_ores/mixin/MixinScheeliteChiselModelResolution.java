@@ -13,11 +13,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-
-
-
-
-
 @Mixin(ItemRenderer.class)
 public abstract class MixinScheeliteChiselModelResolution {
     private static final ModelResourceLocation HAND_MODEL = ModelResourceLocation.standalone(

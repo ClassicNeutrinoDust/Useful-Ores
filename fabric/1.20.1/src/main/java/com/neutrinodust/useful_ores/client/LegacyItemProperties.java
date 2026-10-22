@@ -1,0 +1,66 @@
+package com.neutrinodust.useful_ores.client;
+
+import com.neutrinodust.useful_ores.attribution.ModDataComponents;
+import com.neutrinodust.useful_ores.farseeker.ModFarseekerComponents;
+import net.minecraft.client.renderer.item.ItemProperties;
+import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Item;
+
+public final class LegacyItemProperties {
+    private LegacyItemProperties() {}
+
+    public static void register() {
+        registerBooleanProperty("useful_ores:farseeker", ModFarseekerComponents.FARSEEKER);
+        registerBooleanProperty("useful_ores:painite_fury_tool", ModDataComponents.PAINITE_FURY_TOOL);
+        registerPotionProperty();
+        registerPotionColors();
+    }
+
+    private static void registerBooleanProperty(String name, com.neutrinodust.useful_ores.util.ModComponent<Boolean> type) {
+        ResourceLocation id = parse(name);
+        String path = id.getPath();
+        String[] items = path.equals("farseeker") ? new String[]{
+            "attributed_subspace_axe","attributed_subspace_hoe","attributed_subspace_pickaxe","attributed_subspace_shovel",
+            "subspace_axe","subspace_hoe","subspace_pickaxe","subspace_shovel"
+        } : new String[]{
+            "painite_axe","painite_boots","painite_chestplate","painite_helmet","painite_hoe","painite_leggings",
+            "painite_pickaxe","painite_shovel","painite_spear","painite_sword"
+        };
+        for (String itemId : items) {
+            Item item = getItem(itemId);
+            ItemProperties.register(item, id, (stack, level, entity, seed) ->
+                    Boolean.TRUE.equals(type.get(stack)) ? 1.0F : 0.0F);
+        }
+    }
+
+    private static void registerPotionProperty() {
+        ResourceLocation id = parse("useful_ores:potion_contents");
+        Item item = getItem("sperrylite_catalytic_vial");
+        ItemProperties.register(item, id, (stack, level, entity, seed) ->
+                com.neutrinodust.useful_ores.util.ModPotionContents.get(stack) != null ? 1.0F : 0.0F);
+    }
+
+    private static void registerPotionColors() {
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> {
+            if (tintIndex != 0) return -1;
+            var contents = com.neutrinodust.useful_ores.util.ModPotionContents.get(stack);
+            return contents != null ? contents.getColor() : -1;
+        },
+            getItem("sperrylite_catalytic_vial"),
+            getItem("sperrylite_catalytic_vial_splash"),
+            getItem("sperrylite_catalytic_vial_lingering")
+        );
+    }
+
+    private static Item getItem(String path) {
+        Item item = net.minecraft.core.registries.BuiltInRegistries.ITEM.get(
+                new ResourceLocation("useful_ores", path));
+        return item != null ? item : net.minecraft.world.item.Items.AIR;
+    }
+
+    private static ResourceLocation parse(String s) {
+        int i=s.indexOf(':');
+        return new ResourceLocation(s.substring(0,i), s.substring(i+1));
+    }
+}

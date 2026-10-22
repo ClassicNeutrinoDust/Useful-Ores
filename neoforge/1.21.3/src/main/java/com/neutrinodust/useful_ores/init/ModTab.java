@@ -23,6 +23,7 @@ public class ModTab {
             Item it = item.get();
 
             if (isAttributedItem(it)) continue;
+            if (!ModConfig.isItemEnabled(item.getId().getPath())) continue;
 
             if (it == ModItems.ELECTRIC_RING.get()) continue;
             event.accept((ItemLike) it);
@@ -30,6 +31,7 @@ public class ModTab {
 
          for (var attributedItem : ModAttributedItems.ALL) {
             Item it = attributedItem.get();
+            if (!ModConfig.isItemEnabled(attributedItem.getId().getPath())) continue;
             for (AttributedEffects effect : AttributedEffects.values()) {
                ItemStack stack = new ItemStack(it);
                stack.set(ModDataComponents.ATTRIBUTED_EFFECT.get(), effect.id());

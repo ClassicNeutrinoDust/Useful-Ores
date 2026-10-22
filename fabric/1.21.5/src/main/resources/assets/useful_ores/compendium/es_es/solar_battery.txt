@@ -1,0 +1,3 @@
+Batería recargable para el [Horno de solarita](Utility/Solarite Furnace) y otras máquinas compatibles de solarita. Conserva la carga entre usos.
+
+Cárgala con el sistema solar del mod y colócala en una máquina compatible. También se usa para fabricar la [Vagoneta con batería de solarita](Utility/Solarite Battery Minecart).

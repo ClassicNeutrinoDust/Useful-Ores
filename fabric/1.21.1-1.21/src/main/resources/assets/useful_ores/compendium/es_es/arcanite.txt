@@ -1,0 +1,9 @@
+Arcanite es el mineral normal de mayor nivel del mod y ofrece la mayor facilidad para encantar.
+
+Se genera en el mundo superior, en piedra y pizarra profunda, entre Y -64 y -32. Vetas de 4 bloques, unas 4 por chunk. El mineral expuesto al aire siempre se genera.
+
+Botín: Cada bloque de mena suelta 1 unidad de mineral en bruto; Fortuna aumenta la cantidad y Toque de seda recoge el bloque.
+
+Estadísticas: Durabilidad: 2150; velocidad de minería: 8.5; daño de ataque: +11.5; encantabilidad: 32; nivel de minería: Netherite.
+
+Ventajas: Las flechas de Arcanite no infligen daño directo: otorgan al objetivo un corazón dorado de absorción que dura hasta absorber daño. El adorno de armadura Arcanite Heart protege cuando estás a punto de morir. El tarro de XP almacena hasta 1395 XP.

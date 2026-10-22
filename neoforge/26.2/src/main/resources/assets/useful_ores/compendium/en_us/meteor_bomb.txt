@@ -1,0 +1,3 @@
+A throwable explosive that breaks blocks with creeper-level force, even underwater. Each craft gives four bombs.
+
+Throw it with right-click. Craft four using eight Meteor Dust around Gunpowder. Meteor Dust comes from Meteorite Blocks found in a [Crashed Meteorite](Misc/Crashed Meteorite); Gunpowder comes from Creepers and loot chests.

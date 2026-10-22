@@ -1,0 +1,3 @@
+Upgrades Subspace tools so mined blocks go straight into your inventory. See [Subspace Weapons & Tools](Tools & Combat/Subspace Weapons & Tools).
+
+It cannot be crafted. End City treasure chests have a 7% chance to contain one in an extra loot roll. Search End Cities on the outer End islands; there is no guaranteed source.

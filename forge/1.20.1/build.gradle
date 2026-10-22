@@ -1,0 +1,61 @@
+plugins { id 'java'; id 'net.minecraftforge.gradle' version '[6.0,6.2)'; id 'org.spongepowered.mixin' version '0.7-SNAPSHOT' }
+
+version = project.mod_version
+group = 'com.neutrinodust'
+base { archivesName = 'useful_ores-forge' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: minecraft_version
+    copyIdeResources = true
+    runs {
+        configureEach { workingDirectory project.file('run'); property 'forge.logging.markers', 'REGISTRIES'; property 'forge.logging.console.level', 'debug'; mods { useful_ores { source sourceSets.main } } }
+        client { }
+        server { args '--nogui' }
+    }
+}
+repositories {
+    mavenCentral()
+    maven { url = 'https://cursemaven.com' }
+    flatDir { dirs 'libs' }
+}
+dependencies {
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+    compileOnly 'org.jspecify:jspecify:1.0.0'
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+    // Resolve the local jar through flatDir using Gradle's group:name:version
+    // notation, then let ForgeGradle remap it into the active Minecraft mappings.
+    // This resolves libs/geckolib-forge-1.20.1-4.8.4.jar.
+    implementation fg.deobf('local:geckolib-forge-1.20.1:4.8.4')
+}
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+mixin {
+    add sourceSets.main, 'useful_ores.refmap.json'
+    config 'useful_ores.mixins.json'
+    config 'useful_ores.forge.mixins.json'
+}
+processResources {
+    // Mixin AP writes the refmap as compileJava-refmap.json. Ensure it is copied
+    // into the runtime resources under the name referenced by both configs.
+    dependsOn tasks.named('compileJava')
+    from("$buildDir/tmp/compileJava/compileJava-refmap.json") {
+        rename { 'useful_ores.refmap.json' }
+    }
+    inputs.property 'version', project.version
+    filesMatching('META-INF/mods.toml') { expand 'version': project.version }
+}
+jar {
+    // MixinGradle emits the refmap into the compiled output while processResources
+    // also copies it into resources so ForgeGradle's dev runtime can load it. Both
+    // outputs contain the same path; keep the first copy rather than failing :jar.
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    manifest { attributes(['Specification-Title': 'useful_ores', 'Specification-Vendor': 'NeutrinoDust', 'Specification-Version': '1', 'Implementation-Title': project.name, 'Implementation-Version': project.version, 'Implementation-Vendor': 'NeutrinoDust', 'MixinConfigs': 'useful_ores.mixins.json,useful_ores.forge.mixins.json']) }
+}
+
+// Print all Java compiler diagnostics in one pass; the default javac limit hides
+// downstream errors once a large cross-version migration fails early.
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.compilerArgs += ['-Xmaxerrs', '500']
+}

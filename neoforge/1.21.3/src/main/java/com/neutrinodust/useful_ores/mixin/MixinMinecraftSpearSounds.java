@@ -1,6 +1,5 @@
 package com.neutrinodust.useful_ores.mixin;
 
-import com.neutrinodust.useful_ores.client.spear.SpearSuperLog;
 import com.neutrinodust.useful_ores.init.ModSpearSounds;
 import com.neutrinodust.useful_ores.init.SpearTags;
 import com.neutrinodust.useful_ores.network.SpearCancelChargePacket;
@@ -16,7 +15,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-
 @Mixin(Minecraft.class)
 public abstract class MixinMinecraftSpearSounds {
     @Inject(method = "startAttack", at = @At("HEAD"), cancellable = true, require = 0)
@@ -29,18 +27,13 @@ public abstract class MixinMinecraftSpearSounds {
         if (!stack.is(SpearTags.SPEARS)) return;
 
         HitResult hit = minecraft.hitResult;
-        String hitType = hit == null ? "NULL" : hit.getType().name();
-        long tick = player.level().getGameTime();
         boolean wasUsing = player.isUsingItem() && player.getUsedItemHand() == InteractionHand.MAIN_HAND;
 
-        
         if (hit != null && hit.getType() == HitResult.Type.BLOCK) {
-            SpearSuperLog.startAttack(tick, hitType, wasUsing, false, "BAIL_BLOCK");
             return;
         }
 
         if (player.getCooldowns().isOnCooldown(stack)) {
-            SpearSuperLog.startAttack(tick, hitType, wasUsing, true, "BLOCKED_BY_COOLDOWN");
             cir.setReturnValue(false);
             cir.cancel();
             return;
@@ -60,10 +53,7 @@ public abstract class MixinMinecraftSpearSounds {
                 ? Math.max(1, Math.round(20.0F / (float)attackSpeed))
                 : 10;
         player.getCooldowns().addCooldown(stack, cooldownTicks);
-        SpearSuperLog.startAttack(tick, hitType, wasUsing, false,
-                "JAB_FIRED(newCooldown=" + cooldownTicks + "t)");
 
-        
         cir.setReturnValue(true);
         cir.cancel();
     }

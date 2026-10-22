@@ -29,16 +29,7 @@ import java.util.HashSet;
 import java.util.UUID;
 import java.util.WeakHashMap;
 
-
-
-
-
-
-
-
 public final class SpearChargeCombat {
-    
-    
     private static final double MIN_REACH = 0.4D;
     private static final double CREATIVE_MIN_REACH = 0.0D;
     private static final double MAX_REACH = 4.5D;
@@ -46,16 +37,10 @@ public final class SpearChargeCombat {
     private static final double HITBOX_MARGIN = 0.25D;
     private static final long CONTACT_COOLDOWN = 10L;
 
-    
     private static final Map<LivingEntity, UseState> ACTIVE_USES = new WeakHashMap<>();
     private static final boolean DEBUG_LOG = false;
 
     private SpearChargeCombat() {}
-
-    
-
-
-
 
     public static void beginUse(LivingEntity attacker, ItemStack stack, InteractionHand hand, long now) {
         if (attacker.level().isClientSide()) return;
@@ -70,10 +55,6 @@ public final class SpearChargeCombat {
             ACTIVE_USES.remove(attacker);
         }
     }
-
-    
-
-
 
     public static void onUseTick(Level level, LivingEntity attacker, ItemStack stack, int remainingUseDuration) {
         if (!(level instanceof ServerLevel serverLevel)
@@ -95,18 +76,9 @@ public final class SpearChargeCombat {
             }
         }
 
-        
-        
-        
-        
-        
         int ticksUsed = Math.max(0, stack.getUseDuration(attacker) - remainingUseDuration);
         processUseTick(serverLevel, attacker, stack, state, ticksUsed);
     }
-
-    
-
-
 
     public static void onClientChargeFrame(ServerPlayer attacker, SpearChargeFramePacket packet) {
         if (!attacker.isAlive() || !attacker.isUsingItem()) return;
@@ -137,7 +109,6 @@ public final class SpearChargeCombat {
         }
     }
 
-    
     public static boolean performJab(ServerPlayer attacker) {
         if (!attacker.isAlive() || !attacker.getMainHandItem().is(SpearTags.SPEARS)) return false;
         ItemStack stack = attacker.getMainHandItem();
@@ -169,8 +140,10 @@ public final class SpearChargeCombat {
         int cooldownTicks = Math.max(1, Math.round(20.0F /
                 (float) Math.max(0.01D, attacker.getAttributeValue(Attributes.ATTACK_SPEED))));
         attacker.getCooldowns().addCooldown(stack, cooldownTicks);
-        Constants.LOG.info("[spear-super][jabHit] attacker={} hitAny={} targets={}",
-                attacker.getName().getString(), hitAny, targets.size());
+        if (com.neutrinodust.useful_ores.client.spear.SpearSuperLog.ENABLED) {
+            Constants.LOG.info("[spear-super][jabHit] attacker={} hitAny={} targets={}",
+                    attacker.getName().getString(), hitAny, targets.size());
+        }
         return true;
     }
 
@@ -186,15 +159,10 @@ public final class SpearChargeCombat {
         int elapsed = ticksUsed - delayTicks;
         if (elapsed < 0) return;
 
-        
-        
         long now = level.getGameTime();
 
         Vec3 view = attacker.getViewVector(1.0F).normalize();
 
-        
-        
-        
         Vec3 attackerMotion = state.clientVelocity20;
         if (attackerMotion == null || level.getGameTime() - state.clientVelocityReceivedTick > 3L) {
             attackerMotion = kineticMotion(attacker);
@@ -216,9 +184,6 @@ public final class SpearChargeCombat {
         Set<UUID> currentContacts = new HashSet<>();
         for (TargetHit targetHit : targets) currentContacts.add(targetHit.entity().getUUID());
 
-        
-        
-        
         for (Map.Entry<UUID, ContactState> entry : state.contacts.entrySet()) {
             if (!currentContacts.contains(entry.getKey())) {
                 ContactState contact = entry.getValue();
@@ -246,20 +211,8 @@ public final class SpearChargeCombat {
             double targetSpeed = targetMotion.dot(view);
             double projectedRelativeSpeed = Math.max(0.0D, attackerSpeed - targetSpeed);
 
-            
-            
-            
-            
-            
-            
-            
-            
-            
             double relativeMotionMagnitude = attackerMotion.subtract(targetMotion).length();
 
-            
-            
-            
             double speedMultiplier = attacker instanceof Player ? 1.0D : 0.2D;
 
             boolean dismount = condition(
@@ -325,8 +278,10 @@ public final class SpearChargeCombat {
                 level.playSound(null, target.getX(), target.getY(), target.getZ(),
                         ModSpearSounds.SPEAR_HIT, SoundSource.PLAYERS, 1.0F, 1.0F);
                 level.broadcastEntityEvent(attacker, (byte) 2);
-                Constants.LOG.info("[spear-kinetic][HIT] attacker={} target={} damage={} relSpeedProjected={} relSpeedMagnitude={}",
-                        attacker.getName().getString(), target.getName().getString(), didDamage, projectedRelativeSpeed, relativeMotionMagnitude);
+                if (DEBUG_LOG) {
+                    Constants.LOG.info("[spear-kinetic][HIT] attacker={} target={} damage={} relSpeedProjected={} relSpeedMagnitude={}",
+                            attacker.getName().getString(), target.getName().getString(), didDamage, projectedRelativeSpeed, relativeMotionMagnitude);
+                }
             }
         }
     }
@@ -363,11 +318,6 @@ public final class SpearChargeCombat {
         return elapsed <= Math.round(maxDurationSeconds * 20.0F)
                 && relativeSpeed >= minRelativeSpeed * speedMultiplier;
     }
-
-    
-
-
-
 
     private static List<TargetHit> findTargetsAlong(
             ServerLevel level,
@@ -413,7 +363,6 @@ public final class SpearChargeCombat {
         return hits;
     }
 
-    
     private static Double segmentAabbDistance(Vec3 start, Vec3 end, AABB box) {
         Vec3 d = end.subtract(start);
         double tMin = 0.0D;

@@ -1,0 +1,9 @@
+L’arcanite est le minerai ordinaire le plus avancé du mod et offre la meilleure aptitude aux enchantements.
+
+Génération : monde normal, dans la pierre et l’ardoise des abîmes, entre Y -64 et -32. Filons de 4 blocs, environ 4 par chunk. Le minerai exposé à l’air apparaît toujours.
+
+Butin : Chaque bloc de minerai donne 1 minerai brut. Fortune augmente la quantité ; Toucher de soie récupère le bloc.
+
+Caractéristiques : Durabilité : 2150 ; vitesse de minage : 8.5 ; dégâts d’attaque : +11.5 ; aptitude aux enchantements : 32 ; niveau de minage : Netherite.
+
+Atouts : Les flèches d’arcanite ne blessent pas directement : elles donnent à la cible un cœur doré d’absorption durable. Le motif Arcanite Heart protège quand la mort approche. Le bocal d’XP contient jusqu’à 1395 XP.

@@ -1,0 +1,9 @@
+Nyxium é um minério azul-escuro raro, carregado de magia sombria.
+
+Gera no Mundo Superior, em pedra e ardósia profunda. Há três distribuições que se sobrepõem: veio principal entre Y -64 e 16 (7 por chunk); bolsão grande entre Y -64 e -48 (1 por chunk); bolsão pequeno entre Y -64 e -4 (2 por chunk).
+
+Drops: Cada bloco de minério rende 1 minério bruto; Fortuna aumenta a quantidade e Toque Suave coleta o próprio bloco.
+
+Atributos: Durabilidade: 2200; velocidade de mineração: 8.0; dano de ataque: +10.0; encantabilidade: 15; nível de mineração: Netherita.
+
+Vantagens: A Espada de Nyxium aplica Wither por 3 segundos a cada golpe. As Flechas de Nyxium roubam até um coração do alvo e dão ao atirador um coração dourado de absorção.

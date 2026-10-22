@@ -1,0 +1,17 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:voidshard_ingot"
+    }
+  ],
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 8,
+  "cookingtime": 1800,
+  "group": "voidshard_ingot",
+  "ingredient": {
+    "tag": "c:ores/voidshard"
+  },
+  "result": "useful_ores:voidshard_ingot"
+}

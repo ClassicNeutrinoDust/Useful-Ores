@@ -20,6 +20,7 @@ public class ScheeliteArrowItem extends ArrowItem {
 
     public ScheeliteArrowItem(Item.Properties properties) {
         super(properties);
+        net.minecraft.world.level.block.DispenserBlock.registerProjectileBehavior(this);
     }
 
     @Override

@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:solarite_chestplate"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/solarite"
+    }
+  },
+  "result": {
+    "item": "useful_ores:solarite_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+La painite è un minerale rosso del Nether. L’armatura riduce la salute massima, ma l’equipaggiamento colpisce più forte quando la salute è bassa.
+
+Generazione: solo nel Nether, distribuita uniformemente tra Y 8 e 119. Vene da 8 blocchi, 2 tentativi per chunk. Il minerale esposto all’aria ha il 50% di probabilità di non generarsi.
+
+Bottino: Ogni blocco di minerale lascia 1 minerale grezzo; Fortuna aumenta la quantità e Tocco di velluto raccoglie il blocco.
+
+Statistiche: Durabilità: 1561; velocità di estrazione: 8.0; danno d’attacco: +3.0; incantabilità: 10; livello di estrazione: diamante.
+
+Vantaggi: Ogni pezzo d’armatura riduce la salute massima di 1 HP. Fury si attiva a 10 HP o meno per i giocatori e a metà salute per le altre creature. Durante Fury, l’armatura ottiene il 60% di difesa in più e gli attrezzi il 60% di danno e velocità di estrazione. La lancia ha anche un recupero più breve del 60%.

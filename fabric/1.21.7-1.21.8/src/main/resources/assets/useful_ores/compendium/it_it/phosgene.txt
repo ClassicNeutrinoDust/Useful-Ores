@@ -1,0 +1,9 @@
+Il fosgene è un minerale tossico e corrosivo, fragile ma molto comune e facile da raccogliere in grandi quantità.
+
+Generazione: nel mondo normale, in pietra e ardesia delle profondità, tra Y -32 e 64. Vene da 8 blocchi, circa 10 per chunk: è uno dei minerali più comuni della mod. Il minerale esposto all’aria si genera sempre.
+
+Bottino: Ogni blocco di minerale lascia 1 minerale grezzo; Fortuna aumenta la quantità e Tocco di velluto raccoglie il blocco.
+
+Statistiche: Durabilità: 650; velocità di estrazione: 6.5; danno d’attacco: +6.0; incantabilità: 6; livello di estrazione: ferro.
+
+Vantaggi: È utile per la produzione in massa. Il fosgene grezzo serve per la Polvere di Fosgene e la Fornace Solarite. La polvere può essere infusa con pozioni.

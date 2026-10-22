@@ -32,8 +32,6 @@ public class SperryliteCatalyticVialItem extends PotionItem {
     @Override
     public ItemStack getDefaultInstance() {
         
-        
-        
         return new ItemStack(this);
     }
 
@@ -58,8 +56,6 @@ public class SperryliteCatalyticVialItem extends PotionItem {
         Player player = context.getPlayer();
         ItemStack stack = context.getItemInHand();
 
-        
-        
         if (player == null
                 || context.getClickedFace() == net.minecraft.core.Direction.DOWN
                 || !level.getBlockState(context.getClickedPos()).is(BlockTags.CONVERTABLE_TO_MUD)
@@ -122,7 +118,6 @@ public class SperryliteCatalyticVialItem extends PotionItem {
 
         if (!level.isClientSide()) {
             
-            
             ItemStack filledVial = stack.split(1);
             filledVial.set(DataComponents.POTION_CONTENTS, new PotionContents(Potions.WATER));
 
@@ -151,10 +146,6 @@ public class SperryliteCatalyticVialItem extends PotionItem {
             return stack;
         }
 
-        
-        
-        
-        
         ItemStack emptyVial = stack.copyWithCount(1);
         emptyVial.remove(DataComponents.POTION_CONTENTS);
 

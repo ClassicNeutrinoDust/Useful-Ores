@@ -26,6 +26,10 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
 public class ModRegisters {
+      public static ResourceKey<net.minecraft.world.item.equipment.trim.TrimMaterial> trimKey(String material) {
+      return ResourceKey.create(Registries.TRIM_MATERIAL, Identifier.fromNamespaceAndPath("useful_ores", material));
+   }
+
    public static final String MODID = "useful_ores";
 
    public static final class RegisteredItem<T extends Item> implements Supplier<T> {
@@ -54,7 +58,6 @@ public class ModRegisters {
       float[] t = spearTuning(tool.speed());
       return registerItem(name + "_spear", p -> new Item(p.spear(tool, t[0], t[1], t[2], t[3], t[4], t[5], t[6], t[7], t[8])), itemProps.get());
    }
-
 
    public static RegisteredBlock<Block> registerBlock(
       String name,
@@ -105,7 +108,7 @@ public class ModRegisters {
    ) {
       return List.of(
          registerItem("raw_" + name,        Item::new, itemProps.get()),
-         registerItem(name + "_ingot",      Item::new, itemProps.get()),
+         registerItem(name + "_ingot",      Item::new, itemProps.get().trimMaterial(trimKey(name))),
          registerItem(name + "_nugget",     Item::new, itemProps.get()),
          registerItem(name + "_sword",      p -> new Item(p.sword(tool, swordattr[0], swordattr[1])), itemProps.get()),
          registerItem(name + "_pickaxe",    p -> new Item(p.pickaxe(tool, pickaxeattr[0], pickaxeattr[1])), itemProps.get()),
@@ -128,7 +131,7 @@ public class ModRegisters {
    ) {
       return List.of(
          registerItem("raw_" + name,        Item::new, itemProps.get()),
-         registerItem(name + "_ingot",      Item::new, itemProps.get()),
+         registerItem(name + "_ingot",      Item::new, itemProps.get().trimMaterial(trimKey(name))),
          registerItem(name + "_nugget",     Item::new, itemProps.get()),
          registerItem(name + "_sword",      p -> new Item(p.sword(tool, swordattr[0], swordattr[1])) {
             @Override

@@ -1,0 +1,5 @@
+A two-input gate. The output turns on when at least one input is powered. Delay: 1 tick.
+
+Place it on a solid block. The facing side is the output; the left and right sides are the inputs. Connect redstone dust or another redstone source.
+
+Truth table: 0/0 = 0, 0/1 = 1, 1/0 = 1, 1/1 = 1. Use it when either of two conditions should activate the same device.

@@ -1,6 +1,6 @@
 {
   "display": {
-    "background": "minecraft:gui/advancements/backgrounds/end",
+    "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
     "icon": {
       "id": "useful_ores:fulgurite_ingot"
     },

@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:ore_enabled",
+      "ore": "extruding_crystal"
+    }
+  ],
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#minecraft:is_overworld",
+      "#useful_ores:extruding_crystal/sulfur"
+    ]
+  },
+  "features": "useful_ores:extruding_crystal_ore_sulfur_placed",
+  "step": "underground_ores"
+}

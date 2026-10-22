@@ -1,4 +1,50 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:osmium_sword"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:osmium_pickaxe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:osmium_axe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:osmium_hoe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:osmium_shovel"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:osmium_helmet"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:osmium_chestplate"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:osmium_leggings"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:osmium_boots"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:osmium_nugget"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:osmium_block"
+    }
+  ],
   "criteria": {
     "get_osmium_ingot": {
       "trigger": "minecraft:inventory_changed",

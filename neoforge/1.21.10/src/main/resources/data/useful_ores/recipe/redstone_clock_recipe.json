@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:redstone_clock"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "pattern": [
@@ -11,5 +17,8 @@
     "T": "minecraft:redstone_torch",
     "C": "minecraft:clock"
   },
-  "result": { "id": "useful_ores:redstone_clock", "count": 1 }
+  "result": {
+    "id": "useful_ores:redstone_clock",
+    "count": 1
+  }
 }

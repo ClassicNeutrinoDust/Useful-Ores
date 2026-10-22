@@ -231,7 +231,6 @@ public class WirelessRedstoneRelayBlockEntity extends BlockEntity {
 
    public boolean isSelfInputPowered() { return this.selfInputPowered; }
 
-
    @Override
    public void setRemoved() {
       super.setRemoved();

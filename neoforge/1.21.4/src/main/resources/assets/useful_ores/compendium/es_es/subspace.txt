@@ -1,0 +1,9 @@
+Subspace es el material final del mod. Sus herramientas minan más rápido que cualquier otra y no se obtiene mediante generación natural.
+
+Se obtiene mediante fabricación: coloca un Fragmento Calentado en el centro y rodéalo con ocho lingotes de Enderium. No genera como mineral.
+
+Botín: Cada bloque de mena suelta 1 unidad de mineral en bruto; Fortuna aumenta la cantidad y Toque de seda recoge el bloque.
+
+Estadísticas: Herramientas: durabilidad 1561, velocidad de minería 8.0, daño +3.0, encantabilidad 10, nivel de minería: diamante. Armadura: defensa 3/8/6/3, dureza 2.0, sin resistencia al retroceso.
+
+Ventajas: Combina herramientas de Subspace con un cristal Farseeker para enviar los bloques extraídos directamente al inventario. La armadura completa mantiene el efecto de poción vinculado mientras se lleva; las armas aplican un efecto beneficioso al usuario y uno perjudicial al objetivo durante 10 segundos.

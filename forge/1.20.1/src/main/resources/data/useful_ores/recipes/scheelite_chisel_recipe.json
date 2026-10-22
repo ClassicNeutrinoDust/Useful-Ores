@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_chisel"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "useful_ores:scheelite_ingot"
+    }
+  },
+  "pattern": [
+    "X  ",
+    " # ",
+    "  #"
+  ],
+  "result": {
+    "item": "useful_ores:scheelite_chisel",
+    "count": 1
+  }
+}

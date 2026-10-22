@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:chiseled_argentite_block"
+    }
+  ],
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "useful_ores:argentite_block"
+  },
+  "result": "useful_ores:chiseled_argentite_block",
+  "count": 1
+}

@@ -16,6 +16,8 @@
     "useful_ores:enderium_axe",
     "useful_ores:voidshard_axe",
     "useful_ores:subspace_axe",
-    "useful_ores:attributed_subspace_axe"
+    "useful_ores:attributed_subspace_axe",
+    "useful_ores:lonsdaleite_axe",
+    "useful_ores:painite_axe"
   ]
 }

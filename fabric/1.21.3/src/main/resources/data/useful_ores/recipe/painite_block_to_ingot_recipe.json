@@ -1,7 +1,20 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:painite_ingot"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": [ "a" ],
-  "key": { "a": "useful_ores:painite_block" },
-  "result": { "id": "useful_ores:painite_ingot", "count": 9 }
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "useful_ores:painite_block"
+  },
+  "result": {
+    "id": "useful_ores:painite_ingot",
+    "count": 9
+  }
 }

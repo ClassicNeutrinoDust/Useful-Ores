@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:raw_osmium"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "useful_ores:raw_osmium_block"
+    }
+  },
+  "result": {
+    "item": "useful_ores:raw_osmium",
+    "count": 9
+  }
+}

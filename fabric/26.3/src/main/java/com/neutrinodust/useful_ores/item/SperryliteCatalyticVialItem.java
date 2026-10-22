@@ -75,8 +75,6 @@ public class SperryliteCatalyticVialItem extends PotionItem {
 
         if (!level.isClientSide()) {
                                                                                   
-                                                                                  
-                                                                             
             ItemStack filledVial = new ItemStack(this);
             filledVial.set(DataComponents.POTION_CONTENTS, new PotionContents(Potions.WATER));
             filledVial.set(DataComponents.MAX_STACK_SIZE, 1);
@@ -105,10 +103,6 @@ public class SperryliteCatalyticVialItem extends PotionItem {
         ItemStack stack = context.getItemInHand();
         PotionContents contents = stack.getOrDefault(DataComponents.POTION_CONTENTS, PotionContents.EMPTY);
 
-                                                                                   
-                                                                                   
-                                                                                
-                                                  
         boolean isDirtLike = state.is(Blocks.DIRT) || state.is(Blocks.COARSE_DIRT) || state.is(Blocks.ROOTED_DIRT);
         if (isDirtLike && contents.is(Potions.WATER)) {
             if (!level.isClientSide()) {
@@ -144,8 +138,6 @@ public class SperryliteCatalyticVialItem extends PotionItem {
             return stack;
         }
 
-                                                                             
-                                                                        
         if (stack.getCount() > 1) {
             stack.shrink(1);
             ItemStack emptyVial = new ItemStack(this);

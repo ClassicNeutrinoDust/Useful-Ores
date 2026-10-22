@@ -1,0 +1,17 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:arcanite_ingot"
+    }
+  ],
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 8,
+  "cookingtime": 400,
+  "group": "arcanite_ingot",
+  "ingredient": {
+    "tag": "c:ores/arcanite"
+  },
+  "result": "useful_ores:arcanite_ingot"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "useful_ores:config_add_features",
+  "ore": "solarite",
+  "biomes": "#minecraft:is_nether",
+  "features": "useful_ores:solarite_ore_placed",
+  "step": "underground_ores"
+}

@@ -1,0 +1,4 @@
+Materiale: durabilità 1561, velocità di estrazione 8.0, bonus ai danni +3.0, incantabilità 10.
+Danni / velocità d’attacco: spada 6.0 / 1.6, piccone 4.0 / 1.2, ascia 8.0 / 1.0, zappa 0.0 / 4.0, pala 4.5 / 1.0.
+
+Salute bassa: con 5 cuori o meno, una spada, un piccone, un’ascia, una zappa o una pala in painite tenuta in mano ottiene il 60% in più di danni e velocità di rottura dei blocchi.

@@ -1,0 +1,13 @@
+Los picos aparecen ordenados de menor a mayor nivel de minería. Un pico puede extraer bloques que requieran su nivel o uno inferior.
+
+Nivel 1 (madera, oro): picos de madera y oro. Extraen carbón, bloques de piedra y bloques sin requisito de herramienta.
+
+Nivel 2 (piedra): picos de piedra y zephyrita. También extraen hierro, mineral de zephyrita y mineral y bloques de argentita.
+
+Nivel 3 (hierro): picos de hierro, argentita, fosgeno, fulgurita, osmio, esperrilita y scheelita. También extraen diamante, redstone, esmeralda y oro, además de los minerales y bloques de fosgeno, fulgurita, osmio, esperrilita, scheelita, cromita e ilmenita.
+
+Nivel 4 (diamante): picos de diamante, cromita, ilmenita y painita. También extraen obsidiana, escombros ancestrales y minerales de nivel superior del mod, como nyxium, arcanita, solarita, enderium, voidshard, lonsdaleíta y painita.
+
+Nivel 5 (netherita): picos de netherita, nyxium, arcanita, solarita, enderium, voidshard, subespacio y lonsdaleíta. Pueden extraer los mismos bloques que el nivel 4, pero varían en velocidad, durabilidad y habilidades especiales.
+
+Excepción: solo un pico de voidshard puede romper el Pedestal Ancestral. Los demás picos, incluidos los de netherita y subespacio, no pueden romperlo. Consulta «Pedestal Ancestral» en Utilidad.

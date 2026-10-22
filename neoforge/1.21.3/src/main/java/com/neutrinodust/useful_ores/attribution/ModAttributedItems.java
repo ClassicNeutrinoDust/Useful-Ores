@@ -69,8 +69,6 @@ public class ModAttributedItems {
                 public boolean hurtEnemy(ItemStack stack,
                                           net.minecraft.world.entity.LivingEntity target,
                                           net.minecraft.world.entity.LivingEntity attacker) {
-                    
-                    
                     super.hurtEnemy(stack, target, attacker);
                     return true;
                 }
@@ -119,8 +117,6 @@ public class ModAttributedItems {
                 public boolean hurtEnemy(ItemStack stack,
                                           net.minecraft.world.entity.LivingEntity target,
                                           net.minecraft.world.entity.LivingEntity attacker) {
-                    
-                    
                     super.hurtEnemy(stack, target, attacker);
                     return true;
                 }

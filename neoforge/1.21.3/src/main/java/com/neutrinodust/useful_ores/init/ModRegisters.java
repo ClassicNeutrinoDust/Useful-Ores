@@ -42,7 +42,6 @@ public class ModRegisters {
       ), itemProps.get());
    }
 
-
    public static DeferredBlock<Block> registerBlock(
       String name,
       Function<net.minecraft.world.level.block.state.BlockBehaviour.Properties, Block> function,
@@ -138,9 +137,6 @@ public class ModRegisters {
             public boolean hurtEnemy(net.minecraft.world.item.ItemStack stack,
                                      net.minecraft.world.entity.LivingEntity target,
                                      net.minecraft.world.entity.LivingEntity attacker) {
-               
-               
-               
                super.hurtEnemy(stack, target, attacker);
                return true;
             }

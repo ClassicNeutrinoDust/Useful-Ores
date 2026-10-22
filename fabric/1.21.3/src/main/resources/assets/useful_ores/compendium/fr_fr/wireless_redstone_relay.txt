@@ -1,0 +1,29 @@
+Transmet un signal de redstone entre deux endroits sans ligne de poudre. Chaque relais reçoit le signal du côté opposé à sa face avant. La face avant est la sortie et émet une puissance maximale lorsque le relais est alimenté.
+
+Connexion
+
+Placez les deux relais sur des blocs solides, dans la même dimension et à 100 blocs maximum l’un de l’autre. Faites un clic droit, main vide, sur le premier puis sur le second. Le second suit alors l’entrée du premier : un levier à un bout peut contrôler une sortie à l’autre.
+
+Appuyez sur C pour annuler une sélection en attente. Les liens existants sont conservés.
+
+Modes
+
+Faites un clic droit en vous accroupissant pour passer entre SINGLE, MULTI et CONNECTION.
+
+SINGLE : un relais suit un autre relais. Par exemple, un interrupteur caché peut commander une lampe ou une porte à pistons à distance. Recommencez la sélection pour chaque paire.
+
+MULTI : un relais central commande plusieurs récepteurs. Passez-le en MULTI, faites un clic droit dessus, puis sur chaque récepteur. Il reste sélectionné pour en ajouter d’autres. Faites un nouveau clic droit sur un récepteur lié pour le déconnecter.
+
+CONNECTION : pour les chaînes et les lignes de distribution. Comme MULTI, ce mode transmet le signal à un autre relais, pratique pour alimenter plusieurs éléments éloignés depuis un relais intermédiaire.
+
+Entrées multiples
+
+Un récepteur peut suivre plusieurs relais en amont. À partir de deux, faites un clic droit en vous accroupissant pour choisir comment combiner leurs signaux. OR s’active si l’un des relais est actif ; AND seulement si tous le sont ; LATEST suit celui dont le signal a changé le plus récemment. Une sélection en attente est prioritaire : appuyez d’abord sur C pour l’annuler.
+
+Exemples
+
+Interrupteur à distance : relais A près d’un levier et relais B près d’une lampe, en SINGLE. Un interrupteur, plusieurs sorties : un hub MULTI relié à plusieurs récepteurs. Deux conditions : deux relais en amont d’un récepteur réglé sur AND. Plusieurs contrôleurs : deux relais en amont d’un récepteur réglé sur LATEST.
+
+Conseils
+
+Tous les relais liés doivent être dans la même dimension et à 100 blocs maximum. Chaque relais a toujours besoin d’un câblage de redstone local. En cas de problème, vérifiez le mode, les liens en amont, puis le réglage OR, AND ou LATEST.

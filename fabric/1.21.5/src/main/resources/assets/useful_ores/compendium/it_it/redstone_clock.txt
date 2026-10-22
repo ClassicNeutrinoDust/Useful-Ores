@@ -1,0 +1,7 @@
+Un oscillatore di redstone autonomo. Alterna l’uscita tra spento e potenza massima (15), senza ripetitori né circuiti di torce.
+
+Posizionalo su un blocco solido. La freccia indica l’uscita. Fai clic destro con la mano vuota per cambiare il periodo; ogni modifica riavvia l’orologio da spento.
+
+Un ciclo completo acceso/spento dura 2, 4, 10, 20, 40, 60, 100 o 200 tick (0,1; 0,2; 0,5; 1; 2; 3; 5 o 10 secondi).
+
+Non serve un ingresso di redstone. Usa l’uscita per alimentare polvere, lampade, porte logiche, relè o macchine.

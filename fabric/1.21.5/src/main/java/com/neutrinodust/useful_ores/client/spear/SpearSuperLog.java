@@ -2,29 +2,12 @@ package com.neutrinodust.useful_ores.client.spear;
 
 import com.neutrinodust.useful_ores.Constants;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public final class SpearSuperLog {
     private SpearSuperLog() {}
 
-    public static final boolean ENABLED = true;
+    public static final boolean ENABLED = false;
 
     private static long lastRenderLogTick = Long.MIN_VALUE;
-
-    
-
 
     public static void startAttack(long tick, String hitType, boolean isUsingItem,
                                     boolean onCooldown, String outcome) {
@@ -33,11 +16,6 @@ public final class SpearSuperLog {
                 "[spear-super][startAttack] tick={} hit={} usingItem={} onCooldown={} outcome={}",
                 tick, hitType, isUsingItem, onCooldown, outcome);
     }
-
-    
-
-
-
 
     public static void renderBranch(long tick, String hand, boolean useBranch,
                                      boolean isUsingItem, int useRemaining, float swingProgress,
@@ -50,20 +28,15 @@ public final class SpearSuperLog {
                 tick, hand, useBranch ? "USE" : "ATTACK", isUsingItem, useRemaining, swingProgress, equipProgress, currentHitType);
     }
 
-    
-
     public static void sprintGate(long tick, boolean weBlockedTheStop) {
         if (!ENABLED) return;
         Constants.LOG.info("[spear-super][sprintGate] tick={} weKeptSprintingAllowed={}", tick, weBlockedTheStop);
     }
 
-    
     public static void swingDuration(long tick, String entity, int durationTicks) {
         if (!ENABLED) return;
         Constants.LOG.info("[spear-super][swingDuration] tick={} entity={} duration={}t", tick, entity, durationTicks);
     }
-
-    
 
     public static void useStart(String side, long tick, String player) {
         if (!ENABLED) return;
@@ -75,7 +48,6 @@ public final class SpearSuperLog {
         Constants.LOG.info("[spear-super][useEnd:{}] tick={} player={}", side, tick, player);
     }
 
-    
     public static void attackHit(long tick, String attacker, String target) {
         if (!ENABLED) return;
         Constants.LOG.info("[spear-super][attackHit] tick={} attacker={} target={}", tick, attacker, target);

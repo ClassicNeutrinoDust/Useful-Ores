@@ -1,0 +1,9 @@
+Chromite es un metal duro y resistente a la corrosión, situado entre el hierro y el diamante.
+
+Se genera en el mundo superior, en piedra y pizarra profunda, entre Y -32 y 0. Vetas de 4 bloques, unas 4 por chunk. El mineral expuesto al aire siempre se genera.
+
+Botín: Cada bloque de mena suelta 1 unidad de mineral en bruto; Fortuna aumenta la cantidad y Toque de seda recoge el bloque.
+
+Estadísticas: Durabilidad: 1650; velocidad de minería: 7.0; daño de ataque: +8.0; encantabilidad: 12; nivel de minería: diamante.
+
+Ventajas: Es una mejora duradera para pasar del hierro al diamante sin buscar un material más raro.

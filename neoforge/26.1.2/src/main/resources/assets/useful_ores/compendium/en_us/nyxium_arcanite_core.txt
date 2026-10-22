@@ -1,0 +1,3 @@
+A crafting component made from Nyxium, Arcanite, Voidshard and an Ender Eye. It has no use on its own.
+
+Combine it with Dragon’s Breath to make a Volatile Nyxiumnite Core. Follow the recipe shown below.

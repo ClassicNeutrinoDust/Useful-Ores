@@ -1,0 +1,13 @@
+As picaretas estão listadas do menor para o maior nível de mineração. Uma picareta minera blocos que exigem seu nível ou um nível inferior.
+
+Nível 1 (madeira, ouro): picaretas de madeira e ouro. Mineram carvão, blocos de pedra e blocos sem requisito de ferramenta.
+
+Nível 2 (pedra): picaretas de pedra e zephyrite. Também mineram minério de ferro, minério de zephyrite e minérios e blocos de argentite.
+
+Nível 3 (ferro): picaretas de ferro, argentite, fosgênio, fulgurite, ósmio, sperrylite e scheelite. Também mineram diamante, redstone, esmeralda e ouro, além dos minérios e blocos de fosgênio, fulgurite, ósmio, sperrylite, scheelite, cromita e ilmenita.
+
+Nível 4 (diamante): picaretas de diamante, cromita, ilmenita e painite. Também mineram obsidiana, detritos ancestrais e minérios de nível superior do mod, como nyxium, arcanite, solarite, enderium, voidshard, lonsdaleíta e painite.
+
+Nível 5 (netherita): picaretas de netherita, nyxium, arcanite, solarite, enderium, voidshard, subspace e lonsdaleíta. Elas mineram os mesmos blocos do nível 4, mas diferem em velocidade, durabilidade e habilidades especiais.
+
+Exceção: apenas uma picareta de voidshard pode quebrar o Pedestal Ancestral. Todas as outras, inclusive as de netherita e subspace, falham. Consulte «Pedestal Ancestral» em Utilidades.

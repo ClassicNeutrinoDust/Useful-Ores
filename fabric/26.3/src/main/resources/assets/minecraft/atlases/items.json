@@ -21,7 +21,12 @@
         "argentite": "useful_ores:trim/argentite",
         "zephyrite": "useful_ores:trim/zephyrite",
         "ilmenite": "useful_ores:trim/ilmenite",
-        "scheelite": "useful_ores:trim/scheelite"
+        "scheelite": "useful_ores:trim/scheelite",
+        "voidshard": "useful_ores:trim/voidshard",
+        "enderium": "useful_ores:trim/enderium",
+        "painite": "useful_ores:trim/painite",
+        "lonsdaleite": "useful_ores:trim/lonsdaleite",
+        "subspace": "useful_ores:trim/subspace"
       },
       "textures": [
         "minecraft:trims/items/helmet_trim",

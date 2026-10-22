@@ -2,12 +2,6 @@ package com.neutrinodust.useful_ores.client;
 
 import net.minecraft.world.item.ItemStack;
 
-
-
-
-
-
-
 public interface SpearItemRenderStateAccess {
     void usefulOres$setItemStack(ItemStack stack);
     ItemStack usefulOres$getItemStack();

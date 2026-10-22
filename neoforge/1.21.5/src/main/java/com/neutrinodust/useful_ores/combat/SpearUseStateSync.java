@@ -7,7 +7,6 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 
-
 @EventBusSubscriber(modid = "useful_ores")
 public final class SpearUseStateSync {
     private SpearUseStateSync() {}

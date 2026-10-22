@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:chiseled_osmium_block"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "useful_ores:osmium_block"
+    }
+  },
+  "result": {
+    "item": "useful_ores:chiseled_osmium_block",
+    "count": 4
+  }
+}

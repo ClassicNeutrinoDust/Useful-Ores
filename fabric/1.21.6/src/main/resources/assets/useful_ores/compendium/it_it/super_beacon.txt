@@ -1,0 +1,3 @@
+Faro che usa una [Stella del Nether estrusa](Utility/Extruding Nether Star) al posto di una stella normale. La portata aumenta con la dimensione della piramide.
+
+Posizionalo come un faro normale sopra una piramide minerale valida, con il cielo libero. Il raggio iniziale è di 64 blocchi; ogni livello aggiuntivo aggiunge 112 blocchi alla portata. Scegli gli effetti dalla normale interfaccia del faro.

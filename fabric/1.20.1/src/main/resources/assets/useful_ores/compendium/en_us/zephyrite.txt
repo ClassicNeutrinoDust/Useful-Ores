@@ -1,0 +1,9 @@
+Zephyrite is a weak but very common ore. It is the mod's closest thing to silicon, since it is the key ingredient in most logic gates, the Wireless Redstone Relay and the Redstone Clock.
+
+Found: Overworld, in stone and deepslate, from Y -16 to 112. Veins of 10, 14 per chunk, the most common ore in the mod. Ore touching air always spawns.
+
+Drops: 1 Raw Zephyrite per ore block, increased by Fortune. Silk Touch drops the ore block itself.
+
+Tool stats: durability 190 (lowest in the mod), mining speed 5.0, attack damage +4.0 (lowest in the mod), enchantability 9. Mining tier: Stone.
+
+Best for: redstone engineering. Keep Raw Zephyrite stocked if you plan to build logic circuits, wireless relays, clocks or rail controllers.

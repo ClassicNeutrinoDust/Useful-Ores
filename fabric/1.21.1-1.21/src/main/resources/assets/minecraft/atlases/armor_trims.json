@@ -68,7 +68,13 @@
         "argentite": "useful_ores:trims/color_palettes/argentite",
         "zephyrite": "useful_ores:trims/color_palettes/zephyrite",
         "ilmenite": "useful_ores:trims/color_palettes/ilmenite",
-        "scheelite": "useful_ores:trims/color_palettes/scheelite"
+        "scheelite": "useful_ores:trims/color_palettes/scheelite",
+        "voidshard": "useful_ores:trims/color_palettes/voidshard",
+        "lonsdaleite": "useful_ores:trims/color_palettes/lonsdaleite",
+        "painite": "useful_ores:trims/color_palettes/painite",
+        "enderium": "useful_ores:trims/color_palettes/enderium",
+        "subspace": "useful_ores:trims/color_palettes/subspace",
+        "attributed_subspace": "useful_ores:trims/color_palettes/attributed_subspace"
       }
     }
   ]

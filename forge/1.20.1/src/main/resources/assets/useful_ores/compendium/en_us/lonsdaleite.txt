@@ -1,0 +1,13 @@
+Lonsdaleite is a meteorite-only material, a hexagonal form of diamond. It has the same raw damage, mining speed and defense as Voidshard, but its tools and armor have roughly double the durability.
+
+Found: Overworld only, inside Crashed Meteorite structures. Six ore blobs are buried in the meteorite itself, replacing Meteorite Block and Core near its center, so you have to dig into the meteorite to reach them. It does not generate anywhere else.
+
+Drops: 1 Raw Lonsdaleite per ore block, increased by Fortune. Silk Touch drops the ore block itself.
+
+Tool stats: durability 6200, mining speed 25.0, attack damage +15.0, enchantability 28. Mining tier: Netherite. All Lonsdaleite tools and armor are fully enchantable.
+
+Armor: helmet 4 defense (638 durability), chestplate 13 (928), leggings 9 (870), boots 3 (754). Enchantability 27, toughness 3.8, knockback resistance 22%.
+
+Perks: each worn piece reduces explosion damage by 17.5%, up to 70% with the full four-piece set.
+
+Best for: Voidshard-level combat and mining with far fewer repairs, if you are willing to hunt down a Crashed Meteorite first.

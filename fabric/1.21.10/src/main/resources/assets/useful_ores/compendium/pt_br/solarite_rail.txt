@@ -1,0 +1,3 @@
+Trilho de alta velocidade para o [Vagão com Bateria de Solarite](Utility/Solarite Battery Minecart). Ele é sempre reto e impulsiona as vagonetas de forma diferente dos trilhos energizados comuns. A textura muda entre dia e noite.
+
+Coloque-o na linha de trilhos. Um sinal de redstone vindo de um bloco adjacente dá um impulso à vagoneta. Não há seletor de modo.

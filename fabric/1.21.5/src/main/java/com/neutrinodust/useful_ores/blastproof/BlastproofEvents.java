@@ -15,6 +15,14 @@ import net.minecraft.world.phys.BlockHitResult;
 
 public class BlastproofEvents {
 
+   public void onBlockBreak(net.minecraft.world.level.Level level, Player player, BlockPos pos,
+                           net.minecraft.world.level.block.state.BlockState state,
+                           net.minecraft.world.level.block.entity.BlockEntity blockEntity) {
+      if (level instanceof ServerLevel serverLevel) {
+         BlastproofBlockData.get(serverLevel).unmark(pos);
+      }
+   }
+
    public InteractionResult onUseBlock(Player player, Level level, InteractionHand hand, BlockHitResult hitResult) {
       if (hand != InteractionHand.MAIN_HAND) return InteractionResult.PASS;
       ItemStack stack = player.getItemInHand(hand);

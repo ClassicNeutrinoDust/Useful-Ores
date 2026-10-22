@@ -1,0 +1,3 @@
+The key for a [Titanium Lock](Utility/Titanium Lock). Use it on the locked container to open it; there is no configuration interface.
+
+Craft it from two Ilmenite Nuggets. Keep it somewhere safe if the locked container needs to stay secure.

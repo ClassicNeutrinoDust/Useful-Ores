@@ -1,0 +1,5 @@
+Difesa: elmo 3, corazza 8, gambali 6, stivali 3.
+Durata: elmo 363, corazza 528, gambali 495, stivali 429.
+Incantabilità 10, robustezza 2.0, resistenza al contraccolpo 0%.
+
+Bonus del set: ogni pezzo riduce la salute massima di 1 HP; con il set completo restano 8 cuori. Con 5 cuori o meno si attiva Furia: ogni pezzo aggiunge un altro 60% della propria difesa e l’armatura cambia aspetto. Vedi Furia della painite.

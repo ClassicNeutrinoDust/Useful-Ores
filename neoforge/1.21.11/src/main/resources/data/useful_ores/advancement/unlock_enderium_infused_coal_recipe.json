@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:enderium_infused_coal"
+    }
+  ],
   "criteria": {
     "has_ingredient": {
       "trigger": "minecraft:inventory_changed",

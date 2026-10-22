@@ -1,0 +1,11 @@
+O equipamento de subspace pode carregar permanentemente um efeito de poção vanilla. Primeiro, crie um Lingote de Subspace Atribuído; depois, use-o para fabricar o equipamento.
+
+Para atribuir um lingote, coloque um Lingote de Subspace e qualquer poção vanilla cheia na grade de criação. O resultado recebe o efeito da poção. Efeitos que podem ser preparados funcionam, incluindo Cura Instantânea, Dano Instantâneo, Resistência ao Fogo, Respiração Aquática e Visão Noturna.
+
+Fabrique o equipamento com a receita normal de subspace, substituindo cada lingote por um lingote atribuído. Todos precisam ter o mesmo efeito. Armas e ferramentas ainda precisam de gravetos; armaduras não.
+
+Armadura: use o conjunto completo com o mesmo efeito em todas as peças para mantê-lo enquanto estiver equipado.
+
+Armas e ferramentas: acertar um alvo com uma espada, machado, picareta, pá ou enxada atribuída aplica o efeito por 10 segundos. Efeitos benéficos vão para você; efeitos negativos, para o alvo. Efeitos instantâneos são aplicados na hora.
+
+Efeitos instantâneos podem ser usados em armas e ferramentas, mas não em armaduras.

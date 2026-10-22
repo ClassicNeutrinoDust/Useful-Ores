@@ -17,14 +17,6 @@ import net.minecraft.world.level.gameevent.GameEvent;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 
-
-
-
-
-
-
-
-
 public final class SperryliteVialDirtEvents {
 
     private static final PotionContents WATER_CONTENTS = new PotionContents(Potions.WATER);

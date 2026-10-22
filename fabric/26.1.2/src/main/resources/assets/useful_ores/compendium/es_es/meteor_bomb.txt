@@ -1,0 +1,3 @@
+Explosivo arrojadizo que rompe bloques con una fuerza similar a la de un creeper, incluso bajo el agua. Cada fabricación da cuatro bombas.
+
+Haz clic derecho para lanzarla. Se fabrican cuatro con ocho polvos de meteorito alrededor de pólvora. El polvo se obtiene de bloques de meteorito en un [Meteorito estrellado](Misc/Crashed Meteorite); la pólvora cae de los creepers y aparece en cofres.

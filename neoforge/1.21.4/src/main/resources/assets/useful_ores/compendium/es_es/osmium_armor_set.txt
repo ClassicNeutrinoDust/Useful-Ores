@@ -1,0 +1,5 @@
+Defensa: casco 2, pechera 8, grebas 5, botas 2.
+Durabilidad: casco 330, pechera 480, grebas 450, botas 390.
+Encantabilidad 20, dureza 1.5, resistencia al retroceso 35%.
+
+Bonificación del conjunto: las cuatro piezas te permiten caminar por el fondo del agua en vez de flotar. Un conjunto incompleto no tiene efecto.

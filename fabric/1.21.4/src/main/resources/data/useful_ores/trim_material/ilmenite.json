@@ -1,0 +1,9 @@
+{
+  "asset_name": "ilmenite",
+  "description": {
+    "color": "#AAABB8",
+    "translate": "trim_material.useful_ores.ilmenite"
+  },
+  "ingredient": "useful_ores:ilmenite_ingot",
+  "item_model_index": 0.0
+}

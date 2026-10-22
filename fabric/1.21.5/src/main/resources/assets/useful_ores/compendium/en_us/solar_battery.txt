@@ -1,0 +1,3 @@
+A rechargeable battery for the [Solarite Furnace](Utility/Solarite Furnace) and other compatible Solarite machines. It keeps its charge between uses.
+
+Charge it with the mod’s solar charging system, then place it in a compatible machine. It is also used to craft the [Solarite Battery Minecart](Utility/Solarite Battery Minecart).

@@ -1,0 +1,7 @@
+{
+  "type": "useful_ores:config_add_features",
+  "ore": "sperrylite",
+  "biomes": "#minecraft:is_overworld",
+  "features": "useful_ores:sperrylite_ore_placed",
+  "step": "underground_ores"
+}

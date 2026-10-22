@@ -1,0 +1,2 @@
+Materiale: durabilità 190, velocità di estrazione 5.0, bonus ai danni +4.0, incantabilità 9.
+Danni / velocità d’attacco: spada 7.0 / 1.6, piccone 6.0 / 1.2, ascia 9.0 / 0.8, zappa 4.0 / 2.0, pala 6.0 / 1.0.

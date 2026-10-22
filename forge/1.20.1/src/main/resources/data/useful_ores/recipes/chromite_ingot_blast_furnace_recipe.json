@@ -1,0 +1,17 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_ingot"
+    }
+  ],
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 6,
+  "cookingtime": 150,
+  "group": "chromite_ingot",
+  "ingredient": {
+    "tag": "c:raw_materials/chromite"
+  },
+  "result": "useful_ores:chromite_ingot"
+}

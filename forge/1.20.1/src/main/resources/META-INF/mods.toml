@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="useful_ores"
+version="${version}"
+displayName="Useful Ores"
+authors="NeutrinoDust"
+description='''Adds the Useful Ores content and mechanics.'''
+[[dependencies.useful_ores]]
+modId="forge"
+mandatory=true
+versionRange="[47.2.0,48)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.useful_ores]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.useful_ores]]
+modId="geckolib"
+mandatory=true
+versionRange="[4.8.4,4.9)"
+ordering="AFTER"
+side="BOTH"

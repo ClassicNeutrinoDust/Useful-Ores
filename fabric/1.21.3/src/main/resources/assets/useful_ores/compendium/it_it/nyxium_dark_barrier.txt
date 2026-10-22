@@ -1,0 +1,3 @@
+Blocco difensivo creato con un Nucleo Oscuro, Nyxium, Arcanite e pietranera. È pensato per mura e stanze protette.
+
+Non ha interfaccia né modalità. Le regole speciali di raccolta possono impedire agli strumenti comuni di recuperarlo; controlla i requisiti prima di romperlo.

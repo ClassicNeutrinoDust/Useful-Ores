@@ -1,0 +1,5 @@
+Estructura de superficie con un cráter quemado y un meteorito enterrado debajo. El mineral de lonsdaleíta se encuentra dentro del meteorito.
+
+Aparece en tierra en el mundo superior, en promedio una vez cada 81 chunks, con al menos 20 chunks entre lugares. Busca un cráter quemado con forma de cuenco. El meteorito es una masa irregular de 5 a 10 bloques de radio, con un Núcleo de meteorito más denso cerca del centro.
+
+Dentro del meteorito aparecen seis bolsas de mineral de lonsdaleíta. El núcleo permite iniciar las recetas del bastón de meteorito y de la bomba de meteorito.

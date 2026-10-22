@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:voidshard_leggings"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/voidshard"
+    }
+  },
+  "result": {
+    "item": "useful_ores:voidshard_leggings",
+    "count": 1
+  }
+}

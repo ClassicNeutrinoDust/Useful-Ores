@@ -1,0 +1,17 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:osmium_ingot"
+    }
+  ],
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 6,
+  "cookingtime": 300,
+  "group": "osmium_ingot",
+  "ingredient": {
+    "tag": "c:raw_materials/osmium"
+  },
+  "result": "useful_ores:osmium_ingot"
+}

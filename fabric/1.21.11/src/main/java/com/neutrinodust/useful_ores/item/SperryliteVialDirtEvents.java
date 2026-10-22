@@ -17,14 +17,6 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.gameevent.GameEvent;
 import net.minecraft.world.phys.BlockHitResult;
 
-
-
-
-
-
-
-
-
 public final class SperryliteVialDirtEvents {
 
     private static final PotionContents WATER_CONTENTS = new PotionContents(Potions.WATER);
@@ -36,8 +28,6 @@ public final class SperryliteVialDirtEvents {
     }
 
     private static InteractionResult onUseBlock(Player player, Level level, InteractionHand hand, BlockHitResult hit) {
-        if (hand != InteractionHand.MAIN_HAND) return InteractionResult.PASS;
-
         ItemStack stack = player.getItemInHand(hand);
         if (!(stack.getItem() instanceof SperryliteCatalyticVialItem)) return InteractionResult.PASS;
 
@@ -45,7 +35,8 @@ public final class SperryliteVialDirtEvents {
         if (contents == null || !contents.equals(WATER_CONTENTS)) return InteractionResult.PASS;
 
         BlockPos pos = hit.getBlockPos();
-        if (!level.getBlockState(pos).is(Blocks.DIRT)) return InteractionResult.PASS;
+        if (hit.getDirection() == net.minecraft.core.Direction.DOWN
+                || !level.getBlockState(pos).is(net.minecraft.tags.BlockTags.CONVERTABLE_TO_MUD)) return InteractionResult.PASS;
 
         if (!level.isClientSide()) {
             level.playSound(null, pos, SoundEvents.GENERIC_SPLASH, SoundSource.BLOCKS, 1.0F, 1.0F);

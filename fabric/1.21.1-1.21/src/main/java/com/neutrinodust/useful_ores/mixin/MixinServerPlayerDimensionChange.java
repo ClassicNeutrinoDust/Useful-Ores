@@ -16,7 +16,6 @@ public class MixinServerPlayerDimensionChange {
             DimensionTransition transition, CallbackInfoReturnable<net.minecraft.world.entity.Entity> cir) {
         BioluminescentSyncEvents.sendFullSync((ServerPlayer) (Object) this);
         com.neutrinodust.useful_ores.lock.ChestLockSyncEvents.sendFullSync((ServerPlayer) (Object) this);
-        com.neutrinodust.useful_ores.phosgene.PhosgenePowderSync.sendFullSync((ServerPlayer) (Object) this);
     }
 }
 

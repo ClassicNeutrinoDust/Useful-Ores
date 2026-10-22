@@ -1,0 +1,3 @@
+The Nyxiumnite Staff binds to this block and uses it as the destination for its wormhole shots. It has no interface and cannot be crafted.
+
+Ancient Pedestals generate inside an [Ancient Pedestal Chamber](Misc/Ancient Pedestal Chamber). Right-click one with the staff to save its dimension and coordinates. Only a Voidshard Pickaxe can break it.

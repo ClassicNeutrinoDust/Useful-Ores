@@ -46,11 +46,6 @@ public class ArcaniteXpJarBlock extends BaseEntityBlock {
                 .setValue(FILL_STAGE, 0));
     }
 
-    
-
-
-
-
     @Override
     public RenderShape getRenderShape(BlockState state) {
         return RenderShape.MODEL;
@@ -127,13 +122,13 @@ public class ArcaniteXpJarBlock extends BaseEntityBlock {
     }
 
     @Override
-    public BlockState playerWillDestroy(Level level, BlockPos pos, BlockState state, Player player) {
-        if (!level.isClientSide() && level.getBlockEntity(pos) instanceof ArcaniteXpJarBlockEntity be) {
-            ItemStack drop = new ItemStack(ModItems.ARCANITE_XP_JAR.get());
-            ArcaniteXpJarItem.setStoredXp(drop, be.getStoredXp());
-            Block.popResource(level, pos, drop);
-        }
-        return super.playerWillDestroy(level, pos, state, player);
+    public java.util.List<ItemStack> getDrops(BlockState state, net.minecraft.world.level.storage.loot.LootParams.Builder params) {
+        if (!com.neutrinodust.useful_ores.util.BlockDropUtil.survivesExplosion(params)) return java.util.List.of();
+        net.minecraft.world.level.block.entity.BlockEntity be =
+                params.getOptionalParameter(net.minecraft.world.level.storage.loot.parameters.LootContextParams.BLOCK_ENTITY);
+        ItemStack drop = new ItemStack(ModItems.ARCANITE_XP_JAR.get());
+        if (be instanceof ArcaniteXpJarBlockEntity jar) ArcaniteXpJarItem.setStoredXp(drop, jar.getStoredXp());
+        return java.util.List.of(drop);
     }
 
     @Override

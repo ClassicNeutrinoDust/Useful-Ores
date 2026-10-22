@@ -1,0 +1,4 @@
+Material: durabilidade 650, velocidade de mineração 6.5, bônus de dano +6.0, encantabilidade 6.
+Dano / velocidade de ataque: espada 11.0 / 1.4, picareta 9.0 / 1.2, machado 11.0 / 0.9, enxada 6.0 / 3.0, pá 9.0 / 1.0.
+
+Ao acertar: aplica Veneno por 3 segundos.

@@ -1,4 +1,54 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_sword"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_pickaxe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_axe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_hoe"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_shovel"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_helmet"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_chestplate"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_leggings"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_boots"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_nugget"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_block"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_chisel"
+    }
+  ],
   "criteria": {
     "get_scheelite_ingot": {
       "trigger": "minecraft:inventory_changed",

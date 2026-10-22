@@ -1,0 +1,29 @@
+Envía señales de redstone entre lugares sin necesidad de una línea de polvo. Cada relé recibe la señal por el lado opuesto al que mira. El lado frontal es la salida y emite potencia máxima cuando está activado.
+
+Conexión
+
+Coloca ambos relés sobre bloques sólidos, en la misma dimensión y a no más de 100 bloques de distancia. Haz clic derecho con la mano vacía en el primero y después en el segundo. El segundo seguirá la entrada del primero, de modo que una palanca en un extremo puede controlar una salida en el otro.
+
+Pulsa C para cancelar una selección pendiente. Los enlaces existentes no se eliminan.
+
+Modos
+
+Haz clic derecho mientras te agachas para alternar entre SINGLE, MULTI y CONNECTION.
+
+SINGLE: un relé sigue a otro. Por ejemplo, un interruptor oculto puede controlar una lámpara o una puerta de pistones a distancia. Inicia una selección nueva para cada pareja.
+
+MULTI: un relé central controla varios receptores. Pon el central en MULTI, haz clic derecho en él y después en cada receptor. Seguirá seleccionado para que puedas añadir más. Vuelve a hacer clic derecho en un receptor conectado para desvincularlo.
+
+CONNECTION: para cadenas y líneas de distribución. Funciona como MULTI, pero sirve para pasar una señal a otro relé intermedio que controle varios dispositivos remotos.
+
+Varias entradas
+
+Un receptor puede seguir a varios relés. Cuando tenga dos o más, haz clic derecho mientras te agachas para elegir cómo combinar las señales. OR se activa si cualquier relé está encendido; AND solo si todos lo están; LATEST sigue al relé cuya señal cambió más recientemente. La selección pendiente tiene prioridad, así que pulsa C para cancelarla primero.
+
+Ejemplos
+
+Interruptor remoto: Relé A junto a una palanca y Relé B junto a una lámpara, en modo SINGLE. Un interruptor y varias salidas: un centro MULTI conectado a varios receptores. Dos condiciones: conecta dos relés a un receptor en modo AND. Varios controladores: usa dos relés y configura el receptor en LATEST.
+
+Consejos
+
+Todos los relés conectados deben estar en la misma dimensión y a menos de 100 bloques. Cada uno necesita redstone normal para su circuito local. Si la red falla, revisa el modo, los enlaces de entrada y después la opción OR, AND o LATEST.

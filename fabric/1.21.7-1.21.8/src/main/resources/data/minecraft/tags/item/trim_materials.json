@@ -12,6 +12,12 @@
     "useful_ores:argentite_ingot",
     "useful_ores:zephyrite_ingot",
     "useful_ores:ilmenite_ingot",
-    "useful_ores:scheelite_ingot"
+    "useful_ores:scheelite_ingot",
+    "useful_ores:voidshard_ingot",
+    "useful_ores:enderium_ingot",
+    "useful_ores:painite_ingot",
+    "useful_ores:lonsdaleite_ingot",
+    "useful_ores:subspace_ingot",
+    "useful_ores:attributed_subspace_ingot"
   ]
 }

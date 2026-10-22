@@ -1,0 +1,5 @@
+Défense: casque 4, plastron 13, jambières 9, bottes 3.
+Durabilité: casque 638, plastron 928, jambières 870, bottes 754.
+Enchantabilité 27, robustesse 3.8, résistance au recul 22%.
+
+Bonus d’ensemble : chaque pièce réduit les dégâts d’explosion de 17,5 %, jusqu’à 70 % avec les quatre. Le bonus dépend du nombre de pièces portées. Toute l’armure et tous les outils en lonsdaléite peuvent être enchantés.

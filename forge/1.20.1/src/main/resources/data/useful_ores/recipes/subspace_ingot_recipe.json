@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:subspace_ingot"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/enderium"
+    },
+    "b": {
+      "item": "useful_ores:heated_shard"
+    }
+  },
+  "result": {
+    "item": "useful_ores:subspace_ingot",
+    "count": 1
+  }
+}

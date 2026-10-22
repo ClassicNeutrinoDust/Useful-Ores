@@ -1,0 +1,9 @@
+Three arrows with different effects. They work with any bow and need no special charge.
+
+Scheelite Arrow: deals 1.5 times the damage of a normal, unenchanted bow shot. Its flight and drop are otherwise the same as a vanilla arrow.
+
+Arcanite Arrow: deals no direct damage. A hit gives the target one golden absorption heart, which remains until it absorbs damage.
+
+Nyxium Arrow: takes up to one heart from the target, never reducing it below half a heart, and gives the shooter a golden absorption heart.
+
+Crafting: place one matching ingot, a stick and a feather in a vertical column to make four arrows. The three recipes are shown below.

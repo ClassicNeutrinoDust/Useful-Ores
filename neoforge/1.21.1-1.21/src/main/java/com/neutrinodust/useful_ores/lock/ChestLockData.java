@@ -79,12 +79,6 @@ public class ChestLockData extends SavedData {
         return locks.containsKey(pos.asLong());
     }
 
-
-    
-
-
-
-
     public static java.util.List<BlockPos> getContainerPositions(net.minecraft.world.level.Level level, BlockPos pos) {
         java.util.ArrayList<BlockPos> positions = new java.util.ArrayList<>(2);
         BlockState state = level.getBlockState(pos);
@@ -105,7 +99,6 @@ public class ChestLockData extends SavedData {
         return positions;
     }
 
-    
     public LockEntry getForContainer(net.minecraft.world.level.Level level, BlockPos pos) {
         for (BlockPos containerPos : getContainerPositions(level, pos)) {
             LockEntry entry = get(containerPos);
@@ -114,7 +107,6 @@ public class ChestLockData extends SavedData {
         return null;
     }
 
-    
     public void lockContainer(net.minecraft.world.level.Level level, BlockPos pos, UUID owner, UUID lockId) {
         LockEntry entry = new LockEntry(owner, lockId, false);
         for (BlockPos containerPos : getContainerPositions(level, pos)) {
@@ -123,7 +115,6 @@ public class ChestLockData extends SavedData {
         setDirty();
     }
 
-    
     public void markContainerBound(net.minecraft.world.level.Level level, BlockPos pos) {
         LockEntry existing = getForContainer(level, pos);
         if (existing == null || existing.bound()) return;
@@ -134,7 +125,6 @@ public class ChestLockData extends SavedData {
         setDirty();
     }
 
-    
     public void unlockContainer(net.minecraft.world.level.Level level, BlockPos pos) {
         boolean changed = false;
         for (BlockPos containerPos : getContainerPositions(level, pos)) {
@@ -143,7 +133,6 @@ public class ChestLockData extends SavedData {
         if (changed) setDirty();
     }
 
-    
     public boolean isLocked(net.minecraft.world.level.Level level, BlockPos pos) {
         for (BlockPos containerPos : getContainerPositions(level, pos)) {
             if (isLocked(containerPos)) return true;
@@ -151,11 +140,29 @@ public class ChestLockData extends SavedData {
         return false;
     }
 
-    
+    public static void onChestRemoved(ServerLevel level, BlockPos pos) {
+        ChestLockData data = get(level);
+        if (data.locks.remove(pos.asLong()) != null) {
+            data.setDirty();
+            ChestLockSyncEvents.sendUnlockedToAll(level, pos);
+        }
+    }
 
-
+    private void pruneStale(net.minecraft.world.level.Level level) {
+        boolean changed = false;
+        java.util.Iterator<Map.Entry<Long, LockEntry>> it = locks.entrySet().iterator();
+        while (it.hasNext()) {
+            BlockPos pos = BlockPos.of(it.next().getKey());
+            if (level.isLoaded(pos) && !(level.getBlockState(pos).getBlock() instanceof net.minecraft.world.level.block.ChestBlock)) {
+                it.remove();
+                changed = true;
+            }
+        }
+        if (changed) setDirty();
+    }
 
     public List<Long> snapshotPositions(net.minecraft.world.level.Level level) {
+        pruneStale(level);
         java.util.ArrayList<Long> original = new java.util.ArrayList<>(locks.keySet());
         java.util.HashMap<Long, LockEntry> additions = new java.util.HashMap<>();
         for (Long packed : original) {

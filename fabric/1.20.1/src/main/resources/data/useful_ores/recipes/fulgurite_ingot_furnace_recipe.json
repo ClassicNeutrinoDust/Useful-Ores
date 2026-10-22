@@ -1,0 +1,17 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:fulgurite_ingot"
+    }
+  ],
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 7,
+  "cookingtime": 2400,
+  "group": "fulgurite_ingot",
+  "ingredient": {
+    "tag": "c:raw_materials/fulgurite"
+  },
+  "result": "useful_ores:fulgurite_ingot"
+}

@@ -1,0 +1,244 @@
+{
+  "variants": {
+    "facing=north,period_index=0,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p0"
+    },
+    "facing=north,period_index=1,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p1"
+    },
+    "facing=north,period_index=2,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p2"
+    },
+    "facing=north,period_index=3,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p3"
+    },
+    "facing=north,period_index=4,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p4"
+    },
+    "facing=north,period_index=5,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p5"
+    },
+    "facing=north,period_index=6,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p6"
+    },
+    "facing=north,period_index=7,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p7"
+    },
+    "facing=north,period_index=0,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p0_on"
+    },
+    "facing=north,period_index=1,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p1_on"
+    },
+    "facing=north,period_index=2,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p2_on"
+    },
+    "facing=north,period_index=3,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p3_on"
+    },
+    "facing=north,period_index=4,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p4_on"
+    },
+    "facing=north,period_index=5,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p5_on"
+    },
+    "facing=north,period_index=6,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p6_on"
+    },
+    "facing=north,period_index=7,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p7_on"
+    },
+    "facing=east,period_index=0,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p0",
+      "y": 90
+    },
+    "facing=east,period_index=1,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p1",
+      "y": 90
+    },
+    "facing=east,period_index=2,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p2",
+      "y": 90
+    },
+    "facing=east,period_index=3,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p3",
+      "y": 90
+    },
+    "facing=east,period_index=4,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p4",
+      "y": 90
+    },
+    "facing=east,period_index=5,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p5",
+      "y": 90
+    },
+    "facing=east,period_index=6,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p6",
+      "y": 90
+    },
+    "facing=east,period_index=7,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p7",
+      "y": 90
+    },
+    "facing=east,period_index=0,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p0_on",
+      "y": 90
+    },
+    "facing=east,period_index=1,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p1_on",
+      "y": 90
+    },
+    "facing=east,period_index=2,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p2_on",
+      "y": 90
+    },
+    "facing=east,period_index=3,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p3_on",
+      "y": 90
+    },
+    "facing=east,period_index=4,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p4_on",
+      "y": 90
+    },
+    "facing=east,period_index=5,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p5_on",
+      "y": 90
+    },
+    "facing=east,period_index=6,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p6_on",
+      "y": 90
+    },
+    "facing=east,period_index=7,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p7_on",
+      "y": 90
+    },
+    "facing=south,period_index=0,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p0",
+      "y": 180
+    },
+    "facing=south,period_index=1,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p1",
+      "y": 180
+    },
+    "facing=south,period_index=2,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p2",
+      "y": 180
+    },
+    "facing=south,period_index=3,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p3",
+      "y": 180
+    },
+    "facing=south,period_index=4,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p4",
+      "y": 180
+    },
+    "facing=south,period_index=5,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p5",
+      "y": 180
+    },
+    "facing=south,period_index=6,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p6",
+      "y": 180
+    },
+    "facing=south,period_index=7,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p7",
+      "y": 180
+    },
+    "facing=south,period_index=0,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p0_on",
+      "y": 180
+    },
+    "facing=south,period_index=1,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p1_on",
+      "y": 180
+    },
+    "facing=south,period_index=2,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p2_on",
+      "y": 180
+    },
+    "facing=south,period_index=3,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p3_on",
+      "y": 180
+    },
+    "facing=south,period_index=4,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p4_on",
+      "y": 180
+    },
+    "facing=south,period_index=5,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p5_on",
+      "y": 180
+    },
+    "facing=south,period_index=6,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p6_on",
+      "y": 180
+    },
+    "facing=south,period_index=7,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p7_on",
+      "y": 180
+    },
+    "facing=west,period_index=0,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p0",
+      "y": 270
+    },
+    "facing=west,period_index=1,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p1",
+      "y": 270
+    },
+    "facing=west,period_index=2,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p2",
+      "y": 270
+    },
+    "facing=west,period_index=3,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p3",
+      "y": 270
+    },
+    "facing=west,period_index=4,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p4",
+      "y": 270
+    },
+    "facing=west,period_index=5,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p5",
+      "y": 270
+    },
+    "facing=west,period_index=6,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p6",
+      "y": 270
+    },
+    "facing=west,period_index=7,powered=false": {
+      "model": "useful_ores:block/redstone_clock_p7",
+      "y": 270
+    },
+    "facing=west,period_index=0,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p0_on",
+      "y": 270
+    },
+    "facing=west,period_index=1,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p1_on",
+      "y": 270
+    },
+    "facing=west,period_index=2,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p2_on",
+      "y": 270
+    },
+    "facing=west,period_index=3,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p3_on",
+      "y": 270
+    },
+    "facing=west,period_index=4,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p4_on",
+      "y": 270
+    },
+    "facing=west,period_index=5,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p5_on",
+      "y": 270
+    },
+    "facing=west,period_index=6,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p6_on",
+      "y": 270
+    },
+    "facing=west,period_index=7,powered=true": {
+      "model": "useful_ores:block/redstone_clock_p7_on",
+      "y": 270
+    }
+  }
+}

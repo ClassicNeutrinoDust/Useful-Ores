@@ -1,7 +1,20 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:subspace_nugget"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": [ "a" ],
-  "key": { "a": "#c:ingots/subspace" },
-  "result": { "id": "useful_ores:subspace_nugget", "count": 9 }
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "#c:ingots/subspace"
+  },
+  "result": {
+    "id": "useful_ores:subspace_nugget",
+    "count": 9
+  }
 }

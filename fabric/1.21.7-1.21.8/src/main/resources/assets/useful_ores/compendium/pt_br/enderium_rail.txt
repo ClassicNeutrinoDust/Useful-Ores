@@ -1,0 +1,3 @@
+Dois trilhos vinculados que teletransportam a vagoneta de um para o outro. Eles devem estar na mesma dimensão e a até 100 blocos de distância.
+
+Clique com o botão direito no primeiro trilho e depois no segundo para vinculá-los. Cada trilho tem apenas um parceiro; vinculá-lo novamente substitui a conexão anterior. Shift + botão direito cancela uma seleção pendente. Conecte cada trilho a vias comuns.

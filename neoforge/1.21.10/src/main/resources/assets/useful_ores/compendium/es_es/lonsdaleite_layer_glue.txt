@@ -1,0 +1,3 @@
+Herramienta reutilizable que aplica una capa de lonsdaleíta a los bloques compatibles. Tiene 64 puntos de durabilidad.
+
+Coloca lonsdaleíta bruta en el centro y ocho bolas de slime alrededor. Sujétala e interactúa con un bloque compatible; cada uso consume durabilidad.

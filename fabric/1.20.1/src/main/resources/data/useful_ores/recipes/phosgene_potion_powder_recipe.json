@@ -1,0 +1,10 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:phosgene_potion_powder"
+    }
+  ],
+  "type": "useful_ores:phosgene_potion_powder",
+  "category": "misc"
+}

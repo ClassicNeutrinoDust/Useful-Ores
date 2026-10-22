@@ -1,0 +1,2 @@
+Material: durabilidade 6400, velocidade de mineração 32.0, bônus de dano +16.0, encantabilidade 34. Tem os maiores atributos básicos entre os materiais do mod.
+Dano / velocidade de ataque: espada 31.0 / 2.6, picareta 29.0 / 2.4, machado 33.0 / 2.2, enxada 18.0 / 5.2, pá 27.0 / 2.2.

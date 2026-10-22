@@ -9,7 +9,6 @@ import net.minecraft.nbt.Tag;
 
 import java.util.Optional;
 
-
 public final class NbtCompat {
     private NbtCompat() {}
 

@@ -1,0 +1,3 @@
+Deux rails liés qui téléportent un wagonnet de l’un à l’autre. Ils doivent se trouver dans la même dimension et à moins de 100 blocs l’un de l’autre.
+
+Faites un clic droit sur le premier rail, puis sur le second. Chaque rail n’a qu’un partenaire ; un nouveau lien remplace l’ancien. Maj + clic droit annule une sélection en attente. Reliez chaque rail aux voies classiques.

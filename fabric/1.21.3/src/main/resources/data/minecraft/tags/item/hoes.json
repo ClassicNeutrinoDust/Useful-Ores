@@ -15,6 +15,9 @@
     "useful_ores:scheelite_hoe",
     "useful_ores:enderium_hoe",
     "useful_ores:voidshard_hoe",
-    "useful_ores:subspace_hoe"
+    "useful_ores:subspace_hoe",
+    "useful_ores:attributed_subspace_hoe",
+    "useful_ores:lonsdaleite_hoe",
+    "useful_ores:painite_hoe"
   ]
 }

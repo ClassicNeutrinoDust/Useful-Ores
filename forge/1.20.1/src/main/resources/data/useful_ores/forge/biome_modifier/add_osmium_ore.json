@@ -1,0 +1,7 @@
+{
+  "type": "useful_ores:config_add_features",
+  "ore": "osmium",
+  "biomes": "#minecraft:is_overworld",
+  "features": "useful_ores:osmium_ore_placed",
+  "step": "underground_ores"
+}

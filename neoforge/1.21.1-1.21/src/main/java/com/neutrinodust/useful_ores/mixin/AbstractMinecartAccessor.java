@@ -4,11 +4,6 @@ import net.minecraft.world.entity.vehicle.AbstractMinecart;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.gen.Accessor;
 
-
-
-
-
-
 @Mixin(AbstractMinecart.class)
 public interface AbstractMinecartAccessor {
     @Accessor("flipped")

@@ -1,0 +1,2 @@
+Matériau : durabilité 6400, vitesse de minage 32.0, bonus de dégâts +16.0, aptitude à l’enchantement 34. Ce matériau possède les meilleures statistiques de base du mod.
+Dégâts / vitesse d’attaque: épée 31.0 / 2.6, pioche 29.0 / 2.4, hache 33.0 / 2.2, houe 18.0 / 5.2, pelle 27.0 / 2.2.

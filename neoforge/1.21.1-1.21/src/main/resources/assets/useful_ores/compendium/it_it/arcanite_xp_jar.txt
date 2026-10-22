@@ -1,0 +1,3 @@
+Un barattolo di vetro che conserva fino a 1.395 punti esperienza, circa 30 livelli. Posizionalo su un blocco, una lastra o una botola chiusa. Accovacciati e fai clic destro per depositare XP; fai clic destro normalmente per riprenderla.
+
+Finché ha spazio, assorbe anche le sfere di esperienza vicine. Se tieni in mano o indossi un oggetto con Riparazione, l’XP ritirata ripara quell’oggetto invece di darti livelli. Il barattolo non ha un’interfaccia e si rompe come il vetro, ma l’oggetto lasciato a terra conserva l’XP. Crealo con un lingotto di arcanite, una scheggia di arcanite con nucleo d’argento e tre blocchi di vetro.

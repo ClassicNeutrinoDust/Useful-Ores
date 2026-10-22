@@ -1,0 +1,5 @@
+Difesa: elmo 4, corazza 13, gambali 9, stivali 3.
+Durata: elmo 638, corazza 928, gambali 870, stivali 754.
+Incantabilità 27, robustezza 3.8, resistenza al contraccolpo 22%.
+
+Bonus del set: ogni pezzo riduce i danni da esplosione del 17,5%, fino al 70% con tutti e quattro. Il bonus varia in base ai pezzi indossati. Tutte le armature e gli attrezzi in lonsdaleite sono incantabili.

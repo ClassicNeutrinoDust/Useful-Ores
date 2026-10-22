@@ -9,13 +9,6 @@ import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.phys.Vec3;
 
-
-
-
-
-
-
-
 public final class SpearChargeClientSync {
     private SpearChargeClientSync() {}
 
@@ -30,10 +23,6 @@ public final class SpearChargeClientSync {
         ItemStack stack = player.getUseItem();
         if (!player.isUsingItem() || !stack.is(SpearTags.SPEARS)) return;
 
-        
-        
-        
-        
         Vec3 velocity20 = new Vec3(
                 (player.getX() - player.xo) * 20.0D,
                 (player.getY() - player.yo) * 20.0D,

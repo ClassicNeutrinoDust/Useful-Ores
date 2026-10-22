@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:ore_enabled",
+      "ore": "solarite"
+    }
+  ],
   "type": "neoforge:add_features",
   "biomes": "#minecraft:is_nether",
   "features": "useful_ores:solarite_ore_placed",

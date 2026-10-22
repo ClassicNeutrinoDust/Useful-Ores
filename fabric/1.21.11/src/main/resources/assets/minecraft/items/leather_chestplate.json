@@ -1,0 +1,511 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_chestplate_quartz_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "minecraft:quartz"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_chestplate_iron_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "minecraft:iron"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_chestplate_netherite_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "minecraft:netherite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_chestplate_redstone_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "minecraft:redstone"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_chestplate_copper_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "minecraft:copper"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_chestplate_gold_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "minecraft:gold"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_chestplate_emerald_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "minecraft:emerald"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_chestplate_diamond_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "minecraft:diamond"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_chestplate_lapis_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "minecraft:lapis"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_chestplate_amethyst_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "minecraft:amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_chestplate_resin_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "minecraft:resin"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/leather_chestplate_chromite_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "useful_ores:chromite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/leather_chestplate_nyxium_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "useful_ores:nyxium"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/leather_chestplate_phosgene_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "useful_ores:phosgene"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/leather_chestplate_arcanite_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "useful_ores:arcanite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/leather_chestplate_fulgurite_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "useful_ores:fulgurite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/leather_chestplate_osmium_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "useful_ores:osmium"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/leather_chestplate_solarite_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "useful_ores:solarite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/leather_chestplate_sperrylite_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "useful_ores:sperrylite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/leather_chestplate_argentite_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "useful_ores:argentite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/leather_chestplate_zephyrite_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "useful_ores:zephyrite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/leather_chestplate_ilmenite_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "useful_ores:ilmenite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/leather_chestplate_scheelite_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "useful_ores:scheelite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/leather_chestplate_voidshard_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "useful_ores:voidshard"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/leather_chestplate_enderium_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "useful_ores:enderium"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/leather_chestplate_painite_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "useful_ores:painite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/leather_chestplate_lonsdaleite_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "useful_ores:lonsdaleite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/leather_chestplate_subspace_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "useful_ores:subspace"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/leather_chestplate_attributed_subspace_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            }
+          ]
+        },
+        "when": "useful_ores:attributed_subspace"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/leather_chestplate",
+      "tints": [
+        {
+          "type": "minecraft:dye",
+          "default": -6265536
+        }
+      ]
+    },
+    "property": "minecraft:trim_material"
+  }
+}

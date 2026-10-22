@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:nyxium_ingot"
+    }
+  ],
   "type": "minecraft:smelting",
   "category": "misc",
   "experience": 8,

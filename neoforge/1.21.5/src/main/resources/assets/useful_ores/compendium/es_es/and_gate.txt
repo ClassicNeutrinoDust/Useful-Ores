@@ -1,0 +1,5 @@
+Puerta lógica de dos entradas. La salida se activa solo cuando ambas entradas reciben energía. Retardo: 1 tick.
+
+Colócala sobre un bloque sólido. El lado frontal es la salida y los lados izquierdo y derecho son las entradas. Conéctalas con polvo de redstone u otra fuente.
+
+Tabla de verdad: 0/0 = 0, 0/1 = 0, 1/0 = 0, 1/1 = 1. La salida tiene potencia máxima y puede alimentar otros componentes directamente.

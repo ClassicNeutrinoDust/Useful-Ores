@@ -1,0 +1,4 @@
+Matériau : durabilité 900, vitesse de minage 6.0, bonus de dégâts +6.5, aptitude à l’enchantement 10.
+Dégâts / vitesse d’attaque: épée 10.5 / 1.6, pioche 9.5 / 1.2, hache 11.5 / 0.9, houe 6.5 / 3.0, pelle 9.5 / 1.0.
+
+À l’impact : applique Lenteur II pendant 2 secondes et fait brièvement chanceler la cible.

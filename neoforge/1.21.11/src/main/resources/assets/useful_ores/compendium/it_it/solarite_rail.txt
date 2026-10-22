@@ -1,0 +1,3 @@
+Binario ad alta velocità per il [Carrello con batteria di Solarite](Utility/Solarite Battery Minecart). È sempre diritto e lancia i carrelli in modo diverso dai binari alimentati vanilla. La texture cambia tra giorno e notte.
+
+Posizionalo lungo il percorso. Un segnale di redstone da un blocco adiacente dà una spinta al carrello. Non ha un selettore di modalità.

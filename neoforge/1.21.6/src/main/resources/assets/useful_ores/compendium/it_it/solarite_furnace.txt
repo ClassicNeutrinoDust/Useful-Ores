@@ -1,0 +1,3 @@
+Fornace multiblocco 2×2×2 che fonde gli oggetti cinque volte più velocemente di un altoforno. Funziona con la luce solare diretta o con l’energia conservata in una [Batteria di Solarite](Utility/Solar Battery).
+
+Crea otto componenti della fornace di Solarite e assemblali in un cubo completo 2×2×2. Una struttura incompleta non funziona. Inserisci gli oggetti da fondere nell’interfaccia. La luce solare la alimenta di giorno; una batteria carica fornisce energia quando manca il sole.

@@ -1,0 +1,4 @@
+Material: durability 2200, mining speed 8.0, damage bonus +10.0, enchantability 15.
+Damage / attack speed: sword 16.0 / 1.8, pickaxe 15.0 / 1.2, axe 17.0 / 1.2, hoe 10.0 / 2.0, shovel 14.0 / 1.0.
+
+On hit: applies Wither for 3 seconds.

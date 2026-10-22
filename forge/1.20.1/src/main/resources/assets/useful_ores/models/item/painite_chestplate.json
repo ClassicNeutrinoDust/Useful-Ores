@@ -1,0 +1,365 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "useful_ores:item/painite_chestplate"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0
+      },
+      "model": "useful_ores:item/painite_chestplate_fury"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.1
+      },
+      "model": "useful_ores:item/painite_chestplate_quartz_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.11
+      },
+      "model": "useful_ores:item/painite_chestplate_chromite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.12
+      },
+      "model": "useful_ores:item/painite_chestplate_nyxium_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.13
+      },
+      "model": "useful_ores:item/painite_chestplate_phosgene_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.14
+      },
+      "model": "useful_ores:item/painite_chestplate_arcanite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.15
+      },
+      "model": "useful_ores:item/painite_chestplate_fulgurite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.16
+      },
+      "model": "useful_ores:item/painite_chestplate_osmium_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.17
+      },
+      "model": "useful_ores:item/painite_chestplate_solarite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.18
+      },
+      "model": "useful_ores:item/painite_chestplate_sperrylite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.19
+      },
+      "model": "useful_ores:item/painite_chestplate_argentite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2
+      },
+      "model": "useful_ores:item/painite_chestplate_iron_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.21
+      },
+      "model": "useful_ores:item/painite_chestplate_zephyrite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.22
+      },
+      "model": "useful_ores:item/painite_chestplate_ilmenite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.23
+      },
+      "model": "useful_ores:item/painite_chestplate_scheelite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.24
+      },
+      "model": "useful_ores:item/painite_chestplate_voidshard_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.25
+      },
+      "model": "useful_ores:item/painite_chestplate_enderium_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.26
+      },
+      "model": "useful_ores:item/painite_chestplate_painite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.27
+      },
+      "model": "useful_ores:item/painite_chestplate_lonsdaleite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.28
+      },
+      "model": "useful_ores:item/painite_chestplate_subspace_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.3
+      },
+      "model": "useful_ores:item/painite_chestplate_netherite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.4
+      },
+      "model": "useful_ores:item/painite_chestplate_redstone_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.5
+      },
+      "model": "useful_ores:item/painite_chestplate_copper_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.6
+      },
+      "model": "useful_ores:item/painite_chestplate_gold_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.7
+      },
+      "model": "useful_ores:item/painite_chestplate_emerald_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.8
+      },
+      "model": "useful_ores:item/painite_chestplate_diamond_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.9
+      },
+      "model": "useful_ores:item/painite_chestplate_lapis_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 1.0
+      },
+      "model": "useful_ores:item/painite_chestplate_amethyst_trim"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.1
+      },
+      "model": "useful_ores:item/painite_chestplate_quartz_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.11
+      },
+      "model": "useful_ores:item/painite_chestplate_chromite_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.12
+      },
+      "model": "useful_ores:item/painite_chestplate_nyxium_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.13
+      },
+      "model": "useful_ores:item/painite_chestplate_phosgene_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.14
+      },
+      "model": "useful_ores:item/painite_chestplate_arcanite_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.15
+      },
+      "model": "useful_ores:item/painite_chestplate_fulgurite_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.16
+      },
+      "model": "useful_ores:item/painite_chestplate_osmium_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.17
+      },
+      "model": "useful_ores:item/painite_chestplate_solarite_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.18
+      },
+      "model": "useful_ores:item/painite_chestplate_sperrylite_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.19
+      },
+      "model": "useful_ores:item/painite_chestplate_argentite_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.2
+      },
+      "model": "useful_ores:item/painite_chestplate_iron_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.21
+      },
+      "model": "useful_ores:item/painite_chestplate_zephyrite_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.22
+      },
+      "model": "useful_ores:item/painite_chestplate_ilmenite_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.23
+      },
+      "model": "useful_ores:item/painite_chestplate_scheelite_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.24
+      },
+      "model": "useful_ores:item/painite_chestplate_voidshard_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.25
+      },
+      "model": "useful_ores:item/painite_chestplate_enderium_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.26
+      },
+      "model": "useful_ores:item/painite_chestplate_painite_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.27
+      },
+      "model": "useful_ores:item/painite_chestplate_lonsdaleite_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.28
+      },
+      "model": "useful_ores:item/painite_chestplate_subspace_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.3
+      },
+      "model": "useful_ores:item/painite_chestplate_netherite_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.4
+      },
+      "model": "useful_ores:item/painite_chestplate_redstone_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.5
+      },
+      "model": "useful_ores:item/painite_chestplate_copper_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.6
+      },
+      "model": "useful_ores:item/painite_chestplate_gold_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.7
+      },
+      "model": "useful_ores:item/painite_chestplate_emerald_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.8
+      },
+      "model": "useful_ores:item/painite_chestplate_diamond_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 0.9
+      },
+      "model": "useful_ores:item/painite_chestplate_lapis_trim_fury"
+    },
+    {
+      "predicate": {
+        "useful_ores:painite_fury_tool": 1.0,
+        "trim_type": 1.0
+      },
+      "model": "useful_ores:item/painite_chestplate_amethyst_trim_fury"
+    }
+  ]
+}

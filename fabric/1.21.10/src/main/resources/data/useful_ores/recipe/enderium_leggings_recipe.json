@@ -1,4 +1,22 @@
-{ "type": "minecraft:crafting_shaped", "category": "equipment",
-  "pattern": [ "aaa", "a a", "a a" ],
-  "key": { "a": "#c:ingots/enderium" },
-  "result": { "id": "useful_ores:enderium_leggings", "count": 1 } }
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:enderium_leggings"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "#c:ingots/enderium"
+  },
+  "result": {
+    "id": "useful_ores:enderium_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,3 @@
+Melhora as ferramentas de Subspace para que os blocos minerados vão direto para o inventário. Veja [Armas e ferramentas de Subspace](Tools & Combat/Subspace Weapons & Tools).
+
+Não pode ser fabricado. Baús de tesouro das Cidades do End têm 7% de chance de gerar um em uma rolagem extra de saque. Procure nas cidades das ilhas externas do End; não há uma fonte garantida.

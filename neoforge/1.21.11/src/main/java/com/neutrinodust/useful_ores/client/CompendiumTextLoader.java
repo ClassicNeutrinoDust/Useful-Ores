@@ -14,13 +14,26 @@ public class CompendiumTextLoader {
    private static final Map<String, List<String>> CACHE = new HashMap<>();
 
    public static List<String> getParagraphs(String textFile) {
-      return CACHE.computeIfAbsent(textFile, CompendiumTextLoader::load);
+      String lang = Minecraft.getInstance().getLanguageManager().getSelected().toLowerCase();
+      return CACHE.computeIfAbsent(lang + ":" + textFile, key -> load(textFile, lang));
    }
 
-   private static List<String> load(String textFile) {
-      String lang = Minecraft.getInstance().getLanguageManager().getSelected().toLowerCase();
-
+   private static List<String> load(String textFile, String lang) {
       Identifier id = Identifier.tryParse("useful_ores:compendium/" + lang + "/" + textFile + ".txt");
+      if (id == null || !exists(id)) {
+         String baseLanguage = lang.contains("_") ? lang.substring(0, lang.indexOf('_')) : lang;
+         String fallbackLocale = switch (baseLanguage) {
+            case "es" -> "es_es";
+            case "pt" -> "pt_br";
+            case "fr" -> "fr_fr";
+            case "it" -> "it_it";
+            case "ru" -> "ru_ru";
+            case "zh" -> "zh_cn";
+            case "en" -> "en_us";
+            default -> "en_us";
+         };
+         id = Identifier.tryParse("useful_ores:compendium/" + fallbackLocale + "/" + textFile + ".txt");
+      }
       if (id == null || !exists(id)) {
          id = Identifier.tryParse("useful_ores:compendium/en_us/" + textFile + ".txt");
       }

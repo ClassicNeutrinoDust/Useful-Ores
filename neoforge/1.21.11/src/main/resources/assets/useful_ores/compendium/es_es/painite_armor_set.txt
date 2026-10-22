@@ -1,0 +1,5 @@
+Defensa: casco 3, pechera 8, grebas 6, botas 3.
+Durabilidad: casco 363, pechera 528, grebas 495, botas 429.
+Encantabilidad 10, dureza 2.0, resistencia al retroceso 0%.
+
+Bonificación del conjunto: cada pieza reduce la salud máxima en 1 punto; con el conjunto completo quedan 8 corazones. Con 5 corazones o menos se activa Furia: cada pieza añade otro 60 % de su defensa y la armadura cambia de aspecto. Consulta Furia de painita.

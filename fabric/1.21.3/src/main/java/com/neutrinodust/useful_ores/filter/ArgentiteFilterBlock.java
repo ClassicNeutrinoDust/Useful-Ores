@@ -68,11 +68,6 @@ public class ArgentiteFilterBlock extends BaseEntityBlock {
                 .build();
     }
 
-    
-
-
-
-
     @Override
     public RenderShape getRenderShape(BlockState state) {
         return RenderShape.MODEL;
@@ -165,12 +160,6 @@ public class ArgentiteFilterBlock extends BaseEntityBlock {
         return rotateAroundPivot(shape, direction, 0.5, 0.5, 0.5);
     }
 
-    
-
-
-
-
-
     private static VoxelShape rotateAroundPivot(VoxelShape shape, Direction direction, double pivotX, double pivotY, double pivotZ) {
         if (direction == Direction.NORTH) {
             return shape;
@@ -220,7 +209,6 @@ public class ArgentiteFilterBlock extends BaseEntityBlock {
                                 rz = pivotZ - dy;
                             }
                             default -> {
-                                
                             }
                         }
 

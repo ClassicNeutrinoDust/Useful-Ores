@@ -1,0 +1,9 @@
+La lonsdaleite si trova solo nei meteoriti precipitati. Sei gruppi di minerale sono sepolti vicino al centro del meteorite: bisogna scavare per raggiungerli.
+
+Si trova solo nelle strutture di meteoriti precipitati. Sei gruppi di minerale sono sepolti vicino al centro.
+
+Bottino: Ogni blocco di minerale lascia 1 minerale grezzo; Fortuna aumenta la quantità e Tocco di velluto raccoglie il blocco.
+
+Statistiche: Durabilità: 6200; velocità di estrazione: 25.0; danno d’attacco: +15.0; incantabilità: 28; livello di estrazione: Netherite.
+
+Vantaggi: Ogni pezzo d’armatura riduce i danni da esplosione del 17,5%, fino al 70% con il set completo. L’equipaggiamento raggiunge la potenza del Voidshard con circa il doppio della durabilità.

@@ -1,0 +1,3 @@
+Serrure pour conteneurs compatibles. Elle fonctionne avec une [clé en titane](Utility/Titanium Key) sans circuit de redstone.
+
+Appliquez-la sur un conteneur compatible. Seule la clé correspondante permet de l’ouvrir ; gardez-la en sécurité. La recette utilise des pépites et des lingots d’ilménite, comme indiqué ci-dessous.

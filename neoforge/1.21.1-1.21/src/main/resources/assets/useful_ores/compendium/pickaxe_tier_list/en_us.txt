@@ -1,0 +1,13 @@
+Pickaxes are listed from the lowest mining tier to the highest. A pickaxe can mine blocks that require its tier or lower.
+
+Tier 1 (Wood, Gold): Wooden and Golden Pickaxes. Mines coal, stone-type blocks and blocks with no tool requirement.
+
+Tier 2 (Stone): Stone and Zephyrite Pickaxes. Also mines iron ore, Zephyrite ore and Argentite ore and blocks.
+
+Tier 3 (Iron): Iron, Argentite, Phosgene, Fulgurite, Osmium, Sperrylite and Scheelite Pickaxes. Also mines diamond, redstone, emerald and gold ore, plus Phosgene, Fulgurite, Osmium, Sperrylite, Scheelite, Chromite and Ilmenite ore and blocks.
+
+Tier 4 (Diamond): Diamond, Chromite, Ilmenite and Painite Pickaxes. Also mines obsidian, ancient debris and the mod's higher-tier ores, including Nyxium, Arcanite, Solarite, Enderium, Voidshard, Lonsdaleite and Painite.
+
+Tier 5 (Netherite): Netherite, Nyxium, Arcanite, Solarite, Enderium, Voidshard, Subspace and Lonsdaleite Pickaxes. These have the same block access as Tier 4, but differ in mining speed, durability and special abilities.
+
+Special case: only a Voidshard Pickaxe can break the Ancient Pedestal. All other pickaxes, including Netherite and Subspace, fail to break it. See Ancient Pedestal in Utility.

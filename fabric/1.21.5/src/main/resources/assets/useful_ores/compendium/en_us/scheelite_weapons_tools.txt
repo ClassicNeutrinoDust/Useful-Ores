@@ -1,0 +1,4 @@
+Material: durability 900, mining speed 6.0, damage bonus +6.5, enchantability 10.
+Damage / attack speed: sword 10.5 / 1.6, pickaxe 9.5 / 1.2, axe 11.5 / 0.9, hoe 6.5 / 3.0, shovel 9.5 / 1.0.
+
+On hit: applies Slowness II for 2 seconds, briefly staggering the target.

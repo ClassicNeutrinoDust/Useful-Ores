@@ -1,0 +1,3 @@
+由钛铁矿制成的加固铁轨，适合高速行驶，尤其适用于[日耀矿电池矿车](Utility/Solarite Battery Minecart)。
+
+像普通铁轨一样铺设，可用于直线和弯道。日耀矿电池矿车在弯道上最高可达每游戏刻 0.8 格（每秒 16 格）。交叉处可使用[钛控制铁轨](Utility/Titanium Controller Rail)切换路线。

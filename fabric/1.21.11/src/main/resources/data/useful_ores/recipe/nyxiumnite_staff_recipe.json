@@ -1,4 +1,10 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:nyxiumnite_staff"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
@@ -10,5 +16,8 @@
     "C": "useful_ores:volatile_nyxiumnite_core",
     "A": "useful_ores:argentite_ingot"
   },
-  "result": { "id": "useful_ores:nyxiumnite_staff", "count": 1 }
+  "result": {
+    "id": "useful_ores:nyxiumnite_staff",
+    "count": 1
+  }
 }

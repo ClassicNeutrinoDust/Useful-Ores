@@ -1,0 +1,5 @@
+Struttura in superficie con un cratere bruciato e un meteorite sepolto sotto di esso. Il minerale di lonsdaleite si trova all’interno del meteorite.
+
+Genera sulla terraferma del mondo normale, in media una volta ogni 81 chunk, con almeno 20 chunk tra due siti. Cerca un cratere bruciato a forma di ciotola. Il meteorite è una massa irregolare con raggio di 5–10 blocchi e un Nucleo di Meteorite più denso vicino al centro.
+
+All’interno del meteorite si trovano sei sacche di minerale di lonsdaleite. Il nucleo serve per avviare le ricette del Bastone Meteorico e della Bomba Meteorica.

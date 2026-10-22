@@ -33,6 +33,7 @@
     "useful_ores:painite_ore",
     "useful_ores:painite_block",
     "useful_ores:raw_painite_block",
-    "useful_ores:chiseled_painite_block"
+    "useful_ores:chiseled_painite_block",
+    "useful_ores:nyxium_dark_barrier"
   ]
 }

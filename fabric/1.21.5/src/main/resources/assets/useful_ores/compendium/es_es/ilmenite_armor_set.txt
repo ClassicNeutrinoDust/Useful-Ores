@@ -1,0 +1,3 @@
+Defensa: casco 3, pechera 8, grebas 5, botas 2.
+Durabilidad: casco 418, pechera 608, grebas 570, botas 494.
+Encantabilidad 10, dureza 3.2, resistencia al retroceso 20%.

@@ -1,0 +1,3 @@
+La versión energizada del núcleo de nyxium y arcanita. Proporciona energía al bastón de nyxiumnita.
+
+Combina un núcleo de nyxium y arcanita con aliento de dragón en cualquier posición. Se consume al fabricar el bastón y no tiene otro uso al hacer clic derecho.

@@ -1,0 +1,9 @@
+{
+  "asset_name": "enderium",
+  "description": {
+    "color": "#F5E8A1",
+    "translate": "trim_material.useful_ores.enderium"
+  },
+  "ingredient": "useful_ores:enderium_ingot",
+  "item_model_index": 2.5
+}

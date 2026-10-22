@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:subspace_ingot"
+    }
+  ],
   "type": "useful_ores:attributed_ingot",
   "category": "misc"
 }

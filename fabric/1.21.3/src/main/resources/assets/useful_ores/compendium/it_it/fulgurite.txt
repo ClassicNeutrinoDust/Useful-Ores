@@ -1,0 +1,9 @@
+La fulgurite è vetro fuso da un fulmine e offre la maggiore velocità di estrazione tra i materiali intermedi.
+
+Generazione: nel mondo normale, in pietra e ardesia delle profondità, tra Y -32 e 0. Vene da 5 blocchi, circa 4 per chunk. Il minerale esposto all’aria si genera sempre.
+
+Bottino: Ogni blocco di minerale lascia 1 minerale grezzo; Fortuna aumenta la quantità e Tocco di velluto raccoglie il blocco.
+
+Statistiche: Durabilità: 1750; velocità di estrazione: 7.5; danno d’attacco: +8.5; incantabilità: 16; livello di estrazione: ferro.
+
+Vantaggi: I lingotti aumentano la portata della Trappola Elettrica in Fulgurite dopo che un fulmine l’ha attivata.

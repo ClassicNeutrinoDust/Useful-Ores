@@ -1,4 +1,10 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:fulgurite_axe"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [

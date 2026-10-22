@@ -47,27 +47,41 @@ public class SolariteRailBlock extends BaseRailBlock {
         return SHAPE;
     }
 
+    private static final int ACTIVATION_SKY_DARKEN_MAX = 4;
+    private static final int LIGHT_CHECK_PERIOD = 20;
+
+    public static boolean isActive(BlockState state) {
+        return state.getBlock() instanceof SolariteRailBlock
+                && state.hasProperty(LIT)
+                && state.getValue(LIT);
+    }
+
+    public static boolean shouldBeActive(Level level, BlockPos pos) {
+        if (level.dimension() != Level.OVERWORLD) return false;
+        long time = Math.floorMod(level.getDayTime(), 24000L);
+        return time < 12000L && level.getSkyDarken() < ACTIVATION_SKY_DARKEN_MAX;
+    }
+
     @Override
     public void onPlace(BlockState state, Level level, BlockPos pos, BlockState oldState, boolean movedByPiston) {
         super.onPlace(state, level, pos, oldState, movedByPiston);
         if (!level.isClientSide() && oldState.getBlock() != this) {
-            boolean shouldBeLit = level.getSkyDarken() < 4;
-            if (state.getValue(LIT) != shouldBeLit) {
-                level.setBlock(pos, state.setValue(LIT, shouldBeLit), 3);
-            }
-            level.scheduleTick(pos, this, 20);
+            refreshActive(level, pos, state);
+            level.scheduleTick(pos, this, LIGHT_CHECK_PERIOD);
         }
     }
 
     @Override
     protected void tick(BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
-
-        boolean shouldBeLit = level.getSkyDarken() < 4;
-        if (state.getValue(LIT) != shouldBeLit) {
-            level.setBlock(pos, state.setValue(LIT, shouldBeLit), 3);
-        }
-        level.scheduleTick(pos, this, 20);
+        refreshActive(level, pos, state);
+        level.scheduleTick(pos, this, LIGHT_CHECK_PERIOD);
     }
 
+    private static void refreshActive(Level level, BlockPos pos, BlockState state) {
+        if (!(state.getBlock() instanceof SolariteRailBlock)) return;
+        boolean active = shouldBeActive(level, pos);
+        if (state.getValue(LIT) != active) {
+            level.setBlock(pos, state.setValue(LIT, active), 3);
+        }
+    }
 }
-

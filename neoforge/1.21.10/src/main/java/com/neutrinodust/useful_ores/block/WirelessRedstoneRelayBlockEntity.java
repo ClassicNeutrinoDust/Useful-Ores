@@ -160,28 +160,101 @@ public class WirelessRedstoneRelayBlockEntity extends BlockEntity {
 
    private boolean chunkForcedByUs = false;
 
+   private boolean staleForced = false;
+
+   private static final java.util.Map<ServerLevel, java.util.Map<Long, Integer>> FORCE_REFS = new java.util.WeakHashMap<>();
+
    void updateForceLoad(Level level) {
       if (!(level instanceof ServerLevel serverLevel)) return;
       boolean alwaysOnAllowed = com.neutrinodust.useful_ores.init.ModConfig.WIRELESS_RELAY_ALWAYS_ON_ORIGINS.get();
       boolean shouldBeForced = alwaysOnAllowed && this.upstreamHubs.isEmpty() && !downstreamTargets().isEmpty();
+      boolean wasMarked = this.chunkForcedByUs || this.staleForced;
+      if (shouldBeForced) {
+         if (!this.chunkForcedByUs) {
+            acquireForcedArea(serverLevel);
+            this.chunkForcedByUs = true;
+         }
+         this.staleForced = false;
+      } else {
+         releaseForcedArea(serverLevel);
+      }
+      if (wasMarked != (this.chunkForcedByUs || this.staleForced)) this.setChanged();
+   }
+
+   private void acquireForcedArea(ServerLevel serverLevel) {
       int centerChunkX = this.worldPosition.getX() >> 4;
       int centerChunkZ = this.worldPosition.getZ() >> 4;
-      if (!shouldBeForced) {
-
-         setForcedArea(serverLevel, centerChunkX, centerChunkZ, false);
-         this.chunkForcedByUs = false;
-      } else if (!this.chunkForcedByUs) {
-         setForcedArea(serverLevel, centerChunkX, centerChunkZ, true);
-         this.chunkForcedByUs = true;
+      java.util.Map<Long, Integer> refs = FORCE_REFS.computeIfAbsent(serverLevel, k -> new java.util.HashMap<>());
+      for (int dx = -FORCE_LOAD_CHUNK_RADIUS; dx <= FORCE_LOAD_CHUNK_RADIUS; dx++) {
+         for (int dz = -FORCE_LOAD_CHUNK_RADIUS; dz <= FORCE_LOAD_CHUNK_RADIUS; dz++) {
+            int cx = centerChunkX + dx;
+            int cz = centerChunkZ + dz;
+            long key = net.minecraft.world.level.ChunkPos.asLong(cx, cz);
+            if (refs.merge(key, 1, Integer::sum) == 1) {
+               serverLevel.setChunkForced(cx, cz, true);
+            }
+         }
       }
    }
 
-   private void setForcedArea(ServerLevel serverLevel, int centerChunkX, int centerChunkZ, boolean forced) {
-      for (int dx = -FORCE_LOAD_CHUNK_RADIUS; dx <= FORCE_LOAD_CHUNK_RADIUS; dx++) {
-         for (int dz = -FORCE_LOAD_CHUNK_RADIUS; dz <= FORCE_LOAD_CHUNK_RADIUS; dz++) {
-            serverLevel.setChunkForced(centerChunkX + dx, centerChunkZ + dz, forced);
+   private void releaseForcedArea(ServerLevel serverLevel) {
+      if (this.chunkForcedByUs) {
+         int centerChunkX = this.worldPosition.getX() >> 4;
+         int centerChunkZ = this.worldPosition.getZ() >> 4;
+         java.util.Map<Long, Integer> refs = FORCE_REFS.get(serverLevel);
+         if (refs != null) {
+            for (int dx = -FORCE_LOAD_CHUNK_RADIUS; dx <= FORCE_LOAD_CHUNK_RADIUS; dx++) {
+               for (int dz = -FORCE_LOAD_CHUNK_RADIUS; dz <= FORCE_LOAD_CHUNK_RADIUS; dz++) {
+                  int cx = centerChunkX + dx;
+                  int cz = centerChunkZ + dz;
+                  long key = net.minecraft.world.level.ChunkPos.asLong(cx, cz);
+                  Integer holders = refs.get(key);
+                  if (holders == null) continue;
+                  if (holders <= 1) {
+                     refs.remove(key);
+                     serverLevel.setChunkForced(cx, cz, false);
+                  } else {
+                     refs.put(key, holders - 1);
+                  }
+               }
+            }
+         }
+      } else if (this.staleForced) {
+         int centerChunkX = this.worldPosition.getX() >> 4;
+         int centerChunkZ = this.worldPosition.getZ() >> 4;
+         java.util.Map<Long, Integer> refs = FORCE_REFS.get(serverLevel);
+         for (int dx = -FORCE_LOAD_CHUNK_RADIUS; dx <= FORCE_LOAD_CHUNK_RADIUS; dx++) {
+            for (int dz = -FORCE_LOAD_CHUNK_RADIUS; dz <= FORCE_LOAD_CHUNK_RADIUS; dz++) {
+               int cx = centerChunkX + dx;
+               int cz = centerChunkZ + dz;
+               long key = net.minecraft.world.level.ChunkPos.asLong(cx, cz);
+               if (refs == null || !refs.containsKey(key)) {
+                  serverLevel.setChunkForced(cx, cz, false);
+               }
+            }
          }
       }
+      this.chunkForcedByUs = false;
+      this.staleForced = false;
+   }
+
+   private void dropForceHoldsOnUnload(ServerLevel serverLevel) {
+      if (!this.chunkForcedByUs) return;
+      int centerChunkX = this.worldPosition.getX() >> 4;
+      int centerChunkZ = this.worldPosition.getZ() >> 4;
+      java.util.Map<Long, Integer> refs = FORCE_REFS.get(serverLevel);
+      if (refs != null) {
+         for (int dx = -FORCE_LOAD_CHUNK_RADIUS; dx <= FORCE_LOAD_CHUNK_RADIUS; dx++) {
+            for (int dz = -FORCE_LOAD_CHUNK_RADIUS; dz <= FORCE_LOAD_CHUNK_RADIUS; dz++) {
+               long key = net.minecraft.world.level.ChunkPos.asLong(centerChunkX + dx, centerChunkZ + dz);
+               Integer holders = refs.get(key);
+               if (holders == null) continue;
+               if (holders <= 1) refs.remove(key); else refs.put(key, holders - 1);
+            }
+         }
+      }
+      this.chunkForcedByUs = false;
+      this.staleForced = true;
    }
 
    void resync(Level level) {
@@ -243,12 +316,7 @@ public class WirelessRedstoneRelayBlockEntity extends BlockEntity {
 
    void cleanupNetworkGraph(ServerLevel level) {
 
-      if (this.chunkForcedByUs) {
-         int centerChunkX = this.worldPosition.getX() >> 4;
-         int centerChunkZ = this.worldPosition.getZ() >> 4;
-         setForcedArea(level, centerChunkX, centerChunkZ, false);
-         this.chunkForcedByUs = false;
-      }
+      releaseForcedArea(level);
       GlobalPos here = GlobalPos.of(level.dimension(), this.worldPosition);
       WirelessRelayNetworkData registry = WirelessRelayNetworkData.get(level);
 
@@ -302,6 +370,7 @@ public class WirelessRedstoneRelayBlockEntity extends BlockEntity {
    public void onChunkUnloaded() {
       super.onChunkUnloaded();
       if (this.level != null && !this.level.isClientSide() && this.level instanceof ServerLevel serverLevel) {
+         dropForceHoldsOnUnload(serverLevel);
          WirelessRelayNetworkData registry = WirelessRelayNetworkData.get(serverLevel);
          GlobalPos here = GlobalPos.of(serverLevel.dimension(), this.worldPosition);
          if (this.upstreamHubs.isEmpty()) {
@@ -492,6 +561,8 @@ public class WirelessRedstoneRelayBlockEntity extends BlockEntity {
       }
       this.broadcastTargets.clear();
       this.broadcastTargets.addAll(input.read("broadcast_targets", BlockPos.CODEC.listOf()).orElse(List.of()));
+      this.chunkForcedByUs = false;
+      this.staleForced = input.getBooleanOr("chunk_forced", false);
    }
 
    @Override
@@ -503,6 +574,9 @@ public class WirelessRedstoneRelayBlockEntity extends BlockEntity {
       }
       output.putString("mesh_combine", this.meshCombine.name());
       output.putString("mode", this.mode.name());
+      if (this.chunkForcedByUs || this.staleForced) {
+         output.putBoolean("chunk_forced", true);
+      }
       if (!this.broadcastTargets.isEmpty()) {
          output.store("broadcast_targets", BlockPos.CODEC.listOf(), List.copyOf(this.broadcastTargets));
       }

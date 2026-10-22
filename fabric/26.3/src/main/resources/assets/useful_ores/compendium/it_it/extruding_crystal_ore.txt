@@ -1,0 +1,3 @@
+Questo minerale rilascia pepite di cristallo estruso, usate per creare cristalli estrusi e potenziare una stella del Nether per il Super Faro.
+
+Genera in piccole vene da quattro blocchi tra Y -64 e 16, circa un tentativo di vena ogni due chunk. Fortuna aumenta le pepite ottenute; Tocco di velluto raccoglie il blocco di minerale.

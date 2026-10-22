@@ -1,0 +1,17 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:painite_ingot"
+    }
+  ],
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 8,
+  "cookingtime": 1800,
+  "group": "painite_ingot",
+  "ingredient": {
+    "tag": "c:raw_materials/painite"
+  },
+  "result": "useful_ores:painite_ingot"
+}

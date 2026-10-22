@@ -1,0 +1,3 @@
+Vagoneta dirigível e autopropulsada com uma Bateria de Solarite integrada. Funciona em trilhos comuns, energizados, de titânio e de Solarite.
+
+Enquanto estiver pilotando, use W para acelerar e S para reduzir a velocidade. Segure Shift e interaja para abrir os controles e escolher uma velocidade predefinida. Em trechos retos, chega a 1,6 bloco por tick (32 blocos por segundo); use trilhos de titânio para curvas mais seguras em alta velocidade.

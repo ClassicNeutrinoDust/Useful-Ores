@@ -15,11 +15,8 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-
 @Mixin(ItemInHandRenderer.class)
 public abstract class MixinVanillaSpearFirstPerson {
-    
-    
     
     @Inject(method="renderArmWithItem", at=@At("HEAD"), cancellable=true)
     private void usefulOres$renderSpear(AbstractClientPlayer player,float tickProgress,float pitch,InteractionHand hand,float swingProgress,ItemStack item,float equipProgress,PoseStack pose,MultiBufferSource bufferSource,int light,CallbackInfo ci){
@@ -30,10 +27,7 @@ public abstract class MixinVanillaSpearFirstPerson {
         ItemDisplayContext ctx=arm==HumanoidArm.RIGHT?ItemDisplayContext.FIRST_PERSON_RIGHT_HAND:ItemDisplayContext.FIRST_PERSON_LEFT_HAND;
         boolean useBranch = player.isUsingItem() && player.getUseItemRemainingTicks() > 0 && player.getUsedItemHand()==hand;
 
-
         if(useBranch){
-            
-            
             
             pose.translate((float)sign * 0.56F, -0.52F, -0.72F);
             float timeHeld=(float)item.getUseDuration(player)-((float)player.getUseItemRemainingTicks()-tickProgress+1.0F);
@@ -41,12 +35,6 @@ public abstract class MixinVanillaSpearFirstPerson {
         }else{
             r.usefulOres$invokeApplyItemArmTransform(pose,arm,0.0F);
             if(swingProgress>0.0F) {
-                
-                
-                
-                
-                
-                
                 
                 VanillaSpearAnimations.firstPersonAttack(swingProgress,pose,sign,arm);
             }

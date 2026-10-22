@@ -1,0 +1,3 @@
+Defense: helmet 2, chestplate 5, leggings 3, boots 1.
+Durability: helmet 209, chestplate 304, leggings 285, boots 247.
+Enchantability 18, toughness 0.2, knockback resistance 0%.

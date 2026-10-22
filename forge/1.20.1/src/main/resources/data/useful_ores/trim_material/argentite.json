@@ -1,0 +1,9 @@
+{
+  "asset_name": "argentite",
+  "description": {
+    "color": "#B6BAC2",
+    "translate": "trim_material.useful_ores.argentite"
+  },
+  "ingredient": "useful_ores:argentite_ingot",
+  "item_model_index": 0.19
+}

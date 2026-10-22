@@ -16,14 +16,14 @@ public class MixinLevelDestroyBlockContext {
             at = @At("HEAD"))
     private void usefulOres$captureBreaker(BlockPos pos, boolean dropItems, Entity entity, int recursionLeft,
                                             CallbackInfoReturnable<Boolean> cir) {
-        FarseekerBlockEvents.CURRENT_BREAKER.set(entity);
+        FarseekerBlockEvents.pushBreaker(entity);
     }
 
     @Inject(method = "destroyBlock(Lnet/minecraft/core/BlockPos;ZLnet/minecraft/world/entity/Entity;I)Z",
             at = @At("RETURN"))
     private void usefulOres$clearBreaker(BlockPos pos, boolean dropItems, Entity entity, int recursionLeft,
                                           CallbackInfoReturnable<Boolean> cir) {
-        FarseekerBlockEvents.CURRENT_BREAKER.remove();
+        FarseekerBlockEvents.popBreaker();
     }
 }
 

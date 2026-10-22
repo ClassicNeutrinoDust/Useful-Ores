@@ -1,0 +1,9 @@
+Scheelite es el mineral de tungsteno del mod. Destaca por su flecha y su cincel.
+
+Se genera en el mundo superior, solo en piedra (no aparece en pizarra profunda), entre Y 0 y 64. Vetas de 6 bloques, unas 8 por chunk. El mineral expuesto al aire siempre se genera.
+
+Botín: Cada bloque de mena suelta 1 unidad de mineral en bruto; Fortuna aumenta la cantidad y Toque de seda recoge el bloque.
+
+Estadísticas: Durabilidad: 900; velocidad de minería: 6.0; daño de ataque: +6.5; encantabilidad: 10; nivel de minería: hierro.
+
+Ventajas: La flecha de Scheelite inflige 1,5 veces el daño de un disparo normal de arco sin encantamientos. Sus lingotes crean un cincel de 200 de durabilidad que convierte bloques compatibles en losas, además de la cerradura y la llave de titanio.

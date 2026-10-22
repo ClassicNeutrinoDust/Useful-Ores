@@ -29,16 +29,10 @@ public abstract class MixinNewMinecartBehaviorSolariteBoost {
             return;
         }
 
-        
-        
-        
-        
-        
         int blocksPerSecond = 8;
         try {
             blocksPerSecond = level.getGameRules().getInt(net.minecraft.world.level.GameRules.RULE_MINECART_MAX_SPEED);
         } catch (IllegalArgumentException ignored) {
-            
         }
         double waterFactor = cart.isInWater() ? 0.5 : 1.0;
         cir.setReturnValue(blocksPerSecond * waterFactor / 20.0);

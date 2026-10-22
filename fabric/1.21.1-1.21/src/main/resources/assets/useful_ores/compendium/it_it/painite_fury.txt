@@ -1,0 +1,13 @@
+L’armatura in painite riduce la tua salute, ma aumenta la tua forza in combattimento.
+
+Costo in salute: ogni pezzo indossato riduce la salute massima di 1 HP (mezzo cuore). Con il set completo restano 16 HP (8 cuori). Se la salute attuale supera il nuovo limite, viene ridotta a quel valore. Togliere l’armatura ripristina il limite massimo, ma non cura. Vale anche quando Furia è inattiva.
+
+Furia: si attiva per i giocatori con 10 HP o meno (5 cuori). Ogni pezzo di armatura in painite indossato aggiunge quindi il 60% della sua difesa normale.
+
+Attrezzi: con Furia attiva, tenere una spada, un piccone, un’ascia, una zappa o una pala in painite aumenta del 60% i danni d’attacco e la velocità di rottura dei blocchi.
+
+Lancia: mantiene il suo normale funzionamento. Durante Furia infligge anche il 60% di danni in più e riduce del 60% il tempo di recupero dell’attacco.
+
+Aspetto: l’armatura diventa blu-cremisi e la corazza mostra una piccola crepa fusa animata. L’armatura e tutte le armi in painite, lancia inclusa, hanno questo colore nell’inventario e in mano.
+
+Ripristino: superati i 5 cuori, bonus e aspetto tornano normali.

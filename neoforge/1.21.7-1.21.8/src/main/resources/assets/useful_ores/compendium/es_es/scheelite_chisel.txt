@@ -1,0 +1,3 @@
+Herramienta con 200 puntos de durabilidad que convierte bloques completos compatibles en losas.
+
+Sujétala e interactúa con un bloque compatible. Los bloques no admitidos no cambian. Se fabrica con un lingote de scheelita y dos palos en diagonal.

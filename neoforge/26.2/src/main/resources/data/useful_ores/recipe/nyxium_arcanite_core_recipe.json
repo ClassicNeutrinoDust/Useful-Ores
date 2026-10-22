@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:nyxium_arcanite_core"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
@@ -12,5 +18,8 @@
     "A": "useful_ores:arcanite_ingot",
     "E": "minecraft:ender_eye"
   },
-  "result": { "id": "useful_ores:nyxium_arcanite_core", "count": 1 }
+  "result": {
+    "id": "useful_ores:nyxium_arcanite_core",
+    "count": 1
+  }
 }

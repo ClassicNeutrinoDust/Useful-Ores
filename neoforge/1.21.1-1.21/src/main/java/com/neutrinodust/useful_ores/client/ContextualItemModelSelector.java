@@ -10,14 +10,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.item.ItemStack;
 
-
-
-
-
-
-
-
-
 public final class ContextualItemModelSelector {
     private static final String NS = "useful_ores";
 
@@ -28,7 +20,6 @@ public final class ContextualItemModelSelector {
         return isUsable(resolved) ? resolved : original;
     }
 
-    
     public static BakedModel resolve(ItemStack stack, ItemDisplayContext context) {
         String path = alternatePath(stack, context);
         if (path == null) return null;

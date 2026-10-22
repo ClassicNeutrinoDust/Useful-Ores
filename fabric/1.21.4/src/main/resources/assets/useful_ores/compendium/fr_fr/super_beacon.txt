@@ -1,0 +1,3 @@
+Balise qui utilise une [étoile du Nether extrudée](Utility/Extruding Nether Star) à la place d’une étoile normale. Sa portée augmente avec la taille de la pyramide.
+
+Posez-la comme une balise classique sur une pyramide minérale valide, avec une vue dégagée sur le ciel. Le rayon de base est de 64 blocs ; chaque couche supplémentaire ajoute 112 blocs de portée. Choisissez les effets dans l’interface habituelle.

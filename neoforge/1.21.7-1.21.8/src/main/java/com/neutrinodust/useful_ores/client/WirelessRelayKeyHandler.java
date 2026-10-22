@@ -27,7 +27,6 @@ public final class WirelessRelayKeyHandler {
 
    private WirelessRelayKeyHandler() {}
 
-
    @SubscribeEvent
    public static void onRegisterKeyMappings(RegisterKeyMappingsEvent event) {
       event.register(CANCEL_RELAY_KEY);

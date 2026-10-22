@@ -16,7 +16,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 import java.util.List;
 
-
 @Mixin(Explosion.class)
 public abstract class MixinExplosion {
     @Shadow @Final private Level level;

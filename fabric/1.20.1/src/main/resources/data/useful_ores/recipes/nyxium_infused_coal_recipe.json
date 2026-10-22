@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:nyxium_infused_coal"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "CNC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "N": {
+      "tag": "c:nuggets/nyxium"
+    }
+  },
+  "result": {
+    "item": "useful_ores:nyxium_infused_coal",
+    "count": 8
+  }
+}

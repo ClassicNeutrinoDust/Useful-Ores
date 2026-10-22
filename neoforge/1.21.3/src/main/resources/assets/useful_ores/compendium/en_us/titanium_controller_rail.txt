@@ -1,0 +1,3 @@
+A three-way switch that sends a minecart left, straight or right. Place it facing the straight route, then build the three branches from the rail ahead.
+
+Select the branch with the controller’s interaction control. The controller stays straight; the rail in front bends toward the selected route.

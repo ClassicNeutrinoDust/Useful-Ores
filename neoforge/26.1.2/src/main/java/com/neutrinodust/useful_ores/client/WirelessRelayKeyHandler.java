@@ -29,7 +29,6 @@ public final class WirelessRelayKeyHandler {
 
    private WirelessRelayKeyHandler() {}
 
-
    @SubscribeEvent
    public static void onRegisterKeyMappings(RegisterKeyMappingsEvent event) {
       event.registerCategory(CATEGORY);

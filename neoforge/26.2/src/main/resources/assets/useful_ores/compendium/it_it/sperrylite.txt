@@ -1,0 +1,9 @@
+La sperrylite è la versione del platino del mod: un metallo prezioso e tenero, poco durevole ma ottimo per gli incantesimi.
+
+Generazione: nel mondo normale, solo in pietra (non nell’ardesia delle profondità), tra Y 0 e 64. Vene da 6 blocchi, circa 6 per chunk. Il minerale esposto all’aria si genera sempre.
+
+Bottino: Ogni blocco di minerale lascia 1 minerale grezzo; Fortuna aumenta la quantità e Tocco di velluto raccoglie il blocco.
+
+Statistiche: Attrezzi: durabilità 1561, velocità di estrazione 8.0, danno +3.0, incantabilità 10, livello di estrazione: diamante. Armatura: difesa 3/8/6/3, robustezza 2.0, nessuna resistenza al contraccolpo.
+
+Vantaggi: Le pepite creano una Fiala Catalitica riutilizzabile che combina due pozioni. Polvere da sparo e soffio del drago la trasformano in una fiala da lancio o persistente.

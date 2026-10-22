@@ -12,16 +12,6 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 
-
-
-
-
-
-
-
-
-
-
 @Mixin(BlockCollisions.class)
 public abstract class MixinBlockCollisionsSolariteMinecart {
     @Redirect(

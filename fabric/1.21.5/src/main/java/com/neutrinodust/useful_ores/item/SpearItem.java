@@ -12,7 +12,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
-
 public class SpearItem extends Item {
     public SpearItem(Properties properties) {
         super(properties);
@@ -29,11 +28,6 @@ public class SpearItem extends Item {
         }
         return level.isClientSide() ? InteractionResult.CONSUME : InteractionResult.SUCCESS;
     }
-
-    
-
-
-
 
     @Override
     public void onUseTick(Level level, LivingEntity user, ItemStack stack, int remainingUseDuration) {

@@ -1,0 +1,9 @@
+Osmium es el metal natural más denso del mod. Está pensado para durar y resistir los empujones, no para minar rápido.
+
+Se genera en el mundo superior, en piedra y pizarra profunda, entre Y -32 y 0. Vetas de 4 bloques, unas 4 por chunk. El mineral expuesto al aire siempre se genera.
+
+Botín: Cada bloque de mena suelta 1 unidad de mineral en bruto; Fortuna aumenta la cantidad y Toque de seda recoge el bloque.
+
+Estadísticas: Herramientas: durabilidad 1561, velocidad de minería 8.0, daño +3.0, encantabilidad 10, nivel de minería: diamante. Armadura: defensa 3/8/6/3, dureza 2.0, sin resistencia al retroceso.
+
+Ventajas: Con las cuatro piezas de armadura de Osmium te hundes rápidamente en el agua y puedes caminar por el fondo. Llevar solo parte del conjunto no produce efecto.

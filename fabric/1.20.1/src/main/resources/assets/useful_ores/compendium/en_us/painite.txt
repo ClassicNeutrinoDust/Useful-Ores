@@ -1,0 +1,33 @@
+Painite is a rare red ore found in the Nether. Wearing it costs you health, but it hits back hard once you are low.
+
+Found: the Nether only, from Y 8 to 119, evenly distributed. Veins of 8, 2 attempts per chunk. Ore touching air has a 50% chance of not spawning.
+
+Drops: 1 Raw Painite per ore block, increased by Fortune. Silk Touch drops the ore block itself.
+
+Other blocks: Raw Painite Block, Painite Block and Chiseled Painite Block.
+
+Smelting: Raw Painite or Painite Ore can be smelted or blasted into 1 Painite Ingot, worth 8 XP. 9 Raw Painite craft a Raw Painite Block. 9 Painite Ingots craft a Painite Block. 1 Painite Ingot crafts 9 Painite Nuggets, and 9 Nuggets craft back into 1 Ingot.
+
+Gear: sword, pickaxe, axe, hoe, shovel, helmet, chestplate, leggings and boots.
+
+Tool stats: durability 1561, mining speed 8.0, attack damage +3.0, enchantability 10. Mining tier: Diamond.
+
+Armor stats: durability multiplier 33. Defense 3 (helmet), 8 (chestplate), 6 (leggings), 3 (boots). Toughness 2.0, no knockback resistance.
+
+Health cost
+
+Each worn Painite armor piece lowers your max health by 1 HP (half a heart). The full set takes you from 20 HP to 16 HP (8 hearts).
+
+If you equip a piece while above the new cap, your health is clamped to it. Taking the armor off restores your max health but does not heal you.
+
+Fury
+
+See [Painite Fury](Tools & Combat/Painite Fury) for the full breakdown.
+
+Fury turns on when a player is at 10 HP or less (5 hearts). Other living entities trigger it at 50% of their max health.
+
+Armor: each worn piece adds 60% of its normal defense on top. The armor switches to a blue-crimson look with a small animated molten crack on the chest.
+
+Tools: a held Painite sword, pickaxe, axe, hoe or shovel gets +60% attack damage and +60% mining speed. These also turn blue-crimson in your inventory.
+
+Spear: keeps its normal mechanics. In Fury it also gets +60% attack damage and a 60% shorter attack cooldown, plus the Fury look.

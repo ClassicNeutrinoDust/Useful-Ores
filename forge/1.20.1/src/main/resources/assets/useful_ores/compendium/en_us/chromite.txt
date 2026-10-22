@@ -1,0 +1,9 @@
+Chromite is a hard, corrosion-resistant metal that sits between iron and diamond. It makes a cheap, durable upgrade for players who want more staying power before diamond gear.
+
+Found: Overworld, in stone and deepslate, from Y -32 to 0. Veins of 4, 4 per chunk. Ore touching air always spawns.
+
+Drops: 1 Raw Chromite per ore block, increased by Fortune. Silk Touch drops the ore block itself.
+
+Tool stats: durability 1650, mining speed 7.0, attack damage +8.0, enchantability 12. Mining tier: Diamond.
+
+Best for: bridging the gap between iron and diamond without needing a rare material. Full Chromite armor and tools are enough for that.

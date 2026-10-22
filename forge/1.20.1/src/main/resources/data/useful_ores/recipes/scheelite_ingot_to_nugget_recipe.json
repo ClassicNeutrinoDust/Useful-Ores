@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:scheelite_ingot"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:nuggets/scheelite"
+    }
+  },
+  "result": {
+    "item": "useful_ores:scheelite_ingot",
+    "count": 1
+  }
+}

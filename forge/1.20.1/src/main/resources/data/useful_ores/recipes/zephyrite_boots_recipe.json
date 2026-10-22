@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:zephyrite_boots"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/zephyrite"
+    }
+  },
+  "result": {
+    "item": "useful_ores:zephyrite_boots",
+    "count": 1
+  }
+}

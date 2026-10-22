@@ -1,0 +1,2 @@
+Material: durabilidade 190, velocidade de mineração 5.0, bônus de dano +4.0, encantabilidade 9.
+Dano / velocidade de ataque: espada 7.0 / 1.6, picareta 6.0 / 1.2, machado 9.0 / 0.8, enxada 4.0 / 2.0, pá 6.0 / 1.0.

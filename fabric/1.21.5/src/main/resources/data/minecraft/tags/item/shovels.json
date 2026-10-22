@@ -15,6 +15,9 @@
     "useful_ores:scheelite_shovel",
     "useful_ores:enderium_shovel",
     "useful_ores:voidshard_shovel",
-    "useful_ores:subspace_shovel"
+    "useful_ores:subspace_shovel",
+    "useful_ores:attributed_subspace_shovel",
+    "useful_ores:lonsdaleite_shovel",
+    "useful_ores:painite_shovel"
   ]
 }

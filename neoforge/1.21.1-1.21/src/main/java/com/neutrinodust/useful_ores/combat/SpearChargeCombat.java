@@ -28,15 +28,7 @@ import java.util.HashSet;
 import java.util.UUID;
 import java.util.WeakHashMap;
 
-
-
-
-
-
-
-
 public final class SpearChargeCombat {
-    
     
     private static final double MIN_REACH = 0.4D;
     private static final double CREATIVE_MIN_REACH = 0.0D;
@@ -45,15 +37,9 @@ public final class SpearChargeCombat {
     private static final double HITBOX_MARGIN = 0.25D;
     private static final long CONTACT_COOLDOWN = 10L;
 
-    
     private static final Map<LivingEntity, UseState> ACTIVE_USES = new WeakHashMap<>();
 
     private SpearChargeCombat() {}
-
-    
-
-
-
 
     public static void beginUse(LivingEntity attacker, ItemStack stack, InteractionHand hand, long now) {
         if (attacker.level().isClientSide()) return;
@@ -68,10 +54,6 @@ public final class SpearChargeCombat {
             ACTIVE_USES.remove(attacker);
         }
     }
-
-    
-
-
 
     public static void onUseTick(Level level, LivingEntity attacker, ItemStack stack, int remainingUseDuration) {
         if (!(level instanceof ServerLevel serverLevel)
@@ -93,18 +75,9 @@ public final class SpearChargeCombat {
             }
         }
 
-        
-        
-        
-        
-        
         int ticksUsed = Math.max(0, stack.getUseDuration(attacker) - remainingUseDuration);
         processUseTick(serverLevel, attacker, stack, state, ticksUsed);
     }
-
-    
-
-
 
     public static void onClientChargeFrame(ServerPlayer attacker, SpearChargeFramePacket packet) {
         if (!attacker.isAlive() || !attacker.isUsingItem()) return;
@@ -135,7 +108,6 @@ public final class SpearChargeCombat {
         }
     }
 
-    
     public static boolean performJab(ServerPlayer attacker) {
         if (!attacker.isAlive() || !(attacker.getMainHandItem().getItem() instanceof BackportSpearItem)) return false;
         ItemStack stack = attacker.getMainHandItem();
@@ -182,15 +154,10 @@ public final class SpearChargeCombat {
         int elapsed = ticksUsed - delayTicks;
         if (elapsed < 0) return;
 
-        
-        
         long now = level.getGameTime();
 
         Vec3 view = attacker.getViewVector(1.0F).normalize();
 
-        
-        
-        
         Vec3 attackerMotion = state.clientVelocity20;
         if (attackerMotion == null || level.getGameTime() - state.clientVelocityReceivedTick > 3L) {
             attackerMotion = kineticMotion(attacker);
@@ -202,13 +169,9 @@ public final class SpearChargeCombat {
         double maxReach = creative ? CREATIVE_MAX_REACH : MAX_REACH;
         List<TargetHit> targets = findTargetsAlong(level, attacker, view, minReach, maxReach);
 
-
         Set<UUID> currentContacts = new HashSet<>();
         for (TargetHit targetHit : targets) currentContacts.add(targetHit.entity().getUUID());
 
-        
-        
-        
         for (Map.Entry<UUID, ContactState> entry : state.contacts.entrySet()) {
             if (!currentContacts.contains(entry.getKey())) {
                 ContactState contact = entry.getValue();
@@ -236,20 +199,8 @@ public final class SpearChargeCombat {
             double targetSpeed = targetMotion.dot(view);
             double projectedRelativeSpeed = Math.max(0.0D, attackerSpeed - targetSpeed);
 
-            
-            
-            
-            
-            
-            
-            
-            
-            
             double relativeMotionMagnitude = attackerMotion.subtract(targetMotion).length();
 
-            
-            
-            
             double speedMultiplier = attacker instanceof Player ? 1.0D : 0.2D;
 
             boolean dismount = condition(
@@ -275,7 +226,6 @@ public final class SpearChargeCombat {
                     profile.minRelativeSpeedForChargeDamage(),
                     speedMultiplier
             );
-
 
             if (!(dismount || knockback || damage)) continue;
 
@@ -341,11 +291,6 @@ public final class SpearChargeCombat {
                 && relativeSpeed >= minRelativeSpeed * speedMultiplier;
     }
 
-    
-
-
-
-
     private static List<TargetHit> findTargetsAlong(
             ServerLevel level,
             LivingEntity attacker,
@@ -390,7 +335,6 @@ public final class SpearChargeCombat {
         return hits;
     }
 
-    
     private static Double segmentAabbDistance(Vec3 start, Vec3 end, AABB box) {
         Vec3 d = end.subtract(start);
         double tMin = 0.0D;
@@ -434,7 +378,6 @@ public final class SpearChargeCombat {
         contact.touching = true;
         contact.cooldownUntil = Long.MAX_VALUE;
     }
-
 
     private static final class ContactState {
         private boolean hit;

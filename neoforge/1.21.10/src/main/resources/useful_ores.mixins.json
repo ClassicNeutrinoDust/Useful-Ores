@@ -18,7 +18,9 @@
     "MixinOldMinecartBehaviorSolariteHighSpeed",
     "MixinMinecartBehaviorAccessor",
     "MixinAbstractMinecartSolariteBehavior",
-    "MixinNewMinecartBehaviorSolariteBoost"
+    "MixinNewMinecartBehaviorSolariteBoost",
+    "MixinHopperLockedChest",
+    "MixinChestBlockLockCleanup"
   ],
   "client": [
     "MixinPistonHeadRenderer",

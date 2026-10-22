@@ -1,9 +1,11 @@
-Solarite is a radiant precious metal - the entry point of the mod's "top trio" (Solarite, Enderium, Voidshard), and still clearly faster to mine with than Netherite.
+Solarite is a radiant precious metal and the first of the top trio (Solarite, Enderium, Voidshard). It still mines noticeably faster than Netherite.
 
-Generation: The Nether, generating directly in netherrack from Y 8 to Y 119. It is rare, appearing in clusters of 3 with only 1 vein per chunk, and has a 100% chance to vanish if exposed to air, so mine it out fully before breaking into open caverns.
+Found: The Nether, in netherrack, from Y 8 to 119. It is rare: veins of 3, 1 per chunk. Ore touching air never spawns, so veins that border open caverns come out smaller.
 
-Drops: 1 Raw Solarite per block, boosted by Fortune, or the ore block itself when mined with Silk Touch.
+Drops: 1 Raw Solarite per ore block, increased by Fortune. Silk Touch drops the ore block itself.
 
-Tool stats: 2400 durability, 15.0 mining speed, +12.0 attack damage bonus, enchantability 24. It is not correct for Netherite-tier-only blocks.
+Tool stats: durability 2400, mining speed 15.0, attack damage +12.0, enchantability 24. Mining tier: Netherite.
 
-Special ability: Solarite powers the [Solarite Furnace](Utility/Solarite Furnace), a 2x2x2 multiblock that smelts 5x faster than a Blast Furnace using direct sunlight or a charged Solar Battery, and it is also the key ingredient of the self-propelled Solarite Battery Minecart and Solarite Rail.
+Perks: Solarite powers the [Solarite Furnace](Utility/Solarite Furnace), a 2x2x2 multiblock that smelts 5x faster than a Blast Furnace. It runs on direct sunlight or a charged Solar Battery.
+
+Solarite is also the key ingredient of the self-propelled Solarite Battery Minecart and the Solarite Rail.

@@ -1,0 +1,5 @@
+Defensa: casco 4, pechera 13, grebas 9, botas 3.
+Durabilidad: casco 638, pechera 928, grebas 870, botas 754.
+Encantabilidad 27, dureza 3.8, resistencia al retroceso 22%.
+
+Bonificación del conjunto: cada pieza reduce un 17,5 % el daño de explosión, hasta un 70 % con las cuatro. La bonificación depende del número de piezas equipadas. Toda la armadura y las herramientas de lonsdaleíta se pueden encantar.

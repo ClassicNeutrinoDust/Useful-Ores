@@ -1,0 +1,4 @@
+Material: durabilidade 1561, velocidade de mineração 8.0, bônus de dano +3.0, encantabilidade 10.
+Dano / velocidade de ataque: espada 6.0 / 1.6, picareta 4.0 / 1.2, machado 8.0 / 1.0, enxada 0.0 / 4.0, pá 4.5 / 1.0.
+
+Vida baixa: com 5 corações ou menos, uma espada, picareta, machado, enxada ou pá de painite na mão recebe 60% a mais de dano e velocidade de quebra de blocos.

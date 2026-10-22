@@ -11,14 +11,8 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-
 public final class AncientPedestalMapAssignments extends SavedData {
     private final Set<Long> claimedTargets = new HashSet<>();
-
-    
-
-
-
 
     public static final Codec<AncientPedestalMapAssignments> CODEC = Codec.LONG.listOf().xmap(
             list -> {

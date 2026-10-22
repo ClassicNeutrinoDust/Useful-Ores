@@ -1,0 +1,3 @@
+A staff that links to an Ancient Pedestal and fires a projectile that opens a wormhole. Right-click an Ancient Pedestal with the staff to bind it; the staff stores the pedestal’s coordinates.
+
+Right-click in the air to fire toward your crosshair. Cooldown: 30 ticks (1.5 seconds). Craft it with a Volatile Nyxiumnite Core above two Argentite Ingots.

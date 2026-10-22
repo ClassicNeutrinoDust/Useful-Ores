@@ -1,4 +1,14 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:raw_fulgurite"
+    },
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:fulgurite_ingot"
+    }
+  ],
   "criteria": {
     "get_fulgurite_ingot": {
       "trigger": "minecraft:inventory_changed",

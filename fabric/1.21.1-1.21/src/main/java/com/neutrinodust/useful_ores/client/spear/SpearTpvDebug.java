@@ -10,12 +10,6 @@ import org.slf4j.LoggerFactory;
 
 import java.util.concurrent.atomic.AtomicLong;
 
-
-
-
-
-
-
 public final class SpearTpvDebug {
     private static final boolean ENABLED = false;
     private static final Logger LOGGER = LoggerFactory.getLogger("Useful Ores/TPV-Spear-Debug");

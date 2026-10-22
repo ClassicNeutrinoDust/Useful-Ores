@@ -1,4 +1,10 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:lonsdaleite_block"
+    }
+  ],
   "criteria": {
     "has_ingredient": {
       "trigger": "minecraft:inventory_changed",

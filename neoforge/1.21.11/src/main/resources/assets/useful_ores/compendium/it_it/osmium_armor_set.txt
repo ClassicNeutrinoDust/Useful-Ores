@@ -1,0 +1,5 @@
+Difesa: elmo 2, corazza 8, gambali 5, stivali 2.
+Durata: elmo 330, corazza 480, gambali 450, stivali 390.
+Incantabilità 20, robustezza 1.5, resistenza al contraccolpo 35%.
+
+Bonus del set: con tutti e quattro i pezzi puoi camminare sul fondo dell’acqua invece di galleggiare. Un set incompleto non ha effetto.

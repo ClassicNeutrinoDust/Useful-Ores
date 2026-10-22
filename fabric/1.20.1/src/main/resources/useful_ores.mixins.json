@@ -1,0 +1,47 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "refmap": "useful_ores.refmap.json",
+  "package": "com.neutrinodust.useful_ores.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinLivingEntityPainite",
+    "MixinFireBlock",
+    "MixinBaseFireBlock",
+    "MixinBlockEntityType",
+    "MixinBrewingStandBlockEntity",
+    "MixinBrewingStandMenuPotionSlot",
+    "MixinBrewingStandMenuIngredientsSlot",
+    "MixinPistonBaseBlock",
+    "MixinPistonMovingBlockEntity",
+    "MixinPistonStructureResolver",
+    "MixinPlayerTick",
+    "MixinExplosion",
+    "MixinLivingEntityBlastArmor",
+    "MixinBaseRailBlockPlacement",
+    "MixinLevelNeighborNotify",
+    "MixinMonsterDarkSpawnCheck",
+    "MixinLevelDestroyBlockContext",
+    "MixinServerPlayerGameModeDestroyBlockContext",
+    "MixinBlockPopResource",
+    "MixinItemEntityTick",
+    "MixinExperienceOrb",
+    "MixinServerEntitySolariteCart",
+    "AbstractMinecartAccessor",
+    "MixinAbstractMinecartSolariteRailBoost",
+    "MixinCollisionContextSolariteMinecart",
+    "MixinBlockCollisionsSolariteMinecart",
+    "MixinPlayerDestroySpeed",
+    "MixinEnchantmentHelperDepthStrider",
+    "MixinEnchantmentCanEnchant"
+  ],
+  "client": [
+    "MixinItemRendererContextModels",
+    "MixinPistonHeadRenderer",
+    "MixinHumanoidArmorLayerPainite"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

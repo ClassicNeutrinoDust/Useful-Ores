@@ -1,0 +1,3 @@
+Carrello guidabile e autonomo con batteria di Solarite integrata. Viaggia su binari normali, alimentati, in titanio e di Solarite.
+
+Mentre sei a bordo, usa W per accelerare e S per rallentare. Tieni premuto Maiusc e interagisci per aprire i controlli e scegliere una velocità preimpostata. In rettilineo raggiunge 1,6 blocchi per tick (32 blocchi al secondo); usa binari in titanio per curve più sicure ad alta velocità.

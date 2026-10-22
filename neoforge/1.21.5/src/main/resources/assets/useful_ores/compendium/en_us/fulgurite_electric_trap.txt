@@ -1,0 +1,9 @@
+A dormant electric trap. Lightning during a thunderstorm activates it. Once active, it damages living entities in a square area and pulls them toward the center.
+
+Activation: place it on a solid block with open sky above and wait for a thunderstorm. It has a chance to be struck each tick. A lightning strike unlocks it permanently. Breaking and replacing it keeps it unlocked but resets its range to 1.
+
+Range: starts at 1 (3×3). Right-click with a Fulgurite Ingot to upgrade to 2 (5×5), then 3 (7×7, maximum). Each upgrade costs one ingot outside Creative mode. Right-click with an empty hand to check its status.
+
+Damage: the field periodically deals 2 damage to players and 4 to mobs. Mobs also lose horizontal movement. Entities are pulled toward the trap, and particles mark the active area.
+
+Any redstone signal touching the trap turns the field off. It stays unlocked.

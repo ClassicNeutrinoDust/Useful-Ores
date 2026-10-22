@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:useful_ores_compendium"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "tag": "c:raw_materials"
+    }
+  ],
+  "result": {
+    "item": "useful_ores:useful_ores_compendium",
+    "count": 1
+  }
+}

@@ -1,0 +1,3 @@
+A rideable, self-propelled minecart with a built-in Solar Battery. It runs on normal rails, powered rails, Titanium Rails and Solarite Rails.
+
+While riding, use W to accelerate and S to slow down. Hold Shift and interact to open the speed controls and choose a preset. On straight track it can reach 1.6 blocks per tick (32 blocks per second); use Titanium Rail for safer high-speed curves.

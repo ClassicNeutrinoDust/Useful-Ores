@@ -1,0 +1,3 @@
+Dropped by Extruding Crystal Ore. Fortune increases the amount. Nine nuggets make one [Extruding Crystal](Utility/Extruding Crystal).
+
+Crafting: fill all nine slots of the crafting grid with nuggets.

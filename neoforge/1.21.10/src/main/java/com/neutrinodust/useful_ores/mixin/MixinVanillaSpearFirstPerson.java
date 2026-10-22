@@ -17,20 +17,8 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-
 @Mixin(ItemInHandRenderer.class)
 public abstract class MixinVanillaSpearFirstPerson {
-    
-    
-    
-    
-
-
-
-
-
-
-
 
     private static boolean usefulOres$lastBranchWasUse = false;
     private static long usefulOres$lastLogTick = -1;
@@ -66,22 +54,12 @@ public abstract class MixinVanillaSpearFirstPerson {
         }
 
         if(useBranch){
-            
-            
-            
             pose.translate((float)sign * 0.56F, -0.52F, -0.72F);
             float timeHeld=(float)item.getUseDuration(player)-((float)player.getUseItemRemainingTicks()-tickProgress+1.0F);
             VanillaSpearAnimations.firstPersonUse(10.0F, pose, timeHeld, arm, item);
         }else{
             r.usefulOres$invokeApplyItemArmTransform(pose,arm,0.0F);
             if(swingProgress>0.0F) {
-                
-                
-                
-                
-                
-                
-                
                 VanillaSpearAnimations.firstPersonAttack(swingProgress,pose,sign,arm);
             }
         }

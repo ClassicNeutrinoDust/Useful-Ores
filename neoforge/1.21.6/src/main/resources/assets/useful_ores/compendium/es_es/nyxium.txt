@@ -1,0 +1,9 @@
+Nyxium es un mineral azul oscuro y poco común, cargado de magia oscura.
+
+Se genera en el mundo superior, en piedra y pizarra profunda. Hay tres tipos de generación que se superponen: veta principal entre Y -64 y 16 (7 por chunk); bolsa grande entre Y -64 y -48 (1 por chunk); bolsa pequeña entre Y -64 y -4 (2 por chunk).
+
+Botín: Cada bloque de mena suelta 1 unidad de mineral en bruto; Fortuna aumenta la cantidad y Toque de seda recoge el bloque.
+
+Estadísticas: Durabilidad: 2200; velocidad de minería: 8.0; daño de ataque: +10.0; encantabilidad: 15; nivel de minería: Netherite.
+
+Ventajas: La espada de Nyxium aplica Wither durante 3 segundos por golpe. Sus flechas roban hasta un corazón al objetivo y se lo dan al tirador como absorción dorada.

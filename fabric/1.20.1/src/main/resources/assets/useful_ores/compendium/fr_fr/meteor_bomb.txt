@@ -1,0 +1,3 @@
+Explosif à lancer qui détruit les blocs avec une puissance comparable à celle d’un creeper, même sous l’eau. Chaque fabrication donne quatre bombes.
+
+Faites un clic droit pour la lancer. Fabriquez-en quatre avec huit poudres de météorite autour d’une poudre à canon. La poussière provient des blocs d’une [météorite écrasée](Misc/Crashed Meteorite) ; la poudre à canon s’obtient sur les creepers et dans les coffres.

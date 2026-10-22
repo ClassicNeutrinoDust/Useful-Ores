@@ -1,0 +1,3 @@
+Defesa: capacete 2, peitoral 5, calças 3, botas 1.
+Durabilidade: capacete 209, peitoral 304, calças 285, botas 247.
+Encantabilidade 10, resistência 0.1, resistência a repulsão 15%.

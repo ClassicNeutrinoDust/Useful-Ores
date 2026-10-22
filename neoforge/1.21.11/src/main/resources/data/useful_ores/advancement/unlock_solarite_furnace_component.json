@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:solarite_furnace_component"
+    }
+  ],
   "criteria": {
     "has_ingredient": {
       "trigger": "minecraft:inventory_changed",

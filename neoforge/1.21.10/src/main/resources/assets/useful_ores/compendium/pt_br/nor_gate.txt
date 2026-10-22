@@ -1,0 +1,5 @@
+É o inverso de OR. A saída só liga quando as duas entradas estão desligadas. Atraso: 1 tick.
+
+Coloque-a sobre um bloco sólido. A face frontal é a saída; os lados esquerdo e direito são as entradas. Conecte pó de redstone ou outra fonte.
+
+Tabela-verdade: 0/0 = 1, 0/1 = 0, 1/0 = 0, 1/1 = 0. Útil para detectar quando nenhuma entrada está ativa.

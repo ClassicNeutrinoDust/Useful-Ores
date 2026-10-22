@@ -1,0 +1,9 @@
+{
+  "asset_name": "painite",
+  "description": {
+    "color": "#E7B0BF",
+    "translate": "trim_material.useful_ores.painite"
+  },
+  "ingredient": "useful_ores:painite_ingot",
+  "item_model_index": 2.6
+}

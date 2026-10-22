@@ -1,0 +1,4 @@
+Matériau : durabilité 1561, vitesse de minage 8.0, bonus de dégâts +3.0, aptitude à l’enchantement 10.
+Dégâts / vitesse d’attaque: épée 6.0 / 1.6, pioche 4.0 / 1.2, hache 8.0 / 1.0, houe 0.0 / 4.0, pelle 4.5 / 1.0.
+
+Santé basse : à 5 cœurs ou moins, une épée, une pioche, une hache, une houe ou une pelle en painite tenue en main gagne 60 % de dégâts et de vitesse de minage.

@@ -1,0 +1,9 @@
+Un piège électrique inactif. Un éclair pendant un orage l’active. Il inflige ensuite des dégâts aux entités vivantes dans une zone carrée et les attire vers le centre.
+
+Activation : placez-le sur un bloc solide avec le ciel dégagé au-dessus, puis attendez un orage. Il a une chance d’être frappé à chaque tick. L’éclair le déverrouille définitivement. Le casser puis le replacer conserve ce déverrouillage, mais ramène sa portée à 1.
+
+Portée : 1 au départ (3×3). Faites un clic droit avec un lingot de fulgurite pour passer à 2 (5×5), puis à 3 (7×7, maximum). Chaque amélioration coûte un lingot hors du mode Créatif. Faites un clic droit à main vide pour consulter son état.
+
+Dégâts : le champ inflige périodiquement 2 points de dégâts aux joueurs et 4 aux créatures. Les créatures perdent aussi leur déplacement horizontal. Les entités sont attirées vers le piège et des particules indiquent la zone active.
+
+Tout signal de redstone touchant le piège désactive le champ. Le piège reste déverrouillé.

@@ -19,7 +19,6 @@ public final class SolariteCartInputHandler {
 
    private static int ticksSinceSend = 0;
 
-
    @SubscribeEvent
    private static void onPlayerTick(PlayerTickEvent.Post event) {
       if (!(event.getEntity() instanceof LocalPlayer player)) return;

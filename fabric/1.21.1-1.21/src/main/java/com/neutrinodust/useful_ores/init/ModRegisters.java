@@ -60,14 +60,12 @@ public class ModRegisters {
       return new RegisteredItem<>(item);
    }
 
-   
    public static RegisteredItem<Item> registerSpear(String name, Tier tool, Supplier<Properties> itemProps) {
       float[] t = spearTuning(tool.getSpeed());
       return registerItem(name + "_spear",
          p -> new SpearItem(tool, 1.0F, (1.0F / t[0]) - 4.0F, p.stacksTo(1)),
          itemProps.get());
    }
-
 
    public static RegisteredBlock<Block> registerBlock(
       String name,
@@ -91,13 +89,6 @@ public class ModRegisters {
       );
       return new RegisteredBlock<>(block);
    }
-
-   
-
-
-
-
-
 
    public static ItemAttributeModifiers preserveBaseAttackDamage(ItemAttributeModifiers base, float requestedBaseDamage) {
       int rounded = Math.round(requestedBaseDamage);
@@ -184,8 +175,6 @@ public class ModRegisters {
          registerItem(name + "_sword",      p -> new SwordItem(tool, p.attributes(createSwordAttributes(tool, swordattr[0], swordattr[1]))) {
             @Override
             public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-               
-               
                
                super.hurtEnemy(stack, target, attacker);
                return true;

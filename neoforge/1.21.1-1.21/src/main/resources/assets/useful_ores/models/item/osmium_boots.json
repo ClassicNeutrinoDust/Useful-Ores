@@ -6,61 +6,169 @@
   "overrides": [
     {
       "predicate": {
-        "minecraft:trim_type": 0.1
+        "trim_type": 0.1
       },
       "model": "useful_ores:item/osmium_boots_quartz_trim"
     },
     {
       "predicate": {
-        "minecraft:trim_type": 0.2
+        "trim_type": 0.101
+      },
+      "model": "useful_ores:item/osmium_boots_chromite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.102
+      },
+      "model": "useful_ores:item/osmium_boots_nyxium_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.103
+      },
+      "model": "useful_ores:item/osmium_boots_phosgene_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.104
+      },
+      "model": "useful_ores:item/osmium_boots_arcanite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.105
+      },
+      "model": "useful_ores:item/osmium_boots_fulgurite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.106
+      },
+      "model": "useful_ores:item/osmium_boots_osmium_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.107
+      },
+      "model": "useful_ores:item/osmium_boots_solarite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.108
+      },
+      "model": "useful_ores:item/osmium_boots_sperrylite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.109
+      },
+      "model": "useful_ores:item/osmium_boots_argentite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.11
+      },
+      "model": "useful_ores:item/osmium_boots_zephyrite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.111
+      },
+      "model": "useful_ores:item/osmium_boots_ilmenite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.112
+      },
+      "model": "useful_ores:item/osmium_boots_scheelite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.113
+      },
+      "model": "useful_ores:item/osmium_boots_voidshard_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.114
+      },
+      "model": "useful_ores:item/osmium_boots_enderium_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.115
+      },
+      "model": "useful_ores:item/osmium_boots_painite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.116
+      },
+      "model": "useful_ores:item/osmium_boots_lonsdaleite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.117
+      },
+      "model": "useful_ores:item/osmium_boots_subspace_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.118
+      },
+      "model": "useful_ores:item/osmium_boots_attributed_subspace_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2
       },
       "model": "useful_ores:item/osmium_boots_iron_trim"
     },
     {
       "predicate": {
-        "minecraft:trim_type": 0.3
+        "trim_type": 0.3
       },
       "model": "useful_ores:item/osmium_boots_netherite_trim"
     },
     {
       "predicate": {
-        "minecraft:trim_type": 0.4
+        "trim_type": 0.4
       },
       "model": "useful_ores:item/osmium_boots_redstone_trim"
     },
     {
       "predicate": {
-        "minecraft:trim_type": 0.5
+        "trim_type": 0.5
       },
       "model": "useful_ores:item/osmium_boots_copper_trim"
     },
     {
       "predicate": {
-        "minecraft:trim_type": 0.6
+        "trim_type": 0.6
       },
       "model": "useful_ores:item/osmium_boots_gold_trim"
     },
     {
       "predicate": {
-        "minecraft:trim_type": 0.7
+        "trim_type": 0.7
       },
       "model": "useful_ores:item/osmium_boots_emerald_trim"
     },
     {
       "predicate": {
-        "minecraft:trim_type": 0.8
+        "trim_type": 0.8
       },
       "model": "useful_ores:item/osmium_boots_diamond_trim"
     },
     {
       "predicate": {
-        "minecraft:trim_type": 0.9
+        "trim_type": 0.9
       },
       "model": "useful_ores:item/osmium_boots_lapis_trim"
     },
     {
       "predicate": {
-        "minecraft:trim_type": 1.0
+        "trim_type": 1.0
       },
       "model": "useful_ores:item/osmium_boots_amethyst_trim"
     }

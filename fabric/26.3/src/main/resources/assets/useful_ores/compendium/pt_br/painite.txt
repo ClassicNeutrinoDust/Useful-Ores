@@ -1,0 +1,9 @@
+Painite é um minério vermelho encontrado no Nether. Sua armadura reduz a vida máxima, mas o equipamento fica mais forte quando sua vida está baixa.
+
+Gera apenas no Nether, distribuída uniformemente entre Y 8 e 119. Veios de 8 blocos, 2 tentativas por chunk. O minério exposto ao ar tem 50% de chance de não gerar.
+
+Drops: Cada bloco de minério rende 1 minério bruto; Fortuna aumenta a quantidade e Toque Suave coleta o próprio bloco.
+
+Atributos: Durabilidade: 1561; velocidade de mineração: 8.0; dano de ataque: +3.0; encantabilidade: 10; nível de mineração: diamante.
+
+Vantagens: Cada peça de armadura reduz a vida máxima em 1 HP. Fury ativa com 10 HP ou menos para jogadores e com metade da vida para outras criaturas. Durante Fury, a armadura ganha 60% de defesa e as ferramentas ganham 60% de dano e velocidade de mineração. A lança também recarrega 60% mais rápido.

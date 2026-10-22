@@ -24,6 +24,11 @@ public class ModRegisters {
    public static final Items ITEMS = DeferredRegister.createItems("useful_ores");
    public static final Blocks BLOCKS = DeferredRegister.createBlocks("useful_ores");
 
+   public static Properties trimIngot(String materialName, Properties props) {
+      return props.trimMaterial(ResourceKey.create(
+         Registries.TRIM_MATERIAL, Identifier.fromNamespaceAndPath("useful_ores", materialName)));
+   }
+
    public static DeferredItem<Item> registerItem(String name, Function<Properties, Item> function, Properties itemProp) {
       return ITEMS.register(
          name, () -> function.apply(itemProp.setId(ResourceKey.create(Registries.ITEM,
@@ -35,7 +40,6 @@ public class ModRegisters {
       float[] t = spearTuning(tool.speed());
       return registerItem(name + "_spear", p -> new Item(p.spear(tool, t[0], t[1], t[2], t[3], t[4], t[5], t[6], t[7], t[8])), itemProps.get());
    }
-
 
    public static DeferredBlock<Block> registerBlock(
       String name,
@@ -96,7 +100,7 @@ public class ModRegisters {
    ) {
       return List.of(
          registerItem("raw_" + name,        Item::new, itemProps.get()),
-         registerItem(name + "_ingot",      Item::new, itemProps.get()),
+         registerItem(name + "_ingot",      Item::new, trimIngot(name, itemProps.get())),
          registerItem(name + "_nugget",     Item::new, itemProps.get()),
          registerItem(name + "_sword",      p -> new Item(p.sword(tool, swordattr[0], swordattr[1])), itemProps.get()),
          registerItem(name + "_pickaxe",    p -> new Item(p.pickaxe(tool, pickaxeattr[0], pickaxeattr[1])), itemProps.get()),
@@ -125,7 +129,7 @@ public class ModRegisters {
    ) {
       return List.of(
          registerItem("raw_" + name,        Item::new, itemProps.get()),
-         registerItem(name + "_ingot",      Item::new, itemProps.get()),
+         registerItem(name + "_ingot",      Item::new, trimIngot(name, itemProps.get())),
          registerItem(name + "_nugget",     Item::new, itemProps.get()),
          registerItem(name + "_sword",      p -> new Item(p.sword(tool, swordattr[0], swordattr[1])) {
             @Override

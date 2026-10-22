@@ -100,8 +100,6 @@ public class NyxiumDarkBarrierBlock extends BaseEntityBlock {
     @Override
     public boolean canSurvive(BlockState state, LevelReader level, BlockPos pos) {
         
-        
-        
         AABB candidate = worldCollisionBounds(state, pos);
         for (int dx = -2; dx <= 2; dx++) {
             for (int dy = -2; dy <= 2; dy++) {

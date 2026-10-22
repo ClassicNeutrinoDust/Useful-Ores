@@ -57,7 +57,6 @@
         "gold_darker": "trims/color_palettes/gold_darker",
         "diamond_darker": "trims/color_palettes/diamond_darker",
         "netherite_darker": "trims/color_palettes/netherite_darker",
-
         "chromite": "useful_ores:trims/color_palettes/chromite",
         "nyxium": "useful_ores:trims/color_palettes/nyxium",
         "phosgene": "useful_ores:trims/color_palettes/phosgene",
@@ -69,7 +68,13 @@
         "argentite": "useful_ores:trims/color_palettes/argentite",
         "zephyrite": "useful_ores:trims/color_palettes/zephyrite",
         "ilmenite": "useful_ores:trims/color_palettes/ilmenite",
-        "scheelite": "useful_ores:trims/color_palettes/scheelite"
+        "scheelite": "useful_ores:trims/color_palettes/scheelite",
+        "voidshard": "useful_ores:trims/color_palettes/voidshard",
+        "lonsdaleite": "useful_ores:trims/color_palettes/lonsdaleite",
+        "painite": "useful_ores:trims/color_palettes/painite",
+        "enderium": "useful_ores:trims/color_palettes/enderium",
+        "subspace": "useful_ores:trims/color_palettes/subspace",
+        "attributed_subspace": "useful_ores:trims/color_palettes/attributed_subspace"
       }
     }
   ]

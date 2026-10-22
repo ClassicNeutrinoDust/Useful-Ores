@@ -1,0 +1,3 @@
+Outil doté de 200 points de durabilité qui transforme les blocs pleins compatibles en dalles.
+
+Tenez-le et interagissez avec un bloc compatible. Les blocs non pris en charge ne changent pas. Fabriquez-le avec un lingot de scheelite et deux bâtons en diagonale.

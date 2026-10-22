@@ -1,0 +1,9 @@
+L’ilmenite è il minerale di titanio del mod e uno dei materiali più resistenti della fascia medio-alta.
+
+Generazione: nel mondo normale, in pietra e ardesia delle profondità, tra Y -64 e 16. Vene da 8 blocchi, circa 7 per chunk. Il minerale esposto all’aria ha il 50% di probabilità di non generarsi.
+
+Bottino: Ogni blocco di minerale lascia 1 minerale grezzo; Fortuna aumenta la quantità e Tocco di velluto raccoglie il blocco.
+
+Statistiche: Durabilità: 2600; velocità di estrazione: 7.0; danno d’attacco: +9.0; incantabilità: 10; livello di estrazione: diamante.
+
+Vantaggi: I lingotti creano il sistema di binari in titanio, compreso un binario di controllo che manda i carrelli a sinistra, dritto o a destra. Servono anche per la serratura e la chiave in titanio.

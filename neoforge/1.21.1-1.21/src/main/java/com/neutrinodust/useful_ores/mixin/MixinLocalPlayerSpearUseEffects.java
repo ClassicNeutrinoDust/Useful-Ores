@@ -12,17 +12,6 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.ModifyConstant;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-
-
-
-
-
-
-
-
-
-
-
 @Mixin(LocalPlayer.class)
 public abstract class MixinLocalPlayerSpearUseEffects {
     @Shadow
@@ -42,11 +31,6 @@ public abstract class MixinLocalPlayerSpearUseEffects {
         return player.getMainHandItem().is(SpearTags.SPEARS);
     }
 
-    
-
-
-
-
     @ModifyConstant(
         method = "aiStep",
         constant = @Constant(floatValue = 0.2F),
@@ -59,11 +43,6 @@ public abstract class MixinLocalPlayerSpearUseEffects {
         }
         return original;
     }
-
-    
-
-
-
 
     @Inject(method = "canStartSprinting()Z", at = @At("HEAD"), cancellable = true, require = 1)
     private void usefulOres$canStartSprinting(CallbackInfoReturnable<Boolean> cir) {

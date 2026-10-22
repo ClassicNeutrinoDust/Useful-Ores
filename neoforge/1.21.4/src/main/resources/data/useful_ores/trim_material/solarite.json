@@ -1,0 +1,9 @@
+{
+  "asset_name": "solarite",
+  "description": {
+    "color": "#F5B69E",
+    "translate": "trim_material.useful_ores.solarite"
+  },
+  "ingredient": "useful_ores:solarite_ingot",
+  "item_model_index": 0.0
+}

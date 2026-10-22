@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "useful_ores:item/sperrylite_catalytic_vial_overlay",
+    "layer1": "minecraft:item/lingering_potion"
+  }
+}

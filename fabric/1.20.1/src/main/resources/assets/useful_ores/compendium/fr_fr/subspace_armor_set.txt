@@ -1,0 +1,3 @@
+Défense: casque 5, plastron 15, jambières 10, bottes 4.
+Durabilité: casque 682, plastron 992, jambières 930, bottes 806.
+Enchantabilité 34, robustesse 4.0, résistance au recul 40%.

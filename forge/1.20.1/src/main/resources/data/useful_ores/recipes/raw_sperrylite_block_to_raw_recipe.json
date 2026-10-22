@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:raw_sperrylite"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "useful_ores:raw_sperrylite_block"
+    }
+  },
+  "result": {
+    "item": "useful_ores:raw_sperrylite",
+    "count": 9
+  }
+}

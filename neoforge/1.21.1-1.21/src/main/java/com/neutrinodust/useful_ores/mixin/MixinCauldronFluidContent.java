@@ -11,14 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 import java.util.Objects;
 
-
-
-
-
-
-
-
-
 @Mixin(CauldronFluidContent.class)
 public final class MixinCauldronFluidContent {
     @Inject(method = "register", at = @At("HEAD"), cancellable = true, remap = false)

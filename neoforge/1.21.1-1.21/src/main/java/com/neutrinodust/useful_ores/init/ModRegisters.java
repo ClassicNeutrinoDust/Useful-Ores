@@ -31,10 +31,6 @@ import net.neoforged.neoforge.registries.DeferredRegister.Items;
 
 public class ModRegisters {
    
-
-
-
-
    public static ItemAttributeModifiers preserveBaseAttackDamage(ItemAttributeModifiers base, float requestedBaseDamage) {
       int rounded = Math.round(requestedBaseDamage);
       double delta = (double) requestedBaseDamage - rounded;
@@ -82,7 +78,6 @@ public class ModRegisters {
          tool, t[0], t[1], t[2], t[3], t[4], t[5], t[6], t[7], t[8], p.stacksTo(1)
       ), itemProps.get());
    }
-
 
    public static DeferredBlock<Block> registerBlock(
       String name,
@@ -178,8 +173,6 @@ public class ModRegisters {
             public boolean hurtEnemy(net.minecraft.world.item.ItemStack stack,
                                      net.minecraft.world.entity.LivingEntity target,
                                      net.minecraft.world.entity.LivingEntity attacker) {
-               
-               
                
                super.hurtEnemy(stack, target, attacker);
                return true;

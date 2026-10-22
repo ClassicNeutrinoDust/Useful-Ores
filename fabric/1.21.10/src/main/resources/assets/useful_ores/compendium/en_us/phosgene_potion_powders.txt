@@ -1,0 +1,5 @@
+These powders apply a potion effect to a block, creating a temporary field that affects living entities standing on it.
+
+Raw powder: use Raw Phosgene in the four corners, a Slime Block in the center, three Redstone Dust and one Blaze Rod in the remaining slots. This makes 16. To make infused powder, surround a filled potion with eight Raw Phosgene Powder; this makes two powders with that potion’s effect and color.
+
+Use infused powder on a block. Potion particles appear and entities on the block receive the effect for three minutes. The block stays active for one Minecraft day (24,000 ticks). Raw powder unlocks when you pick up Raw Phosgene; infused powder unlocks after you have raw powder and a potion.

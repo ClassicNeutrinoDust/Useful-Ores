@@ -1,4 +1,10 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:phosgene_raw_powder"
+    }
+  ],
   "criteria": {
     "has_raw_phosgene": {
       "trigger": "minecraft:inventory_changed",

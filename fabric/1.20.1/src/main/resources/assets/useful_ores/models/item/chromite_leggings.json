@@ -1,0 +1,176 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "useful_ores:item/chromite_leggings"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "trim_type": 0.1
+      },
+      "model": "useful_ores:item/chromite_leggings_quartz_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.101
+      },
+      "model": "useful_ores:item/chromite_leggings_chromite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.102
+      },
+      "model": "useful_ores:item/chromite_leggings_nyxium_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.103
+      },
+      "model": "useful_ores:item/chromite_leggings_phosgene_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.104
+      },
+      "model": "useful_ores:item/chromite_leggings_arcanite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.105
+      },
+      "model": "useful_ores:item/chromite_leggings_fulgurite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.106
+      },
+      "model": "useful_ores:item/chromite_leggings_osmium_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.107
+      },
+      "model": "useful_ores:item/chromite_leggings_solarite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.108
+      },
+      "model": "useful_ores:item/chromite_leggings_sperrylite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.109
+      },
+      "model": "useful_ores:item/chromite_leggings_argentite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.11
+      },
+      "model": "useful_ores:item/chromite_leggings_zephyrite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.111
+      },
+      "model": "useful_ores:item/chromite_leggings_ilmenite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.112
+      },
+      "model": "useful_ores:item/chromite_leggings_scheelite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.113
+      },
+      "model": "useful_ores:item/chromite_leggings_voidshard_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.114
+      },
+      "model": "useful_ores:item/chromite_leggings_enderium_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.115
+      },
+      "model": "useful_ores:item/chromite_leggings_painite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.116
+      },
+      "model": "useful_ores:item/chromite_leggings_lonsdaleite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.117
+      },
+      "model": "useful_ores:item/chromite_leggings_subspace_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.118
+      },
+      "model": "useful_ores:item/chromite_leggings_attributed_subspace_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2
+      },
+      "model": "useful_ores:item/chromite_leggings_iron_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.3
+      },
+      "model": "useful_ores:item/chromite_leggings_netherite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.4
+      },
+      "model": "useful_ores:item/chromite_leggings_redstone_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.5
+      },
+      "model": "useful_ores:item/chromite_leggings_copper_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.6
+      },
+      "model": "useful_ores:item/chromite_leggings_gold_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.7
+      },
+      "model": "useful_ores:item/chromite_leggings_emerald_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.8
+      },
+      "model": "useful_ores:item/chromite_leggings_diamond_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.9
+      },
+      "model": "useful_ores:item/chromite_leggings_lapis_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 1.0
+      },
+      "model": "useful_ores:item/chromite_leggings_amethyst_trim"
+    }
+  ]
+}

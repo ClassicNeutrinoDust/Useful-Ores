@@ -1,0 +1,9 @@
+Le voidshard est le plus puissant du trio et le meilleur matériau issu d’un minerai, juste sous le subspace. Il mine plus vite que l’enderium.
+
+End, dans la pierre de l’End, entre Y 0–20 ; filons de 4, 1 par chunk. Le minerai peut apparaître au contact de l’air.
+
+Butin : Chaque bloc de minerai donne 1 minerai brut. Fortune augmente la quantité ; Toucher de soie récupère le bloc.
+
+Caractéristiques : Durabilité : 3000 ; vitesse de minage : 25.0 ; dégâts d’attaque : +15.0 ; aptitude aux enchantements : 28 ; niveau de minage : Netherite.
+
+Atouts : C’est l’équipement le plus puissant obtenu par la progression minière normale. Son armure offre la meilleure robustesse du trio.

@@ -23,6 +23,7 @@ public class ModTab {
             for (Item it : BuiltInRegistries.ITEM) {
                if (!BuiltInRegistries.ITEM.getKey(it).getNamespace().equals(ModRegisters.MODID)) continue;
 
+               if (!ModConfig.isItemEnabled(BuiltInRegistries.ITEM.getKey(it).getPath())) continue;
                if (isAttributedItem(it)) continue;
 
                if (it == ModItems.ELECTRIC_RING.get()) continue;
@@ -31,6 +32,7 @@ public class ModTab {
 
             for (var attributedItem : ModAttributedItems.ALL) {
                Item it = attributedItem.get();
+               if (!ModConfig.isItemEnabled(BuiltInRegistries.ITEM.getKey(it).getPath())) continue;
                for (AttributedEffects effect : AttributedEffects.values()) {
                   ItemStack stack = new ItemStack(it);
                   stack.set(ModDataComponents.ATTRIBUTED_EFFECT, effect.id());

@@ -1,0 +1,13 @@
+A armadura de painite reduz sua vida, mas aumenta sua força em combate.
+
+Custo de vida: cada peça equipada reduz a vida máxima em 1 HP (meio coração). Com o conjunto completo, você fica com 16 HP (8 corações). Se sua vida atual ultrapassar o novo limite, ela será ajustada. Ao retirar a armadura, o limite máximo volta ao normal, mas a vida não é restaurada. Isso também vale quando a Fúria está inativa.
+
+Fúria: é ativada para jogadores com 10 HP ou menos (5 corações). Cada peça de armadura de painite equipada passa a adicionar 60% da defesa normal.
+
+Ferramentas: com a Fúria ativa, segurar uma espada, picareta, machado, enxada ou pá de painite aumenta em 60% o dano de ataque e a velocidade de quebra de blocos.
+
+Lança: mantém seu funcionamento normal. Durante a Fúria, também recebe 60% a mais de dano e reduz o tempo de recarga do ataque em 60%.
+
+Visual: a armadura fica azul-carmesim e o peitoral mostra uma pequena rachadura incandescente animada. A armadura e todas as armas de painite, inclusive a lança, usam essa cor no inventário e na mão.
+
+Recuperação: ao passar de 5 corações, os bônus e a aparência voltam ao normal.

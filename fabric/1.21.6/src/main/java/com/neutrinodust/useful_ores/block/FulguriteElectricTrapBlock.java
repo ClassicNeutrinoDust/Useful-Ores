@@ -109,18 +109,17 @@ public class FulguriteElectricTrapBlock extends BaseEntityBlock {
    }
 
    @Override
-   public BlockState playerWillDestroy(Level level, BlockPos pos, BlockState state, Player player) {
-      if (!level.isClientSide() && !player.isCreative()
-         && level.getBlockEntity(pos) instanceof FulguriteElectricTrapBlockEntity trap) {
-         ItemStack stack = new ItemStack(ModItems.FULGURITE_ELECTRIC_TRAP.get());
-         if (trap.isLightningUnlocked()) {
-            CompoundTag tag = new CompoundTag();
-            tag.putBoolean(TAG_UNLOCKED, true);
-            stack.set(DataComponents.CUSTOM_DATA, CustomData.of(tag));
-         }
-         popResource(level, pos, stack);
+   public java.util.List<ItemStack> getDrops(BlockState state, net.minecraft.world.level.storage.loot.LootParams.Builder params) {
+      if (!com.neutrinodust.useful_ores.util.BlockDropUtil.survivesExplosion(params)) return java.util.List.of();
+      net.minecraft.world.level.block.entity.BlockEntity be =
+         params.getOptionalParameter(net.minecraft.world.level.storage.loot.parameters.LootContextParams.BLOCK_ENTITY);
+      ItemStack stack = new ItemStack(ModItems.FULGURITE_ELECTRIC_TRAP.get());
+      if (be instanceof FulguriteElectricTrapBlockEntity trap && trap.isLightningUnlocked()) {
+         CompoundTag tag = new CompoundTag();
+         tag.putBoolean(TAG_UNLOCKED, true);
+         stack.set(DataComponents.CUSTOM_DATA, CustomData.of(tag));
       }
-      return super.playerWillDestroy(level, pos, state, player);
+      return java.util.List.of(stack);
    }
 
    @Override

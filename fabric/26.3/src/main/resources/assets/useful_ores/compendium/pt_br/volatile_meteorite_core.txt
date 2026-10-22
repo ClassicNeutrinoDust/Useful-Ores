@@ -1,0 +1,3 @@
+Um Fragmento do Núcleo de Meteorito energizado com bafo de dragão. Ele fornece energia ao Cajado de Meteorito.
+
+Combine um fragmento com bafo de dragão em qualquer posição. O núcleo é consumido ao fabricar o cajado.

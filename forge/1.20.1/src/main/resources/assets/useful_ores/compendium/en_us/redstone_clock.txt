@@ -1,0 +1,7 @@
+A self-contained redstone oscillator. It switches its output between off and full strength (15) without a repeater or torch loop.
+
+Place it on a solid block. The arrow marks the output. Right-click with an empty hand to cycle the period; each change restarts the clock from off.
+
+One complete on/off cycle lasts 2, 4, 10, 20, 40, 60, 100 or 200 ticks (0.1, 0.2, 0.5, 1, 2, 3, 5 or 10 seconds).
+
+It needs no redstone input. Use the output to power dust, lamps, gates, relays or machines.

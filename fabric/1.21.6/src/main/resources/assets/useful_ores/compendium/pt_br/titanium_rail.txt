@@ -1,0 +1,3 @@
+Trilho reforçado feito de ilmenita, projetado para viagens em alta velocidade, especialmente com o [Vagão com Bateria de Solarite](Utility/Solarite Battery Minecart).
+
+Coloque-o como um trilho comum. Funciona em retas e curvas; nas curvas, o vagão com bateria de Solarite pode chegar a 0,8 bloco por tick (16 blocos por segundo). Use um [Trilho Controlador de Titânio](Utility/Titanium Controller Rail) nos cruzamentos.

@@ -58,7 +58,6 @@ public class ModRegisters {
       return new RegisteredItem<>(item);
    }
 
-   
    public static RegisteredItem<Item> registerSpear(String name, ToolMaterial tool, Supplier<Properties> itemProps) {
       float[] t = spearTuning(tool.speed());
       Properties spearProps = tool.applySwordProperties(
@@ -70,7 +69,6 @@ public class ModRegisters {
          .stacksTo(1);
       return registerItem(name + "_spear", SpearItem::new, spearProps);
    }
-
 
    public static RegisteredBlock<Block> registerBlock(
       String name,
@@ -149,9 +147,6 @@ public class ModRegisters {
          registerItem(name + "_sword",      p -> new Item(tool.applySwordProperties(p, swordattr[0], swordattr[1])) {
             @Override
             public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-               
-               
-               
                super.hurtEnemy(stack, target, attacker);
                return true;
             }

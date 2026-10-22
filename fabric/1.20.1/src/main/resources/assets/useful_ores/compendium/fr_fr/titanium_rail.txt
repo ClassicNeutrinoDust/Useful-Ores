@@ -1,0 +1,3 @@
+Rail renforcé en ilménite, conçu pour les trajets rapides, notamment avec le [wagonnet à batterie de solarite](Utility/Solarite Battery Minecart).
+
+Posez-le comme un rail classique. Les lignes droites et les virages fonctionnent ; dans les virages, le wagonnet à batterie de solarite peut atteindre 0,8 bloc par tick (16 blocs par seconde). Utilisez un [rail contrôleur en titane](Utility/Titanium Controller Rail) aux croisements.

@@ -1,4 +1,21 @@
-{ "type": "minecraft:crafting_shaped", "category": "equipment",
-  "pattern": [ "aaa", "a a" ],
-  "key": { "a": "#c:ingots/voidshard" },
-  "result": { "id": "useful_ores:voidshard_helmet", "count": 1 } }
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:voidshard_helmet"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": "#c:ingots/voidshard"
+  },
+  "result": {
+    "id": "useful_ores:voidshard_helmet",
+    "count": 1
+  }
+}

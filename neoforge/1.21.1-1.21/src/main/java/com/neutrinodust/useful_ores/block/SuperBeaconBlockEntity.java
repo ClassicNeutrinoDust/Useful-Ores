@@ -155,9 +155,6 @@ public class SuperBeaconBlockEntity extends BlockEntity implements MenuProvider,
             ? null
             : entity.checkingBeamSections.get(entity.checkingBeamSections.size() - 1);
         
-        
-        
-        
         int lastSetBlock = level.getMaxBuildHeight() - 1;
 
         for (int i = 0; i < 10 && checkPos.getY() <= lastSetBlock; i++) {

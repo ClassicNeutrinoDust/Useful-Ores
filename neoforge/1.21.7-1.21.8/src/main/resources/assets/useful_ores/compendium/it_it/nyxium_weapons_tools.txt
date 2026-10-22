@@ -1,0 +1,4 @@
+Materiale: durabilità 2200, velocità di estrazione 8.0, bonus ai danni +10.0, incantabilità 15.
+Danni / velocità d’attacco: spada 16.0 / 1.8, piccone 15.0 / 1.2, ascia 17.0 / 1.2, zappa 10.0 / 2.0, pala 14.0 / 1.0.
+
+Quando colpisce: applica Wither per 3 secondi.

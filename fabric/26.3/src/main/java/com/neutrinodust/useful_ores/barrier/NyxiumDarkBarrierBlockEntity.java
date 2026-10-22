@@ -30,7 +30,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
-                                                                            
 public class NyxiumDarkBarrierBlockEntity extends BlockEntity implements com.geckolib.animatable.GeoAnimatable {
 
    private static final int SCAN_INTERVAL_TICKS = 1;
@@ -77,10 +76,6 @@ public class NyxiumDarkBarrierBlockEntity extends BlockEntity implements com.gec
                                     NyxiumDarkBarrierBlockEntity be) {
       AABB triggerBox = buildTriggerBox(pos, state);
                                                                                     
-                                                                               
-                                                                                
-                                                                                    
-                                           
       AABB captureBox = triggerBox.inflate(CAPTURE_BROADPHASE_MARGIN);
       for (ItemEntity itemEntity : level.getEntitiesOfClass(ItemEntity.class, captureBox)) {
          if (be.pending.size() >= MAX_PENDING_JOBS) break;
@@ -95,19 +90,15 @@ public class NyxiumDarkBarrierBlockEntity extends BlockEntity implements com.gec
             ItemReversion.revert(current, level, be.materialResidue);
          if (reversion.outputs().isEmpty() && reversion.residue().equals(be.materialResidue)) continue;
 
-                                                                                    
          be.materialResidue.clear();
          be.materialResidue.putAll(reversion.residue());
 
-                                                                                     
          if (reversion.outputs().size() == 1
                && reversion.outputs().get(0).getItem() == current.getItem()
                && reversion.outputs().get(0).getCount() == current.getCount()) {
             continue;
          }
 
-                                                                                     
-                                                                                   
          itemEntity.discard();
 
          if (!reversion.outputs().isEmpty()) {
@@ -128,9 +119,6 @@ public class NyxiumDarkBarrierBlockEntity extends BlockEntity implements com.gec
       AABB current = entity.getBoundingBox();
       var motion = entity.getDeltaMovement();
 
-                                                                                
-                                                                                 
-                                                                                     
       double minX = Math.min(current.minX - motion.x, current.minX + motion.x);
       double minY = Math.min(current.minY - motion.y, current.minY + motion.y);
       double minZ = Math.min(current.minZ - motion.z, current.minZ + motion.z);
@@ -186,10 +174,6 @@ public class NyxiumDarkBarrierBlockEntity extends BlockEntity implements com.gec
          cx + halfX, cy + halfHeight, cz + halfZ);
    }
 
-      
-                                                                                    
-                                                                                
-      
    private static void spit(ServerLevel level, BlockPos pos, NyxiumDarkBarrierBlockEntity be,
                             List<ItemStack> stacks) {
       BlockState state = be.getBlockState();
@@ -225,8 +209,6 @@ public class NyxiumDarkBarrierBlockEntity extends BlockEntity implements com.gec
             out.setDefaultPickUpDelay();
             level.addFreshEntity(out);
 
-                                                                                   
-                                                                                   
             be.recentlyEjected.put(out.getUUID(), graceExpiry);
          }
       }

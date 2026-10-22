@@ -17,7 +17,6 @@ public class AncientPedestalBlock extends BaseEntityBlock {
         super(properties);
     }
 
-
     @Override
     protected RenderShape getRenderShape(BlockState state) {
 

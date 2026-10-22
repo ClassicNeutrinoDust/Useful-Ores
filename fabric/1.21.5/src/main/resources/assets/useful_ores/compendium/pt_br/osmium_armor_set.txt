@@ -1,0 +1,5 @@
+Defesa: capacete 2, peitoral 8, calças 5, botas 2.
+Durabilidade: capacete 330, peitoral 480, calças 450, botas 390.
+Encantabilidade 20, resistência 1.5, resistência a repulsão 35%.
+
+Bônus do conjunto: as quatro peças permitem caminhar pelo fundo da água em vez de flutuar. Um conjunto incompleto não tem efeito.

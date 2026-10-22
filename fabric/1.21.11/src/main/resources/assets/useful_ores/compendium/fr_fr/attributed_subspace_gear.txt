@@ -1,0 +1,11 @@
+L’équipement de subspace peut conserver un effet de potion vanilla de façon permanente. Fabriquez d’abord un lingot de subspace attribué, puis utilisez-le pour créer l’équipement.
+
+Pour attribuer un lingot, placez un lingot de subspace et n’importe quelle potion vanilla remplie dans la grille de fabrication. Le lingot obtenu porte l’effet de la potion. Les effets préparables sont compatibles, notamment Soin instantané, Dégâts instantanés, Résistance au feu, Respiration aquatique et Vision nocturne.
+
+Fabriquez l’équipement avec la recette habituelle du subspace en remplaçant chaque lingot par un lingot attribué. Tous doivent porter le même effet. Les armes et outils nécessitent toujours des bâtons, contrairement aux armures.
+
+Armure : portez les quatre pièces avec le même effet pour le conserver tant que l’ensemble est équipé.
+
+Armes et outils : toucher une cible avec une épée, une hache, une pioche, une pelle ou une houe attribuée applique l’effet pendant 10 secondes. Les effets bénéfiques vous affectent, les effets néfastes touchent la cible. Les effets instantanés s’appliquent immédiatement.
+
+Les effets instantanés fonctionnent sur les armes et outils, mais pas sur les armures.

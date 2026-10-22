@@ -1,0 +1,3 @@
+A lock for compatible containers. It works with a [Titanium Key](Utility/Titanium Key) and does not need a redstone circuit.
+
+Apply the lock to a supported container. The matching key opens it, so keep the key secure. Crafting uses Ilmenite Nuggets and Ingots as shown below.

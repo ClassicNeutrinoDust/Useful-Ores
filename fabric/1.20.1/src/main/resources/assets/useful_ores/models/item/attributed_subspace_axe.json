@@ -1,0 +1,14 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "useful_ores:item/subspace_axe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "useful_ores:farseeker": 1.0
+      },
+      "model": "useful_ores:item/subspace_axe_farseeker"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "useful_ores:osmium_ore",
+    "useful_ores:deepslate_osmium_ore"
+  ]
+}

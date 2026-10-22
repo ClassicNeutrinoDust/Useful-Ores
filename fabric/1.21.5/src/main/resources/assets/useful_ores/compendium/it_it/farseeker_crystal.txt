@@ -1,0 +1,3 @@
+Migliora gli strumenti Subspace: i blocchi estratti finiscono direttamente nell’inventario. Vedi [Armi e strumenti Subspace](Tools & Combat/Subspace Weapons & Tools).
+
+Non si può fabbricare. I bauli del tesoro delle città dell’End hanno il 7% di probabilità di contenerne uno con un tiro di bottino aggiuntivo. Cerca nelle città delle isole esterne dell’End; non esiste una fonte garantita.

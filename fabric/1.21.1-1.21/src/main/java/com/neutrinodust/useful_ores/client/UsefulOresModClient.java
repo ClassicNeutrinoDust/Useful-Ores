@@ -34,14 +34,8 @@ public class UsefulOresModClient implements ClientModInitializer {
 
         EntityModelLayerRegistry.registerModelLayer(ClientModelLayers.SOLARITE_MINECART, SolariteMinecartModelData::createBodyLayer);
 
-
-        
-        
-        
-        
         registerCutoutTerrain();
 
-        
         BlockRenderLayerMap.INSTANCE.putBlock((net.minecraft.world.level.block.Block) ModItems.ARCANITE_XP_JAR_BLOCK.get(), RenderType.translucent());
 
         ClientBlockEntityRenderers.register();
@@ -70,13 +64,23 @@ public class UsefulOresModClient implements ClientModInitializer {
             BlockRenderLayerMap.INSTANCE.putBlock(fire.get(), RenderType.cutout());
         }
 
-        
-        
         for (var campfire : ModColoredCampfireBlocks.CAMPFIRE_BLOCKS.values()) {
             BlockRenderLayerMap.INSTANCE.putBlock(campfire.get(), RenderType.cutout());
         }
 
-        
+        for (var torch : com.neutrinodust.useful_ores.lighting.ModOreLightBlocks.TORCHES.values()) {
+            BlockRenderLayerMap.INSTANCE.putBlock(torch.get(), RenderType.cutout());
+        }
+        for (var torch : com.neutrinodust.useful_ores.lighting.ModOreLightBlocks.WALL_TORCHES.values()) {
+            BlockRenderLayerMap.INSTANCE.putBlock(torch.get(), RenderType.cutout());
+        }
+        for (var lantern : com.neutrinodust.useful_ores.lighting.ModOreLightBlocks.LANTERNS.values()) {
+            BlockRenderLayerMap.INSTANCE.putBlock(lantern.get(), RenderType.cutout());
+        }
+        BlockRenderLayerMap.INSTANCE.putBlock(com.neutrinodust.useful_ores.lighting.ModVoidshardLightBlocks.VOIDSHARD_TORCH.get(), RenderType.cutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(com.neutrinodust.useful_ores.lighting.ModVoidshardLightBlocks.VOIDSHARD_WALL_TORCH.get(), RenderType.cutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(com.neutrinodust.useful_ores.lighting.ModVoidshardLightBlocks.VOIDSHARD_LANTERN.get(), RenderType.cutout());
+
         BlockRenderLayerMap.INSTANCE.putBlock(ModTitaniumRailBlocks.TITANIUM_RAIL.get(), RenderType.cutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModTitaniumRailBlocks.TITANIUM_CONTROLLER_RAIL.get(), RenderType.cutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModEnderiumRailBlocks.ENDERIUM_RAIL.get(), RenderType.cutout());

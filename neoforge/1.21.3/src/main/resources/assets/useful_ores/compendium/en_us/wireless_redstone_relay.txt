@@ -1,0 +1,29 @@
+Sends a redstone signal between locations without a dust line. Each relay reads input from the side opposite its facing direction. The facing side is the output and emits full strength when powered.
+
+Linking
+
+Place both relays on solid blocks in the same dimension, no more than 100 blocks apart. Right-click the first with an empty hand, then the second. The second relay follows the first relay’s input, so a lever or other source at one end can control an output at the other.
+
+Press C to cancel a pending selection. Existing links remain intact.
+
+Modes
+
+Shift-right-click a relay to cycle through SINGLE, MULTI and CONNECTION.
+
+SINGLE: one relay follows one other relay. For example, a hidden switch can control a lamp or piston door elsewhere. Start a new selection for each pair.
+
+MULTI: one hub controls several receivers. Set the hub to MULTI, right-click it, then right-click each receiver. The hub remains selected so you can add more. Right-click a linked receiver again to unlink it.
+
+CONNECTION: for chains and bus-style builds. Like MULTI, it passes a signal onward, making it useful for an intermediate relay that feeds several remote parts.
+
+Multiple inputs
+
+A receiver can follow multiple upstream hubs. With two or more, shift-right-click it to choose how their signals combine. OR activates if any hub is on; AND activates only if all are on; LATEST follows the hub that changed most recently. A pending link selection takes priority, so press C to cancel it first.
+
+Examples
+
+Remote switch: Relay A beside a lever and Relay B beside a lamp, in SINGLE mode. One switch, many outputs: a MULTI hub linked to several receivers. Two conditions: connect two hubs to one receiver set to AND. Several controllers: use two hubs and set the receiver to LATEST.
+
+Tips
+
+All linked relays must be in the same dimension and within 100 blocks. Each relay still needs ordinary redstone wiring for its local circuit. If the network fails, check the mode, the upstream links, and then the OR, AND or LATEST setting.

@@ -1,0 +1,3 @@
+A beacon that uses an [Extruding Nether Star](Utility/Extruding Nether Star) instead of a normal Nether Star. Its range increases with pyramid size.
+
+Place it like a vanilla beacon over a valid mineral pyramid, with a clear view of the sky. Its base radius is 64 blocks; each additional pyramid layer adds 112 blocks to the range. Choose effects through the usual beacon interface.

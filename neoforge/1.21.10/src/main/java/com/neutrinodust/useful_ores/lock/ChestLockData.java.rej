@@ -1,0 +1,38 @@
+--- src/main/java/com/neutrinodust/useful_ores/lock/ChestLockData.java	2026-10-11 19:38:15.000000000 +0000
++++ src/main/java/com/neutrinodust/useful_ores/lock/ChestLockData.java	2026-10-19 01:52:44.304123945 +0000
+@@ -155,7 +155,35 @@
+ 
+ 
+ 
++    /**
++     * Called when a chest block is replaced/removed by anything (wither, /setblock, explosion, owner break...).
++     * Drops the record for that exact position so a chest placed there later doesn't inherit the old lock.
++     * The other half of a double chest keeps its own record.
++     */
++    public static void onChestRemoved(ServerLevel level, BlockPos pos) {
++        ChestLockData data = get(level);
++        if (data.locks.remove(pos.asLong()) != null) {
++            data.setDirty();
++            ChestLockSyncEvents.sendUnlockedToAll(level, pos);
++        }
++    }
++
++    /** Removes records whose position is loaded and no longer holds a chest (cleans up saves that already have stale locks). */
++    private void pruneStale(net.minecraft.world.level.Level level) {
++        boolean changed = false;
++        java.util.Iterator<Map.Entry<Long, LockEntry>> it = locks.entrySet().iterator();
++        while (it.hasNext()) {
++            BlockPos pos = BlockPos.of(it.next().getKey());
++            if (level.isLoaded(pos) && !(level.getBlockState(pos).getBlock() instanceof net.minecraft.world.level.block.ChestBlock)) {
++                it.remove();
++                changed = true;
++            }
++        }
++        if (changed) setDirty();
++    }
++
+     public List<Long> snapshotPositions(net.minecraft.world.level.Level level) {
++        pruneStale(level);
+         java.util.ArrayList<Long> original = new java.util.ArrayList<>(locks.keySet());
+         java.util.HashMap<Long, LockEntry> additions = new java.util.HashMap<>();
+         for (Long packed : original) {

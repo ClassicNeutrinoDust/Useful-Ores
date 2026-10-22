@@ -1,0 +1,9 @@
+Il voidshard è il più potente del trio e il miglior materiale da minerale sotto il subspace. Estrae più velocemente dell’enderium.
+
+End, in pietra dell’End, tra Y 0–20; vene da 4, 1 per chunk. Il minerale può generarsi a contatto con l’aria.
+
+Bottino: Ogni blocco di minerale lascia 1 minerale grezzo; Fortuna aumenta la quantità e Tocco di velluto raccoglie il blocco.
+
+Statistiche: Durabilità: 3000; velocità di estrazione: 25.0; danno d’attacco: +15.0; incantabilità: 28; livello di estrazione: Netherite.
+
+Vantaggi: È l’equipaggiamento più forte ottenibile con la normale progressione mineraria. La sua armatura ha la maggiore robustezza del trio.

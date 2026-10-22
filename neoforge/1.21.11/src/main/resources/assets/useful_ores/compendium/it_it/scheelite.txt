@@ -1,0 +1,9 @@
+La scheelite è il minerale di tungsteno del mod, noto soprattutto per la freccia e lo scalpello.
+
+Generazione: nel mondo normale, solo in pietra (non nell’ardesia delle profondità), tra Y 0 e 64. Vene da 6 blocchi, circa 8 per chunk. Il minerale esposto all’aria si genera sempre.
+
+Bottino: Ogni blocco di minerale lascia 1 minerale grezzo; Fortuna aumenta la quantità e Tocco di velluto raccoglie il blocco.
+
+Statistiche: Durabilità: 900; velocità di estrazione: 6.0; danno d’attacco: +6.5; incantabilità: 10; livello di estrazione: ferro.
+
+Vantaggi: La Freccia di Scheelite infligge 1,5 volte il danno di un normale tiro d’arco senza incantesimi. I lingotti creano anche uno scalpello da 200 di durabilità che trasforma blocchi compatibili in lastre, oltre alla serratura e alla chiave in titanio.

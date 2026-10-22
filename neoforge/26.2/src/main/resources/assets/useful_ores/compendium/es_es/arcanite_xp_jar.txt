@@ -1,0 +1,3 @@
+Un frasco de cristal que almacena hasta 1395 puntos de experiencia, unos 30 niveles. Colócalo sobre un bloque, una losa o una trampilla cerrada. Haz clic derecho agachado para guardar experiencia y clic derecho normal para recuperarla.
+
+Mientras tenga espacio, también absorbe orbes de experiencia cercanos. Si llevas un objeto con Reparación en la mano o equipado, la experiencia recuperada repara ese objeto en vez de darte niveles. No tiene interfaz y se rompe como el cristal, pero el objeto que deja conserva la experiencia almacenada. Se fabrica con un lingote de arcanita, un fragmento de arcanita con núcleo de plata y tres bloques de cristal.

@@ -1,0 +1,3 @@
+Due binari collegati teletrasportano il carrello dall’uno all’altro. Devono trovarsi nella stessa dimensione e a non più di 100 blocchi di distanza.
+
+Fai clic destro sul primo binario e poi sul secondo. Ogni binario può avere un solo partner; un nuovo collegamento sostituisce quello precedente. Maiusc + clic destro annulla una selezione in corso. Collega entrambi i binari a normali binari.

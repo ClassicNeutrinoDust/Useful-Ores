@@ -1,0 +1,3 @@
+Rail rapide pour le [wagonnet à batterie de solarite](Utility/Solarite Battery Minecart). Il reste droit et propulse les wagonnets autrement que les rails propulseurs classiques. Sa texture change entre le jour et la nuit.
+
+Posez-le sur la voie. Un signal de redstone provenant d’un bloc voisin donne une impulsion au wagonnet. Il n’a pas de sélecteur de mode.

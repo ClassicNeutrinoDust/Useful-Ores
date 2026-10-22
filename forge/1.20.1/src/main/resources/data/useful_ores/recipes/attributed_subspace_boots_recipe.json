@@ -1,0 +1,19 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:attributed_subspace_boots"
+    }
+  ],
+  "type": "useful_ores:attributed_gear",
+  "category": "equipment",
+  "required_ingots": 4,
+  "required_sticks": 0,
+  "is_weapon": false,
+  "result": "useful_ores:attributed_subspace_boots",
+  "pattern": [
+    "I.I",
+    "I.I"
+  ],
+  "mirrored": false
+}

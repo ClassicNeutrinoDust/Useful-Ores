@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_chestplate"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [

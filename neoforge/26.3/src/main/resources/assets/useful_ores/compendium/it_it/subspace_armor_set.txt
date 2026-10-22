@@ -1,0 +1,3 @@
+Difesa: elmo 5, corazza 15, gambali 10, stivali 4.
+Durata: elmo 682, corazza 992, gambali 930, stivali 806.
+Incantabilità 34, robustezza 4.0, resistenza al contraccolpo 40%.

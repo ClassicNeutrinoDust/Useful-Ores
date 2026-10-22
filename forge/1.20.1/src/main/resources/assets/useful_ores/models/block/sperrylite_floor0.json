@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_fire_floor",
+  "textures": {
+    "fire": "useful_ores:block/sperrylite_fire_0"
+  },
+  "render_type": "minecraft:cutout"
+}

@@ -1,0 +1,3 @@
+Una estrella del Nether mejorada, fabricada con una estrella del Nether y un cristal extrusor. La Superbaliza la usa en lugar de una estrella normal.
+
+El Wither suelta la estrella del Nether. Busca mineral de cristal extrusor en el mundo superior para conseguir el cristal.

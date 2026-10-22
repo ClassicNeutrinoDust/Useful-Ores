@@ -1,4 +1,10 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:chromite_piston"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "pattern": [
@@ -12,5 +18,8 @@
     "R": "minecraft:redstone",
     "C": "useful_ores:chromite_ingot"
   },
-  "result": { "id": "useful_ores:chromite_piston", "count": 1 }
+  "result": {
+    "id": "useful_ores:chromite_piston",
+    "count": 1
+  }
 }

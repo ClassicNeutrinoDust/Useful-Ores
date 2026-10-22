@@ -1,0 +1,3 @@
+A defensive block crafted with a Dark Core, Nyxium, Arcanite and Blackstone. It is intended for walls and protected rooms.
+
+It has no interface or modes. Its special harvesting rules mean ordinary tools may not recover it; check the block’s requirements before breaking it.

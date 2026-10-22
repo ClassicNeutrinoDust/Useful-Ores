@@ -1,0 +1,10 @@
+{
+  "asset_name": "painite",
+  "description": {
+    "translate": "trim_material.useful_ores.painite",
+    "color": "#E7B0BF"
+  },
+  "ingredient": "useful_ores:painite_ingot",
+  "item_model_index": 0.115,
+  "override_armor_materials": {}
+}

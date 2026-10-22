@@ -8,7 +8,6 @@ import net.minecraft.core.component.DataComponents;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 
-
 public final class LegacyItemProperties {
     private LegacyItemProperties() {}
 
@@ -42,10 +41,6 @@ public final class LegacyItemProperties {
         ItemProperties.register(item, id, (stack, level, entity, seed) ->
                 stack.get(DataComponents.POTION_CONTENTS) != null ? 1.0F : 0.0F);
     }
-
-    
-
-
 
     private static void registerPotionColors() {
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> {

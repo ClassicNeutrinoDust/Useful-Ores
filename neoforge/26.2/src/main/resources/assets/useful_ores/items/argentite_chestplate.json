@@ -88,84 +88,119 @@
           "type": "minecraft:model",
           "model": "useful_ores:item/argentite_chestplate_arcanite_trim"
         },
-        "when": "arcanite"
+        "when": "useful_ores:arcanite"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/argentite_chestplate_argentite_trim"
         },
-        "when": "argentite"
+        "when": "useful_ores:argentite"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/argentite_chestplate_chromite_trim"
         },
-        "when": "chromite"
+        "when": "useful_ores:chromite"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/argentite_chestplate_fulgurite_trim"
         },
-        "when": "fulgurite"
+        "when": "useful_ores:fulgurite"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/argentite_chestplate_ilmenite_trim"
         },
-        "when": "ilmenite"
+        "when": "useful_ores:ilmenite"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/argentite_chestplate_nyxium_trim"
         },
-        "when": "nyxium"
+        "when": "useful_ores:nyxium"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/argentite_chestplate_osmium_trim"
         },
-        "when": "osmium"
+        "when": "useful_ores:osmium"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/argentite_chestplate_phosgene_trim"
         },
-        "when": "phosgene"
+        "when": "useful_ores:phosgene"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/argentite_chestplate_scheelite_trim"
         },
-        "when": "scheelite"
+        "when": "useful_ores:scheelite"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/argentite_chestplate_solarite_trim"
         },
-        "when": "solarite"
+        "when": "useful_ores:solarite"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/argentite_chestplate_sperrylite_trim"
         },
-        "when": "sperrylite"
+        "when": "useful_ores:sperrylite"
       },
       {
         "model": {
           "type": "minecraft:model",
           "model": "useful_ores:item/argentite_chestplate_zephyrite_trim"
         },
-        "when": "zephyrite"
+        "when": "useful_ores:zephyrite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/argentite_chestplate_voidshard_trim"
+        },
+        "when": "useful_ores:voidshard"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/argentite_chestplate_enderium_trim"
+        },
+        "when": "useful_ores:enderium"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/argentite_chestplate_painite_trim"
+        },
+        "when": "useful_ores:painite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/argentite_chestplate_lonsdaleite_trim"
+        },
+        "when": "useful_ores:lonsdaleite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "useful_ores:item/argentite_chestplate_subspace_trim"
+        },
+        "when": "useful_ores:subspace"
       }
     ],
     "property": "minecraft:trim_material"

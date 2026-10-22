@@ -35,6 +35,10 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 public class ModRegisters {
    public static final String MODID = "useful_ores";
 
+   private static final java.util.Set<String> TRIM_MATERIALS = java.util.Set.of(
+      "chromite", "nyxium", "phosgene", "arcanite", "fulgurite", "osmium", "solarite", "sperrylite", "argentite",
+      "zephyrite", "ilmenite", "scheelite", "voidshard", "lonsdaleite", "painite", "enderium", "subspace", "attributed_subspace");
+
    public static final class RegisteredItem<T extends Item> implements Supplier<T> {
       private final T value;
       RegisteredItem(T value) { this.value = value; }
@@ -51,13 +55,15 @@ public class ModRegisters {
    public static RegisteredItem<Item> registerItem(String name, Function<Properties, Item> function, Properties itemProp) {
       ResourceLocation id = ResourceLocation.fromNamespaceAndPath(MODID, name);
       itemProp.setId(ResourceKey.create(Registries.ITEM, id));
+      if (name.endsWith("_ingot") && TRIM_MATERIALS.contains(name.substring(0, name.length() - "_ingot".length()))) {
+         itemProp.trimMaterial(ResourceKey.create(Registries.TRIM_MATERIAL, id.withPath(name.substring(0, name.length() - "_ingot".length()))));
+      }
       Item item = Registry.register(
          BuiltInRegistries.ITEM, id, function.apply(itemProp)
       );
       return new RegisteredItem<>(item);
    }
 
-   
    public static RegisteredItem<Item> registerSpear(String name, ToolMaterial tool, Supplier<Properties> itemProps) {
       float[] t = spearTuning(tool.speed());
       Properties spearProps = itemProps.get()
@@ -69,7 +75,6 @@ public class ModRegisters {
          .stacksTo(1);
       return registerItem(name + "_spear", SpearItem::new, spearProps);
    }
-
 
    public static RegisteredBlock<Block> registerBlock(
       String name,

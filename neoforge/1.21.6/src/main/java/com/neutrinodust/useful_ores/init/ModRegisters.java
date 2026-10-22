@@ -41,7 +41,6 @@ public class ModRegisters {
       ), itemProps.get());
    }
 
-
    public static DeferredBlock<Block> registerBlock(
       String name,
       Function<net.minecraft.world.level.block.state.BlockBehaviour.Properties, Block> function,
@@ -62,6 +61,11 @@ public class ModRegisters {
          name, () -> function.apply(blockProp.setId(ResourceKey.create(Registries.BLOCK,
                ResourceLocation.fromNamespaceAndPath("useful_ores", name))))
       );
+   }
+
+   public static Properties trimMaterial(Properties props, String material) {
+      return props.trimMaterial(ResourceKey.create(Registries.TRIM_MATERIAL,
+            ResourceLocation.fromNamespaceAndPath("useful_ores", material)));
    }
 
    public static List<DeferredItem<Item>> registerItems(
@@ -101,7 +105,7 @@ public class ModRegisters {
    ) {
       return List.of(
          registerItem("raw_" + name,        Item::new, itemProps.get()),
-         registerItem(name + "_ingot",      Item::new, itemProps.get()),
+         registerItem(name + "_ingot",      Item::new, trimMaterial(itemProps.get(), name)),
          registerItem(name + "_nugget",     Item::new, itemProps.get()),
          registerItem(name + "_sword",      p -> new Item(p.sword(tool, swordattr[0], swordattr[1])), itemProps.get()),
          registerItem(name + "_pickaxe",    p -> new Item(p.pickaxe(tool, pickaxeattr[0], pickaxeattr[1])), itemProps.get()),
@@ -130,7 +134,7 @@ public class ModRegisters {
    ) {
       return List.of(
          registerItem("raw_" + name,        Item::new, itemProps.get()),
-         registerItem(name + "_ingot",      Item::new, itemProps.get()),
+         registerItem(name + "_ingot",      Item::new, trimMaterial(itemProps.get(), name)),
          registerItem(name + "_nugget",     Item::new, itemProps.get()),
          registerItem(name + "_sword",      p -> new Item(p.sword(tool, swordattr[0], swordattr[1])) {
             @Override

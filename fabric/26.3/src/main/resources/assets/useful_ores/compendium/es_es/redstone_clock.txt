@@ -1,0 +1,7 @@
+Un oscilador de redstone autónomo. Alterna su salida entre apagada y potencia máxima (15), sin repetidores ni bucles de antorchas.
+
+Colócalo sobre un bloque sólido. La flecha indica la salida. Haz clic derecho con la mano vacía para cambiar el período; cada cambio reinicia el reloj apagado.
+
+Cada ciclo completo de encendido y apagado dura 2, 4, 10, 20, 40, 60, 100 o 200 ticks (0,1; 0,2; 0,5; 1; 2; 3; 5 o 10 segundos).
+
+No necesita una entrada de redstone. Usa la salida para alimentar polvo, lámparas, puertas lógicas, relés o máquinas.

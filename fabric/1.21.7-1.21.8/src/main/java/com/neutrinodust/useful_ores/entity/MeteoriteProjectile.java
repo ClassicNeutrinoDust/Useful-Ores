@@ -158,6 +158,11 @@ public class MeteoriteProjectile extends Projectile {
                double edgeFactor = dist / CRATER_RADIUS;
                if (edgeFactor > 0.7 && random.nextDouble() < (edgeFactor - 0.7) * 3.0) continue;
 
+               if (level instanceof net.minecraft.server.level.ServerLevel sl
+                     && (com.neutrinodust.useful_ores.blastproof.BlastproofBlockData.get(sl).isBlastproof(pos)
+                        || com.neutrinodust.useful_ores.lock.ChestLockData.get(sl).isLocked(sl, pos))) continue;
+               if (state.hasBlockEntity() || state.getDestroySpeed(level, pos) < 0.0F) continue;
+
                FluidState fluid = state.getFluidState();
                if (!fluid.isEmpty()) {
 

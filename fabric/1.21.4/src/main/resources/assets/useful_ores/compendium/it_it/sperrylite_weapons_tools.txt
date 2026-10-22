@@ -1,0 +1,4 @@
+Materiale: durabilità 700, velocità di estrazione 6.5, bonus ai danni +7.0, incantabilità 29.
+Danni / velocità d’attacco: spada 13.0 / 1.6, piccone 8.0 / 1.2, ascia 11.0 / 1.0, zappa 7.0 / 1.0, pala 8.0 / 1.0.
+
+Quando colpisce: applica Debolezza per 3 secondi.

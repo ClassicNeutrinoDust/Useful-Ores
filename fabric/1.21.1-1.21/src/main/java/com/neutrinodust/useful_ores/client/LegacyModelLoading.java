@@ -3,7 +3,6 @@ package com.neutrinodust.useful_ores.client;
 import net.fabricmc.fabric.api.client.model.loading.v1.ModelLoadingPlugin;
 import net.minecraft.resources.ResourceLocation;
 
-
 public final class LegacyModelLoading {
     private static final String NS = "useful_ores";
     private static final String[] EXTRA = {

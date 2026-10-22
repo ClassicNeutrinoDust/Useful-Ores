@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_torch",
+  "textures": {
+    "torch": "useful_ores:block/arcanite_torch"
+  },
+  "render_type": "minecraft:cutout"
+}

@@ -8,13 +8,6 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.RailShape;
 import net.minecraft.world.phys.shapes.EntityCollisionContext;
 
-
-
-
-
-
-
-
 public final class SolariteMinecartCollisionContext extends EntityCollisionContext {
     private final BlockPos ignoreBelow;
     private final BlockPos slopeIgnore;
@@ -45,13 +38,6 @@ public final class SolariteMinecartCollisionContext extends EntityCollisionConte
                     };
                 }
 
-                
-                
-                
-                
-                
-                
-                
             }
         }
 
@@ -60,8 +46,6 @@ public final class SolariteMinecartCollisionContext extends EntityCollisionConte
     }
 
     public boolean shouldIgnore(BlockPos pos) {
-        
-        
         
         return pos.equals(ignoreBelow) || pos.equals(slopeIgnore);
     }

@@ -1,0 +1,5 @@
+A reusable brewing vessel that combines two vanilla potion effects in one vial. Craft it by surrounding a Glass Bottle with eight Sperrylite Nuggets.
+
+In a brewing stand, place an empty vial and two filled potions in the bottle slots, then add a Sperrylite Nugget as the ingredient. Brewing takes 20 seconds; the potions become empty bottles and the nugget is consumed.
+
+Add Gunpowder to a filled vial to make a Splash Catalytic Vial, then Dragon’s Breath to make a Lingering version. Drink the normal vial, throw the splash vial, or use the lingering vial to leave a cloud. Its tooltip lists all effects.

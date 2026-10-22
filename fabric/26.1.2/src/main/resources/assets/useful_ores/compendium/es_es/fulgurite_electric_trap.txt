@@ -1,0 +1,9 @@
+Una trampa eléctrica inactiva. Un rayo durante una tormenta la activa. Después, daña a las entidades vivas dentro de un área cuadrada y las atrae hacia el centro.
+
+Activación: colócala sobre un bloque sólido con el cielo despejado encima y espera una tormenta. Cada tick tiene una probabilidad de recibir un rayo. El impacto la desbloquea para siempre. Si la rompes y vuelves a colocarla, seguirá desbloqueada, pero el alcance volverá a 1.
+
+Alcance: empieza en 1 (3×3). Haz clic derecho con un lingote de fulgurita para subir a 2 (5×5) y luego a 3 (7×7, máximo). Cada mejora consume un lingote fuera del modo Creativo. Haz clic derecho con la mano vacía para consultar su estado.
+
+Daño: el campo inflige periódicamente 2 puntos de daño a jugadores y 4 a criaturas. Además, reduce el movimiento horizontal de las criaturas. Las entidades son atraídas hacia la trampa y las partículas muestran el área activa.
+
+Cualquier señal de redstone que toque la trampa apaga el campo. La trampa permanece desbloqueada.

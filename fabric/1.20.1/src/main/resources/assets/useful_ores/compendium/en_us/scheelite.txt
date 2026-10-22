@@ -1,0 +1,11 @@
+Scheelite is the mod's tungsten ore. It is best known for its arrow and its chisel.
+
+Found: Overworld, in stone only (no deepslate variant), from Y 0 to 64. Veins of 6, 8 per chunk. Ore touching air always spawns.
+
+Drops: 1 Raw Scheelite per ore block, increased by Fortune. Silk Touch drops the ore block itself.
+
+Tool stats: durability 900, mining speed 6.0, attack damage +6.5, enchantability 10. Mining tier: Iron.
+
+Perks: the [Scheelite Arrow](Tools & Combat/Special Arrows) looks and flies like a vanilla arrow but deals 1.5x the damage of a normal unenchanted bow shot.
+
+Scheelite Ingots also craft the Scheelite Chisel, a 200 durability tool that turns compatible full blocks into slabs, and the Titanium Lock and Key pair.

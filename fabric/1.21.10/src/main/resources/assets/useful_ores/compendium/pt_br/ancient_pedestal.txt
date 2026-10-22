@@ -1,0 +1,3 @@
+O Cajado de Nyxiumnita se vincula a este bloco e o usa como destino dos disparos de buraco de minhoca. Ele não tem interface e não pode ser fabricado.
+
+Pedestais Antigos aparecem dentro de uma [Câmara do Pedestal Antigo](Misc/Ancient Pedestal Chamber). Clique com o botão direito usando o cajado para salvar a dimensão e as coordenadas. Só uma picareta de Voidshard pode quebrá-lo.

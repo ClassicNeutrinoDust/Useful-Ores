@@ -299,9 +299,6 @@ public class FulguriteElectricTrapBlockEntity extends BlockEntity implements sof
          if (!(invokeGetterByReturnType(display, ItemStack.class) instanceof ItemStack stack)) continue;
          if (stack.getItem() != com.neutrinodust.useful_ores.init.ModItems.ELECTRIC_RING.get()) continue;
 
-         
-         
-         
          BlockPos ringPos = BlockPos.containing(display.getX(), display.getY(), display.getZ());
          if (ringPos.equals(pos)) {
             display.discard();

@@ -1,0 +1,3 @@
+Baliza que usa una [Estrella del Nether extrusora](Utility/Extruding Nether Star) en lugar de una estrella normal. Su alcance aumenta con el tamaño de la pirámide.
+
+Colócala como una baliza normal sobre una pirámide mineral válida y con el cielo despejado. El radio inicial es de 64 bloques; cada capa adicional añade 112 bloques al alcance. Elige los efectos en la interfaz habitual de la baliza.

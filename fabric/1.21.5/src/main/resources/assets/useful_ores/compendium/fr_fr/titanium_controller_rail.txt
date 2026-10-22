@@ -1,0 +1,3 @@
+Aiguillage à trois voies qui envoie le wagonnet à gauche, tout droit ou à droite. Orientez-le vers la voie directe, puis construisez les trois branches à partir du rail devant lui.
+
+Sélectionnez la branche avec la commande d’interaction de l’aiguillage. Le contrôleur reste droit ; le rail devant lui s’oriente vers la voie choisie.

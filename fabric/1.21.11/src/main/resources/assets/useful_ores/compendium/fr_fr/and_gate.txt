@@ -1,0 +1,5 @@
+Porte logique à deux entrées. La sortie s’active uniquement lorsque les deux entrées sont alimentées. Délai : 1 tick.
+
+Placez-la sur un bloc solide. La face avant est la sortie ; les côtés gauche et droit sont les entrées. Reliez-les à de la poudre de redstone ou à une autre source.
+
+Table de vérité : 0/0 = 0, 0/1 = 0, 1/0 = 0, 1/1 = 1. La sortie est à pleine puissance et peut alimenter directement d’autres composants.

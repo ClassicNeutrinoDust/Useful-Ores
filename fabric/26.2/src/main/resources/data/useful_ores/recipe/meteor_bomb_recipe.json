@@ -1,4 +1,23 @@
-{ "type": "minecraft:crafting_shaped", "category": "misc",
-  "pattern": [ "aaa", "aba", "aaa" ],
-  "key": { "a": "useful_ores:meteor_dust", "b": "minecraft:gunpowder" },
-  "result": { "id": "useful_ores:meteor_bomb", "count": 4 } }
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "useful_ores:item_enabled",
+      "item": "useful_ores:meteor_bomb"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "useful_ores:meteor_dust",
+    "b": "minecraft:gunpowder"
+  },
+  "result": {
+    "id": "useful_ores:meteor_bomb",
+    "count": 4
+  }
+}

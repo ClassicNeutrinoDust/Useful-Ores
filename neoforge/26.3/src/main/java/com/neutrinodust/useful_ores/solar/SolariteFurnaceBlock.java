@@ -22,7 +22,6 @@ import net.minecraft.world.phys.BlockHitResult;
 
 public class SolariteFurnaceBlock extends BaseEntityBlock {
 
-
     public static final BooleanProperty LIT = BooleanProperty.create("lit");
 
     public static final EnumProperty<Direction> FACING = HorizontalDirectionalBlock.FACING;
@@ -31,7 +30,6 @@ public class SolariteFurnaceBlock extends BaseEntityBlock {
         super(properties);
         registerDefaultState(stateDefinition.any().setValue(LIT, false).setValue(FACING, Direction.NORTH));
     }
-
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {

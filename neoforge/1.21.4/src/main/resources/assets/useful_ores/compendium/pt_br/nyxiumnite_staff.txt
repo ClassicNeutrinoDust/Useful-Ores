@@ -1,0 +1,3 @@
+Um cajado que se vincula a um Pedestal Antigo e dispara um projétil que abre um buraco de minhoca. Clique com o botão direito no pedestal usando o cajado para vinculá-lo; as coordenadas ficam guardadas no cajado.
+
+Clique com o botão direito no ar para disparar na direção da mira. Recarga: 30 ticks (1,5 segundo). Fabrique-o colocando um Núcleo de Nyxiumnita Volátil sobre dois Lingotes de Argentita.

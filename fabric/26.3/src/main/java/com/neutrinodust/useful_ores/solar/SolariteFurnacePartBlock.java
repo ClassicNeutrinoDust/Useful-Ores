@@ -16,7 +16,6 @@ import net.minecraft.world.phys.BlockHitResult;
 
 public class SolariteFurnacePartBlock extends BaseEntityBlock {
 
-
     public static final BooleanProperty HIGH_X = BooleanProperty.create("high_x");
     public static final BooleanProperty HIGH_Y = BooleanProperty.create("high_y");
     public static final BooleanProperty HIGH_Z = BooleanProperty.create("high_z");
@@ -26,7 +25,6 @@ public class SolariteFurnacePartBlock extends BaseEntityBlock {
         registerDefaultState(getStateDefinition().any()
                 .setValue(HIGH_X, false).setValue(HIGH_Y, false).setValue(HIGH_Z, false));
     }
-
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {

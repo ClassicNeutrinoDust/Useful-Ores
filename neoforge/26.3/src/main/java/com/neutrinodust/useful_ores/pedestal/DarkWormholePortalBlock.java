@@ -21,7 +21,6 @@ public class DarkWormholePortalBlock extends BaseEntityBlock {
         super(properties);
     }
 
-
     @Override
     protected VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
 

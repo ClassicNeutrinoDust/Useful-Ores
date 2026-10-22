@@ -1,0 +1,3 @@
+Un’arma a distanza che lancia una meteorite esplosiva nella direzione mirata. Fai clic destro per sparare; ogni colpo ha una ricarica di 100 tick (5 secondi).
+
+Fasi di creazione: Nucleo di Meteorite → Scheggia del Nucleo di Meteorite → Nucleo di Meteorite Volatile (aggiungi respiro del drago) → Bastone Meteorico.

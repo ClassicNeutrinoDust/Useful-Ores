@@ -1,0 +1,13 @@
+La armadura de painita reduce tu salud, pero te da más fuerza en combate.
+
+Coste de salud: cada pieza equipada reduce la salud máxima en 1 punto (medio corazón). Con el conjunto completo te quedan 16 puntos (8 corazones). Si tu salud actual supera el nuevo límite, se ajusta a ese valor. Al quitarte la armadura recuperas el límite máximo, pero no la salud perdida. Esto también ocurre cuando Furia está inactiva.
+
+Furia: se activa en jugadores con 10 puntos de salud o menos (5 corazones). Cada pieza de armadura de painita equipada añade entonces un 60 % de su defensa normal.
+
+Herramientas: con Furia activa, llevar una espada, pico, hacha, azada o pala de painita aumenta un 60 % el daño de ataque y la velocidad de rotura de bloques.
+
+Lanza: conserva su funcionamiento habitual. Durante Furia también obtiene un 60 % más de daño y reduce un 60 % el tiempo de recarga del ataque.
+
+Aspecto: la armadura cambia a tonos azul carmesí y la pechera muestra una pequeña grieta fundida animada. La armadura y todas las armas de painita, incluida la lanza, tienen ese color en el inventario y en la mano.
+
+Recuperación: al superar los 5 corazones, las bonificaciones y el aspecto vuelven a la normalidad.

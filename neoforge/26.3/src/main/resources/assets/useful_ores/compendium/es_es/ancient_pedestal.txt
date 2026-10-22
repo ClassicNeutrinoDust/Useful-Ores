@@ -1,0 +1,3 @@
+El bastón de nyxiumnita se vincula a este bloque y lo usa como destino de sus disparos de agujero de gusano. No tiene interfaz ni se puede fabricar.
+
+Los pedestales antiguos aparecen dentro de una [Cámara de pedestal antiguo](Misc/Ancient Pedestal Chamber). Haz clic derecho con el bastón para guardar la dimensión y las coordenadas. Solo se puede romper con un pico de fragmento del vacío.

@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:sperrylite_helmet"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:ingots/sperrylite"
+    }
+  },
+  "result": {
+    "item": "useful_ores:sperrylite_helmet",
+    "count": 1
+  }
+}

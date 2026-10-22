@@ -1,0 +1,29 @@
+Invia segnali di redstone tra luoghi diversi senza una linea di polvere. Ogni relè riceve il segnale dal lato opposto alla direzione frontale. Il lato frontale è l’uscita e trasmette potenza massima quando il relè è attivo.
+
+Collegamento
+
+Posiziona entrambi i relè su blocchi solidi, nella stessa dimensione e a non più di 100 blocchi di distanza. Fai clic destro sul primo con la mano vuota, poi sul secondo. Il secondo seguirà l’ingresso del primo, così una leva può controllare un’uscita distante.
+
+Premi C per annullare una selezione in sospeso. I collegamenti esistenti restano attivi.
+
+Modalità
+
+Fai clic destro mentre sei accovacciato per alternare SINGLE, MULTI e CONNECTION.
+
+SINGLE: un relè segue un altro relè. Per esempio, un interruttore nascosto può controllare una lampada o una porta a pistoni distante. Avvia una nuova selezione per ogni coppia.
+
+MULTI: un relè centrale controlla più ricevitori. Impostalo su MULTI, fai clic destro sul relè e poi su ogni ricevitore. Resta selezionato così puoi aggiungerne altri. Fai di nuovo clic destro su un ricevitore collegato per scollegarlo.
+
+CONNECTION: per catene e linee di distribuzione. Come MULTI, inoltra il segnale a un altro relè; è utile per un relè intermedio che alimenta più dispositivi lontani.
+
+Ingressi multipli
+
+Un ricevitore può seguire più relè a monte. Con due o più, fai clic destro mentre sei accovacciato per scegliere come combinare i segnali. OR si attiva se è attivo un qualsiasi relè; AND solo se sono attivi tutti; LATEST segue il relè il cui segnale è cambiato più di recente. Una selezione in sospeso ha la precedenza: premi prima C per annullarla.
+
+Esempi
+
+Interruttore remoto: Relè A vicino a una leva e Relè B vicino a una lampada, in SINGLE. Un interruttore, più uscite: un hub MULTI collegato a più ricevitori. Due condizioni: due relè collegati a un ricevitore impostato su AND. Più controller: due relè e ricevitore impostato su LATEST.
+
+Suggerimenti
+
+Tutti i relè collegati devono trovarsi nella stessa dimensione e a non più di 100 blocchi. Ogni relè richiede comunque il normale cablaggio di redstone locale. Se la rete non funziona, controlla la modalità, i collegamenti a monte e infine l’impostazione OR, AND o LATEST.

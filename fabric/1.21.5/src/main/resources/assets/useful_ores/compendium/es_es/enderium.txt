@@ -1,0 +1,9 @@
+Enderium es el material intermedio del trío superior: Solarite, Enderium y Voidshard. Mina bastante más rápido que Solarite y la Netherite normal.
+
+El End, en piedra del End, entre Y 0–120; vetas de 3, 6 por chunk. 暴露在空气中的矿石有 un 15% de probabilidad de no generarse.
+
+Botín: Cada bloque de mena suelta 1 unidad de mineral en bruto; Fortuna aumenta la cantidad y Toque de seda recoge el bloque.
+
+Estadísticas: Durabilidad: 2700; velocidad de minería: 20.0; daño de ataque: +13.5; encantabilidad: 26; nivel de minería: Netherite.
+
+Ventajas: Los raíles de Enderium funcionan por parejas: una vagoneta que pasa por uno aparece al instante en su pareja enlazada.

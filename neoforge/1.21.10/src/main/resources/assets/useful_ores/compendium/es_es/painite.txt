@@ -1,0 +1,9 @@
+Painite es un mineral rojo del Nether. La armadura reduce tu salud máxima, pero el equipo golpea con más fuerza cuando estás debilitado.
+
+Se genera solo en el Nether, distribuida uniformemente entre Y 8 y 119. Vetas de 8 bloques, 2 intentos por chunk. El mineral expuesto al aire tiene un 50 % de probabilidad de no generarse.
+
+Botín: Cada bloque de mena suelta 1 unidad de mineral en bruto; Fortuna aumenta la cantidad y Toque de seda recoge el bloque.
+
+Estadísticas: Durabilidad: 1561; velocidad de minería: 8.0; daño de ataque: +3.0; encantabilidad: 10; nivel de minería: diamante.
+
+Ventajas: Cada pieza de armadura resta 1 HP a la salud máxima. Fury se activa con 10 HP o menos en jugadores y al llegar a la mitad de salud en otras criaturas. Durante Fury, la armadura gana un 60% de defensa y las herramientas un 60% de daño y velocidad de minería. La lanza también reduce su tiempo de recarga un 60%.

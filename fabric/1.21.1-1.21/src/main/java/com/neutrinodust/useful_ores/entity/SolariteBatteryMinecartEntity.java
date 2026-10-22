@@ -36,12 +36,6 @@ import net.minecraft.world.phys.Vec3;
 
 import java.util.Locale;
 
-
-
-
-
-
-
 public class SolariteBatteryMinecartEntity extends Minecart {
     public static final double SOLARITE_MAX_SPEED = 1.6D;
     public static final double GRID_POWER_SPEED_THRESHOLD = 0.8D;
@@ -59,7 +53,6 @@ public class SolariteBatteryMinecartEntity extends Minecart {
     private static final EntityDataAccessor<Float> DATA_BATTERY =
             SynchedEntityData.defineId(SolariteBatteryMinecartEntity.class, EntityDataSerializers.FLOAT);
 
-    
     private int requestedDirection;
     
     private int launchRequestDirection;
@@ -81,7 +74,6 @@ public class SolariteBatteryMinecartEntity extends Minecart {
     
     private Vec3 lastNetPos;
     private Vec3 lastNetMovement = Vec3.ZERO;
-
 
     public SolariteBatteryMinecartEntity(EntityType<? extends Minecart> type, Level level) {
         super(type, level);
@@ -122,7 +114,6 @@ public class SolariteBatteryMinecartEntity extends Minecart {
     public boolean hasRequestedDirection() { return requestedDirection != 0 || launchRequestDirection != 0; }
     public int getRequestedDirection() { return requestedDirection; }
 
-    
     public int consumeLaunchRequestDirection() {
         int direction = launchRequestDirection != 0 ? launchRequestDirection : requestedDirection;
         launchRequestDirection = 0;
@@ -148,8 +139,6 @@ public class SolariteBatteryMinecartEntity extends Minecart {
 
     private boolean isOnSolariteRailActive() {
         
-        
-        
         return isOnSolariteRail() && SolariteRailBlock.shouldBeActive(level(), railPos());
     }
 
@@ -164,15 +153,12 @@ public class SolariteBatteryMinecartEntity extends Minecart {
         
         if (isOnSolariteRail()) return isOnSolariteRailActive() || getBatteryLevel() > 0F;
 
-        
-        
         if (isOnPoweredRail()) {
             double configuredSpeed = targetSpeed();
             if (configuredSpeed <= GRID_POWER_SPEED_THRESHOLD + 1.0E-6D) return true;
             return isDay() || getBatteryLevel() > 0F;
         }
 
-        
         return isDay() || getBatteryLevel() > 0F;
     }
 
@@ -197,18 +183,14 @@ public class SolariteBatteryMinecartEntity extends Minecart {
 
     public double targetSpeed() {
         
-        
         if (isOnSolariteRailActive()) return SOLARITE_MAX_SPEED;
         return Math.min(SOLARITE_MAX_SPEED, Math.max(0.0D, getCruiseSpeed()));
     }
 
-    
     public double getActualHorizontalSpeed() {
         return Math.min(SOLARITE_MAX_SPEED, getDeltaMovement().horizontalDistance());
     }
 
-    
-    
     public double getEffectiveDisplaySpeed() { return targetSpeed(); }
 
     private Vec3 inputRailDirection(int input) {
@@ -300,11 +282,8 @@ public class SolariteBatteryMinecartEntity extends Minecart {
             return;
         }
 
-        
         if (grid || speed <= 0.05D) return;
 
-        
-        
         if (battery > 0F) {
             entityData.set(DATA_BATTERY, Math.max(0F,
                     battery - (float)(1D / BATTERY_CAPACITY_TICKS)));
@@ -314,12 +293,10 @@ public class SolariteBatteryMinecartEntity extends Minecart {
     public boolean isRunningOnFreeSolarPower() {
         double configuredSpeed = targetSpeed();
 
-        
         if (isOnPoweredRail() && configuredSpeed <= GRID_POWER_SPEED_THRESHOLD + 1.0E-6D) return false;
 
         if (isOnSolariteRail()) return isOnSolariteRailActive();
 
-        
         return isDay();
     }
 
@@ -331,8 +308,6 @@ public class SolariteBatteryMinecartEntity extends Minecart {
     public boolean isRunningOnBatteryPower() {
         return !isRunningOnFreeSolarPower() && !isRunningOnGridPower();
     }
-
-    
 
     public SolariteMinecartBehavior getBehavior() { return behavior; }
 
@@ -347,7 +322,6 @@ public class SolariteBatteryMinecartEntity extends Minecart {
 
     public void setFlipped(boolean flipped) { ((AbstractMinecartAccessor) (Object) this).useful_ores$setFlipped(flipped); }
 
-    
     @Override
     public void applyGravity() { super.applyGravity(); }
 
@@ -357,13 +331,11 @@ public class SolariteBatteryMinecartEntity extends Minecart {
     @Override
     public void comeOffTrack() { super.comeOffTrack(); }
 
-    
     @Override
     public double getMaxSpeed() {
         return targetSpeed();
     }
 
-    
     public BlockPos getCurrentBlockPosOrRailBelow() {
         int x = Mth.floor(getX());
         int y = Mth.floor(getY());
@@ -390,7 +362,6 @@ public class SolariteBatteryMinecartEntity extends Minecart {
         }
     }
 
-    
     @Override
     public void lerpTo(double x, double y, double z, float yRot, float xRot, int steps) {
         setPos(x, y, z);
@@ -431,7 +402,6 @@ public class SolariteBatteryMinecartEntity extends Minecart {
                         ? railState.getValue(rail.getShapeProperty()) : RailShape.NORTH_SOUTH;
                 boolean continuation = hasRailContinuationFrom(railPos, railShape, lastPropulsionDirection);
                 if (continuation) {
-                    
                     
                     horizontalCollision = false;
                     verticalCollision = false;
@@ -512,12 +482,6 @@ public class SolariteBatteryMinecartEntity extends Minecart {
         return false;
     }
 
-    
-
-    
-
-
-
     private void updateSpeedController() {
         if (level().isClientSide() || requestedDirection == 0) return;
         if (isOnSolariteRailActive()) return;
@@ -530,18 +494,12 @@ public class SolariteBatteryMinecartEntity extends Minecart {
         }
     }
 
-    
-
-
-
-
     public Vec3 applyPropulsion(Vec3 movement, BlockPos pos, BlockState state, RailShape shape) {
         double speed = movement.horizontalDistance();
         double target = Math.min(targetSpeed(), getMaxSpeed());
 
         if (speed > STOPPED_SPEED) {
             rememberPropulsionDirection(new Vec3(movement.x / speed, 0.0D, movement.z / speed));
-            
             
             launchRequestDirection = 0;
         }
@@ -554,14 +512,9 @@ public class SolariteBatteryMinecartEntity extends Minecart {
             Vec3 launchDir = getInputRailDirectionForLaunch();
             if (launchDir.lengthSqr() < 1.0E-12D) return movement;
 
-            
-            
             return new Vec3(launchDir.x * target, movement.y, launchDir.z * target);
         }
 
-        
-        
-        
         if (speed > target + 1.0E-9D) {
             double braking = 0.12D;
             double newSpeed = Math.max(target, speed - braking);
@@ -574,12 +527,6 @@ public class SolariteBatteryMinecartEntity extends Minecart {
         double scale = newSpeed / speed;
         return new Vec3(movement.x * scale, movement.y, movement.z * scale);
     }
-
-    
-
-    
-
-
 
     public void syncToTrackers(Consumer<Packet<?>> broadcast, int serverEntityTick) {
         Vec3 pos = position();

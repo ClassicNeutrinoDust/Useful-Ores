@@ -1,0 +1,5 @@
+Defense: helmet 3, chestplate 8, leggings 6, boots 3.
+Durability: helmet 363, chestplate 528, leggings 495, boots 429.
+Enchantability 10, toughness 2.0, knockback resistance 0%.
+
+Set bonus: each worn piece lowers maximum health by 1 HP, down to 8 hearts with the full set. At 5 hearts or less, Fury activates: each piece adds 60% of its defense again and the armor changes appearance. See Painite Fury.

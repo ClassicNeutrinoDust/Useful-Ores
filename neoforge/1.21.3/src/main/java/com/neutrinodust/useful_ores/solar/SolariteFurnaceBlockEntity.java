@@ -405,7 +405,6 @@ public class SolariteFurnaceBlockEntity extends BlockEntity implements Container
         return slot == SLOT_OUTPUT || slot == SLOT_DEAD_BATTERY;
     }
 
-
     @Override
     public Component getDisplayName() {
         return Component.translatable("block.useful_ores.solarite_furnace");

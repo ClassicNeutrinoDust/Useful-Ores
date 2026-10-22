@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:ilmenite_ingot"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "useful_ores:ilmenite_block"
+    }
+  },
+  "result": {
+    "item": "useful_ores:ilmenite_ingot",
+    "count": 9
+  }
+}

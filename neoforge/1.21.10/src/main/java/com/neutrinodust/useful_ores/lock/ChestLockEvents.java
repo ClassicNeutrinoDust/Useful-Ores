@@ -114,6 +114,11 @@ public class ChestLockEvents {
             return;
         }
 
+        if (player.isSecondaryUseActive()
+                && !(player.getMainHandItem().isEmpty() && player.getOffhandItem().isEmpty())) {
+            return;
+        }
+
         event.setCanceled(true);
         event.setCancellationResult(InteractionResult.FAIL);
         player.displayClientMessage(Component.translatable("message.useful_ores.titanium_lock.locked_deny"), true);

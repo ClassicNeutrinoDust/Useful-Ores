@@ -13,11 +13,6 @@ import java.util.IdentityHashMap;
 import java.util.List;
 import java.util.Map;
 
-
-
-
-
-
 public final class FlatLightingBakedModel extends DelegateBakedModel {
     private static final Map<BakedModel, FlatLightingBakedModel> FLAT_CACHE =
             Collections.synchronizedMap(new IdentityHashMap<>());

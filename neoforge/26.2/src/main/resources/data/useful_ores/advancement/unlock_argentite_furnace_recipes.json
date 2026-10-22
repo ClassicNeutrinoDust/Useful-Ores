@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "useful_ores:item_enabled",
+      "item": "useful_ores:argentite_ingot"
+    }
+  ],
   "criteria": {
     "get_argentite_ingot": {
       "trigger": "minecraft:inventory_changed",
