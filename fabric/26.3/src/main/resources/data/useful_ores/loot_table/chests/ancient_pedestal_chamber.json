@@ -10,61 +10,53 @@
           "type": "minecraft:item",
           "name": "useful_ores:nyxium_ingot",
           "weight": 1,
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 4.0
-              },
-              "type": "minecraft:set_count"
-            }
-          ]
+          "modifier": {
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2.0,
+              "max": 4.0
+            },
+            "type": "minecraft:set_count"
+          }
         },
         {
           "type": "minecraft:item",
           "name": "useful_ores:voidshard_ingot",
           "weight": 1,
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 4.0
-              },
-              "type": "minecraft:set_count"
-            }
-          ]
+          "modifier": {
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2.0,
+              "max": 4.0
+            },
+            "type": "minecraft:set_count"
+          }
         },
         {
           "type": "minecraft:item",
           "name": "useful_ores:arcanite_ingot",
           "weight": 1,
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 4.0
-              },
-              "type": "minecraft:set_count"
-            }
-          ]
+          "modifier": {
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2.0,
+              "max": 4.0
+            },
+            "type": "minecraft:set_count"
+          }
         },
         {
           "type": "minecraft:item",
           "name": "useful_ores:argentite_ingot",
           "weight": 1,
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 4.0
-              },
-              "type": "minecraft:set_count"
-            }
-          ]
+          "modifier": {
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2.0,
+              "max": 4.0
+            },
+            "type": "minecraft:set_count"
+          }
         }
       ]
     },
@@ -76,31 +68,27 @@
           "type": "minecraft:item",
           "name": "minecraft:ender_eye",
           "weight": 3,
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 2.0
-              },
-              "type": "minecraft:set_count"
-            }
-          ]
+          "modifier": {
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1.0,
+              "max": 2.0
+            },
+            "type": "minecraft:set_count"
+          }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:dragon_breath",
           "weight": 2,
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 2.0
-              },
-              "type": "minecraft:set_count"
-            }
-          ]
+          "modifier": {
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1.0,
+              "max": 2.0
+            },
+            "type": "minecraft:set_count"
+          }
         },
         {
           "type": "minecraft:item",
@@ -121,46 +109,40 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 5.0
-              },
-              "type": "minecraft:set_count"
-            }
-          ]
+          "modifier": {
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2.0,
+              "max": 5.0
+            },
+            "type": "minecraft:set_count"
+          }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald",
           "weight": 2,
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 6.0
-              },
-              "type": "minecraft:set_count"
-            }
-          ]
+          "modifier": {
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 3.0,
+              "max": 6.0
+            },
+            "type": "minecraft:set_count"
+          }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
           "weight": 3,
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 4.0,
-                "max": 8.0
-              },
-              "type": "minecraft:set_count"
-            }
-          ]
+          "modifier": {
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 4.0,
+              "max": 8.0
+            },
+            "type": "minecraft:set_count"
+          }
         }
       ]
     }

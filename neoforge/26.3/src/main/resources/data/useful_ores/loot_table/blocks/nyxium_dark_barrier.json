@@ -9,67 +9,57 @@
         {
           "type": "minecraft:item",
           "name": "useful_ores:raw_nyxium",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:constant",
-                "value": 6
-              },
-              "type": "minecraft:set_count"
-            }
-          ]
+          "modifier": {
+            "count": {
+              "type": "minecraft:constant",
+              "value": 6
+            },
+            "type": "minecraft:set_count"
+          }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:blackstone",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:constant",
-                "value": 2
-              },
-              "type": "minecraft:set_count"
-            }
-          ]
+          "modifier": {
+            "count": {
+              "type": "minecraft:constant",
+              "value": 2
+            },
+            "type": "minecraft:set_count"
+          }
         },
         {
           "type": "minecraft:item",
           "name": "useful_ores:raw_arcanite",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:constant",
-                "value": 2
-              },
-              "type": "minecraft:set_count"
-            }
-          ]
+          "modifier": {
+            "count": {
+              "type": "minecraft:constant",
+              "value": 2
+            },
+            "type": "minecraft:set_count"
+          }
         },
         {
           "type": "minecraft:item",
           "name": "useful_ores:raw_voidshard",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:constant",
-                "value": 2
-              },
-              "type": "minecraft:set_count"
-            }
-          ]
+          "modifier": {
+            "count": {
+              "type": "minecraft:constant",
+              "value": 2
+            },
+            "type": "minecraft:set_count"
+          }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:constant",
-                "value": 2
-              },
-              "type": "minecraft:set_count"
-            }
-          ]
+          "modifier": {
+            "count": {
+              "type": "minecraft:constant",
+              "value": 2
+            },
+            "type": "minecraft:set_count"
+          }
         },
         {
           "type": "minecraft:item",
@@ -90,67 +80,57 @@
         {
           "type": "minecraft:item",
           "name": "useful_ores:raw_nyxium",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:constant",
-                "value": 6
-              },
-              "type": "minecraft:set_count"
-            }
-          ]
+          "modifier": {
+            "count": {
+              "type": "minecraft:constant",
+              "value": 6
+            },
+            "type": "minecraft:set_count"
+          }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:blackstone",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:constant",
-                "value": 2
-              },
-              "type": "minecraft:set_count"
-            }
-          ]
+          "modifier": {
+            "count": {
+              "type": "minecraft:constant",
+              "value": 2
+            },
+            "type": "minecraft:set_count"
+          }
         },
         {
           "type": "minecraft:item",
           "name": "useful_ores:raw_arcanite",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:constant",
-                "value": 2
-              },
-              "type": "minecraft:set_count"
-            }
-          ]
+          "modifier": {
+            "count": {
+              "type": "minecraft:constant",
+              "value": 2
+            },
+            "type": "minecraft:set_count"
+          }
         },
         {
           "type": "minecraft:item",
           "name": "useful_ores:raw_voidshard",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:constant",
-                "value": 2
-              },
-              "type": "minecraft:set_count"
-            }
-          ]
+          "modifier": {
+            "count": {
+              "type": "minecraft:constant",
+              "value": 2
+            },
+            "type": "minecraft:set_count"
+          }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:constant",
-                "value": 2
-              },
-              "type": "minecraft:set_count"
-            }
-          ]
+          "modifier": {
+            "count": {
+              "type": "minecraft:constant",
+              "value": 2
+            },
+            "type": "minecraft:set_count"
+          }
         },
         {
           "type": "minecraft:item",
